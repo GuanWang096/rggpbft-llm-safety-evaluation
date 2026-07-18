@@ -1,0 +1,80 @@
+{
+  "evidence_record_count": 2062,
+  "evidence_record_throughput_per_s": 3059.3471810089018,
+  "failed_operations": 0,
+  "failed_workflows": 0,
+  "log_bytes": 105303,
+  "log_record_count": 198,
+  "measurement_duration_ms": 674,
+  "operation_count": 297,
+  "per_operation": {
+    "ipfs_add": {
+      "count": 33,
+      "failure_count": 0,
+      "p50_ms": 61,
+      "p95_ms": 65,
+      "p99_ms": 80
+    },
+    "ipfs_verify": {
+      "count": 33,
+      "failure_count": 0,
+      "p50_ms": 7,
+      "p95_ms": 10,
+      "p99_ms": 10
+    },
+    "signed_post_evalsnapshot": {
+      "count": 33,
+      "failure_count": 0,
+      "p50_ms": 2,
+      "p95_ms": 3,
+      "p99_ms": 5
+    },
+    "signed_postallocation": {
+      "count": 33,
+      "failure_count": 0,
+      "p50_ms": 2,
+      "p95_ms": 2,
+      "p99_ms": 5
+    },
+    "signed_posttask": {
+      "count": 33,
+      "failure_count": 0,
+      "p50_ms": 2,
+      "p95_ms": 5,
+      "p99_ms": 5
+    },
+    "signed_query_latest": {
+      "count": 33,
+      "failure_count": 0,
+      "p50_ms": 0,
+      "p95_ms": 0,
+      "p99_ms": 4
+    },
+    "signed_settlement": {
+      "count": 33,
+      "failure_count": 0,
+      "p50_ms": 2,
+      "p95_ms": 2,
+      "p99_ms": 2
+    },
+    "signed_vote1": {
+      "count": 33,
+      "failure_count": 0,
+      "p50_ms": 2,
+      "p95_ms": 2,
+      "p99_ms": 2
+    },
+    "signed_vote2": {
+      "count": 33,
+      "failure_count": 0,
+      "p50_ms": 1,
+      "p95_ms": 4,
+      "p99_ms": 5
+    }
+  },
+  "successful_operations": 297,
+  "successful_workflows": 33,
+  "workflow_count": 33,
+  "workflow_success_rate": 1,
+  "workflow_throughput_per_s": 48.96142433234421
+}

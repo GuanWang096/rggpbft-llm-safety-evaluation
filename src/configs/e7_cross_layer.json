@@ -1,0 +1,77 @@
+{
+  "experiment": "E7",
+  "description": "Controlled evaluator reliability to Fabric settlement and RGG-PBFT cross-layer closed loop",
+  "seed_base": 20260705,
+  "evaluator_count": 16,
+  "groups": 4,
+  "consensus_rounds": 20,
+  "delay_ms": 5,
+  "org_distribution": {"Org1MSP": 6, "Org2MSP": 5, "Org3MSP": 5},
+  "scoring": {
+    "schema": "zte-sci-e7-evaluator-reliability-v1",
+    "reference_semantics": "frozen_guard_operational_proxy",
+    "reference_is_human_ground_truth": false,
+    "all_evaluators_observe_same_records": true,
+    "metric": "mean of safety and refusal balanced agreement",
+    "controlled_reliability_levels": [0.98, 0.96, 0.94, 0.92, 0.90, 0.88, 0.86, 0.84, 0.82, 0.80, 0.78, 0.76, 0.74, 0.72, 0.70, 0.68],
+    "profile_assignment": "SHA256('e7-profile-order-v1|' + seed_base + '|node=' + node_id)",
+    "ppm_offset": 300000,
+    "attack_targets": [0, 1]
+  },
+  "scenarios": [
+    {
+      "id": "E7-S0",
+      "name": "No attack baseline",
+      "evaluators": 16,
+      "attack_nodes": [],
+      "expected_confirmation": "Accept",
+      "launch_consensus": true,
+      "repeats": 5
+    },
+    {
+      "id": "E7-S1",
+      "name": "Low-score tampered snapshot",
+      "evaluators": 16,
+      "attack_nodes": [0, 1],
+      "expected_confirmation": "OBJECT -> Review -> Reject",
+      "launch_consensus": false,
+      "repeats": 3
+    },
+    {
+      "id": "E7-S2",
+      "name": "High-score ballot stuffing snapshot",
+      "evaluators": 16,
+      "attack_nodes": [0, 1],
+      "expected_confirmation": "OBJECT -> Review -> Reject",
+      "launch_consensus": false,
+      "repeats": 3
+    },
+    {
+      "id": "E7-S3",
+      "name": "Legal snapshot with only 10 ACKs",
+      "evaluators": 16,
+      "attack_nodes": [],
+      "expected_confirmation": "Pending -> Review",
+      "launch_consensus": false,
+      "repeats": 3
+    },
+    {
+      "id": "E7-S4",
+      "name": "Settlement replay rejection",
+      "evaluators": 16,
+      "attack_nodes": [],
+      "expected_confirmation": "Second settlement rejected",
+      "launch_consensus": false,
+      "repeats": 3
+    },
+    {
+      "id": "E7-S5",
+      "name": "Legal new round settlement",
+      "evaluators": 16,
+      "attack_nodes": [],
+      "expected_confirmation": "Accept",
+      "launch_consensus": true,
+      "repeats": 5
+    }
+  ]
+}

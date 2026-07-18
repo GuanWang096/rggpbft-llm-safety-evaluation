@@ -1,0 +1,13 @@
+{
+  "concurrency": 4,
+  "durability": "fsync after every signed append",
+  "manifest": "/mnt/c/Users/guan/Desktop/zte-sci/experiments/exp-local/results/b2-input-20260705T154954Z/stratified-256-b1/manifest.json",
+  "mode": "lifecycle",
+  "payload_mode": "real-e1-batches",
+  "payload_size": 65536,
+  "run_id": "e6-lifecycle-20260706T050147.291694346Z-c4-real",
+  "seed": 5124978916739509328,
+  "tasks": 256,
+  "trust_model": "single writer; no distributed endorsement or consensus",
+  "warmup_tasks": 1
+}

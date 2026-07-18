@@ -1,0 +1,130 @@
+ Network rggdcd45ff942_default Creating 
+ Network rggdcd45ff942_default Created 
+ Container rggdcd45ff942-collector-1 Creating 
+ Container rggdcd45ff942-collector-1 Created 
+ Container rggdcd45ff942-node21-1 Creating 
+ Container rggdcd45ff942-node17-1 Creating 
+ Container rggdcd45ff942-node23-1 Creating 
+ Container rggdcd45ff942-node16-1 Creating 
+ Container rggdcd45ff942-node9-1 Creating 
+ Container rggdcd45ff942-node20-1 Creating 
+ Container rggdcd45ff942-node15-1 Creating 
+ Container rggdcd45ff942-node0-1 Creating 
+ Container rggdcd45ff942-node12-1 Creating 
+ Container rggdcd45ff942-node7-1 Creating 
+ Container rggdcd45ff942-node13-1 Creating 
+ Container rggdcd45ff942-node19-1 Creating 
+ Container rggdcd45ff942-node8-1 Creating 
+ Container rggdcd45ff942-node6-1 Creating 
+ Container rggdcd45ff942-node4-1 Creating 
+ Container rggdcd45ff942-node11-1 Creating 
+ Container rggdcd45ff942-node10-1 Creating 
+ Container rggdcd45ff942-node3-1 Creating 
+ Container rggdcd45ff942-node2-1 Creating 
+ Container rggdcd45ff942-node18-1 Creating 
+ Container rggdcd45ff942-node1-1 Creating 
+ Container rggdcd45ff942-node22-1 Creating 
+ Container rggdcd45ff942-node5-1 Creating 
+ Container rggdcd45ff942-node14-1 Creating 
+ Container rggdcd45ff942-node15-1 Created 
+ Container rggdcd45ff942-node23-1 Created 
+ Container rggdcd45ff942-node7-1 Created 
+ Container rggdcd45ff942-node17-1 Created 
+ Container rggdcd45ff942-node19-1 Created 
+ Container rggdcd45ff942-node4-1 Created 
+ Container rggdcd45ff942-node9-1 Created 
+ Container rggdcd45ff942-node11-1 Created 
+ Container rggdcd45ff942-node16-1 Created 
+ Container rggdcd45ff942-node6-1 Created 
+ Container rggdcd45ff942-node12-1 Created 
+ Container rggdcd45ff942-node20-1 Created 
+ Container rggdcd45ff942-node8-1 Created 
+ Container rggdcd45ff942-node18-1 Created 
+ Container rggdcd45ff942-node1-1 Created 
+ Container rggdcd45ff942-node5-1 Created 
+ Container rggdcd45ff942-node22-1 Created 
+ Container rggdcd45ff942-node3-1 Created 
+ Container rggdcd45ff942-node13-1 Created 
+ Container rggdcd45ff942-node10-1 Created 
+ Container rggdcd45ff942-node14-1 Created 
+ Container rggdcd45ff942-node0-1 Created 
+ Container rggdcd45ff942-node21-1 Created 
+ Container rggdcd45ff942-node2-1 Created 
+ Container rggdcd45ff942-collector-1 Starting 
+ Container rggdcd45ff942-collector-1 Started 
+ Container rggdcd45ff942-node13-1 Starting 
+ Container rggdcd45ff942-node18-1 Starting 
+ Container rggdcd45ff942-node7-1 Starting 
+ Container rggdcd45ff942-node1-1 Starting 
+ Container rggdcd45ff942-node10-1 Starting 
+ Container rggdcd45ff942-node6-1 Starting 
+ Container rggdcd45ff942-node16-1 Starting 
+ Container rggdcd45ff942-node12-1 Starting 
+ Container rggdcd45ff942-node8-1 Starting 
+ Container rggdcd45ff942-node4-1 Starting 
+ Container rggdcd45ff942-node5-1 Starting 
+ Container rggdcd45ff942-node19-1 Starting 
+ Container rggdcd45ff942-node22-1 Starting 
+ Container rggdcd45ff942-node15-1 Starting 
+ Container rggdcd45ff942-node20-1 Starting 
+ Container rggdcd45ff942-node11-1 Starting 
+ Container rggdcd45ff942-node17-1 Starting 
+ Container rggdcd45ff942-node3-1 Starting 
+ Container rggdcd45ff942-node21-1 Starting 
+ Container rggdcd45ff942-node9-1 Starting 
+ Container rggdcd45ff942-node0-1 Starting 
+ Container rggdcd45ff942-node14-1 Starting 
+ Container rggdcd45ff942-node23-1 Starting 
+ Container rggdcd45ff942-node2-1 Starting 
+ Container rggdcd45ff942-node18-1 Started 
+ Container rggdcd45ff942-node7-1 Started 
+ Container rggdcd45ff942-node1-1 Started 
+ Container rggdcd45ff942-node21-1 Started 
+ Container rggdcd45ff942-node8-1 Started 
+ Container rggdcd45ff942-node22-1 Started 
+ Container rggdcd45ff942-node14-1 Started 
+ Container rggdcd45ff942-node2-1 Started 
+ Container rggdcd45ff942-node11-1 Started 
+ Container rggdcd45ff942-node5-1 Started 
+ Container rggdcd45ff942-node16-1 Started 
+ Container rggdcd45ff942-node0-1 Started 
+ Container rggdcd45ff942-node15-1 Started 
+ Container rggdcd45ff942-node20-1 Started 
+ Container rggdcd45ff942-node6-1 Started 
+ Container rggdcd45ff942-node23-1 Started 
+ Container rggdcd45ff942-node13-1 Started 
+ Container rggdcd45ff942-node10-1 Started 
+ Container rggdcd45ff942-node4-1 Started 
+ Container rggdcd45ff942-node3-1 Started 
+ Container rggdcd45ff942-node19-1 Started 
+ Container rggdcd45ff942-node12-1 Started 
+ Container rggdcd45ff942-node17-1 Started 
+ Container rggdcd45ff942-node9-1 Started 
+READY_BARRIER: 22/24 node services ready
+NETEM_APPLIED node0 iface=eth0: qdisc netem 8a01: root refcnt 17 limit 1000 delay 20ms  5ms seed 11512449125740333334
+NETEM_APPLIED node1 iface=eth0: qdisc netem 8a02: root refcnt 17 limit 1000 delay 20ms  5ms seed 10433426242943569147
+NETEM_APPLIED node2 iface=eth0: qdisc netem 8a03: root refcnt 17 limit 1000 delay 20ms  5ms seed 11122686399554042001
+NETEM_APPLIED node3 iface=eth0: qdisc netem 8a04: root refcnt 17 limit 1000 delay 20ms  5ms seed 11852217632149937836
+NETEM_APPLIED node4 iface=eth0: qdisc netem 8a05: root refcnt 17 limit 1000 delay 20ms  5ms seed 9038326277097711631
+NETEM_APPLIED node5 iface=eth0: qdisc netem 8a06: root refcnt 17 limit 1000 delay 20ms  5ms seed 1744960426971059809
+NETEM_APPLIED node6 iface=eth0: qdisc netem 8a07: root refcnt 17 limit 1000 delay 20ms  5ms seed 574937964721668108
+NETEM_APPLIED node7 iface=eth0: qdisc netem 8a08: root refcnt 17 limit 1000 delay 20ms  5ms seed 16267229657401700292
+NETEM_APPLIED node8 iface=eth0: qdisc netem 8a09: root refcnt 17 limit 1000 delay 20ms  5ms seed 17296263435204130851
+NETEM_APPLIED node9 iface=eth0: qdisc netem 8a0a: root refcnt 17 limit 1000 delay 20ms  5ms seed 406161846856224884
+NETEM_APPLIED node10 iface=eth0: qdisc netem 8a0b: root refcnt 17 limit 1000 delay 20ms  5ms seed 13603332119930721182
+NETEM_APPLIED node11 iface=eth0: qdisc netem 8a0c: root refcnt 17 limit 1000 delay 20ms  5ms seed 9161992184767780842
+NETEM_APPLIED node12 iface=eth0: qdisc netem 8a0d: root refcnt 17 limit 1000 delay 20ms  5ms seed 6927869692170821526
+NETEM_APPLIED node13 iface=eth0: qdisc netem 8a0e: root refcnt 17 limit 1000 delay 20ms  5ms seed 11379086371366813363
+NETEM_APPLIED node14 iface=eth0: qdisc netem 8a0f: root refcnt 17 limit 1000 delay 20ms  5ms seed 9412794488664761461
+NETEM_APPLIED node15 iface=eth0: qdisc netem 8a10: root refcnt 17 limit 1000 delay 20ms  5ms seed 4294556746697473029
+NETEM_APPLIED node16 iface=eth0: qdisc netem 8a11: root refcnt 17 limit 1000 delay 20ms  5ms seed 31735088397448154
+NETEM_APPLIED node17 iface=eth0: qdisc netem 8a12: root refcnt 17 limit 1000 delay 20ms  5ms seed 15555444840195131121
+NETEM_APPLIED node18 iface=eth0: qdisc netem 8a13: root refcnt 17 limit 1000 delay 20ms  5ms seed 4148704352633193856
+NETEM_APPLIED node19 iface=eth0: qdisc netem 8a14: root refcnt 17 limit 1000 delay 20ms  5ms seed 821390739639871743
+NETEM_APPLIED node20 iface=eth0: qdisc netem 8a15: root refcnt 17 limit 1000 delay 20ms  5ms seed 13785580264908514773
+NETEM_APPLIED node21 iface=eth0: qdisc netem 8a16: root refcnt 17 limit 1000 delay 20ms  5ms seed 11495403136796632529
+NETEM_APPLIED node22 iface=eth0: qdisc netem 8a17: root refcnt 17 limit 1000 delay 20ms  5ms seed 8528837557960904202
+NETEM_APPLIED node23 iface=eth0: qdisc netem 8a18: root refcnt 17 limit 1000 delay 20ms  5ms seed 11331237055602084278
+NETEM_RTT_GATE OK: baseline=0.2ms actual=43.5ms increase=43.4ms
+DRIVER_STARTED: 2026-07-15T14:23:28Z
+0

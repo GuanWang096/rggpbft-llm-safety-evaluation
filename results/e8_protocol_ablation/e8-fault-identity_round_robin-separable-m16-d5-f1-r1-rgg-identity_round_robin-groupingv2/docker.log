@@ -1,0 +1,119 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile.v2
+#1 transferring dockerfile: 450B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 DONE 1.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 371B done
+#4 DONE 0.0s
+
+#5 [1/6] FROM docker.io/library/python:3.11-slim@sha256:baf89808ec37adeaab83cec287adb4a2afa4a11c1d51e961c7ec737877e61af6
+#5 resolve docker.io/library/python:3.11-slim@sha256:baf89808ec37adeaab83cec287adb4a2afa4a11c1d51e961c7ec737877e61af6 0.0s done
+#5 DONE 0.0s
+
+#6 [2/6] RUN apt-get update && apt-get install -y --no-install-recommends iproute2 iputils-ping && rm -rf /var/lib/apt/lists/*
+#6 CACHED
+
+#7 [4/6] WORKDIR /app
+#7 CACHED
+
+#8 [5/6] COPY protocol.py network_utils.py fault_policy.py view_change.py view_runtime.py node_v2.py driver_v2.py collector_v2.py grouping.py ./
+#8 CACHED
+
+#9 [3/6] RUN pip install --no-cache-dir cryptography==44.0.1
+#9 CACHED
+
+#10 [6/6] COPY netem_apply.sh netem_clear.sh ./
+#10 CACHED
+
+#11 exporting to image
+#11 exporting layers done
+#11 exporting manifest sha256:45fe05005f95256ca25144c63760e683229c7042a60c1dfc13d8399096ff9596 done
+#11 exporting config sha256:9f41a22cf25ed5240fa9c817ae6335c66b1d809c15f5dab48151db550047b6d9 done
+#11 exporting attestation manifest sha256:ac0e5de3de8be881d72bdccd3b189e8529df41d52dd18784c84c3840883b3970
+#11 exporting attestation manifest sha256:ac0e5de3de8be881d72bdccd3b189e8529df41d52dd18784c84c3840883b3970 0.0s done
+#11 exporting manifest list sha256:3d2522cb1d5c711bca523e821d2c80a19a65de37ad531f8a68c017dc2aee922c 0.0s done
+#11 naming to docker.io/library/zte-rggpbft:v2 done
+#11 unpacking to docker.io/library/zte-rggpbft:v2 0.0s done
+#11 DONE 0.2s
+ Network rgg9197071573_default Creating 
+ Network rgg9197071573_default Created 
+ Container rgg9197071573-collector-1 Creating 
+ Container rgg9197071573-collector-1 Created 
+ Container rgg9197071573-node15-1 Creating 
+ Container rgg9197071573-node14-1 Creating 
+ Container rgg9197071573-node5-1 Creating 
+ Container rgg9197071573-node9-1 Creating 
+ Container rgg9197071573-node7-1 Creating 
+ Container rgg9197071573-node6-1 Creating 
+ Container rgg9197071573-node12-1 Creating 
+ Container rgg9197071573-node8-1 Creating 
+ Container rgg9197071573-node11-1 Creating 
+ Container rgg9197071573-node13-1 Creating 
+ Container rgg9197071573-node1-1 Creating 
+ Container rgg9197071573-node4-1 Creating 
+ Container rgg9197071573-node0-1 Creating 
+ Container rgg9197071573-node2-1 Creating 
+ Container rgg9197071573-node10-1 Creating 
+ Container rgg9197071573-node3-1 Creating 
+ Container rgg9197071573-node5-1 Created 
+ Container rgg9197071573-node6-1 Created 
+ Container rgg9197071573-node11-1 Created 
+ Container rgg9197071573-node9-1 Created 
+ Container rgg9197071573-node15-1 Created 
+ Container rgg9197071573-node8-1 Created 
+ Container rgg9197071573-node1-1 Created 
+ Container rgg9197071573-node3-1 Created 
+ Container rgg9197071573-node13-1 Created 
+ Container rgg9197071573-node7-1 Created 
+ Container rgg9197071573-node2-1 Created 
+ Container rgg9197071573-node12-1 Created 
+ Container rgg9197071573-node14-1 Created 
+ Container rgg9197071573-node10-1 Created 
+ Container rgg9197071573-node0-1 Created 
+ Container rgg9197071573-node4-1 Created 
+ Container rgg9197071573-collector-1 Starting 
+ Container rgg9197071573-collector-1 Started 
+ Container rgg9197071573-node8-1 Starting 
+ Container rgg9197071573-node12-1 Starting 
+ Container rgg9197071573-node5-1 Starting 
+ Container rgg9197071573-node2-1 Starting 
+ Container rgg9197071573-node1-1 Starting 
+ Container rgg9197071573-node6-1 Starting 
+ Container rgg9197071573-node7-1 Starting 
+ Container rgg9197071573-node4-1 Starting 
+ Container rgg9197071573-node11-1 Starting 
+ Container rgg9197071573-node9-1 Starting 
+ Container rgg9197071573-node13-1 Starting 
+ Container rgg9197071573-node14-1 Starting 
+ Container rgg9197071573-node10-1 Starting 
+ Container rgg9197071573-node15-1 Starting 
+ Container rgg9197071573-node3-1 Starting 
+ Container rgg9197071573-node0-1 Starting 
+ Container rgg9197071573-node8-1 Started 
+ Container rgg9197071573-node3-1 Started 
+ Container rgg9197071573-node11-1 Started 
+ Container rgg9197071573-node5-1 Started 
+ Container rgg9197071573-node7-1 Started 
+ Container rgg9197071573-node13-1 Started 
+ Container rgg9197071573-node12-1 Started 
+ Container rgg9197071573-node15-1 Started 
+ Container rgg9197071573-node1-1 Started 
+ Container rgg9197071573-node6-1 Started 
+ Container rgg9197071573-node9-1 Started 
+ Container rgg9197071573-node4-1 Started 
+ Container rgg9197071573-node10-1 Started 
+ Container rgg9197071573-node2-1 Started 
+ Container rgg9197071573-node14-1 Started 
+ Container rgg9197071573-node0-1 Started 
+READY_BARRIER: 14/16 node services ready
+DRIVER_STARTED: 2026-07-15T13:43:53Z
+0

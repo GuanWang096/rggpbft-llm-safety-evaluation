@@ -1,0 +1,13 @@
+label,mode,strategy,rank_condition,nodes,delay_ms,fault,run_count,mean_driver_success_rate,total_safety_violations,mean_view_changes_sent,mean_messages,mean_bytes,mean_client_latency_p50_ms,mean_client_latency_p95_ms
+rgg_identity_round_robin_build-then-exploit_M16_d5_f1,rgg,identity_round_robin,build-then-exploit,16,5,f1,10,1.0000,0,3.0,166,116648.1,639.6,639.6
+rgg_identity_round_robin_build-then-exploit_M16_d5_f4,rgg,identity_round_robin,build-then-exploit,16,5,f4,10,1.0000,0,3.4,259.6,159324.7,672.5,672.5
+rgg_identity_round_robin_separable_M16_d5_f1,rgg,identity_round_robin,separable,16,5,f1,10,1.0000,0,3.0,166,116647,649.2,649.2
+rgg_identity_round_robin_separable_M16_d5_f4,rgg,identity_round_robin,separable,16,5,f4,10,1.0000,0,3.6,259.1,159178.7,664.6,664.6
+rgg_reputation_round_robin_build-then-exploit_M16_d5_f1,rgg,reputation_round_robin,build-then-exploit,16,5,f1,10,1.0000,0,3.0,165.7,116640.6,640.7,640.7
+rgg_reputation_round_robin_build-then-exploit_M16_d5_f4,rgg,reputation_round_robin,build-then-exploit,16,5,f4,10,1.0000,0,3.0,243.1,153801.8,671.9,671.9
+rgg_reputation_round_robin_separable_M16_d5_f1,rgg,reputation_round_robin,separable,16,5,f1,10,1.0000,0,3.0,166,116638,627.5,627.5
+rgg_reputation_round_robin_separable_M16_d5_f4,rgg,reputation_round_robin,separable,16,5,f4,10,1.0000,0,3.7,243.3,156958.2,670.3,670.3
+rgg_seeded_random_build-then-exploit_M16_d5_f1,rgg,seeded_random,build-then-exploit,16,5,f1,10,1.0000,0,3.0,165.7,116654.3,630.3,630.3
+rgg_seeded_random_build-then-exploit_M16_d5_f4,rgg,seeded_random,build-then-exploit,16,5,f4,10,1.0000,0,3.1,245.4,153934,618.6,618.6
+rgg_seeded_random_separable_M16_d5_f1,rgg,seeded_random,separable,16,5,f1,10,1.0000,0,3.0,166,116719.4,629.7,629.7
+rgg_seeded_random_separable_M16_d5_f4,rgg,seeded_random,separable,16,5,f4,10,1.0000,0,3.6,247.8,156567.4,662.7,662.7

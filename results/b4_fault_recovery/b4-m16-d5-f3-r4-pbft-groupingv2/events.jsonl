@@ -1,0 +1,99 @@
+{"data": {"fault_mode": "none", "group": -1, "leader": false, "mode": "PBFT", "primary": false}, "node": 4, "time_ns": 1783861262433260750, "type": "READY"}
+{"data": {"fault_mode": "none", "group": -1, "leader": false, "mode": "PBFT", "primary": false}, "node": 3, "time_ns": 1783861262498580131, "type": "READY"}
+{"data": {"fault_mode": "none", "group": -1, "leader": false, "mode": "PBFT", "primary": false}, "node": 13, "time_ns": 1783861262632859694, "type": "READY"}
+{"data": {"fault_mode": "none", "group": -1, "leader": false, "mode": "PBFT", "primary": false}, "node": 8, "time_ns": 1783861262739563879, "type": "READY"}
+{"data": {"fault_mode": "none", "group": -1, "leader": false, "mode": "PBFT", "primary": false}, "node": 1, "time_ns": 1783861262774918640, "type": "READY"}
+{"data": {"fault_mode": "none", "group": -1, "leader": true, "mode": "PBFT", "primary": true}, "node": 0, "time_ns": 1783861262794057787, "type": "READY"}
+{"data": {"fault_mode": "none", "group": -1, "leader": false, "mode": "PBFT", "primary": false}, "node": 11, "time_ns": 1783861262816707057, "type": "READY"}
+{"data": {"fault_mode": "none", "group": -1, "leader": false, "mode": "PBFT", "primary": false}, "node": 2, "time_ns": 1783861262843952237, "type": "READY"}
+{"data": {"fault_mode": "none", "group": -1, "leader": false, "mode": "PBFT", "primary": false}, "node": 5, "time_ns": 1783861262882587336, "type": "READY"}
+{"data": {"fault_mode": "none", "group": -1, "leader": false, "mode": "PBFT", "primary": false}, "node": 14, "time_ns": 1783861262923678653, "type": "READY"}
+{"data": {"fault_mode": "none", "group": -1, "leader": false, "mode": "PBFT", "primary": false}, "node": 7, "time_ns": 1783861262959076950, "type": "READY"}
+{"data": {"fault_mode": "none", "group": -1, "leader": false, "mode": "PBFT", "primary": false}, "node": 6, "time_ns": 1783861263051771035, "type": "READY"}
+{"data": {"fault_mode": "none", "group": -1, "leader": false, "mode": "PBFT", "primary": false}, "node": 15, "time_ns": 1783861263082276735, "type": "READY"}
+{"data": {"fault_mode": "none", "group": -1, "leader": false, "mode": "PBFT", "primary": false}, "node": 10, "time_ns": 1783861263101378837, "type": "READY"}
+{"data": {"fault_mode": "none", "group": -1, "leader": false, "mode": "PBFT", "primary": false}, "node": 12, "time_ns": 1783861263141500586, "type": "READY"}
+{"data": {"fault_mode": "none", "group": -1, "leader": false, "mode": "PBFT", "primary": false}, "node": 9, "time_ns": 1783861263166219719, "type": "READY"}
+{"data": {"digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "sequence": 0, "view": 0}, "node": 0, "time_ns": 1783861263568800214, "type": "PRE_PREPARE_SENT"}
+{"data": {"sequence": 0, "view": 0}, "node": 0, "time_ns": 1783861263602970502, "type": "PBFT_PREPARED"}
+{"data": {"action": "crash", "scenario": "f3", "sequence": 0, "stage": "pbft_prepared", "view": 0}, "node": 0, "time_ns": 1783861263604470111, "type": "FAULT_INJECTED"}
+{"data": {"from_view": 0, "sequence": 0, "target_primary": 1, "target_view": 1}, "node": 11, "time_ns": 1783861264120644716, "type": "VIEW_CHANGE_SENT"}
+{"data": {"from_view": 0, "sequence": 0, "target_primary": 1, "target_view": 1}, "node": 14, "time_ns": 1783861264127453517, "type": "VIEW_CHANGE_SENT"}
+{"data": {"from_view": 0, "sequence": 0, "target_primary": 1, "target_view": 1}, "node": 1, "time_ns": 1783861264129823748, "type": "VIEW_CHANGE_SENT"}
+{"data": {"from_view": 0, "sequence": 0, "target_primary": 1, "target_view": 1}, "node": 5, "time_ns": 1783861264136512058, "type": "VIEW_CHANGE_SENT"}
+{"data": {"from_view": 0, "sequence": 0, "target_primary": 1, "target_view": 1}, "node": 13, "time_ns": 1783861264139011206, "type": "VIEW_CHANGE_SENT"}
+{"data": {"from_view": 0, "sequence": 0, "target_primary": 1, "target_view": 1}, "node": 15, "time_ns": 1783861264139122819, "type": "VIEW_CHANGE_SENT"}
+{"data": {"from_view": 0, "sequence": 0, "target_primary": 1, "target_view": 1}, "node": 4, "time_ns": 1783861264139934522, "type": "VIEW_CHANGE_SENT"}
+{"data": {"from_view": 0, "sequence": 0, "target_primary": 1, "target_view": 1}, "node": 8, "time_ns": 1783861264144098022, "type": "VIEW_CHANGE_SENT"}
+{"data": {"from_view": 0, "sequence": 0, "target_primary": 1, "target_view": 1}, "node": 12, "time_ns": 1783861264144682829, "type": "VIEW_CHANGE_SENT"}
+{"data": {"from_view": 0, "sequence": 0, "target_primary": 1, "target_view": 1}, "node": 2, "time_ns": 1783861264148300957, "type": "VIEW_CHANGE_SENT"}
+{"data": {"from_view": 0, "sequence": 0, "target_primary": 1, "target_view": 1}, "node": 3, "time_ns": 1783861264154055043, "type": "VIEW_CHANGE_SENT"}
+{"data": {"from_view": 0, "sequence": 0, "target_primary": 1, "target_view": 1}, "node": 10, "time_ns": 1783861264154704488, "type": "VIEW_CHANGE_SENT"}
+{"data": {"from_view": 0, "sequence": 0, "target_primary": 1, "target_view": 1}, "node": 6, "time_ns": 1783861264155073699, "type": "VIEW_CHANGE_SENT"}
+{"data": {"from_view": 0, "sequence": 0, "target_primary": 1, "target_view": 1}, "node": 7, "time_ns": 1783861264162719233, "type": "VIEW_CHANGE_SENT"}
+{"data": {"digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "sequence": 0, "view": 1}, "node": 1, "time_ns": 1783861264163042663, "type": "NEW_VIEW_ACCEPTED"}
+{"data": {"digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "sequence": 0, "view": 1}, "node": 1, "time_ns": 1783861264163591269, "type": "PRE_PREPARE_SENT"}
+{"data": {"certificate_count": 11, "sequence": 0, "view": 1}, "node": 1, "time_ns": 1783861264164780749, "type": "NEW_VIEW_SENT"}
+{"data": {"from_view": 0, "sequence": 0, "target_primary": 1, "target_view": 1}, "node": 9, "time_ns": 1783861264169714672, "type": "VIEW_CHANGE_SENT"}
+{"data": {"digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "sequence": 0, "view": 1}, "node": 2, "time_ns": 1783861264176015263, "type": "NEW_VIEW_ACCEPTED"}
+{"data": {"digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "sequence": 0, "view": 1}, "node": 5, "time_ns": 1783861264180581607, "type": "NEW_VIEW_ACCEPTED"}
+{"data": {"digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "sequence": 0, "view": 1}, "node": 4, "time_ns": 1783861264180824914, "type": "NEW_VIEW_ACCEPTED"}
+{"data": {"digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "sequence": 0, "view": 1}, "node": 3, "time_ns": 1783861264184215691, "type": "NEW_VIEW_ACCEPTED"}
+{"data": {"digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "sequence": 0, "view": 1}, "node": 7, "time_ns": 1783861264185947141, "type": "NEW_VIEW_ACCEPTED"}
+{"data": {"digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "sequence": 0, "view": 1}, "node": 9, "time_ns": 1783861264187285122, "type": "NEW_VIEW_ACCEPTED"}
+{"data": {"digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "sequence": 0, "view": 1}, "node": 15, "time_ns": 1783861264189772401, "type": "NEW_VIEW_ACCEPTED"}
+{"data": {"digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "sequence": 0, "view": 1}, "node": 8, "time_ns": 1783861264189963128, "type": "NEW_VIEW_ACCEPTED"}
+{"data": {"digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "sequence": 0, "view": 1}, "node": 12, "time_ns": 1783861264189181383, "type": "NEW_VIEW_ACCEPTED"}
+{"data": {"digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "sequence": 0, "view": 1}, "node": 6, "time_ns": 1783861264191592330, "type": "NEW_VIEW_ACCEPTED"}
+{"data": {"digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "sequence": 0, "view": 1}, "node": 14, "time_ns": 1783861264193068221, "type": "NEW_VIEW_ACCEPTED"}
+{"data": {"digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "sequence": 0, "view": 1}, "node": 10, "time_ns": 1783861264193847432, "type": "NEW_VIEW_ACCEPTED"}
+{"data": {"digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "sequence": 0, "view": 1}, "node": 13, "time_ns": 1783861264194485481, "type": "NEW_VIEW_ACCEPTED"}
+{"data": {"digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "sequence": 0, "view": 1}, "node": 11, "time_ns": 1783861264196381322, "type": "NEW_VIEW_ACCEPTED"}
+{"data": {"sequence": 0, "view": 1}, "node": 2, "time_ns": 1783861264205634224, "type": "PBFT_PREPARED"}
+{"data": {"sequence": 0, "view": 1}, "node": 5, "time_ns": 1783861264210219514, "type": "PBFT_PREPARED"}
+{"data": {"sequence": 0, "view": 1}, "node": 1, "time_ns": 1783861264211886117, "type": "PBFT_PREPARED"}
+{"data": {"sequence": 0, "view": 1}, "node": 3, "time_ns": 1783861264213134322, "type": "PBFT_PREPARED"}
+{"data": {"sequence": 0, "view": 1}, "node": 4, "time_ns": 1783861264212832393, "type": "PBFT_PREPARED"}
+{"data": {"sequence": 0, "view": 1}, "node": 9, "time_ns": 1783861264215353518, "type": "PBFT_PREPARED"}
+{"data": {"sequence": 0, "view": 1}, "node": 12, "time_ns": 1783861264216188132, "type": "PBFT_PREPARED"}
+{"data": {"sequence": 0, "view": 1}, "node": 15, "time_ns": 1783861264220909996, "type": "PBFT_PREPARED"}
+{"data": {"sequence": 0, "view": 1}, "node": 13, "time_ns": 1783861264222301909, "type": "PBFT_PREPARED"}
+{"data": {"sequence": 0, "view": 1}, "node": 8, "time_ns": 1783861264224700476, "type": "PBFT_PREPARED"}
+{"data": {"sequence": 0, "view": 1}, "node": 7, "time_ns": 1783861264224152126, "type": "PBFT_PREPARED"}
+{"data": {"sequence": 0, "view": 1}, "node": 6, "time_ns": 1783861264225403115, "type": "PBFT_PREPARED"}
+{"data": {"sequence": 0, "view": 1}, "node": 14, "time_ns": 1783861264227590245, "type": "PBFT_PREPARED"}
+{"data": {"sequence": 0, "view": 1}, "node": 10, "time_ns": 1783861264232248417, "type": "PBFT_PREPARED"}
+{"data": {"sequence": 0, "view": 1}, "node": 11, "time_ns": 1783861264232717619, "type": "PBFT_PREPARED"}
+{"data": {"bytes_sent": 9061, "certificate_type": "commit-certificate", "digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "latency_ms": 678.976037, "messages_sent": 32, "mode": "PBFT", "sequence": 0, "view": 1}, "node": 4, "time_ns": 1783861264238313680, "type": "COMMIT"}
+{"data": {"bytes_sent": 9061, "certificate_type": "commit-certificate", "digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "latency_ms": 679.541921, "messages_sent": 32, "mode": "PBFT", "sequence": 0, "view": 1}, "node": 5, "time_ns": 1783861264238881408, "type": "COMMIT"}
+{"data": {"bytes_sent": 9061, "certificate_type": "commit-certificate", "digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "latency_ms": 679.766812, "messages_sent": 32, "mode": "PBFT", "sequence": 0, "view": 1}, "node": 3, "time_ns": 1783861264239105407, "type": "COMMIT"}
+{"data": {"bytes_sent": 9061, "certificate_type": "commit-certificate", "digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "latency_ms": 679.854026, "messages_sent": 32, "mode": "PBFT", "sequence": 0, "view": 1}, "node": 2, "time_ns": 1783861264239192752, "type": "COMMIT"}
+{"data": {"bytes_sent": 58755, "certificate_type": "commit-certificate", "digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "latency_ms": 680.309124, "messages_sent": 46, "mode": "PBFT", "sequence": 0, "view": 1}, "node": 1, "time_ns": 1783861264239647769, "type": "COMMIT"}
+{"data": {"bytes_sent": 9061, "certificate_type": "commit-certificate", "digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "latency_ms": 680.717494, "messages_sent": 32, "mode": "PBFT", "sequence": 0, "view": 1}, "node": 9, "time_ns": 1783861264240055518, "type": "COMMIT"}
+{"data": {"bytes_sent": 9061, "certificate_type": "commit-certificate", "digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "latency_ms": 681.502374, "messages_sent": 32, "mode": "PBFT", "sequence": 0, "view": 1}, "node": 8, "time_ns": 1783861264240840768, "type": "COMMIT"}
+{"data": {"bytes_sent": 4818, "certificate_type": "commit-certificate", "digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "latency_ms": 681.981611, "messages_sent": 17, "mode": "PBFT", "sequence": 0, "view": 1}, "node": 10, "time_ns": 1783861264241319314, "type": "COMMIT"}
+{"data": {"bytes_sent": 9093, "certificate_type": "commit-certificate", "digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "latency_ms": 681.510939, "messages_sent": 32, "mode": "PBFT", "sequence": 0, "view": 1}, "node": 13, "time_ns": 1783861264240849875, "type": "COMMIT"}
+{"data": {"bytes_sent": 7953, "certificate_type": "commit-certificate", "digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "latency_ms": 683.177864, "messages_sent": 28, "mode": "PBFT", "sequence": 0, "view": 1}, "node": 15, "time_ns": 1783861264242515056, "type": "COMMIT"}
+{"data": {"bytes_sent": 9061, "certificate_type": "commit-certificate", "digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "latency_ms": 683.697947, "messages_sent": 32, "mode": "PBFT", "sequence": 0, "view": 1}, "node": 6, "time_ns": 1783861264243036011, "type": "COMMIT"}
+{"data": {"bytes_sent": 9093, "certificate_type": "commit-certificate", "digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "latency_ms": 683.697116, "messages_sent": 32, "mode": "PBFT", "sequence": 0, "view": 1}, "node": 12, "time_ns": 1783861264243036292, "type": "COMMIT"}
+{"data": {"bytes_sent": 9093, "certificate_type": "commit-certificate", "digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "latency_ms": 684.281625, "messages_sent": 32, "mode": "PBFT", "sequence": 0, "view": 1}, "node": 14, "time_ns": 1783861264243620220, "type": "COMMIT"}
+{"data": {"bytes_sent": 9061, "certificate_type": "commit-certificate", "digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "latency_ms": 685.600684, "messages_sent": 32, "mode": "PBFT", "sequence": 0, "view": 1}, "node": 7, "time_ns": 1783861264244962184, "type": "COMMIT"}
+{"data": {"bytes_sent": 8523, "certificate_type": "commit-certificate", "digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "latency_ms": 686.560672, "messages_sent": 30, "mode": "PBFT", "sequence": 0, "view": 1}, "node": 11, "time_ns": 1783861264245930688, "type": "COMMIT"}
+{"data": {"digest": "9c3fccaebfdd1793381a75aa864b8aaef294945a6dc5134cf662c7686720fa1c", "error": "", "latency_ms": 684.967466, "observed_commit_count": 8, "required_commit_count": 1, "sequence": 0, "success": true}, "node": -1, "time_ns": 1783861264254080804, "type": "DRIVER_RESULT"}
+{"data": {"bytes_sent": 8595, "committed_sequences": 0, "equivocations": 0, "messages_sent": 30}, "node": 0, "time_ns": 1783861265308003151, "type": "STOPPED"}
+{"data": {"bytes_sent": 9061, "committed_sequences": 1, "equivocations": 0, "messages_sent": 32}, "node": 2, "time_ns": 1783861265308133124, "type": "STOPPED"}
+{"data": {"bytes_sent": 9061, "committed_sequences": 1, "equivocations": 0, "messages_sent": 32}, "node": 9, "time_ns": 1783861265308393198, "type": "STOPPED"}
+{"data": {"bytes_sent": 9061, "committed_sequences": 1, "equivocations": 0, "messages_sent": 32}, "node": 6, "time_ns": 1783861265308449244, "type": "STOPPED"}
+{"data": {"bytes_sent": 9061, "committed_sequences": 1, "equivocations": 0, "messages_sent": 32}, "node": 8, "time_ns": 1783861265308853926, "type": "STOPPED"}
+{"data": {"bytes_sent": 9093, "committed_sequences": 1, "equivocations": 0, "messages_sent": 32}, "node": 15, "time_ns": 1783861265308997012, "type": "STOPPED"}
+{"data": {"bytes_sent": 9093, "committed_sequences": 1, "equivocations": 0, "messages_sent": 32}, "node": 13, "time_ns": 1783861265309393211, "type": "STOPPED"}
+{"data": {"bytes_sent": 9093, "committed_sequences": 1, "equivocations": 0, "messages_sent": 32}, "node": 12, "time_ns": 1783861265309487060, "type": "STOPPED"}
+{"data": {"bytes_sent": 58755, "committed_sequences": 1, "equivocations": 0, "messages_sent": 46}, "node": 1, "time_ns": 1783861265309718201, "type": "STOPPED"}
+{"data": {"bytes_sent": 9093, "committed_sequences": 1, "equivocations": 0, "messages_sent": 32}, "node": 11, "time_ns": 1783861265309878123, "type": "STOPPED"}
+{"data": {"fatal_error": "", "rounds": 1, "successful": 1}, "node": -1, "time_ns": 1783861265807607646, "type": "FINISH"}
+{"data": {"bytes_sent": 9061, "committed_sequences": 1, "equivocations": 0, "messages_sent": 32}, "node": 3, "time_ns": 1783861265809069801, "type": "STOPPED"}
+{"data": {"bytes_sent": 9061, "committed_sequences": 1, "equivocations": 0, "messages_sent": 32}, "node": 5, "time_ns": 1783861265809286012, "type": "STOPPED"}
+{"data": {"bytes_sent": 9061, "committed_sequences": 1, "equivocations": 0, "messages_sent": 32}, "node": 7, "time_ns": 1783861265809433418, "type": "STOPPED"}
+{"data": {"bytes_sent": 9093, "committed_sequences": 1, "equivocations": 0, "messages_sent": 32}, "node": 10, "time_ns": 1783861265809508192, "type": "STOPPED"}
+{"data": {"bytes_sent": 9093, "committed_sequences": 1, "equivocations": 0, "messages_sent": 32}, "node": 14, "time_ns": 1783861265809856733, "type": "STOPPED"}
+{"data": {"bytes_sent": 9061, "committed_sequences": 1, "equivocations": 0, "messages_sent": 32}, "node": 4, "time_ns": 1783861265810028892, "type": "STOPPED"}

@@ -1,0 +1,48 @@
+{
+  "client_latency_ms": {
+    "mean": 4132.646995,
+    "p50": 4132.646995,
+    "p95": 4132.646995,
+    "p99": 4132.646995
+  },
+  "conflicting_commit_count": 0,
+  "conflicting_commits": [],
+  "driver_failure_count": 0,
+  "driver_success_count": 1,
+  "driver_success_rate": 1.0,
+  "duplicate_commit_events": 0,
+  "equivocation_observed_events": 0,
+  "equivocation_sent_events": 0,
+  "fault_injected_events": 3,
+  "final_protocol_bytes_sent": 229303,
+  "final_protocol_messages_sent": 379,
+  "invalid_new_view_events": 0,
+  "invalid_signature_events": 0,
+  "invalid_view_change_events": 0,
+  "max_accepted_view": 2,
+  "new_view_accepted_events": 24,
+  "new_view_sent_events": 1,
+  "node_commit_completeness": 1.0,
+  "node_commit_count": 24,
+  "node_count": 24,
+  "node_error_events": 0,
+  "node_latency_ms": {
+    "mean": 4127.7174492916665,
+    "p50": 4128.736743,
+    "p95": 4133.055137,
+    "p99": 4135.278915
+  },
+  "recovered_sequence_count": 1,
+  "recovery_latency_ms": {
+    "mean": 2107.224777,
+    "p50": 2107.224777,
+    "p95": 2107.224777,
+    "p99": 2107.224777
+  },
+  "reported_protocol_bytes_sent": 119900,
+  "reported_protocol_messages_sent": 283,
+  "round_count": 1,
+  "safety_violation_events": 0,
+  "stale_new_view_events": 0,
+  "view_change_sent_events": 7
+}

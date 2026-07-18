@@ -1,0 +1,56 @@
+{
+  "generation_count": 2062,
+  "moderation_count": 2062,
+  "gen_unique_sample_ids": 2062,
+  "mod_unique_sample_ids": 2062,
+  "sample_id_sets_match": true,
+  "gen_sample_fields": [
+    "dataset",
+    "expected_input_safe",
+    "generation_budget",
+    "generation_strategy",
+    "image_path",
+    "image_sha256",
+    "input_tokens",
+    "latency_ms",
+    "model_id",
+    "output_tokens",
+    "peak_vram_bytes",
+    "prompt",
+    "response",
+    "risk_category",
+    "sample_id",
+    "variant"
+  ],
+  "mod_sample_fields": [
+    "categories",
+    "dataset",
+    "expected_input_safe",
+    "guard_model_id",
+    "guard_raw_output",
+    "input_tokens",
+    "latency_ms",
+    "output_tokens",
+    "peak_vram_bytes",
+    "refusal",
+    "risk_category",
+    "safety",
+    "sample_id",
+    "variant"
+  ],
+  "expected_input_safe_present_in_all_gen": true,
+  "safety_field_present_in_all_mod": true,
+  "refusal_field_present_in_all_mod": true,
+  "safety_values": [
+    "Controversial",
+    "Safe",
+    "Unsafe"
+  ],
+  "refusal_values": [
+    "No",
+    "Yes"
+  ],
+  "gen_missing_expected_input_safe": 0,
+  "mod_missing_safety": 0,
+  "mod_missing_refusal": 0
+}

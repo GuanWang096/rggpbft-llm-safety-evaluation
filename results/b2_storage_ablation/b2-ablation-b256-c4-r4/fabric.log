@@ -1,0 +1,99 @@
+Preparing 4 committee slots (excluded from metrics)
+Running 1 measured workflows at concurrency 4
+Progress: 1/1
+{
+  "operation_count": 10,
+  "successful_operations": 10,
+  "failed_operations": 0,
+  "workflow_count": 1,
+  "successful_workflows": 1,
+  "failed_workflows": 0,
+  "workflow_success_rate": 1.0,
+  "measurement_duration_ms": 15609,
+  "workflow_throughput_per_s": 0.06406560317765392,
+  "per_operation": {
+    "fabric_post_allocation": {
+      "count": 1,
+      "success_count": 1,
+      "failure_count": 0,
+      "p50_ms": 1472,
+      "p95_ms": 1472,
+      "p99_ms": 1472
+    },
+    "fabric_post_snapshot": {
+      "count": 1,
+      "success_count": 1,
+      "failure_count": 0,
+      "p50_ms": 2587,
+      "p95_ms": 2587,
+      "p99_ms": 2587
+    },
+    "fabric_post_task": {
+      "count": 1,
+      "success_count": 1,
+      "failure_count": 0,
+      "p50_ms": 2512,
+      "p95_ms": 2512,
+      "p99_ms": 2512
+    },
+    "fabric_query_confirmation": {
+      "count": 1,
+      "success_count": 1,
+      "failure_count": 0,
+      "p50_ms": 361,
+      "p95_ms": 361,
+      "p99_ms": 361
+    },
+    "fabric_query_final": {
+      "count": 1,
+      "success_count": 1,
+      "failure_count": 0,
+      "p50_ms": 1176,
+      "p95_ms": 1176,
+      "p99_ms": 1176
+    },
+    "fabric_settlement": {
+      "count": 1,
+      "success_count": 1,
+      "failure_count": 0,
+      "p50_ms": 2514,
+      "p95_ms": 2514,
+      "p99_ms": 2514
+    },
+    "fabric_vote_1": {
+      "count": 1,
+      "success_count": 1,
+      "failure_count": 0,
+      "p50_ms": 2491,
+      "p95_ms": 2491,
+      "p99_ms": 2491
+    },
+    "fabric_vote_2": {
+      "count": 1,
+      "success_count": 1,
+      "failure_count": 0,
+      "p50_ms": 2455,
+      "p95_ms": 2455,
+      "p99_ms": 2455
+    },
+    "ipfs_add": {
+      "count": 1,
+      "success_count": 1,
+      "failure_count": 0,
+      "p50_ms": 30,
+      "p95_ms": 30,
+      "p99_ms": 30
+    },
+    "ipfs_verify": {
+      "count": 1,
+      "success_count": 1,
+      "failure_count": 0,
+      "p50_ms": 10,
+      "p95_ms": 10,
+      "p99_ms": 10
+    }
+  },
+  "evidence_record_count": 256,
+  "evidence_record_throughput_per_s": 16.400794413479403
+}
+Results: /mnt/c/Users/guan/Desktop/zte-sci/experiments/exp-local/results/b2-ablation-formal-20260705T171313Z/b2-ablation-b256-c4-r4/fabric/b2-fabric-b256-c4-r4

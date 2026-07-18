@@ -1,0 +1,55 @@
+{
+  "experiment": "E10",
+  "description": "Fabric/IPFS capacity curve (single-host Docker)",
+  "endorsement_config": "Org1+Org2 peers only",
+  "total_runs": 12,
+  "baseline_workflow_throughput_per_s_c1": 0.057715,
+  "saturation_point": 16,
+  "saturation_note": "Marginal throughput gain falls below 85% of linear scaling after c=16. Single-host observation, not a strict capacity bound.",
+  "per_concurrency": {
+    "1": {
+      "concurrency": 1,
+      "repeats": 3,
+      "mean_workflow_throughput_per_s": 0.057715,
+      "stdev_workflow_throughput_per_s": 0.000686,
+      "median_workflow_throughput_per_s": 0.057386,
+      "mean_success_rate": 1.0,
+      "mean_op_latency_p50_ms": 1722.9,
+      "throughput_efficiency_pct": 100.0,
+      "relative_speedup_vs_c1": 1.0
+    },
+    "8": {
+      "concurrency": 8,
+      "repeats": 3,
+      "mean_workflow_throughput_per_s": 0.423135,
+      "stdev_workflow_throughput_per_s": 0.004695,
+      "median_workflow_throughput_per_s": 0.423468,
+      "mean_success_rate": 1.0,
+      "mean_op_latency_p50_ms": 1518.8,
+      "throughput_efficiency_pct": 91.6,
+      "relative_speedup_vs_c1": 7.33
+    },
+    "16": {
+      "concurrency": 16,
+      "repeats": 3,
+      "mean_workflow_throughput_per_s": 1.22383,
+      "stdev_workflow_throughput_per_s": 0.031127,
+      "median_workflow_throughput_per_s": 1.21021,
+      "mean_success_rate": 1.0,
+      "mean_op_latency_p50_ms": 579.1,
+      "throughput_efficiency_pct": 132.5,
+      "relative_speedup_vs_c1": 21.2
+    },
+    "32": {
+      "concurrency": 32,
+      "repeats": 3,
+      "mean_workflow_throughput_per_s": 1.368135,
+      "stdev_workflow_throughput_per_s": 0.024584,
+      "median_workflow_throughput_per_s": 1.378619,
+      "mean_success_rate": 1.0,
+      "mean_op_latency_p50_ms": 824.5,
+      "throughput_efficiency_pct": 74.1,
+      "relative_speedup_vs_c1": 23.71
+    }
+  }
+}

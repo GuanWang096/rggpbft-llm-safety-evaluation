@@ -1,0 +1,136 @@
+COMMAND: /usr/bin/python3 /mnt/c/Users/guan/Desktop/zte-sci/experiments/fabric/benchmarks/e4_full_lifecycle.py --batch-manifest /mnt/c/Users/guan/Desktop/zte-sci/experiments/exp-local/results/b2-input-20260705T154954Z/full-b64/manifest.json --concurrency 32 --warmup 1 --seed 1582512244975321834 --output /mnt/c/Users/guan/Desktop/zte-sci/experiments/exp-local/results/e10-capacity-20260715T153706Z/e10-resource-c32-r1 --run-id e10-resource-c32-r1
+
+STDOUT:
+Preparing 32 committee slots (excluded from metrics)
+Running 33 measured workflows at concurrency 32
+Progress: 1/33
+Progress: 2/33
+Progress: 3/33
+Progress: 4/33
+Progress: 5/33
+Progress: 6/33
+Progress: 7/33
+Progress: 8/33
+Progress: 9/33
+Progress: 10/33
+Progress: 11/33
+Progress: 12/33
+Progress: 13/33
+Progress: 14/33
+Progress: 15/33
+Progress: 16/33
+Progress: 17/33
+Progress: 18/33
+Progress: 19/33
+Progress: 20/33
+Progress: 21/33
+Progress: 22/33
+Progress: 23/33
+Progress: 24/33
+Progress: 25/33
+Progress: 26/33
+Progress: 27/33
+Progress: 28/33
+Progress: 29/33
+Progress: 30/33
+Progress: 31/33
+Progress: 32/33
+Progress: 33/33
+{
+  "operation_count": 330,
+  "successful_operations": 330,
+  "failed_operations": 0,
+  "workflow_count": 33,
+  "successful_workflows": 33,
+  "failed_workflows": 0,
+  "workflow_success_rate": 1.0,
+  "measurement_duration_ms": 23814,
+  "workflow_throughput_per_s": 1.3857394809775763,
+  "per_operation": {
+    "fabric_post_allocation": {
+      "count": 33,
+      "success_count": 33,
+      "failure_count": 0,
+      "p50_ms": 1340,
+      "p95_ms": 1728,
+      "p99_ms": 1729
+    },
+    "fabric_post_snapshot": {
+      "count": 33,
+      "success_count": 33,
+      "failure_count": 0,
+      "p50_ms": 829,
+      "p95_ms": 1272,
+      "p99_ms": 1292
+    },
+    "fabric_post_task": {
+      "count": 33,
+      "success_count": 33,
+      "failure_count": 0,
+      "p50_ms": 942,
+      "p95_ms": 1401,
+      "p99_ms": 1417
+    },
+    "fabric_query_confirmation": {
+      "count": 33,
+      "success_count": 33,
+      "failure_count": 0,
+      "p50_ms": 465,
+      "p95_ms": 518,
+      "p99_ms": 536
+    },
+    "fabric_query_final": {
+      "count": 33,
+      "success_count": 33,
+      "failure_count": 0,
+      "p50_ms": 1298,
+      "p95_ms": 1512,
+      "p99_ms": 1581
+    },
+    "fabric_settlement": {
+      "count": 33,
+      "success_count": 33,
+      "failure_count": 0,
+      "p50_ms": 912,
+      "p95_ms": 2537,
+      "p99_ms": 2769
+    },
+    "fabric_vote_1": {
+      "count": 33,
+      "success_count": 33,
+      "failure_count": 0,
+      "p50_ms": 813,
+      "p95_ms": 1001,
+      "p99_ms": 1077
+    },
+    "fabric_vote_2": {
+      "count": 33,
+      "success_count": 33,
+      "failure_count": 0,
+      "p50_ms": 790,
+      "p95_ms": 1012,
+      "p99_ms": 1159
+    },
+    "ipfs_add": {
+      "count": 33,
+      "success_count": 33,
+      "failure_count": 0,
+      "p50_ms": 463,
+      "p95_ms": 996,
+      "p99_ms": 1022
+    },
+    "ipfs_verify": {
+      "count": 33,
+      "success_count": 33,
+      "failure_count": 0,
+      "p50_ms": 19,
+      "p95_ms": 38,
+      "p99_ms": 39
+    }
+  },
+  "evidence_record_count": 2062,
+  "evidence_record_throughput_per_s": 86.58772150835642
+}
+Results: /mnt/c/Users/guan/Desktop/zte-sci/experiments/exp-local/results/e10-capacity-20260715T153706Z/e10-resource-c32-r1/e10-resource-c32-r1
+
+STDERR:

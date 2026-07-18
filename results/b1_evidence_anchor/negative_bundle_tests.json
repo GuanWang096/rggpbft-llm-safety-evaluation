@@ -1,0 +1,32 @@
+{
+  "bundle_sha256": "7b6735b9c85b6b03dbf523b1faa0881e0083a790c0741f8866d31269adfa06d7",
+  "cases": [
+    {
+      "case": "modified_generation_record",
+      "detected": true,
+      "reason": "hash mismatch: generation.jsonl"
+    },
+    {
+      "case": "deleted_moderation_records",
+      "detected": true,
+      "reason": "evidence file is missing: moderation.jsonl"
+    },
+    {
+      "case": "reordered_generation_records",
+      "detected": true,
+      "reason": "hash mismatch: generation.jsonl"
+    },
+    {
+      "case": "replaced_cid",
+      "detected": true,
+      "reason": "CID mismatch between Fabric task and lifecycle result"
+    },
+    {
+      "case": "replaced_bundle_sha256",
+      "detected": true,
+      "reason": "SHA-256 mismatch between Fabric task and lifecycle result"
+    }
+  ],
+  "passed": true,
+  "schema": "zte-sci-e1-anchor-negative-v1"
+}

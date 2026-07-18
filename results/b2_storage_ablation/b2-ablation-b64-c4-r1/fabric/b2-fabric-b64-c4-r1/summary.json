@@ -1,0 +1,95 @@
+{
+  "evidence_record_count": 256,
+  "evidence_record_throughput_per_s": 19.044785002231812,
+  "failed_operations": 0,
+  "failed_workflows": 0,
+  "measurement_duration_ms": 13442,
+  "operation_count": 40,
+  "per_operation": {
+    "fabric_post_allocation": {
+      "count": 4,
+      "failure_count": 0,
+      "p50_ms": 2314,
+      "p95_ms": 2314,
+      "p99_ms": 2314,
+      "success_count": 4
+    },
+    "fabric_post_snapshot": {
+      "count": 4,
+      "failure_count": 0,
+      "p50_ms": 198,
+      "p95_ms": 202,
+      "p99_ms": 202,
+      "success_count": 4
+    },
+    "fabric_post_task": {
+      "count": 4,
+      "failure_count": 0,
+      "p50_ms": 2454,
+      "p95_ms": 2463,
+      "p99_ms": 2463,
+      "success_count": 4
+    },
+    "fabric_query_confirmation": {
+      "count": 4,
+      "failure_count": 0,
+      "p50_ms": 118,
+      "p95_ms": 119,
+      "p99_ms": 119,
+      "success_count": 4
+    },
+    "fabric_query_final": {
+      "count": 4,
+      "failure_count": 0,
+      "p50_ms": 1042,
+      "p95_ms": 1042,
+      "p99_ms": 1042,
+      "success_count": 4
+    },
+    "fabric_settlement": {
+      "count": 4,
+      "failure_count": 0,
+      "p50_ms": 2477,
+      "p95_ms": 2477,
+      "p99_ms": 2477,
+      "success_count": 4
+    },
+    "fabric_vote_1": {
+      "count": 4,
+      "failure_count": 0,
+      "p50_ms": 2463,
+      "p95_ms": 2464,
+      "p99_ms": 2464,
+      "success_count": 4
+    },
+    "fabric_vote_2": {
+      "count": 4,
+      "failure_count": 0,
+      "p50_ms": 2290,
+      "p95_ms": 2292,
+      "p99_ms": 2292,
+      "success_count": 4
+    },
+    "ipfs_add": {
+      "count": 4,
+      "failure_count": 0,
+      "p50_ms": 58,
+      "p95_ms": 70,
+      "p99_ms": 70,
+      "success_count": 4
+    },
+    "ipfs_verify": {
+      "count": 4,
+      "failure_count": 0,
+      "p50_ms": 10,
+      "p95_ms": 10,
+      "p99_ms": 10,
+      "success_count": 4
+    }
+  },
+  "successful_operations": 40,
+  "successful_workflows": 4,
+  "workflow_count": 4,
+  "workflow_success_rate": 1.0,
+  "workflow_throughput_per_s": 0.29757476565987206
+}

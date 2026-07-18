@@ -1,0 +1,153 @@
+ Network rgg65ac6b508c_default Creating 
+ Network rgg65ac6b508c_default Created 
+ Container rgg65ac6b508c-collector-1 Creating 
+ Container rgg65ac6b508c-collector-1 Created 
+ Container rgg65ac6b508c-node5-1 Creating 
+ Container rgg65ac6b508c-node2-1 Creating 
+ Container rgg65ac6b508c-node6-1 Creating 
+ Container rgg65ac6b508c-node12-1 Creating 
+ Container rgg65ac6b508c-node1-1 Creating 
+ Container rgg65ac6b508c-node7-1 Creating 
+ Container rgg65ac6b508c-node23-1 Creating 
+ Container rgg65ac6b508c-node10-1 Creating 
+ Container rgg65ac6b508c-node13-1 Creating 
+ Container rgg65ac6b508c-node20-1 Creating 
+ Container rgg65ac6b508c-node9-1 Creating 
+ Container rgg65ac6b508c-node17-1 Creating 
+ Container rgg65ac6b508c-node21-1 Creating 
+ Container rgg65ac6b508c-node16-1 Creating 
+ Container rgg65ac6b508c-node22-1 Creating 
+ Container rgg65ac6b508c-node4-1 Creating 
+ Container rgg65ac6b508c-node19-1 Creating 
+ Container rgg65ac6b508c-node0-1 Creating 
+ Container rgg65ac6b508c-node8-1 Creating 
+ Container rgg65ac6b508c-node3-1 Creating 
+ Container rgg65ac6b508c-node18-1 Creating 
+ Container rgg65ac6b508c-node14-1 Creating 
+ Container rgg65ac6b508c-node11-1 Creating 
+ Container rgg65ac6b508c-node15-1 Creating 
+ Container rgg65ac6b508c-node23-1 Created 
+ Container rgg65ac6b508c-node20-1 Created 
+ Container rgg65ac6b508c-node6-1 Created 
+ Container rgg65ac6b508c-node14-1 Created 
+ Container rgg65ac6b508c-node2-1 Created 
+ Container rgg65ac6b508c-node17-1 Created 
+ Container rgg65ac6b508c-node5-1 Created 
+ Container rgg65ac6b508c-node18-1 Created 
+ Container rgg65ac6b508c-node4-1 Created 
+ Container rgg65ac6b508c-node0-1 Created 
+ Container rgg65ac6b508c-node19-1 Created 
+ Container rgg65ac6b508c-node10-1 Created 
+ Container rgg65ac6b508c-node13-1 Created 
+ Container rgg65ac6b508c-node1-1 Created 
+ Container rgg65ac6b508c-node12-1 Created 
+ Container rgg65ac6b508c-node3-1 Created 
+ Container rgg65ac6b508c-node11-1 Created 
+ Container rgg65ac6b508c-node8-1 Created 
+ Container rgg65ac6b508c-node7-1 Created 
+ Container rgg65ac6b508c-node9-1 Created 
+ Container rgg65ac6b508c-node15-1 Created 
+ Container rgg65ac6b508c-node21-1 Created 
+ Container rgg65ac6b508c-node16-1 Created 
+ Container rgg65ac6b508c-node22-1 Created 
+ Container rgg65ac6b508c-collector-1 Starting 
+ Container rgg65ac6b508c-collector-1 Started 
+ Container rgg65ac6b508c-node14-1 Starting 
+ Container rgg65ac6b508c-node16-1 Starting 
+ Container rgg65ac6b508c-node20-1 Starting 
+ Container rgg65ac6b508c-node6-1 Starting 
+ Container rgg65ac6b508c-node21-1 Starting 
+ Container rgg65ac6b508c-node17-1 Starting 
+ Container rgg65ac6b508c-node19-1 Starting 
+ Container rgg65ac6b508c-node7-1 Starting 
+ Container rgg65ac6b508c-node23-1 Starting 
+ Container rgg65ac6b508c-node18-1 Starting 
+ Container rgg65ac6b508c-node1-1 Starting 
+ Container rgg65ac6b508c-node12-1 Starting 
+ Container rgg65ac6b508c-node22-1 Starting 
+ Container rgg65ac6b508c-node13-1 Starting 
+ Container rgg65ac6b508c-node9-1 Starting 
+ Container rgg65ac6b508c-node10-1 Starting 
+ Container rgg65ac6b508c-node4-1 Starting 
+ Container rgg65ac6b508c-node0-1 Starting 
+ Container rgg65ac6b508c-node8-1 Starting 
+ Container rgg65ac6b508c-node11-1 Starting 
+ Container rgg65ac6b508c-node2-1 Starting 
+ Container rgg65ac6b508c-node3-1 Starting 
+ Container rgg65ac6b508c-node15-1 Starting 
+ Container rgg65ac6b508c-node5-1 Starting 
+ Container rgg65ac6b508c-node1-1 Started 
+ Container rgg65ac6b508c-node18-1 Started 
+ Container rgg65ac6b508c-node17-1 Started 
+ Container rgg65ac6b508c-node20-1 Started 
+ Container rgg65ac6b508c-node5-1 Started 
+ Container rgg65ac6b508c-node15-1 Started 
+ Container rgg65ac6b508c-node12-1 Started 
+ Container rgg65ac6b508c-node2-1 Started 
+ Container rgg65ac6b508c-node3-1 Started 
+ Container rgg65ac6b508c-node7-1 Started 
+ Container rgg65ac6b508c-node0-1 Started 
+ Container rgg65ac6b508c-node14-1 Started 
+ Container rgg65ac6b508c-node19-1 Started 
+ Container rgg65ac6b508c-node10-1 Started 
+ Container rgg65ac6b508c-node21-1 Started 
+ Container rgg65ac6b508c-node16-1 Started 
+ Container rgg65ac6b508c-node13-1 Started 
+ Container rgg65ac6b508c-node4-1 Started 
+ Container rgg65ac6b508c-node11-1 Started 
+ Container rgg65ac6b508c-node6-1 Started 
+ Container rgg65ac6b508c-node8-1 Started 
+ Container rgg65ac6b508c-node23-1 Started 
+ Container rgg65ac6b508c-node9-1 Started 
+ Container rgg65ac6b508c-node22-1 Started 
+NETEM_APPLIED node0 iface=eth0: qdisc netem 84c1: root refcnt 17 limit 1000 delay 20ms  5ms seed 6577227540596379521
+NETEM_APPLIED node1 iface=eth0: qdisc netem 84c2: root refcnt 17 limit 1000 delay 20ms  5ms seed 5711209519592532822
+NETEM_APPLIED node2 iface=eth0: qdisc netem 84c3: root refcnt 17 limit 1000 delay 20ms  5ms seed 16568533775987555284
+NETEM_APPLIED node3 iface=eth0: qdisc netem 84c4: root refcnt 17 limit 1000 delay 20ms  5ms seed 3585717912912758024
+NETEM_APPLIED node4 iface=eth0: qdisc netem 84c5: root refcnt 17 limit 1000 delay 20ms  5ms seed 6036415122222623949
+NETEM_APPLIED node5 iface=eth0: qdisc netem 84c6: root refcnt 17 limit 1000 delay 20ms  5ms seed 10482017504648084602
+NETEM_APPLIED node6 iface=eth0: qdisc netem 84c7: root refcnt 17 limit 1000 delay 20ms  5ms seed 15971103088938902176
+NETEM_APPLIED node7 iface=eth0: qdisc netem 84c8: root refcnt 17 limit 1000 delay 20ms  5ms seed 11245450182158136375
+NETEM_APPLIED node8 iface=eth0: qdisc netem 84c9: root refcnt 17 limit 1000 delay 20ms  5ms seed 10207139936322134998
+NETEM_APPLIED node9 iface=eth0: qdisc netem 84ca: root refcnt 17 limit 1000 delay 20ms  5ms seed 7704389674711070844
+NETEM_APPLIED node10 iface=eth0: qdisc netem 84cb: root refcnt 17 limit 1000 delay 20ms  5ms seed 2967321602684462124
+NETEM_APPLIED node11 iface=eth0: qdisc netem 84cc: root refcnt 17 limit 1000 delay 20ms  5ms seed 9250585855186333674
+NETEM_APPLIED node12 iface=eth0: qdisc netem 84cd: root refcnt 17 limit 1000 delay 20ms  5ms seed 5489534061047414583
+NETEM_APPLIED node13 iface=eth0: qdisc netem 84ce: root refcnt 17 limit 1000 delay 20ms  5ms seed 5625704154313783519
+NETEM_APPLIED node14 iface=eth0: qdisc netem 84cf: root refcnt 17 limit 1000 delay 20ms  5ms seed 13801269946145028635
+NETEM_APPLIED node15 iface=eth0: qdisc netem 84d0: root refcnt 17 limit 1000 delay 20ms  5ms seed 9958628026183215375
+NETEM_APPLIED node16 iface=eth0: qdisc netem 84d1: root refcnt 17 limit 1000 delay 20ms  5ms seed 11472936112813662509
+NETEM_APPLIED node17 iface=eth0: qdisc netem 84d2: root refcnt 17 limit 1000 delay 20ms  5ms seed 2120994116908374459
+NETEM_APPLIED node18 iface=eth0: qdisc netem 84d3: root refcnt 17 limit 1000 delay 20ms  5ms seed 8278112614147210484
+NETEM_APPLIED node19 iface=eth0: qdisc netem 84d4: root refcnt 17 limit 1000 delay 20ms  5ms seed 11116307378613620318
+NETEM_APPLIED node20 iface=eth0: qdisc netem 84d5: root refcnt 17 limit 1000 delay 20ms  5ms seed 362957770291765576
+NETEM_APPLIED node21 iface=eth0: qdisc netem 84d6: root refcnt 17 limit 1000 delay 20ms  5ms seed 15552326094471229576
+NETEM_APPLIED node22 iface=eth0: qdisc netem 84d7: root refcnt 17 limit 1000 delay 20ms  5ms seed 17354577547493218047
+NETEM_APPLIED node23 iface=eth0: qdisc netem 84d8: root refcnt 17 limit 1000 delay 20ms  5ms seed 3864345218754713854
+NETEM_RTT_GATE OK: baseline=0.1ms actual=40.6ms increase=40.5ms
+DRIVER_STARTED: 2026-07-15T06:14:45Z
+0
+QDSK_CLEANUP_FAIL node0: Command '['docker', 'exec', 'rgg65ac6b508c-node0-1', 'sh', '-c', "ip -o -4 addr show scope global 2>/dev/null | head -1 | awk '{print $2}'"]' returned non-zero exit status 1.
+QDSK_CLEANUP_FAIL node1: Command '['docker', 'exec', 'rgg65ac6b508c-node1-1', 'sh', '-c', "ip -o -4 addr show scope global 2>/dev/null | head -1 | awk '{print $2}'"]' returned non-zero exit status 1.
+QDSK_CLEANUP_FAIL node2: Command '['docker', 'exec', 'rgg65ac6b508c-node2-1', 'sh', '-c', "ip -o -4 addr show scope global 2>/dev/null | head -1 | awk '{print $2}'"]' returned non-zero exit status 1.
+QDSK_CLEANUP_FAIL node3: Command '['docker', 'exec', 'rgg65ac6b508c-node3-1', 'sh', '-c', "ip -o -4 addr show scope global 2>/dev/null | head -1 | awk '{print $2}'"]' returned non-zero exit status 1.
+QDSK_CLEANUP_FAIL node4: Command '['docker', 'exec', 'rgg65ac6b508c-node4-1', 'sh', '-c', "ip -o -4 addr show scope global 2>/dev/null | head -1 | awk '{print $2}'"]' returned non-zero exit status 1.
+QDSK_CLEANUP_FAIL node5: Command '['docker', 'exec', 'rgg65ac6b508c-node5-1', 'sh', '-c', "ip -o -4 addr show scope global 2>/dev/null | head -1 | awk '{print $2}'"]' returned non-zero exit status 1.
+QDSK_CLEANUP_FAIL node6: Command '['docker', 'exec', 'rgg65ac6b508c-node6-1', 'sh', '-c', "ip -o -4 addr show scope global 2>/dev/null | head -1 | awk '{print $2}'"]' returned non-zero exit status 1.
+QDSK_CLEANUP_FAIL node7: Command '['docker', 'exec', 'rgg65ac6b508c-node7-1', 'sh', '-c', "ip -o -4 addr show scope global 2>/dev/null | head -1 | awk '{print $2}'"]' returned non-zero exit status 1.
+QDSK_CLEANUP_FAIL node8: Command '['docker', 'exec', 'rgg65ac6b508c-node8-1', 'sh', '-c', "ip -o -4 addr show scope global 2>/dev/null | head -1 | awk '{print $2}'"]' returned non-zero exit status 1.
+QDSK_CLEANUP_FAIL node9: Command '['docker', 'exec', 'rgg65ac6b508c-node9-1', 'sh', '-c', "ip -o -4 addr show scope global 2>/dev/null | head -1 | awk '{print $2}'"]' returned non-zero exit status 1.
+QDSK_CLEANUP_FAIL node10: Command '['docker', 'exec', 'rgg65ac6b508c-node10-1', 'sh', '-c', "ip -o -4 addr show scope global 2>/dev/null | head -1 | awk '{print $2}'"]' returned non-zero exit status 1.
+QDSK_CLEANUP_FAIL node11: Command '['docker', 'exec', 'rgg65ac6b508c-node11-1', 'sh', '-c', "ip -o -4 addr show scope global 2>/dev/null | head -1 | awk '{print $2}'"]' returned non-zero exit status 1.
+QDSK_CLEANUP_FAIL node12: Command '['docker', 'exec', 'rgg65ac6b508c-node12-1', 'sh', '-c', "ip -o -4 addr show scope global 2>/dev/null | head -1 | awk '{print $2}'"]' returned non-zero exit status 1.
+QDSK_CLEANUP_FAIL node13: Command '['docker', 'exec', 'rgg65ac6b508c-node13-1', 'sh', '-c', "ip -o -4 addr show scope global 2>/dev/null | head -1 | awk '{print $2}'"]' returned non-zero exit status 1.
+QDSK_CLEANUP_FAIL node14: Command '['docker', 'exec', 'rgg65ac6b508c-node14-1', 'sh', '-c', "ip -o -4 addr show scope global 2>/dev/null | head -1 | awk '{print $2}'"]' returned non-zero exit status 1.
+QDSK_CLEANUP_FAIL node15: Command '['docker', 'exec', 'rgg65ac6b508c-node15-1', 'sh', '-c', "ip -o -4 addr show scope global 2>/dev/null | head -1 | awk '{print $2}'"]' returned non-zero exit status 1.
+QDSK_CLEANUP_FAIL node16: Command '['docker', 'exec', 'rgg65ac6b508c-node16-1', 'sh', '-c', "ip -o -4 addr show scope global 2>/dev/null | head -1 | awk '{print $2}'"]' returned non-zero exit status 1.
+QDSK_CLEANUP_FAIL node17: Command '['docker', 'exec', 'rgg65ac6b508c-node17-1', 'sh', '-c', "ip -o -4 addr show scope global 2>/dev/null | head -1 | awk '{print $2}'"]' returned non-zero exit status 1.
+QDSK_CLEANUP_FAIL node18: Command '['docker', 'exec', 'rgg65ac6b508c-node18-1', 'sh', '-c', "ip -o -4 addr show scope global 2>/dev/null | head -1 | awk '{print $2}'"]' returned non-zero exit status 1.
+QDSK_CLEANUP_FAIL node19: Command '['docker', 'exec', 'rgg65ac6b508c-node19-1', 'sh', '-c', "ip -o -4 addr show scope global 2>/dev/null | head -1 | awk '{print $2}'"]' returned non-zero exit status 1.
+QDSK_CLEANUP_FAIL node20: Command '['docker', 'exec', 'rgg65ac6b508c-node20-1', 'sh', '-c', "ip -o -4 addr show scope global 2>/dev/null | head -1 | awk '{print $2}'"]' returned non-zero exit status 1.
+QDSK_CLEANUP_FAIL node21: Command '['docker', 'exec', 'rgg65ac6b508c-node21-1', 'sh', '-c', "ip -o -4 addr show scope global 2>/dev/null | head -1 | awk '{print $2}'"]' returned non-zero exit status 1.
+QDSK_CLEANUP_FAIL node22: Command '['docker', 'exec', 'rgg65ac6b508c-node22-1', 'sh', '-c', "ip -o -4 addr show scope global 2>/dev/null | head -1 | awk '{print $2}'"]' returned non-zero exit status 1.
+QDSK_CLEANUP_FAIL node23: Command '['docker', 'exec', 'rgg65ac6b508c-node23-1', 'sh', '-c', "ip -o -4 addr show scope global 2>/dev/null | head -1 | awk '{print $2}'"]' returned non-zero exit status 1.

@@ -1,0 +1,43 @@
+{
+  "has_netem": false,
+  "qdisc_before": [],
+  "qdisc_applied": [],
+  "rtt_probe": {},
+  "timing": {
+    "compose_up_at_unix": 1784123407.4581702,
+    "ready_barrier_at_unix": 1784123407.683095,
+    "driver_start_at_unix": 1784123407.6831012,
+    "collector_done_at_unix": 1784123412.5437806,
+    "first_protocol_event": {
+      "data": {
+        "action": "crash",
+        "scenario": "f1",
+        "sequence": 0,
+        "stage": "before_preprepare",
+        "view": 0
+      },
+      "node": 10,
+      "time_ns": 1784123408449956938,
+      "type": "FAULT_INJECTED"
+    },
+    "first_protocol_event_at_unix": 1784123408.449957
+  },
+  "ready_node_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ]
+}

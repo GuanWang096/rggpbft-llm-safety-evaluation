@@ -1,0 +1,22 @@
+{
+  "delay_ms": 5.0,
+  "fault_delay_ms": 100,
+  "fault_mode": "none",
+  "fault_nodes": "0",
+  "fault_scenario": "f1",
+  "groups": 4,
+  "image": "zte-rggpbft:v2",
+  "mode": "rgg",
+  "netem_delay": 0,
+  "netem_jitter": 0,
+  "netem_loss": 0,
+  "nodes": 16,
+  "reputation_order": "0,8,13,15,9,7,2,5,4,6,14,3,1,12,11,10",
+  "round_timeout": 12.0,
+  "rounds": 1,
+  "run_dir": "C:\\Users\\guan\\Desktop\\zte-sci\\experiments\\exp-local\\results\\e8-fault-m16-v3-runs-20260715T133000Z\\e8-fault-seeded_random-separable-m16-d5-f1-r6-rgg-seeded_random-groupingv2",
+  "seed": 3269568779599016276,
+  "skip_build": true,
+  "started_at_unix": 1784123243,
+  "view_timeout": 0.5
+}

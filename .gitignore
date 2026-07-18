@@ -1,0 +1,41 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+
+# Public models and benchmark distributions are downloaded separately.
+model/
+models/
+dataset/
+datasets/
+
+# Generated Fabric identities and deployment state must not be committed.
+src/fabric/fabric-samples/
+src/fabric/client/workload
+src/fabric/baseline/cmd/workload/main
+**/organizations/
+**/channel-artifacts/
+**/system-genesis-block/
+**/crypto-config/
+*.key
+*.pem
+*.crt
+
+# Local reruns use this prefix; frozen paper results remain tracked.
+results/reproduced_*/
+
+# Superseded pre-corrective matrices retained only in the working copy.
+src/configs/b3_matrix.json
+src/configs/b4_matrix.json
+src/configs/b5_matrix.json
+src/configs/e7_consensus_20260714T103038Z.json
+src/configs/e7_consensus_20260714T144127Z.json
+
+*.aux
+*.out
+*.synctex.gz
+.DS_Store
+Thumbs.db

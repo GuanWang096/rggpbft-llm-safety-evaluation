@@ -1,0 +1,98 @@
+{
+  "scenario": "E7-S1",
+  "task_id": "e7-s1-1784297948540761485-r1",
+  "repeat": 1,
+  "deadline": 1784305148,
+  "score_schema": "zte-sci-e7-evaluator-reliability-v1",
+  "score_reference_semantics": "frozen_guard_operational_proxy",
+  "score_reference_is_human_ground_truth": false,
+  "score_file_sha256": "b95bfc9d4752d695494b7e6e25083d8b036e07bc52719c71914e04c970b46350",
+  "ack_count": 0,
+  "object_count": 1,
+  "object_eval_ids": [
+    0
+  ],
+  "quorum": 11,
+  "digest": "51f14be97986fbc822905b85039cd22f2a8a2060050972057205ddb950b56d17",
+  "vote_records": [
+    {
+      "evaluator_id": "eval-00",
+      "node_id": 0,
+      "msp_id": "Org1MSP",
+      "expected_msp_id": "Org1MSP",
+      "cert_sha256": "9f09697979c6c0130384bf441563ac82c2c0a76367390bb16440aef27cd79885",
+      "vote": "OBJECT",
+      "timestamp_utc": "2026-07-17T14:19:27Z",
+      "return_code": 0,
+      "tx_id": "f9c368054f90b424fb0ea25beb9cf717586c107ce5711af859819a4f1ee0b36b",
+      "success": true
+    },
+    {
+      "evaluator_id": "eval-01",
+      "node_id": 1,
+      "msp_id": "Org1MSP",
+      "expected_msp_id": "Org1MSP",
+      "cert_sha256": "2ab880db6630c5beeb6338964e1e8b34f9b7bae498b687cc0697aecc7d2bde60",
+      "vote": "OBJECT",
+      "timestamp_utc": "2026-07-17T14:19:30Z",
+      "return_code": 1,
+      "tx_id": "",
+      "success": false,
+      "error_tail": "Error: endorsement failure during invoke. response: status:500 message:\"ERR_CONFIRMATION_FINAL: Review\"",
+      "quorum_already_reached": true
+    }
+  ],
+  "review_decision_ok": true,
+  "review_decision_msg": "\u001b[34m2026-07-17 22:19:34.360 AWST 0003 INFO\u001b[0m [chaincodeCmd] \u001b[34;1mchaincodeInvokeOrQuery\u001b[0m -> Chaincode invoke successful. result: status:200 payload:\"{\\\"taskId\\\":\\\"e7-s1-1784297948540761485-r1\\",
+  "final_confirmation_status": "Reject",
+  "evaluator_count": 16,
+  "reputation_order": [
+    9,
+    3,
+    0,
+    6,
+    4,
+    11,
+    13,
+    14,
+    5,
+    2,
+    10,
+    7,
+    1,
+    12,
+    8,
+    15
+  ],
+  "group_leaders": {
+    "0": 9,
+    "1": 3,
+    "2": 0,
+    "3": 6
+  },
+  "l_gl": [
+    9,
+    3,
+    0,
+    6
+  ],
+  "reputations": {
+    "eval-00": 815077,
+    "eval-01": 671794,
+    "eval-02": 713860,
+    "eval-03": 828389,
+    "eval-04": 786323,
+    "eval-05": 729058,
+    "eval-06": 799877,
+    "eval-07": 685348,
+    "eval-08": 643282,
+    "eval-09": 843588,
+    "eval-10": 700547,
+    "eval-11": 771124,
+    "eval-12": 656595,
+    "eval-13": 757812,
+    "eval-14": 742613,
+    "eval-15": 628084
+  },
+  "timestamp": "2026-07-17T14:19:40Z"
+}

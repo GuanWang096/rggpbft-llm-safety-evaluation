@@ -1,0 +1,129 @@
+{
+  "experiment": "E10",
+  "description": "Fabric/IPFS capacity curve",
+  "seed_base": 20260705,
+  "manifest": "C:\\Users\\guan\\Desktop\\zte-sci\\experiments\\exp-local\\results\\b2-input-20260705T154954Z\\full-b64\\manifest.json",
+  "matrix": [
+    {
+      "pair_id": "e10-resource-c1-r1",
+      "concurrency": 1,
+      "repeat": 1,
+      "block": "e10-resource-c1",
+      "series": "resource-only-v2",
+      "pair_material": "zte-sci-local-v1|20260705|e10-resource-c1|M=na|delay=na|fault=na|batch=full-b64|repeat=1",
+      "sha256": "3d23a6d98aa287eee9105261334fd3c126666ef4eef4ce4b60404e179451c898",
+      "seed": 4405548313762498542
+    },
+    {
+      "pair_id": "e10-resource-c1-r2",
+      "concurrency": 1,
+      "repeat": 2,
+      "block": "e10-resource-c1",
+      "series": "resource-only-v2",
+      "pair_material": "zte-sci-local-v1|20260705|e10-resource-c1|M=na|delay=na|fault=na|batch=full-b64|repeat=2",
+      "sha256": "b12892651b2bb0acb0385ebe83f1c90f0a4e26fd15683d8900463f4f1358ca05",
+      "seed": 3542242069872095404
+    },
+    {
+      "pair_id": "e10-resource-c1-r3",
+      "concurrency": 1,
+      "repeat": 3,
+      "block": "e10-resource-c1",
+      "series": "resource-only-v2",
+      "pair_material": "zte-sci-local-v1|20260705|e10-resource-c1|M=na|delay=na|fault=na|batch=full-b64|repeat=3",
+      "sha256": "d0d906bcd509867aea92040648dd84d41937847b4a975948c833b4143d8b263a",
+      "seed": 5825695001078236794
+    },
+    {
+      "pair_id": "e10-resource-c8-r1",
+      "concurrency": 8,
+      "repeat": 1,
+      "block": "e10-resource-c8",
+      "series": "resource-only-v2",
+      "pair_material": "zte-sci-local-v1|20260705|e10-resource-c8|M=na|delay=na|fault=na|batch=full-b64|repeat=1",
+      "sha256": "0486231e4960704f0496ff1ff04f524b62b7ed1bcc3474a0a1e3d598854899fe",
+      "seed": 325986636017987663
+    },
+    {
+      "pair_id": "e10-resource-c8-r2",
+      "concurrency": 8,
+      "repeat": 2,
+      "block": "e10-resource-c8",
+      "series": "resource-only-v2",
+      "pair_material": "zte-sci-local-v1|20260705|e10-resource-c8|M=na|delay=na|fault=na|batch=full-b64|repeat=2",
+      "sha256": "3a2de9e13308d96ba62d1a4d3a1047ca0e5079b5ea5ddee831691d01dc122313",
+      "seed": 4192263981584931179
+    },
+    {
+      "pair_id": "e10-resource-c8-r3",
+      "concurrency": 8,
+      "repeat": 3,
+      "block": "e10-resource-c8",
+      "series": "resource-only-v2",
+      "pair_material": "zte-sci-local-v1|20260705|e10-resource-c8|M=na|delay=na|fault=na|batch=full-b64|repeat=3",
+      "sha256": "1edc8abf760816eff6c92c5a2f6f8c48f5173a5b8781a1dc0a6a357b2c130cb3",
+      "seed": 2223804870937810671
+    },
+    {
+      "pair_id": "e10-resource-c16-r1",
+      "concurrency": 16,
+      "repeat": 1,
+      "block": "e10-resource-c16",
+      "series": "resource-only-v2",
+      "pair_material": "zte-sci-local-v1|20260705|e10-resource-c16|M=na|delay=na|fault=na|batch=full-b64|repeat=1",
+      "sha256": "f622efad886d0200f4b45ebfdc4a6dbcc76f13118ddd74d106cb2e1eac9186d0",
+      "seed": 8512629774280884736
+    },
+    {
+      "pair_id": "e10-resource-c16-r2",
+      "concurrency": 16,
+      "repeat": 2,
+      "block": "e10-resource-c16",
+      "series": "resource-only-v2",
+      "pair_material": "zte-sci-local-v1|20260705|e10-resource-c16|M=na|delay=na|fault=na|batch=full-b64|repeat=2",
+      "sha256": "29bd85ae106dcd0d87df85020c4f7dbb94873219c3804976ba98428fb8f0b11c",
+      "seed": 3007707108799794445
+    },
+    {
+      "pair_id": "e10-resource-c16-r3",
+      "concurrency": 16,
+      "repeat": 3,
+      "block": "e10-resource-c16",
+      "series": "resource-only-v2",
+      "pair_material": "zte-sci-local-v1|20260705|e10-resource-c16|M=na|delay=na|fault=na|batch=full-b64|repeat=3",
+      "sha256": "867f4a3a329ad46b016cda519e3d2f03ac872dc8d11cdbaf2456fc684ee546bb",
+      "seed": 468174500087387243
+    },
+    {
+      "pair_id": "e10-resource-c32-r1",
+      "concurrency": 32,
+      "repeat": 1,
+      "block": "e10-resource-c32",
+      "series": "resource-only-v2",
+      "pair_material": "zte-sci-local-v1|20260705|e10-resource-c32|M=na|delay=na|fault=na|batch=full-b64|repeat=1",
+      "sha256": "15f636809675c2ea114bd45e2469450e9b1cc9a5c2cee2f5403ccaacea53b4e0",
+      "seed": 1582512244975321834
+    },
+    {
+      "pair_id": "e10-resource-c32-r2",
+      "concurrency": 32,
+      "repeat": 2,
+      "block": "e10-resource-c32",
+      "series": "resource-only-v2",
+      "pair_material": "zte-sci-local-v1|20260705|e10-resource-c32|M=na|delay=na|fault=na|batch=full-b64|repeat=2",
+      "sha256": "749b006e602f7884373d9a62633a1872e7ab5f9fc2db9d15d8e9807c7ee3e9c9",
+      "seed": 8402310003849918596
+    },
+    {
+      "pair_id": "e10-resource-c32-r3",
+      "concurrency": 32,
+      "repeat": 3,
+      "block": "e10-resource-c32",
+      "series": "resource-only-v2",
+      "pair_material": "zte-sci-local-v1|20260705|e10-resource-c32|M=na|delay=na|fault=na|batch=full-b64|repeat=3",
+      "sha256": "3e6eef702f7d5c9d577f12cfaeff30fd42bbfe73a8bbf6eec1d2212ca1790276",
+      "seed": 4498796342901824669
+    }
+  ],
+  "series": "resource-only-v2"
+}

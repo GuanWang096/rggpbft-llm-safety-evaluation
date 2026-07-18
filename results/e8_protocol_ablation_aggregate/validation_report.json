@@ -1,0 +1,75 @@
+{
+  "rejected_runs": 0,
+  "rejected_details": [],
+  "checks": {
+    "all_runs_have_matrix_entry": true,
+    "no_duplicate_run_ids": true,
+    "zero_safety_violations": true,
+    "zero_conflicting_commits": true,
+    "run_count_matches": true,
+    "three_distinct_topologies_per_configuration": true,
+    "six_raw_event_recomputations_match": true
+  },
+  "raw_event_audit": [
+    {
+      "run_id": "e8-fault-identity_round_robin-separable-m16-d5-f1-r4-rgg-identity_round_robin-groupingv2",
+      "recomputed": {
+        "driver_success_count": 1,
+        "safety_violation_events": 0,
+        "conflicting_commit_count": 0,
+        "invalid_new_view_events": 0
+      },
+      "matches_summary": true
+    },
+    {
+      "run_id": "e8-fault-reputation_round_robin-build-then-exploit-m16-d5-f1-r10-rgg-reputation_round_robin-groupingv2",
+      "recomputed": {
+        "driver_success_count": 1,
+        "safety_violation_events": 0,
+        "conflicting_commit_count": 0,
+        "invalid_new_view_events": 0
+      },
+      "matches_summary": true
+    },
+    {
+      "run_id": "e8-fault-seeded_random-separable-m16-d5-f4-r2-rgg-seeded_random-groupingv2",
+      "recomputed": {
+        "driver_success_count": 1,
+        "safety_violation_events": 0,
+        "conflicting_commit_count": 0,
+        "invalid_new_view_events": 0
+      },
+      "matches_summary": true
+    },
+    {
+      "run_id": "e8-fault-reputation_round_robin-separable-m16-d5-f4-r2-rgg-reputation_round_robin-groupingv2",
+      "recomputed": {
+        "driver_success_count": 1,
+        "safety_violation_events": 0,
+        "conflicting_commit_count": 0,
+        "invalid_new_view_events": 0
+      },
+      "matches_summary": true
+    },
+    {
+      "run_id": "e8-fault-seeded_random-separable-m16-d5-f1-r2-rgg-seeded_random-groupingv2",
+      "recomputed": {
+        "driver_success_count": 1,
+        "safety_violation_events": 0,
+        "conflicting_commit_count": 0,
+        "invalid_new_view_events": 0
+      },
+      "matches_summary": true
+    },
+    {
+      "run_id": "e8-fault-identity_round_robin-separable-m16-d5-f4-r6-rgg-identity_round_robin-groupingv2",
+      "recomputed": {
+        "driver_success_count": 1,
+        "safety_violation_events": 0,
+        "conflicting_commit_count": 0,
+        "invalid_new_view_events": 0
+      },
+      "matches_summary": true
+    }
+  ]
+}

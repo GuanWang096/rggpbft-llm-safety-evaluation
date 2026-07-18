@@ -1,0 +1,131 @@
+Preparing 4 committee slots (excluded from metrics)
+Running 33 measured workflows at concurrency 4
+Progress: 1/33
+Progress: 2/33
+Progress: 3/33
+Progress: 4/33
+Progress: 5/33
+Progress: 6/33
+Progress: 7/33
+Progress: 8/33
+Progress: 9/33
+Progress: 10/33
+Progress: 11/33
+Progress: 12/33
+Progress: 13/33
+Progress: 14/33
+Progress: 15/33
+Progress: 16/33
+Progress: 17/33
+Progress: 18/33
+Progress: 19/33
+Progress: 20/33
+Progress: 21/33
+Progress: 22/33
+Progress: 23/33
+Progress: 24/33
+Progress: 25/33
+Progress: 26/33
+Progress: 27/33
+Progress: 28/33
+Progress: 29/33
+Progress: 30/33
+Progress: 31/33
+Progress: 32/33
+Progress: 33/33
+{
+  "operation_count": 330,
+  "successful_operations": 330,
+  "failed_operations": 0,
+  "workflow_count": 33,
+  "successful_workflows": 33,
+  "failed_workflows": 0,
+  "workflow_success_rate": 1.0,
+  "measurement_duration_ms": 138109,
+  "workflow_throughput_per_s": 0.2389417054645244,
+  "per_operation": {
+    "fabric_post_allocation": {
+      "count": 33,
+      "success_count": 33,
+      "failure_count": 0,
+      "p50_ms": 2337,
+      "p95_ms": 2530,
+      "p99_ms": 2531
+    },
+    "fabric_post_snapshot": {
+      "count": 33,
+      "success_count": 33,
+      "failure_count": 0,
+      "p50_ms": 2433,
+      "p95_ms": 2501,
+      "p99_ms": 2503
+    },
+    "fabric_post_task": {
+      "count": 33,
+      "success_count": 33,
+      "failure_count": 0,
+      "p50_ms": 2459,
+      "p95_ms": 2558,
+      "p99_ms": 2573
+    },
+    "fabric_query_confirmation": {
+      "count": 33,
+      "success_count": 33,
+      "failure_count": 0,
+      "p50_ms": 312,
+      "p95_ms": 374,
+      "p99_ms": 378
+    },
+    "fabric_query_final": {
+      "count": 33,
+      "success_count": 33,
+      "failure_count": 0,
+      "p50_ms": 544,
+      "p95_ms": 751,
+      "p99_ms": 754
+    },
+    "fabric_settlement": {
+      "count": 33,
+      "success_count": 33,
+      "failure_count": 0,
+      "p50_ms": 2479,
+      "p95_ms": 2517,
+      "p99_ms": 2520
+    },
+    "fabric_vote_1": {
+      "count": 33,
+      "success_count": 33,
+      "failure_count": 0,
+      "p50_ms": 2268,
+      "p95_ms": 2441,
+      "p99_ms": 2441
+    },
+    "fabric_vote_2": {
+      "count": 33,
+      "success_count": 33,
+      "failure_count": 0,
+      "p50_ms": 2452,
+      "p95_ms": 2601,
+      "p99_ms": 2601
+    },
+    "ipfs_add": {
+      "count": 33,
+      "success_count": 33,
+      "failure_count": 0,
+      "p50_ms": 77,
+      "p95_ms": 132,
+      "p99_ms": 144
+    },
+    "ipfs_verify": {
+      "count": 33,
+      "success_count": 33,
+      "failure_count": 0,
+      "p50_ms": 9,
+      "p95_ms": 14,
+      "p99_ms": 15
+    }
+  },
+  "evidence_record_count": 2062,
+  "evidence_record_throughput_per_s": 14.930236262662099
+}
+Results: /mnt/c/Users/guan/Desktop/zte-sci/experiments/exp-local/results/b2-replay-formal-20260705T160000Z/b2-c4-r4/fabric/b2-fabric-c4-r4

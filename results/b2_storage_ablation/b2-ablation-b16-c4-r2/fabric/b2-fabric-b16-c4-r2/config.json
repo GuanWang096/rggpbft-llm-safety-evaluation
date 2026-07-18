@@ -1,0 +1,24 @@
+{
+  "batch_manifest": "/mnt/c/Users/guan/Desktop/zte-sci/experiments/exp-local/results/b2-input-20260705T154954Z/stratified-256-b16/manifest.json",
+  "concurrency": 4,
+  "fixture_note": "Fixed scores affect state values but not the measured control path.",
+  "payload_mode": "real-e1-batches",
+  "payload_size": 65536,
+  "run_id": "b2-fabric-b16-c4-r2",
+  "seed": 6451033832288891116,
+  "tasks": 16,
+  "topology": "single-host, 3 organizations, 1 peer per organization, 1 Raft orderer, Kubo IPFS",
+  "warmup_tasks": 1,
+  "workflow": [
+    "ipfs_add",
+    "fabric_post_task",
+    "fabric_post_allocation",
+    "fabric_post_snapshot",
+    "fabric_query_confirmation",
+    "fabric_vote_1",
+    "fabric_vote_2",
+    "fabric_settlement",
+    "fabric_query_final",
+    "ipfs_verify"
+  ]
+}

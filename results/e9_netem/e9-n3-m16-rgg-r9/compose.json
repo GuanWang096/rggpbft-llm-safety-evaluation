@@ -1,0 +1,551 @@
+{
+  "services": {
+    "collector": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "collector_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "20",
+        "ROUND_TIMEOUT": "112.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "none",
+        "FAULT_NODES": "",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "2310.0",
+        "VIEW_TIMEOUT_SECONDS": "7.0",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "514556272461405468",
+        "EVENTS_PATH": "/results/events.jsonl",
+        "SUMMARY_PATH": "/results/summary.json"
+      },
+      "volumes": [
+        "C:\\Users\\guan\\Desktop\\zte-sci\\experiments\\exp-local\\results\\e9-v2\\e9-n3-m16-rgg-r9:/results"
+      ]
+    },
+    "node0": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "20",
+        "ROUND_TIMEOUT": "112.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "none",
+        "FAULT_NODES": "",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "2310.0",
+        "VIEW_TIMEOUT_SECONDS": "7.0",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "514556272461405468",
+        "NODE_ID": "0"
+      },
+      "depends_on": [
+        "collector"
+      ],
+      "cap_add": [
+        "NET_ADMIN"
+      ]
+    },
+    "node1": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "20",
+        "ROUND_TIMEOUT": "112.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "none",
+        "FAULT_NODES": "",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "2310.0",
+        "VIEW_TIMEOUT_SECONDS": "7.0",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "514556272461405468",
+        "NODE_ID": "1"
+      },
+      "depends_on": [
+        "collector"
+      ],
+      "cap_add": [
+        "NET_ADMIN"
+      ]
+    },
+    "node2": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "20",
+        "ROUND_TIMEOUT": "112.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "none",
+        "FAULT_NODES": "",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "2310.0",
+        "VIEW_TIMEOUT_SECONDS": "7.0",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "514556272461405468",
+        "NODE_ID": "2"
+      },
+      "depends_on": [
+        "collector"
+      ],
+      "cap_add": [
+        "NET_ADMIN"
+      ]
+    },
+    "node3": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "20",
+        "ROUND_TIMEOUT": "112.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "none",
+        "FAULT_NODES": "",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "2310.0",
+        "VIEW_TIMEOUT_SECONDS": "7.0",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "514556272461405468",
+        "NODE_ID": "3"
+      },
+      "depends_on": [
+        "collector"
+      ],
+      "cap_add": [
+        "NET_ADMIN"
+      ]
+    },
+    "node4": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "20",
+        "ROUND_TIMEOUT": "112.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "none",
+        "FAULT_NODES": "",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "2310.0",
+        "VIEW_TIMEOUT_SECONDS": "7.0",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "514556272461405468",
+        "NODE_ID": "4"
+      },
+      "depends_on": [
+        "collector"
+      ],
+      "cap_add": [
+        "NET_ADMIN"
+      ]
+    },
+    "node5": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "20",
+        "ROUND_TIMEOUT": "112.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "none",
+        "FAULT_NODES": "",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "2310.0",
+        "VIEW_TIMEOUT_SECONDS": "7.0",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "514556272461405468",
+        "NODE_ID": "5"
+      },
+      "depends_on": [
+        "collector"
+      ],
+      "cap_add": [
+        "NET_ADMIN"
+      ]
+    },
+    "node6": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "20",
+        "ROUND_TIMEOUT": "112.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "none",
+        "FAULT_NODES": "",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "2310.0",
+        "VIEW_TIMEOUT_SECONDS": "7.0",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "514556272461405468",
+        "NODE_ID": "6"
+      },
+      "depends_on": [
+        "collector"
+      ],
+      "cap_add": [
+        "NET_ADMIN"
+      ]
+    },
+    "node7": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "20",
+        "ROUND_TIMEOUT": "112.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "none",
+        "FAULT_NODES": "",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "2310.0",
+        "VIEW_TIMEOUT_SECONDS": "7.0",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "514556272461405468",
+        "NODE_ID": "7"
+      },
+      "depends_on": [
+        "collector"
+      ],
+      "cap_add": [
+        "NET_ADMIN"
+      ]
+    },
+    "node8": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "20",
+        "ROUND_TIMEOUT": "112.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "none",
+        "FAULT_NODES": "",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "2310.0",
+        "VIEW_TIMEOUT_SECONDS": "7.0",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "514556272461405468",
+        "NODE_ID": "8"
+      },
+      "depends_on": [
+        "collector"
+      ],
+      "cap_add": [
+        "NET_ADMIN"
+      ]
+    },
+    "node9": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "20",
+        "ROUND_TIMEOUT": "112.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "none",
+        "FAULT_NODES": "",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "2310.0",
+        "VIEW_TIMEOUT_SECONDS": "7.0",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "514556272461405468",
+        "NODE_ID": "9"
+      },
+      "depends_on": [
+        "collector"
+      ],
+      "cap_add": [
+        "NET_ADMIN"
+      ]
+    },
+    "node10": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "20",
+        "ROUND_TIMEOUT": "112.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "none",
+        "FAULT_NODES": "",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "2310.0",
+        "VIEW_TIMEOUT_SECONDS": "7.0",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "514556272461405468",
+        "NODE_ID": "10"
+      },
+      "depends_on": [
+        "collector"
+      ],
+      "cap_add": [
+        "NET_ADMIN"
+      ]
+    },
+    "node11": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "20",
+        "ROUND_TIMEOUT": "112.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "none",
+        "FAULT_NODES": "",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "2310.0",
+        "VIEW_TIMEOUT_SECONDS": "7.0",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "514556272461405468",
+        "NODE_ID": "11"
+      },
+      "depends_on": [
+        "collector"
+      ],
+      "cap_add": [
+        "NET_ADMIN"
+      ]
+    },
+    "node12": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "20",
+        "ROUND_TIMEOUT": "112.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "none",
+        "FAULT_NODES": "",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "2310.0",
+        "VIEW_TIMEOUT_SECONDS": "7.0",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "514556272461405468",
+        "NODE_ID": "12"
+      },
+      "depends_on": [
+        "collector"
+      ],
+      "cap_add": [
+        "NET_ADMIN"
+      ]
+    },
+    "node13": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "20",
+        "ROUND_TIMEOUT": "112.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "none",
+        "FAULT_NODES": "",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "2310.0",
+        "VIEW_TIMEOUT_SECONDS": "7.0",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "514556272461405468",
+        "NODE_ID": "13"
+      },
+      "depends_on": [
+        "collector"
+      ],
+      "cap_add": [
+        "NET_ADMIN"
+      ]
+    },
+    "node14": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "20",
+        "ROUND_TIMEOUT": "112.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "none",
+        "FAULT_NODES": "",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "2310.0",
+        "VIEW_TIMEOUT_SECONDS": "7.0",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "514556272461405468",
+        "NODE_ID": "14"
+      },
+      "depends_on": [
+        "collector"
+      ],
+      "cap_add": [
+        "NET_ADMIN"
+      ]
+    },
+    "node15": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "20",
+        "ROUND_TIMEOUT": "112.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "none",
+        "FAULT_NODES": "",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "2310.0",
+        "VIEW_TIMEOUT_SECONDS": "7.0",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "514556272461405468",
+        "NODE_ID": "15"
+      },
+      "depends_on": [
+        "collector"
+      ],
+      "cap_add": [
+        "NET_ADMIN"
+      ]
+    }
+  },
+  "networks": {
+    "default": {
+      "driver": "bridge"
+    }
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "has_netem": true,
+  "qdisc_before": [
+    {
+      "node": 0,
+      "qdisc": "qdisc noqueue 0: dev lo root refcnt 2 \nqdisc noqueue 0: dev eth0 root refcnt 2"
+    },
+    {
+      "node": 1,
+      "qdisc": "qdisc noqueue 0: dev lo root refcnt 2 \nqdisc noqueue 0: dev eth0 root refcnt 2"
+    },
+    {
+      "node": 2,
+      "qdisc": "qdisc noqueue 0: dev lo root refcnt 2 \nqdisc noqueue 0: dev eth0 root refcnt 2"
+    },
+    {
+      "node": 3,
+      "qdisc": "qdisc noqueue 0: dev lo root refcnt 2 \nqdisc noqueue 0: dev eth0 root refcnt 2"
+    },
+    {
+      "node": 4,
+      "qdisc": "qdisc noqueue 0: dev lo root refcnt 2 \nqdisc noqueue 0: dev eth0 root refcnt 2"
+    },
+    {
+      "node": 5,
+      "qdisc": "qdisc noqueue 0: dev lo root refcnt 2 \nqdisc noqueue 0: dev eth0 root refcnt 2"
+    },
+    {
+      "node": 6,
+      "qdisc": "qdisc noqueue 0: dev lo root refcnt 2 \nqdisc noqueue 0: dev eth0 root refcnt 2"
+    },
+    {
+      "node": 7,
+      "qdisc": "qdisc noqueue 0: dev lo root refcnt 2 \nqdisc noqueue 0: dev eth0 root refcnt 2"
+    },
+    {
+      "node": 8,
+      "qdisc": "qdisc noqueue 0: dev lo root refcnt 2 \nqdisc noqueue 0: dev eth0 root refcnt 2"
+    },
+    {
+      "node": 9,
+      "qdisc": "qdisc noqueue 0: dev lo root refcnt 2 \nqdisc noqueue 0: dev eth0 root refcnt 2"
+    },
+    {
+      "node": 10,
+      "qdisc": "qdisc noqueue 0: dev lo root refcnt 2 \nqdisc noqueue 0: dev eth0 root refcnt 2"
+    },
+    {
+      "node": 11,
+      "qdisc": "qdisc noqueue 0: dev lo root refcnt 2 \nqdisc noqueue 0: dev eth0 root refcnt 2"
+    },
+    {
+      "node": 12,
+      "qdisc": "qdisc noqueue 0: dev lo root refcnt 2 \nqdisc noqueue 0: dev eth0 root refcnt 2"
+    },
+    {
+      "node": 13,
+      "qdisc": "qdisc noqueue 0: dev lo root refcnt 2 \nqdisc noqueue 0: dev eth0 root refcnt 2"
+    },
+    {
+      "node": 14,
+      "qdisc": "qdisc noqueue 0: dev lo root refcnt 2 \nqdisc noqueue 0: dev eth0 root refcnt 2"
+    },
+    {
+      "node": 15,
+      "qdisc": "qdisc noqueue 0: dev lo root refcnt 2 \nqdisc noqueue 0: dev eth0 root refcnt 2"
+    },
+    {
+      "node": 16,
+      "qdisc": "qdisc noqueue 0: dev lo root refcnt 2 \nqdisc noqueue 0: dev eth0 root refcnt 2"
+    },
+    {
+      "node": 17,
+      "qdisc": "qdisc noqueue 0: dev lo root refcnt 2 \nqdisc noqueue 0: dev eth0 root refcnt 2"
+    },
+    {
+      "node": 18,
+      "qdisc": "qdisc noqueue 0: dev lo root refcnt 2 \nqdisc noqueue 0: dev eth0 root refcnt 2"
+    },
+    {
+      "node": 19,
+      "qdisc": "qdisc noqueue 0: dev lo root refcnt 2 \nqdisc noqueue 0: dev eth0 root refcnt 2"
+    },
+    {
+      "node": 20,
+      "qdisc": "qdisc noqueue 0: dev lo root refcnt 2 \nqdisc noqueue 0: dev eth0 root refcnt 2"
+    },
+    {
+      "node": 21,
+      "qdisc": "qdisc noqueue 0: dev lo root refcnt 2 \nqdisc noqueue 0: dev eth0 root refcnt 2"
+    },
+    {
+      "node": 22,
+      "qdisc": "qdisc noqueue 0: dev lo root refcnt 2 \nqdisc noqueue 0: dev eth0 root refcnt 2"
+    },
+    {
+      "node": 23,
+      "qdisc": "qdisc noqueue 0: dev lo root refcnt 2 \nqdisc noqueue 0: dev eth0 root refcnt 2"
+    }
+  ],
+  "qdisc_applied": [
+    {
+      "node": 0,
+      "iface": "eth0",
+      "qdisc": "qdisc netem 87e1: root refcnt 17 limit 1000 delay 50ms  10ms seed 1950847282889709146",
+      "params_verified": true,
+      "param_details": {
+        "qdisc": "qdisc netem 87e1: root refcnt 17 limit 1000 delay 50ms  10ms seed 1950847282889709146"
+      }
+    },
+    {
+      "node": 1,
+      "iface": "eth0",
+      "qdisc": "qdisc netem 87e2: root refcnt 17 limit 1000 delay 50ms  10ms seed 4703122855821710993",
+      "params_verified": true,
+      "param_details": {
+        "qdisc": "qdisc netem 87e2: root refcnt 17 limit 1000 delay 50ms  10ms seed 4703122855821710993"
+      }
+    },
+    {
+      "node": 2,
+      "iface": "eth0",
+      "qdisc": "qdisc netem 87e3: root refcnt 17 limit 1000 delay 50ms  10ms seed 15519144564970083905",
+      "params_verified": true,
+      "param_details": {
+        "qdisc": "qdisc netem 87e3: root refcnt 17 limit 1000 delay 50ms  10ms seed 15519144564970083905"
+      }
+    },
+    {
+      "node": 3,
+      "iface": "eth0",
+      "qdisc": "qdisc netem 87e4: root refcnt 17 limit 1000 delay 50ms  10ms seed 16539003535591740196",
+      "params_verified": true,
+      "param_details": {
+        "qdisc": "qdisc netem 87e4: root refcnt 17 limit 1000 delay 50ms  10ms seed 16539003535591740196"
+      }
+    },
+    {
+      "node": 4,
+      "iface": "eth0",
+      "qdisc": "qdisc netem 87e5: root refcnt 17 limit 1000 delay 50ms  10ms seed 15882133011278646171",
+      "params_verified": true,
+      "param_details": {
+        "qdisc": "qdisc netem 87e5: root refcnt 17 limit 1000 delay 50ms  10ms seed 15882133011278646171"
+      }
+    },
+    {
+      "node": 5,
+      "iface": "eth0",
+      "qdisc": "qdisc netem 87e6: root refcnt 17 limit 1000 delay 50ms  10ms seed 12158151146305220637",
+      "params_verified": true,
+      "param_details": {
+        "qdisc": "qdisc netem 87e6: root refcnt 17 limit 1000 delay 50ms  10ms seed 12158151146305220637"
+      }
+    },
+    {
+      "node": 6,
+      "iface": "eth0",
+      "qdisc": "qdisc netem 87e7: root refcnt 17 limit 1000 delay 50ms  10ms seed 7957915958805078032",
+      "params_verified": true,
+      "param_details": {
+        "qdisc": "qdisc netem 87e7: root refcnt 17 limit 1000 delay 50ms  10ms seed 7957915958805078032"
+      }
+    },
+    {
+      "node": 7,
+      "iface": "eth0",
+      "qdisc": "qdisc netem 87e8: root refcnt 17 limit 1000 delay 50ms  10ms seed 14085504976238092438",
+      "params_verified": true,
+      "param_details": {
+        "qdisc": "qdisc netem 87e8: root refcnt 17 limit 1000 delay 50ms  10ms seed 14085504976238092438"
+      }
+    },
+    {
+      "node": 8,
+      "iface": "eth0",
+      "qdisc": "qdisc netem 87e9: root refcnt 17 limit 1000 delay 50ms  10ms seed 9139920902542419248",
+      "params_verified": true,
+      "param_details": {
+        "qdisc": "qdisc netem 87e9: root refcnt 17 limit 1000 delay 50ms  10ms seed 9139920902542419248"
+      }
+    },
+    {
+      "node": 9,
+      "iface": "eth0",
+      "qdisc": "qdisc netem 87ea: root refcnt 17 limit 1000 delay 50ms  10ms seed 3070138501177423103",
+      "params_verified": true,
+      "param_details": {
+        "qdisc": "qdisc netem 87ea: root refcnt 17 limit 1000 delay 50ms  10ms seed 3070138501177423103"
+      }
+    },
+    {
+      "node": 10,
+      "iface": "eth0",
+      "qdisc": "qdisc netem 87eb: root refcnt 17 limit 1000 delay 50ms  10ms seed 602562511122724303",
+      "params_verified": true,
+      "param_details": {
+        "qdisc": "qdisc netem 87eb: root refcnt 17 limit 1000 delay 50ms  10ms seed 602562511122724303"
+      }
+    },
+    {
+      "node": 11,
+      "iface": "eth0",
+      "qdisc": "qdisc netem 87ec: root refcnt 17 limit 1000 delay 50ms  10ms seed 3975904262366269557",
+      "params_verified": true,
+      "param_details": {
+        "qdisc": "qdisc netem 87ec: root refcnt 17 limit 1000 delay 50ms  10ms seed 3975904262366269557"
+      }
+    },
+    {
+      "node": 12,
+      "iface": "eth0",
+      "qdisc": "qdisc netem 87ed: root refcnt 17 limit 1000 delay 50ms  10ms seed 17719270578911213527",
+      "params_verified": true,
+      "param_details": {
+        "qdisc": "qdisc netem 87ed: root refcnt 17 limit 1000 delay 50ms  10ms seed 17719270578911213527"
+      }
+    },
+    {
+      "node": 13,
+      "iface": "eth0",
+      "qdisc": "qdisc netem 87ee: root refcnt 17 limit 1000 delay 50ms  10ms seed 7194408024521953727",
+      "params_verified": true,
+      "param_details": {
+        "qdisc": "qdisc netem 87ee: root refcnt 17 limit 1000 delay 50ms  10ms seed 7194408024521953727"
+      }
+    },
+    {
+      "node": 14,
+      "iface": "eth0",
+      "qdisc": "qdisc netem 87ef: root refcnt 17 limit 1000 delay 50ms  10ms seed 8102148823486013505",
+      "params_verified": true,
+      "param_details": {
+        "qdisc": "qdisc netem 87ef: root refcnt 17 limit 1000 delay 50ms  10ms seed 8102148823486013505"
+      }
+    },
+    {
+      "node": 15,
+      "iface": "eth0",
+      "qdisc": "qdisc netem 87f0: root refcnt 17 limit 1000 delay 50ms  10ms seed 16644464155810491674",
+      "params_verified": true,
+      "param_details": {
+        "qdisc": "qdisc netem 87f0: root refcnt 17 limit 1000 delay 50ms  10ms seed 16644464155810491674"
+      }
+    },
+    {
+      "node": 16,
+      "iface": "eth0",
+      "qdisc": "qdisc netem 87f1: root refcnt 17 limit 1000 delay 50ms  10ms seed 18375099625230832295",
+      "params_verified": true,
+      "param_details": {
+        "qdisc": "qdisc netem 87f1: root refcnt 17 limit 1000 delay 50ms  10ms seed 18375099625230832295"
+      }
+    },
+    {
+      "node": 17,
+      "iface": "eth0",
+      "qdisc": "qdisc netem 87f2: root refcnt 17 limit 1000 delay 50ms  10ms seed 2482694766035652759",
+      "params_verified": true,
+      "param_details": {
+        "qdisc": "qdisc netem 87f2: root refcnt 17 limit 1000 delay 50ms  10ms seed 2482694766035652759"
+      }
+    },
+    {
+      "node": 18,
+      "iface": "eth0",
+      "qdisc": "qdisc netem 87f3: root refcnt 17 limit 1000 delay 50ms  10ms seed 17869367866831430936",
+      "params_verified": true,
+      "param_details": {
+        "qdisc": "qdisc netem 87f3: root refcnt 17 limit 1000 delay 50ms  10ms seed 17869367866831430936"
+      }
+    },
+    {
+      "node": 19,
+      "iface": "eth0",
+      "qdisc": "qdisc netem 87f4: root refcnt 17 limit 1000 delay 50ms  10ms seed 12070905135664263423",
+      "params_verified": true,
+      "param_details": {
+        "qdisc": "qdisc netem 87f4: root refcnt 17 limit 1000 delay 50ms  10ms seed 12070905135664263423"
+      }
+    },
+    {
+      "node": 20,
+      "iface": "eth0",
+      "qdisc": "qdisc netem 87f5: root refcnt 17 limit 1000 delay 50ms  10ms seed 2415398582278316258",
+      "params_verified": true,
+      "param_details": {
+        "qdisc": "qdisc netem 87f5: root refcnt 17 limit 1000 delay 50ms  10ms seed 2415398582278316258"
+      }
+    },
+    {
+      "node": 21,
+      "iface": "eth0",
+      "qdisc": "qdisc netem 87f6: root refcnt 17 limit 1000 delay 50ms  10ms seed 15352613037641998757",
+      "params_verified": true,
+      "param_details": {
+        "qdisc": "qdisc netem 87f6: root refcnt 17 limit 1000 delay 50ms  10ms seed 15352613037641998757"
+      }
+    },
+    {
+      "node": 22,
+      "iface": "eth0",
+      "qdisc": "qdisc netem 87f7: root refcnt 17 limit 1000 delay 50ms  10ms seed 13248020284492155175",
+      "params_verified": true,
+      "param_details": {
+        "qdisc": "qdisc netem 87f7: root refcnt 17 limit 1000 delay 50ms  10ms seed 13248020284492155175"
+      }
+    },
+    {
+      "node": 23,
+      "iface": "eth0",
+      "qdisc": "qdisc netem 87f8: root refcnt 17 limit 1000 delay 50ms  10ms seed 549709638782430919",
+      "params_verified": true,
+      "param_details": {
+        "qdisc": "qdisc netem 87f8: root refcnt 17 limit 1000 delay 50ms  10ms seed 549709638782430919"
+      }
+    }
+  ],
+  "rtt_probe": {
+    "baseline": {
+      "ok": true,
+      "stats": {
+        "min": 0.074,
+        "avg": 0.103,
+        "max": 0.147,
+        "mdev": 0.025
+      },
+      "output": "PING rgg466f943ef9-node1-1 (172.19.0.7) 56(84) bytes of data.\n\n--- rgg466f943ef9-node1-1 ping statistics ---\n5 packets transmitted, 5 received, 0% packet loss, time 4097ms\nrtt min/avg/max/mdev = 0.074/0.103/0.147/0.025 ms"
+    },
+    "after_netem": {
+      "ok": true,
+      "stats": {
+        "min": 85.825,
+        "avg": 102.703,
+        "max": 110.355,
+        "mdev": 8.71
+      },
+      "output": "PING rgg466f943ef9-node1-1 (172.19.0.7) 56(84) bytes of data.\n\n--- rgg466f943ef9-node1-1 ping statistics ---\n5 packets transmitted, 5 received, 0% packet loss, time 4006ms\nrtt min/avg/max/mdev = 85.825/102.703/110.355/8.710 ms"
+    },
+    "gate": {
+      "passed": true,
+      "expected_increase_ms": 100.0,
+      "actual_increase_ms": 102.6,
+      "baseline_avg_ms": 0.1,
+      "after_avg_ms": 102.7
+    }
+  },
+  "timing": {
+    "compose_up_at_unix": 1784099889.1709714,
+    "ready_barrier_at_unix": 1784099891.3264575,
+    "netem_applied_at_unix": 1784099911.486471,
+    "driver_start_at_unix": 1784099915.7194073,
+    "collector_done_at_unix": 1784099998.9973116,
+    "first_protocol_event_unix_ms": 0,
+    "qdisc_cleared_at_unix": 1784100000.5285013
+  },
+  "expected": {
+    "delay_ms": 50.0,
+    "jitter_ms": 10.0,
+    "loss_pct": 0.0
+  },
+  "qdisc_after_cleanup": [],
+  "timing_order": {
+    "netem_before_driver": true,
+    "driver_before_first_event": true
+  }
+}

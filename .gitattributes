@@ -1,0 +1,13 @@
+* text=auto
+# Archived evidence must retain byte-for-byte checksums across platforms.
+results/** -text
+*.sh text eol=lf
+*.py text eol=lf
+*.go text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.csv text eol=lf
+*.md text eol=lf
+*.tar.gz binary
+*.pdf binary
+*.png binary

@@ -1,0 +1,22 @@
+{
+  "delay_ms": 5.0,
+  "fault_delay_ms": 100,
+  "fault_mode": "none",
+  "fault_nodes": "",
+  "fault_scenario": "none",
+  "groups": 4,
+  "image": "zte-rggpbft:v2",
+  "mode": "rgg",
+  "netem_delay": 20.0,
+  "netem_jitter": 5.0,
+  "netem_loss": 0.0,
+  "nodes": 16,
+  "reputation_order": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+  "round_timeout": 52.0,
+  "rounds": 20,
+  "run_dir": "C:\\Users\\guan\\Desktop\\zte-sci\\experiments\\exp-local\\results\\e9-v2\\e9-n2-m16-rgg-r1",
+  "seed": 4772389020515980873,
+  "skip_build": true,
+  "started_at_unix": 1784095051,
+  "view_timeout": 4.0
+}

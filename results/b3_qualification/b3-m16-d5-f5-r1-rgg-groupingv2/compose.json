@@ -1,0 +1,546 @@
+{
+  "services": {
+    "collector": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "collector_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "1",
+        "ROUND_TIMEOUT": "12.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "f5",
+        "FAULT_NODES": "10,8",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "63.0",
+        "VIEW_TIMEOUT_SECONDS": "0.5",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "3691234733409823229",
+        "EVENTS_PATH": "/results/events.jsonl",
+        "SUMMARY_PATH": "/results/summary.json"
+      },
+      "volumes": [
+        "C:\\Users\\guan\\Desktop\\zte-sci\\experiments\\exp-local\\results\\b3-corrective-groupingv2-20260712T124625Z\\b3-m16-d5-f5-r1-rgg-groupingv2:/results"
+      ]
+    },
+    "node0": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "1",
+        "ROUND_TIMEOUT": "12.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "f5",
+        "FAULT_NODES": "10,8",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "63.0",
+        "VIEW_TIMEOUT_SECONDS": "0.5",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "3691234733409823229",
+        "NODE_ID": "0"
+      },
+      "depends_on": [
+        "collector"
+      ]
+    },
+    "node1": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "1",
+        "ROUND_TIMEOUT": "12.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "f5",
+        "FAULT_NODES": "10,8",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "63.0",
+        "VIEW_TIMEOUT_SECONDS": "0.5",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "3691234733409823229",
+        "NODE_ID": "1"
+      },
+      "depends_on": [
+        "collector"
+      ]
+    },
+    "node2": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "1",
+        "ROUND_TIMEOUT": "12.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "f5",
+        "FAULT_NODES": "10,8",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "63.0",
+        "VIEW_TIMEOUT_SECONDS": "0.5",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "3691234733409823229",
+        "NODE_ID": "2"
+      },
+      "depends_on": [
+        "collector"
+      ]
+    },
+    "node3": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "1",
+        "ROUND_TIMEOUT": "12.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "f5",
+        "FAULT_NODES": "10,8",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "63.0",
+        "VIEW_TIMEOUT_SECONDS": "0.5",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "3691234733409823229",
+        "NODE_ID": "3"
+      },
+      "depends_on": [
+        "collector"
+      ]
+    },
+    "node4": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "1",
+        "ROUND_TIMEOUT": "12.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "f5",
+        "FAULT_NODES": "10,8",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "63.0",
+        "VIEW_TIMEOUT_SECONDS": "0.5",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "3691234733409823229",
+        "NODE_ID": "4"
+      },
+      "depends_on": [
+        "collector"
+      ]
+    },
+    "node5": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "1",
+        "ROUND_TIMEOUT": "12.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "f5",
+        "FAULT_NODES": "10,8",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "63.0",
+        "VIEW_TIMEOUT_SECONDS": "0.5",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "3691234733409823229",
+        "NODE_ID": "5"
+      },
+      "depends_on": [
+        "collector"
+      ]
+    },
+    "node6": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "1",
+        "ROUND_TIMEOUT": "12.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "f5",
+        "FAULT_NODES": "10,8",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "63.0",
+        "VIEW_TIMEOUT_SECONDS": "0.5",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "3691234733409823229",
+        "NODE_ID": "6"
+      },
+      "depends_on": [
+        "collector"
+      ]
+    },
+    "node7": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "1",
+        "ROUND_TIMEOUT": "12.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "f5",
+        "FAULT_NODES": "10,8",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "63.0",
+        "VIEW_TIMEOUT_SECONDS": "0.5",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "3691234733409823229",
+        "NODE_ID": "7"
+      },
+      "depends_on": [
+        "collector"
+      ]
+    },
+    "node8": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "1",
+        "ROUND_TIMEOUT": "12.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "f5",
+        "FAULT_NODES": "10,8",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "63.0",
+        "VIEW_TIMEOUT_SECONDS": "0.5",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "3691234733409823229",
+        "NODE_ID": "8"
+      },
+      "depends_on": [
+        "collector"
+      ]
+    },
+    "node9": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "1",
+        "ROUND_TIMEOUT": "12.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "f5",
+        "FAULT_NODES": "10,8",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "63.0",
+        "VIEW_TIMEOUT_SECONDS": "0.5",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "3691234733409823229",
+        "NODE_ID": "9"
+      },
+      "depends_on": [
+        "collector"
+      ]
+    },
+    "node10": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "1",
+        "ROUND_TIMEOUT": "12.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "f5",
+        "FAULT_NODES": "10,8",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "63.0",
+        "VIEW_TIMEOUT_SECONDS": "0.5",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "3691234733409823229",
+        "NODE_ID": "10"
+      },
+      "depends_on": [
+        "collector"
+      ]
+    },
+    "node11": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "1",
+        "ROUND_TIMEOUT": "12.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "f5",
+        "FAULT_NODES": "10,8",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "63.0",
+        "VIEW_TIMEOUT_SECONDS": "0.5",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "3691234733409823229",
+        "NODE_ID": "11"
+      },
+      "depends_on": [
+        "collector"
+      ]
+    },
+    "node12": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "1",
+        "ROUND_TIMEOUT": "12.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "f5",
+        "FAULT_NODES": "10,8",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "63.0",
+        "VIEW_TIMEOUT_SECONDS": "0.5",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "3691234733409823229",
+        "NODE_ID": "12"
+      },
+      "depends_on": [
+        "collector"
+      ]
+    },
+    "node13": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "1",
+        "ROUND_TIMEOUT": "12.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "f5",
+        "FAULT_NODES": "10,8",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "63.0",
+        "VIEW_TIMEOUT_SECONDS": "0.5",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "3691234733409823229",
+        "NODE_ID": "13"
+      },
+      "depends_on": [
+        "collector"
+      ]
+    },
+    "node14": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "1",
+        "ROUND_TIMEOUT": "12.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "f5",
+        "FAULT_NODES": "10,8",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "63.0",
+        "VIEW_TIMEOUT_SECONDS": "0.5",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "3691234733409823229",
+        "NODE_ID": "14"
+      },
+      "depends_on": [
+        "collector"
+      ]
+    },
+    "node15": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "node_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "1",
+        "ROUND_TIMEOUT": "12.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "f5",
+        "FAULT_NODES": "10,8",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "63.0",
+        "VIEW_TIMEOUT_SECONDS": "0.5",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "3691234733409823229",
+        "NODE_ID": "15"
+      },
+      "depends_on": [
+        "collector"
+      ]
+    },
+    "driver": {
+      "image": "zte-rggpbft:v2",
+      "command": [
+        "python",
+        "driver_v2.py"
+      ],
+      "environment": {
+        "M": "16",
+        "K_G": "4",
+        "PORT": "9000",
+        "DELAY_MS": "5.0",
+        "N_ROUNDS": "1",
+        "ROUND_TIMEOUT": "12.0",
+        "COLLECTOR_HOST": "collector",
+        "COLLECTOR_PORT": "9999",
+        "FAULT_MODE": "none",
+        "FAULT_SCENARIO": "f5",
+        "FAULT_NODES": "10,8",
+        "FAULT_DELAY_MS": "100",
+        "HARD_TIMEOUT_SECONDS": "63.0",
+        "VIEW_TIMEOUT_SECONDS": "0.5",
+        "REPUTATION_ORDER": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+        "RUN_SEED": "3691234733409823229"
+      },
+      "depends_on": [
+        "node0",
+        "node1",
+        "node2",
+        "node3",
+        "node4",
+        "node5",
+        "node6",
+        "node7",
+        "node8",
+        "node9",
+        "node10",
+        "node11",
+        "node12",
+        "node13",
+        "node14",
+        "node15"
+      ]
+    }
+  },
+  "networks": {
+    "default": {
+      "driver": "bridge"
+    }
+  }
+}

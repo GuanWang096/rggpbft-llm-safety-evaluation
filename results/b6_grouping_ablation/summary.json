@@ -1,0 +1,17 @@
+{
+  "total_runs": 120,
+  "completed_runs": 120,
+  "strategies": [
+    "fixed_modulo",
+    "reputation_round_robin",
+    "seeded_random"
+  ],
+  "rank_conditions": [
+    "build-then-exploit",
+    "separable"
+  ],
+  "scales": [
+    16,
+    24
+  ]
+}

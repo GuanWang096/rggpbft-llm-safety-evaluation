@@ -1,0 +1,22 @@
+{
+  "delay_ms": 5,
+  "fault": "none",
+  "fault_nodes": "",
+  "groups": 4,
+  "netem_delay_ms": 20,
+  "netem_jitter_ms": 5,
+  "netem_loss_pct": 0,
+  "network_profile": "N2",
+  "nodes": 16,
+  "pair_id": "e9-n2-m16-r1",
+  "pair_material": "zte-sci-local-v1|20260705|e9-n2-pbft|M=16|delay=5|fault=none|batch=na|repeat=1",
+  "pair_sha256": "6f081bdecf4c05d1f0af2371c1a56ca3eee2378a05890ad5a6d2850e9a719b6b",
+  "protocol": "pbft",
+  "repeat": 1,
+  "round_timeout": 52,
+  "rounds": 20,
+  "run_id": "e9-n2-m16-pbft-r1",
+  "seed": 8000675381798241745,
+  "series": "e9-runner-v3-qualification",
+  "view_timeout": 4.0
+}

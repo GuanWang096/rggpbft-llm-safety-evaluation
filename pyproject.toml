@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rggpbft-llm-safety-evaluation"
+version = "1.0.0"
+description = "Reproduction code for a blockchain trust-evidence architecture and reputation-guided PBFT"
+requires-python = ">=3.10"
+dependencies = [
+  "cryptography>=42",
+  "matplotlib>=3.8",
+  "psutil>=5.9",
+]
+
+[project.optional-dependencies]
+test = [
+  "pytest>=8",
+]
+gpu = [
+  "accelerate==1.14.0",
+  "pillow==11.3.0",
+  "qwen-vl-utils==0.0.14",
+  "safetensors==0.6.2",
+  "torch",
+  "transformers==4.57.1",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["e1_pipeline*", "rggpbft_distributed*"]
+
+[tool.pytest.ini_options]
+testpaths = ["src"]
+addopts = "--import-mode=prepend"

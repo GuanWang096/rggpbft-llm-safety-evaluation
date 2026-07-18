@@ -1,0 +1,147 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile.v2
+#1 transferring dockerfile: 294B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 DONE 1.8s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 303B done
+#4 DONE 0.0s
+
+#5 [1/4] FROM docker.io/library/python:3.11-slim@sha256:e031123e3d85762b141ad1cbc56452ba69c6e722ebf2f042cc0dc86c47c0d8b3
+#5 resolve docker.io/library/python:3.11-slim@sha256:e031123e3d85762b141ad1cbc56452ba69c6e722ebf2f042cc0dc86c47c0d8b3 0.0s done
+#5 DONE 0.0s
+
+#6 [2/4] RUN pip install --no-cache-dir cryptography==44.0.1
+#6 CACHED
+
+#7 [3/4] WORKDIR /app
+#7 CACHED
+
+#8 [4/4] COPY protocol.py network_utils.py fault_policy.py view_change.py view_runtime.py node_v2.py driver_v2.py collector_v2.py grouping.py ./
+#8 CACHED
+
+#9 exporting to image
+#9 exporting layers done
+#9 exporting manifest sha256:b9126759206a8bff7e9e1976ed68738dcee0a1ba620809c66ff184cfcb67323b done
+#9 exporting config sha256:294dbaef79d33f203089aa3ec1950019bfb73e9236ba6dd464986c6480aaae7e done
+#9 exporting attestation manifest sha256:e41873df3a1ae7724205c47066f869f1a8453d6fae3ecc464ff8fa0c92a51050 0.0s done
+#9 exporting manifest list sha256:1c52e26b1bda77f8db628611e50e098e6a0669ac7db9a460fcb6713e01f2bc48
+#9 exporting manifest list sha256:1c52e26b1bda77f8db628611e50e098e6a0669ac7db9a460fcb6713e01f2bc48 0.0s done
+#9 naming to docker.io/library/zte-rggpbft:v2 done
+#9 unpacking to docker.io/library/zte-rggpbft:v2 0.0s done
+#9 DONE 0.1s
+ Network rgg3f01f64c39_default Creating 
+ Network rgg3f01f64c39_default Created 
+ Container rgg3f01f64c39-collector-1 Creating 
+ Container rgg3f01f64c39-collector-1 Created 
+ Container rgg3f01f64c39-node12-1 Creating 
+ Container rgg3f01f64c39-node16-1 Creating 
+ Container rgg3f01f64c39-node4-1 Creating 
+ Container rgg3f01f64c39-node19-1 Creating 
+ Container rgg3f01f64c39-node3-1 Creating 
+ Container rgg3f01f64c39-node2-1 Creating 
+ Container rgg3f01f64c39-node22-1 Creating 
+ Container rgg3f01f64c39-node21-1 Creating 
+ Container rgg3f01f64c39-node9-1 Creating 
+ Container rgg3f01f64c39-node0-1 Creating 
+ Container rgg3f01f64c39-node17-1 Creating 
+ Container rgg3f01f64c39-node15-1 Creating 
+ Container rgg3f01f64c39-node13-1 Creating 
+ Container rgg3f01f64c39-node5-1 Creating 
+ Container rgg3f01f64c39-node11-1 Creating 
+ Container rgg3f01f64c39-node1-1 Creating 
+ Container rgg3f01f64c39-node20-1 Creating 
+ Container rgg3f01f64c39-node18-1 Creating 
+ Container rgg3f01f64c39-node23-1 Creating 
+ Container rgg3f01f64c39-node7-1 Creating 
+ Container rgg3f01f64c39-node8-1 Creating 
+ Container rgg3f01f64c39-node10-1 Creating 
+ Container rgg3f01f64c39-node14-1 Creating 
+ Container rgg3f01f64c39-node6-1 Creating 
+ Container rgg3f01f64c39-node16-1 Created 
+ Container rgg3f01f64c39-node4-1 Created 
+ Container rgg3f01f64c39-node12-1 Created 
+ Container rgg3f01f64c39-node9-1 Created 
+ Container rgg3f01f64c39-node2-1 Created 
+ Container rgg3f01f64c39-node11-1 Created 
+ Container rgg3f01f64c39-node8-1 Created 
+ Container rgg3f01f64c39-node19-1 Created 
+ Container rgg3f01f64c39-node0-1 Created 
+ Container rgg3f01f64c39-node3-1 Created 
+ Container rgg3f01f64c39-node15-1 Created 
+ Container rgg3f01f64c39-node13-1 Created 
+ Container rgg3f01f64c39-node5-1 Created 
+ Container rgg3f01f64c39-node10-1 Created 
+ Container rgg3f01f64c39-node1-1 Created 
+ Container rgg3f01f64c39-node21-1 Created 
+ Container rgg3f01f64c39-node6-1 Created 
+ Container rgg3f01f64c39-node18-1 Created 
+ Container rgg3f01f64c39-node22-1 Created 
+ Container rgg3f01f64c39-node23-1 Created 
+ Container rgg3f01f64c39-node17-1 Created 
+ Container rgg3f01f64c39-node14-1 Created 
+ Container rgg3f01f64c39-node7-1 Created 
+ Container rgg3f01f64c39-node20-1 Created 
+ Container rgg3f01f64c39-driver-1 Creating 
+ Container rgg3f01f64c39-driver-1 Created 
+ Container rgg3f01f64c39-collector-1 Starting 
+ Container rgg3f01f64c39-collector-1 Started 
+ Container rgg3f01f64c39-node11-1 Starting 
+ Container rgg3f01f64c39-node2-1 Starting 
+ Container rgg3f01f64c39-node12-1 Starting 
+ Container rgg3f01f64c39-node10-1 Starting 
+ Container rgg3f01f64c39-node18-1 Starting 
+ Container rgg3f01f64c39-node1-1 Starting 
+ Container rgg3f01f64c39-node21-1 Starting 
+ Container rgg3f01f64c39-node6-1 Starting 
+ Container rgg3f01f64c39-node9-1 Starting 
+ Container rgg3f01f64c39-node4-1 Starting 
+ Container rgg3f01f64c39-node20-1 Starting 
+ Container rgg3f01f64c39-node0-1 Starting 
+ Container rgg3f01f64c39-node17-1 Starting 
+ Container rgg3f01f64c39-node23-1 Starting 
+ Container rgg3f01f64c39-node16-1 Starting 
+ Container rgg3f01f64c39-node7-1 Starting 
+ Container rgg3f01f64c39-node19-1 Starting 
+ Container rgg3f01f64c39-node8-1 Starting 
+ Container rgg3f01f64c39-node3-1 Starting 
+ Container rgg3f01f64c39-node22-1 Starting 
+ Container rgg3f01f64c39-node13-1 Starting 
+ Container rgg3f01f64c39-node5-1 Starting 
+ Container rgg3f01f64c39-node14-1 Starting 
+ Container rgg3f01f64c39-node15-1 Starting 
+ Container rgg3f01f64c39-node6-1 Started 
+ Container rgg3f01f64c39-node2-1 Started 
+ Container rgg3f01f64c39-node0-1 Started 
+ Container rgg3f01f64c39-node22-1 Started 
+ Container rgg3f01f64c39-node9-1 Started 
+ Container rgg3f01f64c39-node5-1 Started 
+ Container rgg3f01f64c39-node14-1 Started 
+ Container rgg3f01f64c39-node19-1 Started 
+ Container rgg3f01f64c39-node10-1 Started 
+ Container rgg3f01f64c39-node20-1 Started 
+ Container rgg3f01f64c39-node11-1 Started 
+ Container rgg3f01f64c39-node3-1 Started 
+ Container rgg3f01f64c39-node21-1 Started 
+ Container rgg3f01f64c39-node15-1 Started 
+ Container rgg3f01f64c39-node12-1 Started 
+ Container rgg3f01f64c39-node23-1 Started 
+ Container rgg3f01f64c39-node18-1 Started 
+ Container rgg3f01f64c39-node13-1 Started 
+ Container rgg3f01f64c39-node17-1 Started 
+ Container rgg3f01f64c39-node16-1 Started 
+ Container rgg3f01f64c39-node8-1 Started 
+ Container rgg3f01f64c39-node7-1 Started 
+ Container rgg3f01f64c39-node4-1 Started 
+ Container rgg3f01f64c39-node1-1 Started 
+ Container rgg3f01f64c39-driver-1 Starting 
+ Container rgg3f01f64c39-driver-1 Started 
+0

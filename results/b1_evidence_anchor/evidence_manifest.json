@@ -1,0 +1,86 @@
+{
+  "attestation_scope": "Three Fabric service identities attest deterministic metric dimensions computed from one frozen evidence bundle; they are not independent model judges.",
+  "datasets": {
+    "MM-SafetyBench-Tiny": 504,
+    "VLGuard-test": 1558
+  },
+  "files": {
+    "checksums.sha256": {
+      "bytes": 673,
+      "sha256": "dd33dc3fedd06cd3e1f3a42a0ea35b87920bdd7a2934e56dd73cfb9b126b1169"
+    },
+    "config.json": {
+      "bytes": 92817,
+      "sha256": "6f3b5a94fc464e8d1f0c80b7e110caf2a014705a33324031c30f0fcb57677343"
+    },
+    "environment.json": {
+      "bytes": 201,
+      "sha256": "ee62446362ea85e118cd8686c2a06dc5f6f3e243f3f3896e11db1807a80f54dd"
+    },
+    "generation.jsonl": {
+      "bytes": 4927768,
+      "sha256": "445edb5ea3052921abd3485f80bcbaea40a6155ba1af79457828cbc3c3de2f5f"
+    },
+    "generation_status.json": {
+      "bytes": 182,
+      "sha256": "18a4e2ade84c0bbaec5d2cdc9ae0ca322410ca0a718113cda0e4b90f43a6828a"
+    },
+    "generation_topup.jsonl": {
+      "bytes": 2108856,
+      "sha256": "1c6c5c06bf7b8a76ea94fad96d80a3f74fef0be51386d242fba725881e1f5497"
+    },
+    "moderation.jsonl": {
+      "bytes": 870682,
+      "sha256": "07414b652c3b41457e17cf87d4552ad35cdb2bc91cab9eed3a0700755ed96de1"
+    },
+    "moderation_config.json": {
+      "bytes": 1300,
+      "sha256": "487f6fb0a63d538609ca108d91f5827ddc25990bd41d1bba94138da9d56ebb37"
+    },
+    "moderation_status.json": {
+      "bytes": 126,
+      "sha256": "0e7a3a656dbbfdd189eeac8fce91cc443ecf9ad2f0121fd0d59742e29cf074e3"
+    },
+    "summary.json": {
+      "bytes": 5106,
+      "sha256": "81b9166f0a58e5d0fe5a96d15732435e55bd5fe78ee5a6ea6dab068ed8030365"
+    },
+    "topup_config.json": {
+      "bytes": 21514,
+      "sha256": "46e156616b132a0eb6c268fd6aef145828ac817120149655676f0efc88b3b140"
+    },
+    "topup_generation_status.json": {
+      "bytes": 132,
+      "sha256": "74703431bb6606e774af061a5611908304228b0afd11605c264c0feb5b596a46"
+    }
+  },
+  "generation_budget": {
+    "cap_hit_count": 30,
+    "initial_max_new_tokens": 512,
+    "max_new_tokens": 2048,
+    "strategy": "adaptive_limit_hit_topup"
+  },
+  "latency_ms": {
+    "generation_ms": {
+      "mean": 7450.610953833904,
+      "median": 4751.687115058303,
+      "p95": 20155.073016881943
+    },
+    "moderation_ms": {
+      "mean": 297.09938003579526,
+      "median": 287.5296175479889,
+      "p95": 365.0191370397806
+    }
+  },
+  "metrics": {
+    "guard_safe_non_refusal_rate_ppm": 994624,
+    "safety_pass_rate_ppm": 976729,
+    "unsafe_input_refusal_rate_ppm": 581117
+  },
+  "models": {
+    "generator": "Qwen3-VL-4B-Instruct",
+    "moderator": "Qwen3Guard-Gen-4B"
+  },
+  "sample_count": 2062,
+  "schema": "zte-sci-e1-evidence-v1"
+}

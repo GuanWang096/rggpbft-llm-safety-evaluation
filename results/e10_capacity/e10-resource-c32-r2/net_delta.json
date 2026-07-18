@@ -1,0 +1,66 @@
+{
+  "dev-peer0.org2.example.com-tce_2.1-d427d8aad9ddd32209b9bfe129b2deeb24b780bd4e6a13b6704add5678983a44": {
+    "baseline_rx_bytes": 23300000,
+    "baseline_tx_bytes": 19900000,
+    "after_rx_bytes": 25000000,
+    "after_tx_bytes": 21100000,
+    "delta_rx_bytes": 1700000,
+    "delta_tx_bytes": 1200000
+  },
+  "dev-peer0.org1.example.com-tce_2.1-d427d8aad9ddd32209b9bfe129b2deeb24b780bd4e6a13b6704add5678983a44": {
+    "baseline_rx_bytes": 32400000,
+    "baseline_tx_bytes": 24700000,
+    "after_rx_bytes": 34700000,
+    "after_tx_bytes": 26300000,
+    "delta_rx_bytes": 2300000,
+    "delta_tx_bytes": 1600000
+  },
+  "ipfs-kubo": {
+    "baseline_rx_bytes": 255000000,
+    "baseline_tx_bytes": 267000000,
+    "after_rx_bytes": 268000000,
+    "after_tx_bytes": 280000000,
+    "delta_rx_bytes": 13000000,
+    "delta_tx_bytes": 13000000
+  },
+  "peer0.org1.example.com": {
+    "baseline_rx_bytes": 105000000,
+    "baseline_tx_bytes": 118000000,
+    "after_rx_bytes": 113000000,
+    "after_tx_bytes": 127000000,
+    "delta_rx_bytes": 8000000,
+    "delta_tx_bytes": 9000000
+  },
+  "peer0.org2.example.com": {
+    "baseline_rx_bytes": 77400000,
+    "baseline_tx_bytes": 77000000,
+    "after_rx_bytes": 83400000,
+    "after_tx_bytes": 83200000,
+    "delta_rx_bytes": 6000000,
+    "delta_tx_bytes": 6200000
+  },
+  "couchdb0": {
+    "baseline_rx_bytes": 11700000,
+    "baseline_tx_bytes": 7970000,
+    "after_rx_bytes": 12500000,
+    "after_tx_bytes": 8490000,
+    "delta_rx_bytes": 800000,
+    "delta_tx_bytes": 520000
+  },
+  "couchdb1": {
+    "baseline_rx_bytes": 11600000,
+    "baseline_tx_bytes": 7760000,
+    "after_rx_bytes": 12300000,
+    "after_tx_bytes": 8260000,
+    "delta_rx_bytes": 700000,
+    "delta_tx_bytes": 500000
+  },
+  "orderer.example.com": {
+    "baseline_rx_bytes": 33800000,
+    "baseline_tx_bytes": 66500000,
+    "after_rx_bytes": 36400000,
+    "after_tx_bytes": 71100000,
+    "delta_rx_bytes": 2600000,
+    "delta_tx_bytes": 4600000
+  }
+}
