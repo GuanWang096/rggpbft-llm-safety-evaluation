@@ -1,0 +1,22 @@
+{
+  "delay_ms": 5.0,
+  "fault_delay_ms": 100,
+  "fault_mode": "none",
+  "fault_nodes": "",
+  "fault_scenario": "none",
+  "groups": 4,
+  "image": "zte-rggpbft:mj5",
+  "mode": "rgg",
+  "netem_delay": 0,
+  "netem_jitter": 0,
+  "netem_loss": 0,
+  "nodes": 16,
+  "reputation_order": "10,8,1,9,0,4,15,6,13,7,2,11,12,14,5,3",
+  "round_timeout": 15.0,
+  "rounds": 96,
+  "run_dir": "/mnt/c/Users/guan/Desktop/zte-sci/v15/results/multijudge-v15/mj5/formal/mj5-formal-20260727-v41-final3/runs/mj5-j3-c8-r1/rgg",
+  "seed": 20260705,
+  "skip_build": true,
+  "started_at_unix": 1785105224,
+  "view_timeout": 1.0
+}

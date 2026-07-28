@@ -1,0 +1,21 @@
+{
+  "schema": "multijudge-run-config-v2",
+  "adapter": "qwen3-vl",
+  "input_mode": "native",
+  "dataset_root": "/root/datasets",
+  "manifest": "/root/src/experiments/exp-multijudge/configs/mmds_test_formal.json",
+  "manifest_sha256": "a4d9b73bf629c67c9a302bfdaac277cdfcf8810ad6688c0053fddb3d8775048e",
+  "policy": "/root/src/experiments/exp-multijudge/configs/canonical_policy_v1.json",
+  "policy_sha256": "18ea5fc49baf2c5e0ad2bfe441a5d7dad4926186f76276a59288e5fef37cb9e6",
+  "model_path": "/root/autodl-tmp/model/Qwen3-VL-8B-Instruct",
+  "model_revision": "5d854aab08710c16b980ec6d603d863b3821b915",
+  "model_manifest_sha256": "8f86477b0a93a62b74f9d1fecec4303b92352ca668b37c40c29a59bd58865e66",
+  "seed": 20260726,
+  "max_new_tokens": 96,
+  "attn_implementation": "sdpa",
+  "native_min_pixels": 65536,
+  "native_max_pixels": 1310720,
+  "panel_min_pixels": 262144,
+  "panel_max_pixels": 5242880,
+  "selected_sample_count": 330
+}

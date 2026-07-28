@@ -1,0 +1,94 @@
+{
+  "schema": "multijudge-model-fingerprint-v1",
+  "model_path": "/root/autodl-tmp/model/InternVL3_5-8B-Instruct",
+  "file_count": 17,
+  "total_bytes": 17061932347,
+  "manifest_sha256": "ed27cecd4e5ecb9555d8efe2a6a2d5496fe512c4350d38bae66a8aa11fe0c673",
+  "files": [
+    {
+      "path": "added_tokens.json",
+      "size_bytes": 892,
+      "sha256": "e5c2531bd62d25dd2a7401203a20f7ffb0976a026299cb4d6ff2d559d7ac3e28"
+    },
+    {
+      "path": "config.json",
+      "size_bytes": 5752,
+      "sha256": "b445bab5ff636ac2d5b4a1fb81006dd5acd6de4c5050c81d73eaf55bda283244"
+    },
+    {
+      "path": "configuration_intern_vit.py",
+      "size_bytes": 5546,
+      "sha256": "6530df52748e4f7766568825e1d11f55dfa6cc421990020a640c548dc6cd2646"
+    },
+    {
+      "path": "configuration_internvl_chat.py",
+      "size_bytes": 4700,
+      "sha256": "e9fdff47225fd380d940a4a2b6818b303fd2a5fdddf44fce0a75b05a4beb1539"
+    },
+    {
+      "path": "conversation.py",
+      "size_bytes": 15309,
+      "sha256": "b1b9f280e9cb9211e519e2b8071002b57cc742aadb2f49b05fa674ee3c7d83ee"
+    },
+    {
+      "path": "generation_config.json",
+      "size_bytes": 69,
+      "sha256": "d599f7f3bee654c13b4b53652d239efb4bf80fbf4b4e46f57318f41b981bae9a"
+    },
+    {
+      "path": "merges.txt",
+      "size_bytes": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+    },
+    {
+      "path": "model-00001-of-00004.safetensors",
+      "size_bytes": 4990210776,
+      "sha256": "edf95ed9b3491b30527d92d301b30ff43d90a576025fb0d90a99980ad4201b1a"
+    },
+    {
+      "path": "model-00002-of-00004.safetensors",
+      "size_bytes": 4999848424,
+      "sha256": "8cf50e69791ec3dc5a9c74115a0d2a0b6719fa021a7094cfdccb4e697343e3d9"
+    },
+    {
+      "path": "model-00003-of-00004.safetensors",
+      "size_bytes": 4983071360,
+      "sha256": "b3a98369de6eea69ac3d75299892ddce8d301c8849e855bfad4917b9ee24a097"
+    },
+    {
+      "path": "model-00004-of-00004.safetensors",
+      "size_bytes": 2083598920,
+      "sha256": "346ab7e585ccf90bf22b550b944f42bb352f1f17f4eb3e5aeba043f79da30d4e"
+    },
+    {
+      "path": "model.safetensors.index.json",
+      "size_bytes": 68446,
+      "sha256": "ed6212c5cb41999ee9b567b3805a5896f2ce46bfd90768a412c35dbc5f31d199"
+    },
+    {
+      "path": "modeling_intern_vit.py",
+      "size_bytes": 18151,
+      "sha256": "a33ec11c517041c7fcbaaff3d736d846498468efaf4a64400a89d55132d5f638"
+    },
+    {
+      "path": "modeling_internvl_chat.py",
+      "size_bytes": 16518,
+      "sha256": "ec972dd3d1c7f5da06455034d5cfe54968a9555dff60804edee9a7fb5759db34"
+    },
+    {
+      "path": "special_tokens_map.json",
+      "size_bytes": 744,
+      "sha256": "13a6dea522a937ef05172912c66214162c75165e723a3d6cf4ae2d09752013bf"
+    },
+    {
+      "path": "tokenizer_config.json",
+      "size_bytes": 11480,
+      "sha256": "2d0129d708f6433a0b09f1fc346d3e3c834e2b0ae6f817ad5b491779e39299ab"
+    },
+    {
+      "path": "vocab.json",
+      "size_bytes": 3383407,
+      "sha256": "87a257b04b17642a0688c98cd1df89c398bda4fee532d6f88b38a659ecb4ac8d"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "multijudge-environment-v1",
+  "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+  "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "executable": "/root/miniconda3/bin/python",
+  "environment_variables": {
+    "OMP_NUM_THREADS": "8",
+    "TOKENIZERS_PARALLELISM": "false",
+    "PYTORCH_CUDA_ALLOC_CONF": "expandable_segments:True"
+  },
+  "packages": {
+    "accelerate": "1.12.0",
+    "einops": "0.8.1",
+    "numpy": "2.3.2",
+    "Pillow": "11.3.0",
+    "safetensors": "0.7.0",
+    "timm": "1.0.22",
+    "torch": "2.8.0+cu128",
+    "torchvision": "0.23.0+cu128",
+    "transformers": "4.57.6"
+  },
+  "cuda": {
+    "available": true,
+    "torch_cuda_version": "12.8",
+    "cudnn_version": 91002,
+    "device_count": 1,
+    "devices": [
+      {
+        "index": 0,
+        "name": "NVIDIA GeForce RTX 5090",
+        "total_memory_bytes": 33668988928,
+        "compute_capability": [
+          12,
+          0
+        ]
+      }
+    ]
+  }
+}

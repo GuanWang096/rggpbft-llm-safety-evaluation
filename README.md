@@ -1,20 +1,21 @@
-# Blockchain Trust-Evidence Architecture for Multimodal LLM Safety Evaluation
+# Reliability-Aware Aggregation of Multimodal LLM Safety Judges
 
 This repository contains the source code and non-proprietary result artifacts for the paper:
 
-> A Blockchain Trust-Evidence Architecture With Threshold Confirmation and Reputation-Guided PBFT for Multimodal LLM Safety Evaluation
+> A Trust-Evidence System for Reliability-Aware Aggregation of Multimodal LLM Safety Judges
 
-The implementation connects multimodal safety-evaluation evidence, IPFS storage, Hyperledger Fabric confirmation and reputation settlement, and reputation-guided grouped PBFT (RGG-PBFT). The repository also contains the controlled evaluator-reliability, network-sensitivity, capacity, grouping-ablation, and temporal-reputation experiments reported in the paper.
+The system combines class-conditional reliability aggregation with evidence anchoring, committee confirmation, reputation settlement, and reputation-guided grouped PBFT (RGG-PBFT). The frozen release contains the multimodal judge outputs, aggregation analyses, cross-layer system runs, and secondary protocol experiments reported in the manuscript.
 
 ## Repository layout
 
 | Path | Contents |
 |---|---|
 | `src/` | All executable source code, orchestration scripts, and tests |
-| `src/e1_pipeline/` | Multimodal generation and guard-model pipeline |
-| `src/rggpbft_distributed/` | Signed PBFT and RGG-PBFT Docker implementation |
-| `src/fabric/` | Fabric chaincode, clients, benchmarks, and setup scripts |
-| `src/tests/` | Unit and experiment-integrity tests |
+| `src/multijudge/` | Judge adapters, input construction, parsers, and policy logic |
+| `src/multijudge_workflows/` | Formal inference, aggregation, MJ5 orchestration, and tests |
+| `src/fabric_chaincode/` | Go chaincode used by the v15 cross-layer experiment |
+| `src/rggpbft/` | RGG-PBFT implementation used by the v15 cross-layer experiment |
+| `src/fabric/`, `src/rggpbft_distributed/` | Supporting Fabric and protocol experiment code |
 | `results/` | Frozen raw and aggregate artifacts used by the paper |
 | `REPRODUCIBILITY.md` | Installation, verification, and rerun instructions |
 | `RESULTS_MANIFEST.md` | Mapping from paper evidence to retained result directories |
@@ -27,20 +28,21 @@ Python 3.10 or newer is required. From the repository root:
 
 ```powershell
 python -m pip install -e ".[test]"
+python src/verify_release.py
 python -m pytest -q src
 ```
 
-The full Fabric and consensus experiments additionally require Docker Desktop, WSL2, Go, Hyperledger Fabric, and IPFS. GPU inference is optional when reviewing the archived results. See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for exact commands and scope.
+`verify_release.py` checks the headline aggregation metrics and the final cross-layer integrity totals directly from the frozen JSON files. Full inference requires a CUDA GPU. Fabric and consensus reruns require Docker, WSL2 or Linux, Go, Hyperledger Fabric, and IPFS.
 
 ## Data and model policy
 
-The repository includes the non-proprietary records needed to audit the reported results. Public benchmark images, complete benchmark distributions, and model weights are not redistributed. Their source identifiers, versions, expected layout, and download instructions are listed in `REPRODUCIBILITY.md`.
+The repository includes the non-proprietary records needed to audit the reported results. Model weights and complete copies of MMDS are not redistributed. The guide records each model revision and the expected dataset layout.
 
-Qwen3Guard outputs are used as operational proxy labels for the infrastructure workload. They are not presented as human ground truth or as a general estimate of model-safety accuracy.
+The formal judge set contains Qwen3-VL-8B-Instruct, SafeWork-RM-Safety-7B, InternVL3.5-8B-Instruct, and MiniCPM-V-4.5. The primary same-committee comparison uses Qwen, SafeWork, and MiniCPM against an unweighted 2-of-3 majority baseline on the frozen 330-sample MMDS test split.
 
 ## Scope
 
-The archived Fabric, IPFS, PBFT, and netem measurements were collected on one Windows 11 host using Docker Desktop and WSL2. They support the paired single-host comparisons reported in the paper, not claims about geographically distributed or production deployment performance.
+The archived Fabric, IPFS, PBFT, and netem measurements were collected on one Windows 11 host using Docker Desktop and WSL2. The results support paired single-host comparisons and local capacity analysis. They do not measure multi-host deployment performance.
 
 ## License
 
@@ -48,4 +50,4 @@ Source code is released under the MIT License. Retained third-party datasets and
 
 ## Citation
 
-Jinxin Zhang, Guan Wang, Zhipeng Ruan, and Changsheng Wan, "A Blockchain Trust-Evidence Architecture With Threshold Confirmation and Reputation-Guided PBFT for Multimodal LLM Safety Evaluation," manuscript submitted to *Concurrency and Computation: Practice and Experience*, 2026.
+Jinxin Zhang, Guan Wang, Zhipeng Ruan, and Changsheng Wan, "A Trust-Evidence System for Reliability-Aware Aggregation of Multimodal LLM Safety Judges," manuscript submitted to *Concurrency and Computation: Practice and Experience*, 2026.

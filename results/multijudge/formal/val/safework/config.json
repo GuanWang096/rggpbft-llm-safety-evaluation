@@ -1,0 +1,22 @@
+{
+  "schema": "multijudge-run-config-v2",
+  "adapter": "safework",
+  "adapter_version": "safework-rm-safety-turnwise-v5",
+  "input_mode": "native",
+  "dataset_root": "/root/datasets",
+  "manifest": "/root/src/experiments/exp-multijudge/configs/mmds_val_formal.json",
+  "manifest_sha256": "8acf2c2f3348d8b100054c3c44ba5f8af659a10e96931e48ef1557110c24ebe0",
+  "policy": "/root/src/experiments/exp-multijudge/configs/canonical_policy_v1.json",
+  "policy_sha256": "18ea5fc49baf2c5e0ad2bfe441a5d7dad4926186f76276a59288e5fef37cb9e6",
+  "model_path": "/root/autodl-tmp/model/SafeWork-RM-Safety-7B",
+  "model_revision": "be345f29425fe94586c0598785a143703bbbc4fc",
+  "model_manifest_sha256": "fdd60ad44faa722c544937697a5a370dd4a662a1dd4a36885faea56bbfd28c35",
+  "seed": 20260726,
+  "max_new_tokens": 32,
+  "attn_implementation": "sdpa",
+  "adapter_settings": {
+    "min_pixels": 50176,
+    "max_pixels": 1003520
+  },
+  "selected_sample_count": 78
+}

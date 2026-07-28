@@ -1,0 +1,995 @@
+[A 1/18] mj5-j3-c1-r1
+  batch 1: 64 records, c=1
+  batch 2: 32 records, c=1
+[A 2/18] mj5-j3-c1-r2
+  batch 1: 64 records, c=1
+  batch 2: 32 records, c=1
+[A 3/18] mj5-j3-c1-r3
+  batch 1: 64 records, c=1
+  batch 2: 32 records, c=1
+[A 4/18] mj5-j3-c8-r1
+  batch 1: 64 records, c=8
+  batch 2: 32 records, c=8
+[A 5/18] mj5-j3-c8-r2
+  batch 1: 64 records, c=8
+  batch 2: 32 records, c=8
+[A 6/18] mj5-j3-c8-r3
+  batch 1: 64 records, c=8
+  batch 2: 32 records, c=8
+[A 7/18] mj5-j3-c16-r1
+  batch 1: 64 records, c=16
+  batch 2: 32 records, c=16
+[A 8/18] mj5-j3-c16-r2
+  batch 1: 64 records, c=16
+  batch 2: 32 records, c=16
+[A 9/18] mj5-j3-c16-r3
+  batch 1: 64 records, c=16
+  batch 2: 32 records, c=16
+[A 10/18] mj5-j4-c1-r1
+  batch 1: 64 records, c=1
+  batch 2: 32 records, c=1
+[A 11/18] mj5-j4-c1-r2
+  batch 1: 64 records, c=1
+  batch 2: 32 records, c=1
+[A 12/18] mj5-j4-c1-r3
+  batch 1: 64 records, c=1
+  batch 2: 32 records, c=1
+[A 13/18] mj5-j4-c8-r1
+  batch 1: 64 records, c=8
+  batch 2: 32 records, c=8
+[A 14/18] mj5-j4-c8-r2
+  batch 1: 64 records, c=8
+  batch 2: 32 records, c=8
+[A 15/18] mj5-j4-c8-r3
+  batch 1: 64 records, c=8
+  batch 2: 32 records, c=8
+[A 16/18] mj5-j4-c16-r1
+  batch 1: 64 records, c=16
+  batch 2: 32 records, c=16
+[A 17/18] mj5-j4-c16-r2
+  batch 1: 64 records, c=16
+  batch 2: 32 records, c=16
+[A 18/18] mj5-j4-c16-r3
+  batch 1: 64 records, c=16
+  batch 2: 32 records, c=16
+[R 1/18] mj5-j3-c1-r1
+{
+  "client_latency_ms": {
+    "mean": 81.01247554166666,
+    "p50": 78.36822,
+    "p95": 100.981898,
+    "p99": 112.845651
+  },
+  "conflicting_commit_count": 0,
+  "conflicting_commits": [],
+  "driver_failure_count": 0,
+  "driver_success_count": 96,
+  "driver_success_rate": 1.0,
+  "duplicate_commit_events": 0,
+  "equivocation_observed_events": 0,
+  "equivocation_sent_events": 0,
+  "fault_injected_events": 0,
+  "final_protocol_bytes_sent": 11608486,
+  "final_protocol_messages_sent": 18144,
+  "invalid_new_view_events": 0,
+  "invalid_signature_events": 0,
+  "invalid_view_change_events": 0,
+  "max_accepted_view": 0,
+  "new_view_accepted_events": 0,
+  "new_view_sent_events": 0,
+  "node_commit_completeness": 1.0,
+  "node_commit_count": 1536,
+  "node_count": 16,
+  "node_error_events": 0,
+  "node_latency_ms": {
+    "mean": 62.7304956139323,
+    "p50": 63.4401,
+    "p95": 68.799918,
+    "p99": 78.181168
+  },
+  "recovered_sequence_count": 0,
+  "recovery_latency_ms": {
+    "mean": null,
+    "p50": null,
+    "p95": null,
+    "p99": null
+  },
+  "reported_protocol_bytes_sent": 4663619,
+  "reported_protocol_messages_sent": 11834,
+  "round_count": 96,
+  "safety_violation_events": 0,
+  "stale_new_view_events": 0,
+  "view_change_sent_events": 0
+}
+[R 2/18] mj5-j3-c1-r2
+{
+  "client_latency_ms": {
+    "mean": 80.56651840625,
+    "p50": 77.958307,
+    "p95": 100.738488,
+    "p99": 102.964419
+  },
+  "conflicting_commit_count": 0,
+  "conflicting_commits": [],
+  "driver_failure_count": 0,
+  "driver_success_count": 96,
+  "driver_success_rate": 1.0,
+  "duplicate_commit_events": 0,
+  "equivocation_observed_events": 0,
+  "equivocation_sent_events": 0,
+  "fault_injected_events": 0,
+  "final_protocol_bytes_sent": 11608513,
+  "final_protocol_messages_sent": 18144,
+  "invalid_new_view_events": 0,
+  "invalid_signature_events": 0,
+  "invalid_view_change_events": 0,
+  "max_accepted_view": 0,
+  "new_view_accepted_events": 0,
+  "new_view_sent_events": 0,
+  "node_commit_completeness": 1.0,
+  "node_commit_count": 1536,
+  "node_count": 16,
+  "node_error_events": 0,
+  "node_latency_ms": {
+    "mean": 62.69423318424479,
+    "p50": 63.469715,
+    "p95": 68.50951,
+    "p99": 76.240643
+  },
+  "recovered_sequence_count": 0,
+  "recovery_latency_ms": {
+    "mean": null,
+    "p50": null,
+    "p95": null,
+    "p99": null
+  },
+  "reported_protocol_bytes_sent": 4661606,
+  "reported_protocol_messages_sent": 11827,
+  "round_count": 96,
+  "safety_violation_events": 0,
+  "stale_new_view_events": 0,
+  "view_change_sent_events": 0
+}
+[R 3/18] mj5-j3-c1-r3
+{
+  "client_latency_ms": {
+    "mean": 80.46200741666667,
+    "p50": 78.21309,
+    "p95": 99.897297,
+    "p99": 103.067937
+  },
+  "conflicting_commit_count": 0,
+  "conflicting_commits": [],
+  "driver_failure_count": 0,
+  "driver_success_count": 96,
+  "driver_success_rate": 1.0,
+  "duplicate_commit_events": 0,
+  "equivocation_observed_events": 0,
+  "equivocation_sent_events": 0,
+  "fault_injected_events": 0,
+  "final_protocol_bytes_sent": 11608475,
+  "final_protocol_messages_sent": 18144,
+  "invalid_new_view_events": 0,
+  "invalid_signature_events": 0,
+  "invalid_view_change_events": 0,
+  "max_accepted_view": 0,
+  "new_view_accepted_events": 0,
+  "new_view_sent_events": 0,
+  "node_commit_completeness": 1.0,
+  "node_commit_count": 1536,
+  "node_count": 16,
+  "node_error_events": 0,
+  "node_latency_ms": {
+    "mean": 62.92482163606771,
+    "p50": 63.663378,
+    "p95": 68.930593,
+    "p99": 77.969773
+  },
+  "recovered_sequence_count": 0,
+  "recovery_latency_ms": {
+    "mean": null,
+    "p50": null,
+    "p95": null,
+    "p99": null
+  },
+  "reported_protocol_bytes_sent": 4659234,
+  "reported_protocol_messages_sent": 11819,
+  "round_count": 96,
+  "safety_violation_events": 0,
+  "stale_new_view_events": 0,
+  "view_change_sent_events": 0
+}
+[R 4/18] mj5-j3-c8-r1
+{
+  "client_latency_ms": {
+    "mean": 80.763316,
+    "p50": 78.0447,
+    "p95": 101.257928,
+    "p99": 104.355948
+  },
+  "conflicting_commit_count": 0,
+  "conflicting_commits": [],
+  "driver_failure_count": 0,
+  "driver_success_count": 96,
+  "driver_success_rate": 1.0,
+  "duplicate_commit_events": 0,
+  "equivocation_observed_events": 0,
+  "equivocation_sent_events": 0,
+  "fault_injected_events": 0,
+  "final_protocol_bytes_sent": 11608519,
+  "final_protocol_messages_sent": 18144,
+  "invalid_new_view_events": 0,
+  "invalid_signature_events": 0,
+  "invalid_view_change_events": 0,
+  "max_accepted_view": 0,
+  "new_view_accepted_events": 0,
+  "new_view_sent_events": 0,
+  "node_commit_completeness": 1.0,
+  "node_commit_count": 1536,
+  "node_count": 16,
+  "node_error_events": 0,
+  "node_latency_ms": {
+    "mean": 62.698606429687494,
+    "p50": 63.464058,
+    "p95": 68.505087,
+    "p99": 78.308747
+  },
+  "recovered_sequence_count": 0,
+  "recovery_latency_ms": {
+    "mean": null,
+    "p50": null,
+    "p95": null,
+    "p99": null
+  },
+  "reported_protocol_bytes_sent": 4657821,
+  "reported_protocol_messages_sent": 11814,
+  "round_count": 96,
+  "safety_violation_events": 0,
+  "stale_new_view_events": 0,
+  "view_change_sent_events": 0
+}
+[R 5/18] mj5-j3-c8-r2
+{
+  "client_latency_ms": {
+    "mean": 79.02281767708332,
+    "p50": 77.425599,
+    "p95": 89.134955,
+    "p99": 101.540705
+  },
+  "conflicting_commit_count": 0,
+  "conflicting_commits": [],
+  "driver_failure_count": 0,
+  "driver_success_count": 96,
+  "driver_success_rate": 1.0,
+  "duplicate_commit_events": 0,
+  "equivocation_observed_events": 0,
+  "equivocation_sent_events": 0,
+  "fault_injected_events": 0,
+  "final_protocol_bytes_sent": 11608485,
+  "final_protocol_messages_sent": 18144,
+  "invalid_new_view_events": 0,
+  "invalid_signature_events": 0,
+  "invalid_view_change_events": 0,
+  "max_accepted_view": 0,
+  "new_view_accepted_events": 0,
+  "new_view_sent_events": 0,
+  "node_commit_completeness": 1.0,
+  "node_commit_count": 1536,
+  "node_count": 16,
+  "node_error_events": 0,
+  "node_latency_ms": {
+    "mean": 62.49606224023437,
+    "p50": 63.314272,
+    "p95": 67.921065,
+    "p99": 76.49169
+  },
+  "recovered_sequence_count": 0,
+  "recovery_latency_ms": {
+    "mean": null,
+    "p50": null,
+    "p95": null,
+    "p99": null
+  },
+  "reported_protocol_bytes_sent": 4659244,
+  "reported_protocol_messages_sent": 11819,
+  "round_count": 96,
+  "safety_violation_events": 0,
+  "stale_new_view_events": 0,
+  "view_change_sent_events": 0
+}
+[R 6/18] mj5-j3-c8-r3
+{
+  "client_latency_ms": {
+    "mean": 80.48022746875,
+    "p50": 77.595913,
+    "p95": 101.20589,
+    "p99": 112.913203
+  },
+  "conflicting_commit_count": 0,
+  "conflicting_commits": [],
+  "driver_failure_count": 0,
+  "driver_success_count": 96,
+  "driver_success_rate": 1.0,
+  "duplicate_commit_events": 0,
+  "equivocation_observed_events": 0,
+  "equivocation_sent_events": 0,
+  "fault_injected_events": 0,
+  "final_protocol_bytes_sent": 11608473,
+  "final_protocol_messages_sent": 18144,
+  "invalid_new_view_events": 0,
+  "invalid_signature_events": 0,
+  "invalid_view_change_events": 0,
+  "max_accepted_view": 0,
+  "new_view_accepted_events": 0,
+  "new_view_sent_events": 0,
+  "node_commit_completeness": 1.0,
+  "node_commit_count": 1536,
+  "node_count": 16,
+  "node_error_events": 0,
+  "node_latency_ms": {
+    "mean": 62.45167827539063,
+    "p50": 63.166175,
+    "p95": 68.256254,
+    "p99": 74.283737
+  },
+  "recovered_sequence_count": 0,
+  "recovery_latency_ms": {
+    "mean": null,
+    "p50": null,
+    "p95": null,
+    "p99": null
+  },
+  "reported_protocol_bytes_sent": 4660691,
+  "reported_protocol_messages_sent": 11824,
+  "round_count": 96,
+  "safety_violation_events": 0,
+  "stale_new_view_events": 0,
+  "view_change_sent_events": 0
+}
+[R 7/18] mj5-j3-c16-r1
+{
+  "client_latency_ms": {
+    "mean": 78.71681709375,
+    "p50": 77.29241,
+    "p95": 95.295719,
+    "p99": 101.591847
+  },
+  "conflicting_commit_count": 0,
+  "conflicting_commits": [],
+  "driver_failure_count": 0,
+  "driver_success_count": 96,
+  "driver_success_rate": 1.0,
+  "duplicate_commit_events": 0,
+  "equivocation_observed_events": 0,
+  "equivocation_sent_events": 0,
+  "fault_injected_events": 0,
+  "final_protocol_bytes_sent": 11608543,
+  "final_protocol_messages_sent": 18144,
+  "invalid_new_view_events": 0,
+  "invalid_signature_events": 0,
+  "invalid_view_change_events": 0,
+  "max_accepted_view": 0,
+  "new_view_accepted_events": 0,
+  "new_view_sent_events": 0,
+  "node_commit_completeness": 1.0,
+  "node_commit_count": 1536,
+  "node_count": 16,
+  "node_error_events": 0,
+  "node_latency_ms": {
+    "mean": 62.3228560546875,
+    "p50": 63.126495,
+    "p95": 68.12594,
+    "p99": 75.627298
+  },
+  "recovered_sequence_count": 0,
+  "recovery_latency_ms": {
+    "mean": null,
+    "p50": null,
+    "p95": null,
+    "p99": null
+  },
+  "reported_protocol_bytes_sent": 4656380,
+  "reported_protocol_messages_sent": 11809,
+  "round_count": 96,
+  "safety_violation_events": 0,
+  "stale_new_view_events": 0,
+  "view_change_sent_events": 0
+}
+[R 8/18] mj5-j3-c16-r2
+{
+  "client_latency_ms": {
+    "mean": 80.33149941666666,
+    "p50": 77.491072,
+    "p95": 99.672,
+    "p99": 103.107403
+  },
+  "conflicting_commit_count": 0,
+  "conflicting_commits": [],
+  "driver_failure_count": 0,
+  "driver_success_count": 96,
+  "driver_success_rate": 1.0,
+  "duplicate_commit_events": 0,
+  "equivocation_observed_events": 0,
+  "equivocation_sent_events": 0,
+  "fault_injected_events": 0,
+  "final_protocol_bytes_sent": 11608484,
+  "final_protocol_messages_sent": 18144,
+  "invalid_new_view_events": 0,
+  "invalid_signature_events": 0,
+  "invalid_view_change_events": 0,
+  "max_accepted_view": 0,
+  "new_view_accepted_events": 0,
+  "new_view_sent_events": 0,
+  "node_commit_completeness": 1.0,
+  "node_commit_count": 1536,
+  "node_count": 16,
+  "node_error_events": 0,
+  "node_latency_ms": {
+    "mean": 62.490371438151044,
+    "p50": 63.362242,
+    "p95": 68.128211,
+    "p99": 77.987556
+  },
+  "recovered_sequence_count": 0,
+  "recovery_latency_ms": {
+    "mean": null,
+    "p50": null,
+    "p95": null,
+    "p99": null
+  },
+  "reported_protocol_bytes_sent": 4659242,
+  "reported_protocol_messages_sent": 11819,
+  "round_count": 96,
+  "safety_violation_events": 0,
+  "stale_new_view_events": 0,
+  "view_change_sent_events": 0
+}
+[R 9/18] mj5-j3-c16-r3
+{
+  "client_latency_ms": {
+    "mean": 79.58817785416666,
+    "p50": 77.975546,
+    "p95": 95.655806,
+    "p99": 106.782735
+  },
+  "conflicting_commit_count": 0,
+  "conflicting_commits": [],
+  "driver_failure_count": 0,
+  "driver_success_count": 96,
+  "driver_success_rate": 1.0,
+  "duplicate_commit_events": 0,
+  "equivocation_observed_events": 0,
+  "equivocation_sent_events": 0,
+  "fault_injected_events": 0,
+  "final_protocol_bytes_sent": 11608453,
+  "final_protocol_messages_sent": 18144,
+  "invalid_new_view_events": 0,
+  "invalid_signature_events": 0,
+  "invalid_view_change_events": 0,
+  "max_accepted_view": 0,
+  "new_view_accepted_events": 0,
+  "new_view_sent_events": 0,
+  "node_commit_completeness": 1.0,
+  "node_commit_count": 1536,
+  "node_count": 16,
+  "node_error_events": 0,
+  "node_latency_ms": {
+    "mean": 62.703307316406246,
+    "p50": 63.368465,
+    "p95": 68.1412,
+    "p99": 83.099555
+  },
+  "recovered_sequence_count": 0,
+  "recovery_latency_ms": {
+    "mean": null,
+    "p50": null,
+    "p95": null,
+    "p99": null
+  },
+  "reported_protocol_bytes_sent": 4658047,
+  "reported_protocol_messages_sent": 11815,
+  "round_count": 96,
+  "safety_violation_events": 0,
+  "stale_new_view_events": 0,
+  "view_change_sent_events": 0
+}
+[R 10/18] mj5-j4-c1-r1
+{
+  "client_latency_ms": {
+    "mean": 80.93381107291667,
+    "p50": 78.291147,
+    "p95": 99.278854,
+    "p99": 103.488195
+  },
+  "conflicting_commit_count": 0,
+  "conflicting_commits": [],
+  "driver_failure_count": 0,
+  "driver_success_count": 96,
+  "driver_success_rate": 1.0,
+  "duplicate_commit_events": 0,
+  "equivocation_observed_events": 0,
+  "equivocation_sent_events": 0,
+  "fault_injected_events": 0,
+  "final_protocol_bytes_sent": 11608461,
+  "final_protocol_messages_sent": 18144,
+  "invalid_new_view_events": 0,
+  "invalid_signature_events": 0,
+  "invalid_view_change_events": 0,
+  "max_accepted_view": 0,
+  "new_view_accepted_events": 0,
+  "new_view_sent_events": 0,
+  "node_commit_completeness": 1.0,
+  "node_commit_count": 1536,
+  "node_count": 16,
+  "node_error_events": 0,
+  "node_latency_ms": {
+    "mean": 62.816497727213545,
+    "p50": 63.539603,
+    "p95": 68.8975,
+    "p99": 77.197782
+  },
+  "recovered_sequence_count": 0,
+  "recovery_latency_ms": {
+    "mean": null,
+    "p50": null,
+    "p95": null,
+    "p99": null
+  },
+  "reported_protocol_bytes_sent": 4662137,
+  "reported_protocol_messages_sent": 11829,
+  "round_count": 96,
+  "safety_violation_events": 0,
+  "stale_new_view_events": 0,
+  "view_change_sent_events": 0
+}
+[R 11/18] mj5-j4-c1-r2
+{
+  "client_latency_ms": {
+    "mean": 79.89187517708334,
+    "p50": 77.49475,
+    "p95": 97.774352,
+    "p99": 102.470581
+  },
+  "conflicting_commit_count": 0,
+  "conflicting_commits": [],
+  "driver_failure_count": 0,
+  "driver_success_count": 96,
+  "driver_success_rate": 1.0,
+  "duplicate_commit_events": 0,
+  "equivocation_observed_events": 0,
+  "equivocation_sent_events": 0,
+  "fault_injected_events": 0,
+  "final_protocol_bytes_sent": 11608491,
+  "final_protocol_messages_sent": 18144,
+  "invalid_new_view_events": 0,
+  "invalid_signature_events": 0,
+  "invalid_view_change_events": 0,
+  "max_accepted_view": 0,
+  "new_view_accepted_events": 0,
+  "new_view_sent_events": 0,
+  "node_commit_completeness": 1.0,
+  "node_commit_count": 1536,
+  "node_count": 16,
+  "node_error_events": 0,
+  "node_latency_ms": {
+    "mean": 62.646655451822916,
+    "p50": 63.392445,
+    "p95": 68.430521,
+    "p99": 76.197572
+  },
+  "recovered_sequence_count": 0,
+  "recovery_latency_ms": {
+    "mean": null,
+    "p50": null,
+    "p95": null,
+    "p99": null
+  },
+  "reported_protocol_bytes_sent": 4662753,
+  "reported_protocol_messages_sent": 11831,
+  "round_count": 96,
+  "safety_violation_events": 0,
+  "stale_new_view_events": 0,
+  "view_change_sent_events": 0
+}
+[R 12/18] mj5-j4-c1-r3
+{
+  "client_latency_ms": {
+    "mean": 80.00112966666667,
+    "p50": 77.409393,
+    "p95": 99.189548,
+    "p99": 105.926094
+  },
+  "conflicting_commit_count": 0,
+  "conflicting_commits": [],
+  "driver_failure_count": 0,
+  "driver_success_count": 96,
+  "driver_success_rate": 1.0,
+  "duplicate_commit_events": 0,
+  "equivocation_observed_events": 0,
+  "equivocation_sent_events": 0,
+  "fault_injected_events": 0,
+  "final_protocol_bytes_sent": 11608469,
+  "final_protocol_messages_sent": 18144,
+  "invalid_new_view_events": 0,
+  "invalid_signature_events": 0,
+  "invalid_view_change_events": 0,
+  "max_accepted_view": 0,
+  "new_view_accepted_events": 0,
+  "new_view_sent_events": 0,
+  "node_commit_completeness": 1.0,
+  "node_commit_count": 1536,
+  "node_count": 16,
+  "node_error_events": 0,
+  "node_latency_ms": {
+    "mean": 62.504301166666664,
+    "p50": 63.188814,
+    "p95": 68.78158,
+    "p99": 75.952479
+  },
+  "recovered_sequence_count": 0,
+  "recovery_latency_ms": {
+    "mean": null,
+    "p50": null,
+    "p95": null,
+    "p99": null
+  },
+  "reported_protocol_bytes_sent": 4660101,
+  "reported_protocol_messages_sent": 11822,
+  "round_count": 96,
+  "safety_violation_events": 0,
+  "stale_new_view_events": 0,
+  "view_change_sent_events": 0
+}
+[R 13/18] mj5-j4-c8-r1
+{
+  "client_latency_ms": {
+    "mean": 79.85198566666666,
+    "p50": 77.457097,
+    "p95": 99.929278,
+    "p99": 100.880841
+  },
+  "conflicting_commit_count": 0,
+  "conflicting_commits": [],
+  "driver_failure_count": 0,
+  "driver_success_count": 96,
+  "driver_success_rate": 1.0,
+  "duplicate_commit_events": 0,
+  "equivocation_observed_events": 0,
+  "equivocation_sent_events": 0,
+  "fault_injected_events": 0,
+  "final_protocol_bytes_sent": 11608470,
+  "final_protocol_messages_sent": 18144,
+  "invalid_new_view_events": 0,
+  "invalid_signature_events": 0,
+  "invalid_view_change_events": 0,
+  "max_accepted_view": 0,
+  "new_view_accepted_events": 0,
+  "new_view_sent_events": 0,
+  "node_commit_completeness": 1.0,
+  "node_commit_count": 1536,
+  "node_count": 16,
+  "node_error_events": 0,
+  "node_latency_ms": {
+    "mean": 62.335487393229165,
+    "p50": 63.10625,
+    "p95": 68.170546,
+    "p99": 80.254795
+  },
+  "recovered_sequence_count": 0,
+  "recovery_latency_ms": {
+    "mean": null,
+    "p50": null,
+    "p95": null,
+    "p99": null
+  },
+  "reported_protocol_bytes_sent": 4662147,
+  "reported_protocol_messages_sent": 11829,
+  "round_count": 96,
+  "safety_violation_events": 0,
+  "stale_new_view_events": 0,
+  "view_change_sent_events": 0
+}
+[R 14/18] mj5-j4-c8-r2
+{
+  "client_latency_ms": {
+    "mean": 80.51257363541667,
+    "p50": 77.615736,
+    "p95": 100.4188,
+    "p99": 107.11254
+  },
+  "conflicting_commit_count": 0,
+  "conflicting_commits": [],
+  "driver_failure_count": 0,
+  "driver_success_count": 96,
+  "driver_success_rate": 1.0,
+  "duplicate_commit_events": 0,
+  "equivocation_observed_events": 0,
+  "equivocation_sent_events": 0,
+  "fault_injected_events": 0,
+  "final_protocol_bytes_sent": 11608533,
+  "final_protocol_messages_sent": 18144,
+  "invalid_new_view_events": 0,
+  "invalid_signature_events": 0,
+  "invalid_view_change_events": 0,
+  "max_accepted_view": 0,
+  "new_view_accepted_events": 0,
+  "new_view_sent_events": 0,
+  "node_commit_completeness": 1.0,
+  "node_commit_count": 1536,
+  "node_count": 16,
+  "node_error_events": 0,
+  "node_latency_ms": {
+    "mean": 62.435158164713535,
+    "p50": 63.257672,
+    "p95": 68.378868,
+    "p99": 78.430328
+  },
+  "recovered_sequence_count": 0,
+  "recovery_latency_ms": {
+    "mean": null,
+    "p50": null,
+    "p95": null,
+    "p99": null
+  },
+  "reported_protocol_bytes_sent": 4663089,
+  "reported_protocol_messages_sent": 11832,
+  "round_count": 96,
+  "safety_violation_events": 0,
+  "stale_new_view_events": 0,
+  "view_change_sent_events": 0
+}
+[R 15/18] mj5-j4-c8-r3
+{
+  "client_latency_ms": {
+    "mean": 80.0011725625,
+    "p50": 77.712645,
+    "p95": 98.519447,
+    "p99": 101.65496
+  },
+  "conflicting_commit_count": 0,
+  "conflicting_commits": [],
+  "driver_failure_count": 0,
+  "driver_success_count": 96,
+  "driver_success_rate": 1.0,
+  "duplicate_commit_events": 0,
+  "equivocation_observed_events": 0,
+  "equivocation_sent_events": 0,
+  "fault_injected_events": 0,
+  "final_protocol_bytes_sent": 11608521,
+  "final_protocol_messages_sent": 18144,
+  "invalid_new_view_events": 0,
+  "invalid_signature_events": 0,
+  "invalid_view_change_events": 0,
+  "max_accepted_view": 0,
+  "new_view_accepted_events": 0,
+  "new_view_sent_events": 0,
+  "node_commit_completeness": 1.0,
+  "node_commit_count": 1536,
+  "node_count": 16,
+  "node_error_events": 0,
+  "node_latency_ms": {
+    "mean": 62.73077599739583,
+    "p50": 63.481596,
+    "p95": 68.469179,
+    "p99": 79.337317
+  },
+  "recovered_sequence_count": 0,
+  "recovery_latency_ms": {
+    "mean": null,
+    "p50": null,
+    "p95": null,
+    "p99": null
+  },
+  "reported_protocol_bytes_sent": 4661906,
+  "reported_protocol_messages_sent": 11828,
+  "round_count": 96,
+  "safety_violation_events": 0,
+  "stale_new_view_events": 0,
+  "view_change_sent_events": 0
+}
+[R 16/18] mj5-j4-c16-r1
+{
+  "client_latency_ms": {
+    "mean": 81.45013019791666,
+    "p50": 80.123103,
+    "p95": 87.860583,
+    "p99": 105.302866
+  },
+  "conflicting_commit_count": 0,
+  "conflicting_commits": [],
+  "driver_failure_count": 0,
+  "driver_success_count": 96,
+  "driver_success_rate": 1.0,
+  "duplicate_commit_events": 0,
+  "equivocation_observed_events": 0,
+  "equivocation_sent_events": 0,
+  "fault_injected_events": 0,
+  "final_protocol_bytes_sent": 11608494,
+  "final_protocol_messages_sent": 18144,
+  "invalid_new_view_events": 0,
+  "invalid_signature_events": 0,
+  "invalid_view_change_events": 0,
+  "max_accepted_view": 0,
+  "new_view_accepted_events": 0,
+  "new_view_sent_events": 0,
+  "node_commit_completeness": 1.0,
+  "node_commit_count": 1536,
+  "node_count": 16,
+  "node_error_events": 0,
+  "node_latency_ms": {
+    "mean": 64.20167005664062,
+    "p50": 64.810885,
+    "p95": 70.439564,
+    "p99": 80.203932
+  },
+  "recovered_sequence_count": 0,
+  "recovery_latency_ms": {
+    "mean": null,
+    "p50": null,
+    "p95": null,
+    "p99": null
+  },
+  "reported_protocol_bytes_sent": 4660420,
+  "reported_protocol_messages_sent": 11823,
+  "round_count": 96,
+  "safety_violation_events": 0,
+  "stale_new_view_events": 0,
+  "view_change_sent_events": 0
+}
+[R 17/18] mj5-j4-c16-r2
+{
+  "client_latency_ms": {
+    "mean": 80.85141056249999,
+    "p50": 78.415246,
+    "p95": 98.602465,
+    "p99": 101.044403
+  },
+  "conflicting_commit_count": 0,
+  "conflicting_commits": [],
+  "driver_failure_count": 0,
+  "driver_success_count": 96,
+  "driver_success_rate": 1.0,
+  "duplicate_commit_events": 0,
+  "equivocation_observed_events": 0,
+  "equivocation_sent_events": 0,
+  "fault_injected_events": 0,
+  "final_protocol_bytes_sent": 11608494,
+  "final_protocol_messages_sent": 18144,
+  "invalid_new_view_events": 0,
+  "invalid_signature_events": 0,
+  "invalid_view_change_events": 0,
+  "max_accepted_view": 0,
+  "new_view_accepted_events": 0,
+  "new_view_sent_events": 0,
+  "node_commit_completeness": 1.0,
+  "node_commit_count": 1536,
+  "node_count": 16,
+  "node_error_events": 0,
+  "node_latency_ms": {
+    "mean": 62.692953972005206,
+    "p50": 63.570936,
+    "p95": 68.464738,
+    "p99": 75.84685
+  },
+  "recovered_sequence_count": 0,
+  "recovery_latency_ms": {
+    "mean": null,
+    "p50": null,
+    "p95": null,
+    "p99": null
+  },
+  "reported_protocol_bytes_sent": 4661582,
+  "reported_protocol_messages_sent": 11827,
+  "round_count": 96,
+  "safety_violation_events": 0,
+  "stale_new_view_events": 0,
+  "view_change_sent_events": 0
+}
+[R 18/18] mj5-j4-c16-r3
+{
+  "client_latency_ms": {
+    "mean": 80.48263551041667,
+    "p50": 77.710997,
+    "p95": 98.617371,
+    "p99": 104.492931
+  },
+  "conflicting_commit_count": 0,
+  "conflicting_commits": [],
+  "driver_failure_count": 0,
+  "driver_success_count": 96,
+  "driver_success_rate": 1.0,
+  "duplicate_commit_events": 0,
+  "equivocation_observed_events": 0,
+  "equivocation_sent_events": 0,
+  "fault_injected_events": 0,
+  "final_protocol_bytes_sent": 11608469,
+  "final_protocol_messages_sent": 18144,
+  "invalid_new_view_events": 0,
+  "invalid_signature_events": 0,
+  "invalid_view_change_events": 0,
+  "max_accepted_view": 0,
+  "new_view_accepted_events": 0,
+  "new_view_sent_events": 0,
+  "node_commit_completeness": 1.0,
+  "node_commit_count": 1536,
+  "node_count": 16,
+  "node_error_events": 0,
+  "node_latency_ms": {
+    "mean": 62.54416578776042,
+    "p50": 63.328275,
+    "p95": 68.147995,
+    "p99": 77.748508
+  },
+  "recovered_sequence_count": 0,
+  "recovery_latency_ms": {
+    "mean": null,
+    "p50": null,
+    "p95": null,
+    "p99": null
+  },
+  "reported_protocol_bytes_sent": 4659521,
+  "reported_protocol_messages_sent": 11820,
+  "round_count": 96,
+  "safety_violation_events": 0,
+  "stale_new_view_events": 0,
+  "view_change_sent_events": 0
+}
+[C 1/18] mj5-j3-c1-r1
+  batch 1: 64 records, c=1
+  batch 2: 32 records, c=1
+[C 2/18] mj5-j3-c1-r2
+  batch 1: 64 records, c=1
+  batch 2: 32 records, c=1
+[C 3/18] mj5-j3-c1-r3
+  batch 1: 64 records, c=1
+  batch 2: 32 records, c=1
+[C 4/18] mj5-j3-c8-r1
+  batch 1: 64 records, c=8
+  batch 2: 32 records, c=8
+[C 5/18] mj5-j3-c8-r2
+  batch 1: 64 records, c=8
+  batch 2: 32 records, c=8
+[C 6/18] mj5-j3-c8-r3
+  batch 1: 64 records, c=8
+  batch 2: 32 records, c=8
+[C 7/18] mj5-j3-c16-r1
+  batch 1: 64 records, c=16
+  batch 2: 32 records, c=16
+[C 8/18] mj5-j3-c16-r2
+  batch 1: 64 records, c=16
+  batch 2: 32 records, c=16
+[C 9/18] mj5-j3-c16-r3
+  batch 1: 64 records, c=16
+  batch 2: 32 records, c=16
+[C 10/18] mj5-j4-c1-r1
+  batch 1: 64 records, c=1
+  batch 2: 32 records, c=1
+[C 11/18] mj5-j4-c1-r2
+  batch 1: 64 records, c=1
+  batch 2: 32 records, c=1
+[C 12/18] mj5-j4-c1-r3
+  batch 1: 64 records, c=1
+  batch 2: 32 records, c=1
+[C 13/18] mj5-j4-c8-r1
+  batch 1: 64 records, c=8
+  batch 2: 32 records, c=8
+[C 14/18] mj5-j4-c8-r2
+  batch 1: 64 records, c=8
+  batch 2: 32 records, c=8
+[C 15/18] mj5-j4-c8-r3
+  batch 1: 64 records, c=8
+  batch 2: 32 records, c=8
+[C 16/18] mj5-j4-c16-r1
+  batch 1: 64 records, c=16
+  batch 2: 32 records, c=16
+[C 17/18] mj5-j4-c16-r2
+  batch 1: 64 records, c=16
+  batch 2: 32 records, c=16
+[C 18/18] mj5-j4-c16-r3
+  batch 1: 64 records, c=16
+  batch 2: 32 records, c=16
+{
+  "session_id": "mj5-formal-20260727-v41-final3",
+  "entry_count": 18,
+  "all_entries_complete": true
+}

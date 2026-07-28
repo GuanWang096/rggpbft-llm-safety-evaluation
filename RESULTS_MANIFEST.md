@@ -1,9 +1,15 @@
 # Results Manifest
 
-Only authoritative result artifacts used by the manuscript are retained. Historical, failed, interrupted, and superseded runs are excluded.
+The paths below contain the frozen artifacts used by the manuscript. Historical, interrupted, and superseded v15 runs are excluded.
 
 | Repository path | Evidence role |
 |---|---|
+| `results/multijudge/formal/` | Frozen validation and test outputs from four multimodal judge services |
+| `results/multijudge/analysis/mj1_mj2_results.json` | Per-model results, disagreement, and initial aggregation analyses |
+| `results/multijudge/analysis/mj2_extended_results.json` | Primary same-committee majority-versus-likelihood comparison, bootstrap intervals, and McNemar test |
+| `results/multijudge/analysis/mj3_mj4_results.json` | Attack perturbations and committee diagnostics |
+| `results/cross_layer/workload/` | Deterministic J=3/J=4 evidence bundles and 18-run system matrix |
+| `results/cross_layer/formal/` | Final 18-run Fabric/IPFS/RGG-PBFT session, aggregate statistics, source snapshots, and integrity audit |
 | `results/e1/` | Final 2062-record E1 generation and guard output after selective 2048-token top-up |
 | `results/b1_evidence_anchor/` | IPFS/Fabric evidence anchoring and negative mutation tests |
 | `results/b2_replay/` | Full 2062-record Fabric/IPFS and signed-log replay |
@@ -21,4 +27,6 @@ Only authoritative result artifacts used by the manuscript are retained. Histori
 | `results/e10_capacity/` | 12 Fabric/IPFS capacity runs with resource sampling |
 | `results/e11_temporal/` | 3500 deterministic and 37800 probabilistic temporal-reputation simulations |
 
-Directories ending in `_aggregate` contain the corresponding frozen aggregate tables and validation reports. Existing `checksums.sha256` files remain with the result series they validate.
+The `results/multijudge/` and `results/cross_layer/` directories support the v15 paper's primary aggregation and system claims. The remaining directories support the secondary evidence-management, consensus, grouping, network, capacity, and temporal analyses retained from the preceding experimental series. Directories ending in `_aggregate` contain their frozen tables and validation reports.
+
+Run `python src/verify_release.py` from the repository root to check the primary numerical claims and cross-layer integrity totals.

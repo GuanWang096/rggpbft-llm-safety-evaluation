@@ -1,0 +1,1145 @@
+{
+  "configurations": [
+    {
+      "composed_workflow_p95_ms": {
+        "max": 15119.283936001544,
+        "mean": 15098.928742667535,
+        "min": 15066.095755005332,
+        "sd": 28.70569913612826
+      },
+      "concurrency": 1,
+      "evidence_bundle_mean_bytes": {
+        "max": 5950.354166666667,
+        "mean": 5950.354166666667,
+        "min": 5950.354166666667,
+        "sd": 0.0
+      },
+      "judge_count": 3,
+      "repeat_count": 3,
+      "rgg_client_p95_ms": {
+        "max": 100.981898,
+        "mean": 100.53922766666666,
+        "min": 99.897297,
+        "sd": 0.5690943178686095
+      },
+      "sequential_stage_throughput": {
+        "max": 0.06630110997490442,
+        "mean": 0.06618937922898074,
+        "min": 0.06613142458749376,
+        "sd": 9.678421736763538e-05
+      },
+      "settlement_mvcc_retries": 0,
+      "settlement_queue_p95_ms": {
+        "max": 0.004087996785528958,
+        "mean": 0.003987666180667778,
+        "min": 0.003936998837161809,
+        "sd": 8.689030296355884e-05
+      },
+      "signed_log_throughput": {
+        "max": 10526.043407180841,
+        "mean": 10403.700353547458,
+        "min": 10325.932687900704,
+        "sd": 107.2441089446055
+      },
+      "stage_a_p95_ms": {
+        "max": 8728.686486996594,
+        "mean": 8695.345480665614,
+        "min": 8647.898035000253,
+        "sd": 42.201151844613904
+      },
+      "stage_a_peak_cpu_percent_sum": {
+        "max": 116.60000000000001,
+        "mean": 59.31333333333333,
+        "min": 28.560000000000002,
+        "sd": 49.65655780794047
+      },
+      "stage_a_peak_memory_mib_sum": {
+        "max": 603.488,
+        "mean": 579.4636666666667,
+        "min": 563.6489999999999,
+        "sd": 21.150306152236574
+      },
+      "stage_a_speedup_vs_c1": 1.0,
+      "stage_a_throughput": {
+        "max": 0.117241563696295,
+        "mean": 0.11689951104405123,
+        "min": 0.11666590921185355,
+        "sd": 0.00030276344997520245
+      },
+      "stage_c_p95_ms": {
+        "max": 6470.140646997606,
+        "mean": 6428.809267667627,
+        "min": 6399.740262000705,
+        "sd": 36.76721240204821
+      },
+      "stage_c_peak_cpu_percent_sum": {
+        "max": 111.77999999999999,
+        "mean": 81.64,
+        "min": 21.970000000000002,
+        "sd": 51.67663591992033
+      },
+      "stage_c_peak_memory_mib_sum": {
+        "max": 602.328,
+        "mean": 580.9346666666667,
+        "min": 542.986,
+        "sd": 32.95341465361872
+      },
+      "stage_c_speedup_vs_c1": 1.0,
+      "stage_c_throughput": {
+        "max": 0.1591920257382749,
+        "mean": 0.1590883822726719,
+        "min": 0.15899017957107212,
+        "sd": 0.00010103301558558695
+      }
+    },
+    {
+      "composed_workflow_p95_ms": {
+        "max": 32607.75293599851,
+        "mean": 32569.87462466634,
+        "min": 32522.72506500328,
+        "sd": 43.2654798390722
+      },
+      "concurrency": 8,
+      "evidence_bundle_mean_bytes": {
+        "max": 5950.354166666667,
+        "mean": 5950.354166666667,
+        "min": 5950.354166666667,
+        "sd": 0.0
+      },
+      "judge_count": 3,
+      "repeat_count": 3,
+      "rgg_client_p95_ms": {
+        "max": 101.257928,
+        "mean": 97.199591,
+        "min": 89.134955,
+        "sd": 6.984228113953107
+      },
+      "sequential_stage_throughput": {
+        "max": 0.2416278266881955,
+        "mean": 0.24070759012611706,
+        "min": 0.24014918867297347,
+        "sd": 0.0008029857281162319
+      },
+      "settlement_mvcc_retries": 0,
+      "settlement_queue_p95_ms": {
+        "max": 18682.71902199922,
+        "mean": 18502.15810233446,
+        "min": 18387.684066001384,
+        "sd": 158.23088644930604
+      },
+      "signed_log_throughput": {
+        "max": 11402.694099639555,
+        "mean": 10948.058867848895,
+        "min": 10704.79954494909,
+        "sd": 394.04826292121516
+      },
+      "stage_a_p95_ms": {
+        "max": 8663.3704410051,
+        "mean": 8566.290694000296,
+        "min": 8509.590518995537,
+        "sd": 84.46862423111206
+      },
+      "stage_a_peak_cpu_percent_sum": {
+        "max": 102.47,
+        "mean": 97.78333333333335,
+        "min": 93.17,
+        "sd": 4.650433671533583
+      },
+      "stage_a_peak_memory_mib_sum": {
+        "max": 804.6769999999999,
+        "mean": 777.154,
+        "min": 745.949,
+        "sd": 29.53662707554806
+      },
+      "stage_a_speedup_vs_c1": 8.43829880106018,
+      "stage_a_throughput": {
+        "max": 1.0062905492572278,
+        "mean": 0.9864330038875387,
+        "min": 0.9661036596421484,
+        "sd": 0.02009759860948515
+      },
+      "stage_c_p95_ms": {
+        "max": 24500.536220999493,
+        "mean": 24391.762788334745,
+        "min": 24326.768263003032,
+        "sd": 94.79594058830143
+      },
+      "stage_c_peak_cpu_percent_sum": {
+        "max": 116.51,
+        "mean": 85.18333333333334,
+        "min": 25.480000000000004,
+        "sd": 51.72563806598554
+      },
+      "stage_c_peak_memory_mib_sum": {
+        "max": 730.046,
+        "mean": 701.399,
+        "min": 684.3009999999999,
+        "sd": 24.963689771345948
+      },
+      "stage_c_speedup_vs_c1": 2.188055647354833,
+      "stage_c_throughput": {
+        "max": 0.3491624455117898,
+        "mean": 0.34809423326026434,
+        "min": 0.34735537474902173,
+        "sd": 0.000947486992043443
+      }
+    },
+    {
+      "composed_workflow_p95_ms": {
+        "max": 53755.83810600575,
+        "mean": 53327.706814666184,
+        "min": 53056.33626699085,
+        "sd": 375.1748309281056
+      },
+      "concurrency": 16,
+      "evidence_bundle_mean_bytes": {
+        "max": 5950.354166666667,
+        "mean": 5950.354166666667,
+        "min": 5950.354166666667,
+        "sd": 0.0
+      },
+      "judge_count": 3,
+      "repeat_count": 3,
+      "rgg_client_p95_ms": {
+        "max": 99.672,
+        "mean": 96.87450833333332,
+        "min": 95.295719,
+        "sd": 2.429379628772399
+      },
+      "sequential_stage_throughput": {
+        "max": 0.2950382252152523,
+        "mean": 0.29449921907472604,
+        "min": 0.2940310400655305,
+        "sd": 0.0005073143437302374
+      },
+      "settlement_mvcc_retries": 0,
+      "settlement_queue_p95_ms": {
+        "max": 43389.95822699508,
+        "mean": 43143.54214766596,
+        "min": 42986.39342000388,
+        "sd": 216.08478293414018
+      },
+      "signed_log_throughput": {
+        "max": 12148.858446588527,
+        "mean": 12074.004767747238,
+        "min": 12031.058182265955,
+        "sd": 65.05976117102082
+      },
+      "stage_a_p95_ms": {
+        "max": 4876.891576001071,
+        "mean": 4450.58544366475,
+        "min": 4198.619108996354,
+        "sd": 371.22655974800136
+      },
+      "stage_a_peak_cpu_percent_sum": {
+        "max": 229.47000000000003,
+        "mean": 217.7966666666667,
+        "min": 208.48,
+        "sd": 10.691605741577535
+      },
+      "stage_a_peak_memory_mib_sum": {
+        "max": 934.202,
+        "mean": 890.2116666666667,
+        "min": 844.128,
+        "sd": 45.07347226843447
+      },
+      "stage_a_speedup_vs_c1": 34.61380953991336,
+      "stage_a_throughput": {
+        "max": 4.0645174105678,
+        "mean": 4.046337410587788,
+        "min": 4.035934060829495,
+        "sd": 0.01579902487714911
+      },
+      "stage_c_p95_ms": {
+        "max": 49379.17838100111,
+        "mean": 49049.28005233281,
+        "min": 48867.04622599791,
+        "sd": 286.2227104617738
+      },
+      "stage_c_peak_cpu_percent_sum": {
+        "max": 129.29,
+        "mean": 95.79,
+        "min": 49.099999999999994,
+        "sd": 41.69041976281841
+      },
+      "stage_c_peak_memory_mib_sum": {
+        "max": 782.046,
+        "mean": 758.6416666666668,
+        "min": 739.3570000000001,
+        "sd": 21.640619684596214
+      },
+      "stage_c_speedup_vs_c1": 2.1813953746064545,
+      "stage_c_throughput": {
+        "max": 0.3477386707312641,
+        "mean": 0.34703466124322996,
+        "min": 0.34626931125801524,
+        "sd": 0.0007365977924568448
+      }
+    },
+    {
+      "composed_workflow_p95_ms": {
+        "max": 15142.15847799252,
+        "mean": 15133.199764661773,
+        "min": 15123.367018994484,
+        "sd": 9.426170071280444
+      },
+      "concurrency": 1,
+      "evidence_bundle_mean_bytes": {
+        "max": 7604.729166666667,
+        "mean": 7604.729166666667,
+        "min": 7604.729166666667,
+        "sd": 0.0
+      },
+      "judge_count": 4,
+      "repeat_count": 3,
+      "rgg_client_p95_ms": {
+        "max": 99.278854,
+        "mean": 98.74758466666667,
+        "min": 97.774352,
+        "sd": 0.8440262187926026
+      },
+      "sequential_stage_throughput": {
+        "max": 0.06621680599305187,
+        "mean": 0.06616244836743956,
+        "min": 0.06613267241972258,
+        "sd": 4.714667227282194e-05
+      },
+      "settlement_mvcc_retries": 0,
+      "settlement_queue_p95_ms": {
+        "max": 0.023776003217790276,
+        "mean": 0.010854668895869205,
+        "min": 0.0038180005503818393,
+        "sd": 0.01120501842295308
+      },
+      "signed_log_throughput": {
+        "max": 12199.174393971854,
+        "mean": 12029.93628813287,
+        "min": 11880.252992428184,
+        "sd": 160.35743836874556
+      },
+      "stage_a_p95_ms": {
+        "max": 8683.990267003537,
+        "mean": 8673.409033001613,
+        "min": 8662.70136499952,
+        "sd": 10.645014152243029
+      },
+      "stage_a_peak_cpu_percent_sum": {
+        "max": 111.8,
+        "mean": 59.78333333333333,
+        "min": 28.600000000000005,
+        "sd": 45.344027537629835
+      },
+      "stage_a_peak_memory_mib_sum": {
+        "max": 941.365,
+        "mean": 862.3703333333333,
+        "min": 821.21,
+        "sd": 68.43159789405283
+      },
+      "stage_a_speedup_vs_c1": 1.0,
+      "stage_a_throughput": {
+        "max": 0.11697979196841572,
+        "mean": 0.11694785623883187,
+        "min": 0.1168869850958879,
+        "sd": 5.2737297113534574e-05
+      },
+      "stage_c_p95_ms": {
+        "max": 6443.668435997097,
+        "mean": 6438.637322666182,
+        "min": 6429.439009996713,
+        "sd": 7.977675339378582
+      },
+      "stage_c_peak_cpu_percent_sum": {
+        "max": 117.08,
+        "mean": 111.82,
+        "min": 106.91,
+        "sd": 5.094025912772726
+      },
+      "stage_c_peak_memory_mib_sum": {
+        "max": 807.952,
+        "mean": 780.0116666666667,
+        "min": 755.18,
+        "sd": 26.522987243772803
+      },
+      "stage_c_speedup_vs_c1": 1.0,
+      "stage_c_throughput": {
+        "max": 0.15909248152080815,
+        "mean": 0.1588374541908286,
+        "min": 0.1585959891343645,
+        "sd": 0.0002485238899910993
+      }
+    },
+    {
+      "composed_workflow_p95_ms": {
+        "max": 33072.175036007226,
+        "mean": 32554.199833340117,
+        "min": 32129.86550400312,
+        "sd": 478.0829147699887
+      },
+      "concurrency": 8,
+      "evidence_bundle_mean_bytes": {
+        "max": 7604.729166666667,
+        "mean": 7604.729166666667,
+        "min": 7604.729166666667,
+        "sd": 0.0
+      },
+      "judge_count": 4,
+      "repeat_count": 3,
+      "rgg_client_p95_ms": {
+        "max": 100.4188,
+        "mean": 99.62250833333333,
+        "min": 98.519447,
+        "sd": 0.9861369965386839
+      },
+      "sequential_stage_throughput": {
+        "max": 0.24038171668303512,
+        "mean": 0.2403520116972345,
+        "min": 0.24029991627273597,
+        "sd": 4.526395464484984e-05
+      },
+      "settlement_mvcc_retries": 0,
+      "settlement_queue_p95_ms": {
+        "max": 18761.114165004983,
+        "mean": 18607.085100004042,
+        "min": 18470.273247003206,
+        "sd": 146.18287925684567
+      },
+      "signed_log_throughput": {
+        "max": 12153.772566561816,
+        "mean": 12040.98293272416,
+        "min": 11982.71343517547,
+        "sd": 97.69667626581851
+      },
+      "stage_a_p95_ms": {
+        "max": 8656.707189998997,
+        "mean": 8560.903256666885,
+        "min": 8496.845884001232,
+        "sd": 84.52687368192198
+      },
+      "stage_a_peak_cpu_percent_sum": {
+        "max": 189.14,
+        "mean": 124.42666666666666,
+        "min": 90.41,
+        "sd": 56.067969762898784
+      },
+      "stage_a_peak_memory_mib_sum": {
+        "max": 978.07,
+        "mean": 959.6610000000001,
+        "min": 927.2040000000001,
+        "sd": 28.193034902259097
+      },
+      "stage_a_speedup_vs_c1": 8.52817826381009,
+      "stage_a_throughput": {
+        "max": 1.0023618469896107,
+        "mean": 0.9973521655751934,
+        "min": 0.9877147854521928,
+        "sd": 0.008348401009971512
+      },
+      "stage_c_p95_ms": {
+        "max": 24543.960944996797,
+        "mean": 24433.19962899841,
+        "min": 24291.0101439993,
+        "sd": 129.37087881889047
+      },
+      "stage_c_peak_cpu_percent_sum": {
+        "max": 130.39,
+        "mean": 123.76333333333332,
+        "min": 115.42,
+        "sd": 7.631214407506398
+      },
+      "stage_c_peak_memory_mib_sum": {
+        "max": 869.1089999999999,
+        "mean": 854.0589999999999,
+        "min": 839.6899999999999,
+        "sd": 14.721318249395999
+      },
+      "stage_c_speedup_vs_c1": 2.1790380871853103,
+      "stage_c_throughput": {
+        "max": 0.34717465882810594,
+        "mean": 0.3461128623533675,
+        "min": 0.34546356263466377,
+        "sd": 0.0009271341467702585
+      }
+    },
+    {
+      "composed_workflow_p95_ms": {
+        "max": 54472.76905499861,
+        "mean": 53582.98331166857,
+        "min": 52979.09407599995,
+        "sd": 786.8092815551963
+      },
+      "concurrency": 16,
+      "evidence_bundle_mean_bytes": {
+        "max": 7604.729166666667,
+        "mean": 7604.729166666667,
+        "min": 7604.729166666667,
+        "sd": 0.0
+      },
+      "judge_count": 4,
+      "repeat_count": 3,
+      "rgg_client_p95_ms": {
+        "max": 98.617371,
+        "mean": 95.02680633333334,
+        "min": 87.860583,
+        "sd": 6.206135931045766
+      },
+      "sequential_stage_throughput": {
+        "max": 0.2964257002367594,
+        "mean": 0.29245283646590553,
+        "min": 0.2899509794967314,
+        "sd": 0.0034789938090313346
+      },
+      "settlement_mvcc_retries": 0,
+      "settlement_queue_p95_ms": {
+        "max": 44217.26439300255,
+        "mean": 43600.66227633555,
+        "min": 43257.36276800308,
+        "sd": 535.1387849997457
+      },
+      "signed_log_throughput": {
+        "max": 12095.699666172395,
+        "mean": 12010.084425342398,
+        "min": 11940.42473901552,
+        "sd": 78.85753318814731
+      },
+      "stage_a_p95_ms": {
+        "max": 4189.2083209968405,
+        "mean": 4110.767205667798,
+        "min": 4018.131433003873,
+        "sd": 86.41725304579313
+      },
+      "stage_a_peak_cpu_percent_sum": {
+        "max": 280.92,
+        "mean": 251.10666666666668,
+        "min": 201.4,
+        "sd": 43.3320451090568
+      },
+      "stage_a_peak_memory_mib_sum": {
+        "max": 1100.3310000000001,
+        "mean": 1073.5956666666668,
+        "min": 1029.602,
+        "sd": 38.39316882380684
+      },
+      "stage_a_speedup_vs_c1": 33.4150221080312,
+      "stage_a_throughput": {
+        "max": 4.366173454150808,
+        "mean": 3.907815201707422,
+        "min": 3.443760990102162,
+        "sd": 0.4612326109688625
+      },
+      "stage_c_p95_ms": {
+        "max": 50188.03444499645,
+        "mean": 49504.84950733274,
+        "min": 49109.612516003835,
+        "sd": 594.0824682498704
+      },
+      "stage_c_peak_cpu_percent_sum": {
+        "max": 130.18,
+        "mean": 114.74666666666667,
+        "min": 106.89,
+        "sd": 13.366391934001244
+      },
+      "stage_c_peak_memory_mib_sum": {
+        "max": 929.415,
+        "mean": 916.6116666666667,
+        "min": 895.6830000000001,
+        "sd": 18.275057792886244
+      },
+      "stage_c_speedup_vs_c1": 2.17641135541673,
+      "stage_c_throughput": {
+        "max": 0.34760854388488416,
+        "mean": 0.34569563896640404,
+        "min": 0.34201570167576456,
+        "sd": 0.003187753683586861
+      }
+    }
+  ],
+  "integrity": {
+    "certificate_count": 1728,
+    "mvcc_retries": 0,
+    "rgg_commit_conflicts": 0,
+    "rgg_driver_failures": 0,
+    "rgg_safety_violations": 0,
+    "row_count": 1728
+  },
+  "runs": [
+    {
+      "composed_workflow_p95_ms": 15119.283936001544,
+      "concurrency": 1,
+      "evidence_bundle_mean_bytes": 5950.354166666667,
+      "judge_count": 3,
+      "repeat": 1,
+      "rgg_client_p95_ms": 100.981898,
+      "rgg_commit_conflicts": 0,
+      "rgg_driver_failures": 0,
+      "rgg_safety_violations": 0,
+      "rgg_seconds": 25.771483040996827,
+      "run_id": "mj5-j3-c1-r1",
+      "sample_count": 96,
+      "sequential_stage_throughput": 0.06613560312454406,
+      "settlement_mvcc_retries": 0,
+      "settlement_queue_p95_ms": 0.0039380029193125665,
+      "signed_log_throughput": 10526.043407180841,
+      "stage_a_p95_ms": 8709.451919999992,
+      "stage_a_resources": {
+        "peak_cpu_percent_sum": 116.60000000000001,
+        "peak_memory_mib_sum": 563.6489999999999
+      },
+      "stage_a_seconds": 821.980721947999,
+      "stage_a_throughput": 0.11679106022400518,
+      "stage_c_p95_ms": 6470.140646997606,
+      "stage_c_resources": {
+        "peak_cpu_percent_sum": 111.77999999999999,
+        "peak_memory_mib_sum": 542.986
+      },
+      "stage_c_seconds": 603.8108785020013,
+      "stage_c_throughput": 0.15899017957107212
+    },
+    {
+      "composed_workflow_p95_ms": 15066.095755005332,
+      "concurrency": 1,
+      "evidence_bundle_mean_bytes": 5950.354166666667,
+      "judge_count": 3,
+      "repeat": 2,
+      "rgg_client_p95_ms": 100.738488,
+      "rgg_commit_conflicts": 0,
+      "rgg_driver_failures": 0,
+      "rgg_safety_violations": 0,
+      "rgg_seconds": 25.658524464997754,
+      "run_id": "mj5-j3-c1-r2",
+      "sample_count": 96,
+      "sequential_stage_throughput": 0.06630110997490442,
+      "settlement_mvcc_retries": 0,
+      "settlement_queue_p95_ms": 0.004087996785528958,
+      "signed_log_throughput": 10359.124965560828,
+      "stage_a_p95_ms": 8647.898035000253,
+      "stage_a_resources": {
+        "peak_cpu_percent_sum": 28.560000000000002,
+        "peak_memory_mib_sum": 571.254
+      },
+      "stage_a_seconds": 818.8222416470016,
+      "stage_a_throughput": 0.117241563696295,
+      "stage_c_p95_ms": 6416.5468940045685,
+      "stage_c_resources": {
+        "peak_cpu_percent_sum": 111.17000000000002,
+        "peak_memory_mib_sum": 602.328
+      },
+      "stage_c_seconds": 603.4587938190016,
+      "stage_c_throughput": 0.15908294150866872
+    },
+    {
+      "composed_workflow_p95_ms": 15111.406536995722,
+      "concurrency": 1,
+      "evidence_bundle_mean_bytes": 5950.354166666667,
+      "judge_count": 3,
+      "repeat": 3,
+      "rgg_client_p95_ms": 99.897297,
+      "rgg_commit_conflicts": 0,
+      "rgg_driver_failures": 0,
+      "rgg_safety_violations": 0,
+      "rgg_seconds": 25.747034078005527,
+      "run_id": "mj5-j3-c1-r3",
+      "sample_count": 96,
+      "sequential_stage_throughput": 0.06613142458749376,
+      "settlement_mvcc_retries": 0,
+      "settlement_queue_p95_ms": 0.003936998837161809,
+      "signed_log_throughput": 10325.932687900704,
+      "stage_a_p95_ms": 8728.686486996594,
+      "stage_a_resources": {
+        "peak_cpu_percent_sum": 32.779999999999994,
+        "peak_memory_mib_sum": 603.488
+      },
+      "stage_a_seconds": 822.862485267,
+      "stage_a_throughput": 0.11666590921185355,
+      "stage_c_p95_ms": 6399.740262000705,
+      "stage_c_resources": {
+        "peak_cpu_percent_sum": 21.970000000000002,
+        "peak_memory_mib_sum": 597.49
+      },
+      "stage_c_seconds": 603.0452816639954,
+      "stage_c_throughput": 0.1591920257382749
+    },
+    {
+      "composed_workflow_p95_ms": 32607.75293599851,
+      "concurrency": 8,
+      "evidence_bundle_mean_bytes": 5950.354166666667,
+      "judge_count": 3,
+      "repeat": 1,
+      "rgg_client_p95_ms": 101.257928,
+      "rgg_commit_conflicts": 0,
+      "rgg_driver_failures": 0,
+      "rgg_safety_violations": 0,
+      "rgg_seconds": 25.85677408600168,
+      "run_id": "mj5-j3-c8-r1",
+      "sample_count": 96,
+      "sequential_stage_throughput": 0.2416278266881955,
+      "settlement_mvcc_retries": 0,
+      "settlement_queue_p95_ms": 18682.71902199922,
+      "signed_log_throughput": 10704.79954494909,
+      "stage_a_p95_ms": 8663.3704410051,
+      "stage_a_resources": {
+        "peak_cpu_percent_sum": 97.71000000000001,
+        "peak_memory_mib_sum": 745.949
+      },
+      "stage_a_seconds": 95.3998823410002,
+      "stage_a_throughput": 1.0062905492572278,
+      "stage_c_p95_ms": 24500.536220999493,
+      "stage_c_resources": {
+        "peak_cpu_percent_sum": 113.55999999999999,
+        "peak_memory_mib_sum": 689.85
+      },
+      "stage_c_seconds": 276.04857664899464,
+      "stage_c_throughput": 0.34776487951998153
+    },
+    {
+      "composed_workflow_p95_ms": 32579.145872997236,
+      "concurrency": 8,
+      "evidence_bundle_mean_bytes": 5950.354166666667,
+      "judge_count": 3,
+      "repeat": 2,
+      "rgg_client_p95_ms": 89.134955,
+      "rgg_commit_conflicts": 0,
+      "rgg_driver_failures": 0,
+      "rgg_safety_violations": 0,
+      "rgg_seconds": 25.43962972400186,
+      "run_id": "mj5-j3-c8-r2",
+      "sample_count": 96,
+      "sequential_stage_throughput": 0.24014918867297347,
+      "settlement_mvcc_retries": 0,
+      "settlement_queue_p95_ms": 18387.684066001384,
+      "signed_log_throughput": 10736.68295895804,
+      "stage_a_p95_ms": 8525.911122000252,
+      "stage_a_resources": {
+        "peak_cpu_percent_sum": 102.47,
+        "peak_memory_mib_sum": 780.836
+      },
+      "stage_a_seconds": 99.36821897099435,
+      "stage_a_throughput": 0.9661036596421484,
+      "stage_c_p95_ms": 24347.98388100171,
+      "stage_c_resources": {
+        "peak_cpu_percent_sum": 25.480000000000004,
+        "peak_memory_mib_sum": 684.3009999999999
+      },
+      "stage_c_seconds": 274.94365798500075,
+      "stage_c_throughput": 0.3491624455117898
+    },
+    {
+      "composed_workflow_p95_ms": 32522.72506500328,
+      "concurrency": 8,
+      "evidence_bundle_mean_bytes": 5950.354166666667,
+      "judge_count": 3,
+      "repeat": 3,
+      "rgg_client_p95_ms": 101.20589,
+      "rgg_commit_conflicts": 0,
+      "rgg_driver_failures": 0,
+      "rgg_safety_violations": 0,
+      "rgg_seconds": 25.77673447899724,
+      "run_id": "mj5-j3-c8-r3",
+      "sample_count": 96,
+      "sequential_stage_throughput": 0.2403457550171822,
+      "settlement_mvcc_retries": 0,
+      "settlement_queue_p95_ms": 18436.07121900277,
+      "signed_log_throughput": 11402.694099639555,
+      "stage_a_p95_ms": 8509.590518995537,
+      "stage_a_resources": {
+        "peak_cpu_percent_sum": 93.17,
+        "peak_memory_mib_sum": 804.6769999999999
+      },
+      "stage_a_seconds": 97.27381985700049,
+      "stage_a_throughput": 0.9869048027632399,
+      "stage_c_p95_ms": 24326.768263003032,
+      "stage_c_resources": {
+        "peak_cpu_percent_sum": 116.51,
+        "peak_memory_mib_sum": 730.046
+      },
+      "stage_c_seconds": 276.3740162920003,
+      "stage_c_throughput": 0.34735537474902173
+    },
+    {
+      "composed_workflow_p95_ms": 53170.94607100193,
+      "concurrency": 16,
+      "evidence_bundle_mean_bytes": 5950.354166666667,
+      "judge_count": 3,
+      "repeat": 1,
+      "rgg_client_p95_ms": 95.295719,
+      "rgg_commit_conflicts": 0,
+      "rgg_driver_failures": 0,
+      "rgg_safety_violations": 0,
+      "rgg_seconds": 25.704126008000458,
+      "run_id": "mj5-j3-c16-r1",
+      "sample_count": 96,
+      "sequential_stage_throughput": 0.2944283919433953,
+      "settlement_mvcc_retries": 0,
+      "settlement_queue_p95_ms": 43054.274795998936,
+      "signed_log_throughput": 12031.058182265955,
+      "stage_a_p95_ms": 4876.891576001071,
+      "stage_a_resources": {
+        "peak_cpu_percent_sum": 229.47000000000003,
+        "peak_memory_mib_sum": 844.128
+      },
+      "stage_a_seconds": 23.770844539998507,
+      "stage_a_throughput": 4.038560760366069,
+      "stage_c_p95_ms": 48867.04622599791,
+      "stage_c_resources": {
+        "peak_cpu_percent_sum": 129.29,
+        "peak_memory_mib_sum": 739.3570000000001
+      },
+      "stage_c_seconds": 276.58054117199936,
+      "stage_c_throughput": 0.3470960017404106
+    },
+    {
+      "composed_workflow_p95_ms": 53755.83810600575,
+      "concurrency": 16,
+      "evidence_bundle_mean_bytes": 5950.354166666667,
+      "judge_count": 3,
+      "repeat": 2,
+      "rgg_client_p95_ms": 99.672,
+      "rgg_commit_conflicts": 0,
+      "rgg_driver_failures": 0,
+      "rgg_safety_violations": 0,
+      "rgg_seconds": 25.63624586500373,
+      "run_id": "mj5-j3-c16-r2",
+      "sample_count": 96,
+      "sequential_stage_throughput": 0.2940310400655305,
+      "settlement_mvcc_retries": 0,
+      "settlement_queue_p95_ms": 43389.95822699508,
+      "signed_log_throughput": 12042.097674387225,
+      "stage_a_p95_ms": 4198.619108996354,
+      "stage_a_resources": {
+        "peak_cpu_percent_sum": 215.44000000000003,
+        "peak_memory_mib_sum": 892.3050000000001
+      },
+      "stage_a_seconds": 23.619040172001405,
+      "stage_a_throughput": 4.0645174105678,
+      "stage_c_p95_ms": 49379.17838100111,
+      "stage_c_resources": {
+        "peak_cpu_percent_sum": 108.97999999999999,
+        "peak_memory_mib_sum": 782.046
+      },
+      "stage_c_seconds": 277.2408552499983,
+      "stage_c_throughput": 0.34626931125801524
+    },
+    {
+      "composed_workflow_p95_ms": 53056.33626699085,
+      "concurrency": 16,
+      "evidence_bundle_mean_bytes": 5950.354166666667,
+      "judge_count": 3,
+      "repeat": 3,
+      "rgg_client_p95_ms": 95.655806,
+      "rgg_commit_conflicts": 0,
+      "rgg_driver_failures": 0,
+      "rgg_safety_violations": 0,
+      "rgg_seconds": 25.525869359000353,
+      "run_id": "mj5-j3-c16-r3",
+      "sample_count": 96,
+      "sequential_stage_throughput": 0.2950382252152523,
+      "settlement_mvcc_retries": 0,
+      "settlement_queue_p95_ms": 42986.39342000388,
+      "signed_log_throughput": 12148.858446588527,
+      "stage_a_p95_ms": 4276.245645996823,
+      "stage_a_resources": {
+        "peak_cpu_percent_sum": 208.48,
+        "peak_memory_mib_sum": 934.202
+      },
+      "stage_a_seconds": 23.78631527499965,
+      "stage_a_throughput": 4.035934060829495,
+      "stage_c_p95_ms": 48901.615549999406,
+      "stage_c_resources": {
+        "peak_cpu_percent_sum": 49.099999999999994,
+        "peak_memory_mib_sum": 754.5219999999999
+      },
+      "stage_c_seconds": 276.0693822119938,
+      "stage_c_throughput": 0.3477386707312641
+    },
+    {
+      "composed_workflow_p95_ms": 15142.15847799252,
+      "concurrency": 1,
+      "evidence_bundle_mean_bytes": 7604.729166666667,
+      "judge_count": 4,
+      "repeat": 1,
+      "rgg_client_p95_ms": 99.278854,
+      "rgg_commit_conflicts": 0,
+      "rgg_driver_failures": 0,
+      "rgg_safety_violations": 0,
+      "rgg_seconds": 25.764186537999194,
+      "run_id": "mj5-j4-c1-r1",
+      "sample_count": 96,
+      "sequential_stage_throughput": 0.06613786668954423,
+      "settlement_mvcc_retries": 0,
+      "settlement_queue_p95_ms": 0.0038180005503818393,
+      "signed_log_throughput": 12010.381477998573,
+      "stage_a_p95_ms": 8673.535467001784,
+      "stage_a_resources": {
+        "peak_cpu_percent_sum": 38.95,
+        "peak_memory_mib_sum": 941.365
+      },
+      "stage_a_seconds": 821.3061524450022,
+      "stage_a_throughput": 0.1168869850958879,
+      "stage_c_p95_ms": 6443.668435997097,
+      "stage_c_resources": {
+        "peak_cpu_percent_sum": 117.08,
+        "peak_memory_mib_sum": 755.18
+      },
+      "stage_c_seconds": 604.4430648380003,
+      "stage_c_throughput": 0.15882389191731305
+    },
+    {
+      "composed_workflow_p95_ms": 15134.073796998315,
+      "concurrency": 1,
+      "evidence_bundle_mean_bytes": 7604.729166666667,
+      "judge_count": 4,
+      "repeat": 2,
+      "rgg_client_p95_ms": 97.774352,
+      "rgg_commit_conflicts": 0,
+      "rgg_driver_failures": 0,
+      "rgg_safety_violations": 0,
+      "rgg_seconds": 25.684786773002998,
+      "run_id": "mj5-j4-c1-r2",
+      "sample_count": 96,
+      "sequential_stage_throughput": 0.06621680599305187,
+      "settlement_mvcc_retries": 0,
+      "settlement_queue_p95_ms": 0.004970002919435501,
+      "signed_log_throughput": 11880.252992428184,
+      "stage_a_p95_ms": 8683.990267003537,
+      "stage_a_resources": {
+        "peak_cpu_percent_sum": 28.600000000000005,
+        "peak_memory_mib_sum": 821.21
+      },
+      "stage_a_seconds": 820.6756113250012,
+      "stage_a_throughput": 0.11697679165219203,
+      "stage_c_p95_ms": 6429.439009996713,
+      "stage_c_resources": {
+        "peak_cpu_percent_sum": 106.91,
+        "peak_memory_mib_sum": 776.9029999999999
+      },
+      "stage_c_seconds": 603.4226072930032,
+      "stage_c_throughput": 0.15909248152080815
+    },
+    {
+      "composed_workflow_p95_ms": 15123.367018994484,
+      "concurrency": 1,
+      "evidence_bundle_mean_bytes": 7604.729166666667,
+      "judge_count": 4,
+      "repeat": 3,
+      "rgg_client_p95_ms": 99.189548,
+      "rgg_commit_conflicts": 0,
+      "rgg_driver_failures": 0,
+      "rgg_safety_violations": 0,
+      "rgg_seconds": 25.66119693699875,
+      "run_id": "mj5-j4-c1-r3",
+      "sample_count": 96,
+      "sequential_stage_throughput": 0.06613267241972258,
+      "settlement_mvcc_retries": 0,
+      "settlement_queue_p95_ms": 0.023776003217790276,
+      "signed_log_throughput": 12199.174393971854,
+      "stage_a_p95_ms": 8662.70136499952,
+      "stage_a_resources": {
+        "peak_cpu_percent_sum": 111.8,
+        "peak_memory_mib_sum": 824.536
+      },
+      "stage_a_seconds": 820.6545625069994,
+      "stage_a_throughput": 0.11697979196841572,
+      "stage_c_p95_ms": 6442.804522004735,
+      "stage_c_resources": {
+        "peak_cpu_percent_sum": 111.47,
+        "peak_memory_mib_sum": 807.952
+      },
+      "stage_c_seconds": 605.3116508429957,
+      "stage_c_throughput": 0.1585959891343645
+    },
+    {
+      "composed_workflow_p95_ms": 33072.175036007226,
+      "concurrency": 8,
+      "evidence_bundle_mean_bytes": 7604.729166666667,
+      "judge_count": 4,
+      "repeat": 1,
+      "rgg_client_p95_ms": 99.929278,
+      "rgg_commit_conflicts": 0,
+      "rgg_driver_failures": 0,
+      "rgg_safety_violations": 0,
+      "rgg_seconds": 25.665040489999228,
+      "run_id": "mj5-j4-c8-r1",
+      "sample_count": 96,
+      "sequential_stage_throughput": 0.24037440213593242,
+      "settlement_mvcc_retries": 0,
+      "settlement_queue_p95_ms": 18589.867888003937,
+      "signed_log_throughput": 11986.462796435198,
+      "stage_a_p95_ms": 8656.707189998997,
+      "stage_a_resources": {
+        "peak_cpu_percent_sum": 90.41,
+        "peak_memory_mib_sum": 927.2040000000001
+      },
+      "stage_a_seconds": 97.19404975399812,
+      "stage_a_throughput": 0.9877147854521928,
+      "stage_c_p95_ms": 24464.62779799913,
+      "stage_c_resources": {
+        "peak_cpu_percent_sum": 130.39,
+        "peak_memory_mib_sum": 853.378
+      },
+      "stage_c_seconds": 276.5178781309951,
+      "stage_c_throughput": 0.34717465882810594
+    },
+    {
+      "composed_workflow_p95_ms": 32129.86550400312,
+      "concurrency": 8,
+      "evidence_bundle_mean_bytes": 7604.729166666667,
+      "judge_count": 4,
+      "repeat": 2,
+      "rgg_client_p95_ms": 100.4188,
+      "rgg_commit_conflicts": 0,
+      "rgg_driver_failures": 0,
+      "rgg_safety_violations": 0,
+      "rgg_seconds": 25.857375354993565,
+      "run_id": "mj5-j4-c8-r2",
+      "sample_count": 96,
+      "sequential_stage_throughput": 0.24038171668303512,
+      "settlement_mvcc_retries": 0,
+      "settlement_queue_p95_ms": 18470.273247003206,
+      "signed_log_throughput": 12153.772566561816,
+      "stage_a_p95_ms": 8529.156696000427,
+      "stage_a_resources": {
+        "peak_cpu_percent_sum": 189.14,
+        "peak_memory_mib_sum": 973.7090000000001
+      },
+      "stage_a_seconds": 95.81030859200109,
+      "stage_a_throughput": 1.0019798642837765,
+      "stage_c_p95_ms": 24291.0101439993,
+      "stage_c_resources": {
+        "peak_cpu_percent_sum": 115.42,
+        "peak_memory_mib_sum": 839.6899999999999
+      },
+      "stage_c_seconds": 277.69713183300337,
+      "stage_c_throughput": 0.34570036559733286
+    },
+    {
+      "composed_workflow_p95_ms": 32460.558960010014,
+      "concurrency": 8,
+      "evidence_bundle_mean_bytes": 7604.729166666667,
+      "judge_count": 4,
+      "repeat": 3,
+      "rgg_client_p95_ms": 98.519447,
+      "rgg_commit_conflicts": 0,
+      "rgg_driver_failures": 0,
+      "rgg_safety_violations": 0,
+      "rgg_seconds": 25.839483149000444,
+      "run_id": "mj5-j4-c8-r3",
+      "sample_count": 96,
+      "sequential_stage_throughput": 0.24029991627273597,
+      "settlement_mvcc_retries": 0,
+      "settlement_queue_p95_ms": 18761.114165004983,
+      "signed_log_throughput": 11982.71343517547,
+      "stage_a_p95_ms": 8496.845884001232,
+      "stage_a_resources": {
+        "peak_cpu_percent_sum": 93.73,
+        "peak_memory_mib_sum": 978.07
+      },
+      "stage_a_seconds": 95.77379694599949,
+      "stage_a_throughput": 1.0023618469896107,
+      "stage_c_p95_ms": 24543.960944996797,
+      "stage_c_resources": {
+        "peak_cpu_percent_sum": 125.48,
+        "peak_memory_mib_sum": 869.1089999999999
+      },
+      "stage_c_seconds": 277.8874833220034,
+      "stage_c_throughput": 0.34546356263466377
+    },
+    {
+      "composed_workflow_p95_ms": 53297.08680400716,
+      "concurrency": 16,
+      "evidence_bundle_mean_bytes": 7604.729166666667,
+      "judge_count": 4,
+      "repeat": 1,
+      "rgg_client_p95_ms": 87.860583,
+      "rgg_commit_conflicts": 0,
+      "rgg_driver_failures": 0,
+      "rgg_safety_violations": 0,
+      "rgg_seconds": 25.75233663900144,
+      "run_id": "mj5-j4-c16-r1",
+      "sample_count": 96,
+      "sequential_stage_throughput": 0.29098182966422576,
+      "settlement_mvcc_retries": 0,
+      "settlement_queue_p95_ms": 43257.36276800308,
+      "signed_log_throughput": 11994.128870839279,
+      "stage_a_p95_ms": 4124.961863002682,
+      "stage_a_resources": {
+        "peak_cpu_percent_sum": 271.0,
+        "peak_memory_mib_sum": 1029.602
+      },
+      "stage_a_seconds": 27.87649905899889,
+      "stage_a_throughput": 3.443760990102162,
+      "stage_c_p95_ms": 49109.612516003835,
+      "stage_c_resources": {
+        "peak_cpu_percent_sum": 107.16999999999999,
+        "peak_memory_mib_sum": 895.6830000000001
+      },
+      "stage_c_seconds": 276.28867190299934,
+      "stage_c_throughput": 0.3474626713385633
+    },
+    {
+      "composed_workflow_p95_ms": 54472.76905499861,
+      "concurrency": 16,
+      "evidence_bundle_mean_bytes": 7604.729166666667,
+      "judge_count": 4,
+      "repeat": 2,
+      "rgg_client_p95_ms": 98.602465,
+      "rgg_commit_conflicts": 0,
+      "rgg_driver_failures": 0,
+      "rgg_safety_violations": 0,
+      "rgg_seconds": 25.871179962996393,
+      "run_id": "mj5-j4-c16-r2",
+      "sample_count": 96,
+      "sequential_stage_throughput": 0.2899509794967314,
+      "settlement_mvcc_retries": 0,
+      "settlement_queue_p95_ms": 44217.26439300255,
+      "signed_log_throughput": 12095.699666172395,
+      "stage_a_p95_ms": 4018.131433003873,
+      "stage_a_resources": {
+        "peak_cpu_percent_sum": 280.92,
+        "peak_memory_mib_sum": 1090.854
+      },
+      "stage_a_seconds": 24.530401487005292,
+      "stage_a_throughput": 3.9135111608692967,
+      "stage_c_p95_ms": 50188.03444499645,
+      "stage_c_resources": {
+        "peak_cpu_percent_sum": 130.18,
+        "peak_memory_mib_sum": 924.7370000000002
+      },
+      "stage_c_seconds": 280.68886758599547,
+      "stage_c_throughput": 0.34201570167576456
+    },
+    {
+      "composed_workflow_p95_ms": 52979.09407599995,
+      "concurrency": 16,
+      "evidence_bundle_mean_bytes": 7604.729166666667,
+      "judge_count": 4,
+      "repeat": 3,
+      "rgg_client_p95_ms": 98.617371,
+      "rgg_commit_conflicts": 0,
+      "rgg_driver_failures": 0,
+      "rgg_safety_violations": 0,
+      "rgg_seconds": 25.69861383800162,
+      "run_id": "mj5-j4-c16-r3",
+      "sample_count": 96,
+      "sequential_stage_throughput": 0.2964257002367594,
+      "settlement_mvcc_retries": 0,
+      "settlement_queue_p95_ms": 43327.35966800101,
+      "signed_log_throughput": 11940.42473901552,
+      "stage_a_p95_ms": 4189.2083209968405,
+      "stage_a_resources": {
+        "peak_cpu_percent_sum": 201.4,
+        "peak_memory_mib_sum": 1100.3310000000001
+      },
+      "stage_a_seconds": 21.9872162679967,
+      "stage_a_throughput": 4.366173454150808,
+      "stage_c_p95_ms": 49216.90156099794,
+      "stage_c_resources": {
+        "peak_cpu_percent_sum": 106.89,
+        "peak_memory_mib_sum": 929.415
+      },
+      "stage_c_seconds": 276.17272845799744,
+      "stage_c_throughput": 0.34760854388488416
+    }
+  ],
+  "runtime_hours": 3.6496650978591707,
+  "schema": "mj5-formal-analysis-v1",
+  "session_id": "mj5-formal-20260727-v41-final3"
+}

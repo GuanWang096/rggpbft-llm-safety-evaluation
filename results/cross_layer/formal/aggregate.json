@@ -1,0 +1,2926 @@
+{
+  "all_entries_complete": true,
+  "entries": [
+    {
+      "concurrency": 1,
+      "decision_joined_component_total": {
+        "composition_method": "exact decision_id join of Stage A, required-commit RGG, and Stage C",
+        "count": 96,
+        "mean_ms": 14929.355060010705,
+        "p50_ms": 14898.316983001629,
+        "p95_ms": 15119.283936001544,
+        "p99_ms": 15232.958693998326
+      },
+      "evidence_bundle_bytes": {
+        "count": 96,
+        "mean_ms": 5950.354166666667,
+        "p50_ms": 6040.0,
+        "p95_ms": 7120.0,
+        "p99_ms": 7283.0
+      },
+      "execution_batch_count": 2,
+      "fabric_stage_a": {
+        "freeze": {
+          "count": 96,
+          "mean_ms": 2485.380780739623,
+          "p50_ms": 2477.6637540016964,
+          "p95_ms": 2536.8814169996767,
+          "p99_ms": 2550.7165960007114
+        },
+        "ipfs_add": {
+          "count": 96,
+          "mean_ms": 33.97001572932368,
+          "p50_ms": 23.382742001558654,
+          "p95_ms": 90.27441199941677,
+          "p99_ms": 109.92114600230707
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 821.980721947999,
+          "peak_client_rss_kib": 40052,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 0.11679106022400518
+        },
+        "vote": {
+          "count": 192,
+          "mean_ms": 2470.544848411388,
+          "p50_ms": 2465.0658020000265,
+          "p95_ms": 2538.972680998995,
+          "p99_ms": 2558.0285629985156
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 8558.815274104367,
+          "p50_ms": 8550.287418998778,
+          "p95_ms": 8709.451919999992,
+          "p99_ms": 8787.455427001987
+        }
+      },
+      "fabric_stage_c": {
+        "certify": {
+          "count": 96,
+          "mean_ms": 2449.5691741669057,
+          "p50_ms": 2444.8119049993693,
+          "p95_ms": 2510.470000001078,
+          "p99_ms": 2555.1638190008816
+        },
+        "settle": {
+          "count": 96,
+          "mean_ms": 2446.49750286438,
+          "p50_ms": 2438.2670749982935,
+          "p95_ms": 2502.7247369944234,
+          "p99_ms": 2524.6317780038225
+        },
+        "settlement_mvcc_retries": {
+          "max_per_record": 0,
+          "total": 0
+        },
+        "settlement_queue_wait": {
+          "count": 96,
+          "mean_ms": 0.004144968973681292,
+          "p50_ms": 0.0033570031519047916,
+          "p95_ms": 0.0039380029193125665,
+          "p99_ms": 0.022093001462053508
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 603.8108785020013,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 0.15899017957107212
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 6289.527310364671,
+          "p50_ms": 6264.231761997507,
+          "p95_ms": 6470.140646997606,
+          "p99_ms": 6525.5849870009115
+        }
+      },
+      "judge_count": 3,
+      "repeat": 1,
+      "rgg": {
+        "client_latency_ms": {
+          "mean": 81.01247554166666,
+          "p50": 78.36822,
+          "p95": 100.981898,
+          "p99": 112.845651
+        },
+        "conflicting_commit_count": 0,
+        "conflicting_commits": [],
+        "driver_failure_count": 0,
+        "driver_success_count": 96,
+        "driver_success_rate": 1.0,
+        "duplicate_commit_events": 0,
+        "equivocation_observed_events": 0,
+        "equivocation_sent_events": 0,
+        "fault_injected_events": 0,
+        "final_protocol_bytes_sent": 11608486,
+        "final_protocol_messages_sent": 18144,
+        "invalid_new_view_events": 0,
+        "invalid_signature_events": 0,
+        "invalid_view_change_events": 0,
+        "max_accepted_view": 0,
+        "new_view_accepted_events": 0,
+        "new_view_sent_events": 0,
+        "node_commit_completeness": 1.0,
+        "node_commit_count": 1536,
+        "node_count": 16,
+        "node_error_events": 0,
+        "node_latency_ms": {
+          "mean": 62.7304956139323,
+          "p50": 63.4401,
+          "p95": 68.799918,
+          "p99": 78.181168
+        },
+        "recovered_sequence_count": 0,
+        "recovery_latency_ms": {
+          "mean": null,
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "reported_protocol_bytes_sent": 4663619,
+        "reported_protocol_messages_sent": 11834,
+        "round_count": 96,
+        "safety_violation_events": 0,
+        "stale_new_view_events": 0,
+        "view_change_sent_events": 0
+      },
+      "run_id": "mj5-j3-c1-r1",
+      "sample_count": 96,
+      "signed_log_baseline": {
+        "elapsed_seconds": 0.009120235998125281,
+        "final_hash": "2acc19b3f0ffc35b0c56ac992a6af4457081c65656ec7dea0ebaabb70c2ccdf0",
+        "latency": {
+          "count": 96,
+          "mean_ms": 0.09426197963572729,
+          "p50_ms": 0.08916300430428237,
+          "p95_ms": 0.12195700401207432,
+          "p99_ms": 0.17001100059133023
+        },
+        "record_count": 96,
+        "throughput_per_second": 10526.043407180841,
+        "trust_model": "single administrator"
+      }
+    },
+    {
+      "concurrency": 1,
+      "decision_joined_component_total": {
+        "composition_method": "exact decision_id join of Stage A, required-commit RGG, and Stage C",
+        "count": 96,
+        "mean_ms": 14880.81947731213,
+        "p50_ms": 14888.30463399745,
+        "p95_ms": 15066.095755005332,
+        "p99_ms": 15110.914825002548
+      },
+      "evidence_bundle_bytes": {
+        "count": 96,
+        "mean_ms": 5950.354166666667,
+        "p50_ms": 6040.0,
+        "p95_ms": 7120.0,
+        "p99_ms": 7283.0
+      },
+      "execution_batch_count": 2,
+      "fabric_stage_a": {
+        "freeze": {
+          "count": 96,
+          "mean_ms": 2476.117069448113,
+          "p50_ms": 2466.053230000398,
+          "p95_ms": 2518.77457700175,
+          "p99_ms": 2540.117894001014
+        },
+        "ipfs_add": {
+          "count": 96,
+          "mean_ms": 28.636591323030796,
+          "p50_ms": 23.57500799917034,
+          "p95_ms": 60.47976199988625,
+          "p99_ms": 117.89661399961915
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 818.8222416470016,
+          "peak_client_rss_kib": 40164,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 0.117241563696295
+        },
+        "vote": {
+          "count": 192,
+          "mean_ms": 2462.3999095677123,
+          "p50_ms": 2456.457809999847,
+          "p95_ms": 2513.4683390024293,
+          "p99_ms": 2534.6119989990257
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 8517.941298812275,
+          "p50_ms": 8501.981601999432,
+          "p95_ms": 8647.898035000253,
+          "p99_ms": 8684.787168000184
+        }
+      },
+      "fabric_stage_c": {
+        "certify": {
+          "count": 96,
+          "mean_ms": 2448.2225383853042,
+          "p50_ms": 2441.6673599989736,
+          "p95_ms": 2498.9006079995306,
+          "p99_ms": 2532.1107100025984
+        },
+        "settle": {
+          "count": 96,
+          "mean_ms": 2450.8743316455366,
+          "p50_ms": 2440.460060002806,
+          "p95_ms": 2503.6358640063554,
+          "p99_ms": 2528.191899000376
+        },
+        "settlement_mvcc_retries": {
+          "max_per_record": 0,
+          "total": 0
+        },
+        "settlement_queue_wait": {
+          "count": 96,
+          "mean_ms": 0.003387103712763443,
+          "p50_ms": 0.0033559990697540343,
+          "p95_ms": 0.004087996785528958,
+          "p99_ms": 0.004778994480147958
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 603.4587938190016,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 0.15908294150866872
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 6282.311660093607,
+          "p50_ms": 6267.832573998021,
+          "p95_ms": 6416.5468940045685,
+          "p99_ms": 6470.755486996495
+        }
+      },
+      "judge_count": 3,
+      "repeat": 2,
+      "rgg": {
+        "client_latency_ms": {
+          "mean": 80.56651840625,
+          "p50": 77.958307,
+          "p95": 100.738488,
+          "p99": 102.964419
+        },
+        "conflicting_commit_count": 0,
+        "conflicting_commits": [],
+        "driver_failure_count": 0,
+        "driver_success_count": 96,
+        "driver_success_rate": 1.0,
+        "duplicate_commit_events": 0,
+        "equivocation_observed_events": 0,
+        "equivocation_sent_events": 0,
+        "fault_injected_events": 0,
+        "final_protocol_bytes_sent": 11608513,
+        "final_protocol_messages_sent": 18144,
+        "invalid_new_view_events": 0,
+        "invalid_signature_events": 0,
+        "invalid_view_change_events": 0,
+        "max_accepted_view": 0,
+        "new_view_accepted_events": 0,
+        "new_view_sent_events": 0,
+        "node_commit_completeness": 1.0,
+        "node_commit_count": 1536,
+        "node_count": 16,
+        "node_error_events": 0,
+        "node_latency_ms": {
+          "mean": 62.69423318424479,
+          "p50": 63.469715,
+          "p95": 68.50951,
+          "p99": 76.240643
+        },
+        "recovered_sequence_count": 0,
+        "recovery_latency_ms": {
+          "mean": null,
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "reported_protocol_bytes_sent": 4661606,
+        "reported_protocol_messages_sent": 11827,
+        "round_count": 96,
+        "safety_violation_events": 0,
+        "stale_new_view_events": 0,
+        "view_change_sent_events": 0
+      },
+      "run_id": "mj5-j3-c1-r2",
+      "sample_count": 96,
+      "signed_log_baseline": {
+        "elapsed_seconds": 0.009267191999242641,
+        "final_hash": "2acc19b3f0ffc35b0c56ac992a6af4457081c65656ec7dea0ebaabb70c2ccdf0",
+        "latency": {
+          "count": 96,
+          "mean_ms": 0.09588986457250333,
+          "p50_ms": 0.08955399971455336,
+          "p95_ms": 0.1225079977302812,
+          "p99_ms": 0.15890899521764368
+        },
+        "record_count": 96,
+        "throughput_per_second": 10359.124965560828,
+        "trust_model": "single administrator"
+      }
+    },
+    {
+      "concurrency": 1,
+      "decision_joined_component_total": {
+        "composition_method": "exact decision_id join of Stage A, required-commit RGG, and Stage C",
+        "count": 96,
+        "mean_ms": 14929.797883260022,
+        "p50_ms": 14933.42568600166,
+        "p95_ms": 15111.406536995722,
+        "p99_ms": 15172.425801003152
+      },
+      "evidence_bundle_bytes": {
+        "count": 96,
+        "mean_ms": 5950.354166666667,
+        "p50_ms": 6040.0,
+        "p95_ms": 7120.0,
+        "p99_ms": 7283.0
+      },
+      "execution_batch_count": 2,
+      "fabric_stage_a": {
+        "freeze": {
+          "count": 96,
+          "mean_ms": 2487.991424270907,
+          "p50_ms": 2480.732263997197,
+          "p95_ms": 2552.809339002124,
+          "p99_ms": 2574.0691000028164
+        },
+        "ipfs_add": {
+          "count": 96,
+          "mean_ms": 35.035558145561176,
+          "p50_ms": 24.26923800157965,
+          "p95_ms": 104.79711600055452,
+          "p99_ms": 126.54495000606403
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 822.862485267,
+          "peak_client_rss_kib": 40344,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 0.11666590921185355
+        },
+        "vote": {
+          "count": 192,
+          "mean_ms": 2475.8180056410124,
+          "p50_ms": 2465.3646759979893,
+          "p95_ms": 2544.734293998772,
+          "p99_ms": 2607.8512800013414
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 8568.048284249699,
+          "p50_ms": 8561.614757003554,
+          "p95_ms": 8728.686486996594,
+          "p99_ms": 8776.095166002051
+        }
+      },
+      "fabric_stage_c": {
+        "certify": {
+          "count": 96,
+          "mean_ms": 2444.850566812496,
+          "p50_ms": 2434.674577001715,
+          "p95_ms": 2491.82802499854,
+          "p99_ms": 2539.5057380010257
+        },
+        "settle": {
+          "count": 96,
+          "mean_ms": 2443.7459276141453,
+          "p50_ms": 2439.347799998359,
+          "p95_ms": 2484.988449999946,
+          "p99_ms": 2518.5137349981233
+        },
+        "settlement_mvcc_retries": {
+          "max_per_record": 0,
+          "total": 0
+        },
+        "settlement_queue_wait": {
+          "count": 96,
+          "mean_ms": 0.003820395553096508,
+          "p50_ms": 0.003396999090909958,
+          "p95_ms": 0.003936998837161809,
+          "p99_ms": 0.02326500543858856
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 603.0452816639954,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 0.1591920257382749
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 6281.287591593657,
+          "p50_ms": 6275.183814999764,
+          "p95_ms": 6399.740262000705,
+          "p99_ms": 6411.2327710026875
+        }
+      },
+      "judge_count": 3,
+      "repeat": 3,
+      "rgg": {
+        "client_latency_ms": {
+          "mean": 80.46200741666667,
+          "p50": 78.21309,
+          "p95": 99.897297,
+          "p99": 103.067937
+        },
+        "conflicting_commit_count": 0,
+        "conflicting_commits": [],
+        "driver_failure_count": 0,
+        "driver_success_count": 96,
+        "driver_success_rate": 1.0,
+        "duplicate_commit_events": 0,
+        "equivocation_observed_events": 0,
+        "equivocation_sent_events": 0,
+        "fault_injected_events": 0,
+        "final_protocol_bytes_sent": 11608475,
+        "final_protocol_messages_sent": 18144,
+        "invalid_new_view_events": 0,
+        "invalid_signature_events": 0,
+        "invalid_view_change_events": 0,
+        "max_accepted_view": 0,
+        "new_view_accepted_events": 0,
+        "new_view_sent_events": 0,
+        "node_commit_completeness": 1.0,
+        "node_commit_count": 1536,
+        "node_count": 16,
+        "node_error_events": 0,
+        "node_latency_ms": {
+          "mean": 62.92482163606771,
+          "p50": 63.663378,
+          "p95": 68.930593,
+          "p99": 77.969773
+        },
+        "recovered_sequence_count": 0,
+        "recovery_latency_ms": {
+          "mean": null,
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "reported_protocol_bytes_sent": 4659234,
+        "reported_protocol_messages_sent": 11819,
+        "round_count": 96,
+        "safety_violation_events": 0,
+        "stale_new_view_events": 0,
+        "view_change_sent_events": 0
+      },
+      "run_id": "mj5-j3-c1-r3",
+      "sample_count": 96,
+      "signed_log_baseline": {
+        "elapsed_seconds": 0.009296980999351945,
+        "final_hash": "2acc19b3f0ffc35b0c56ac992a6af4457081c65656ec7dea0ebaabb70c2ccdf0",
+        "latency": {
+          "count": 96,
+          "mean_ms": 0.0961430835104693,
+          "p50_ms": 0.08943399734562263,
+          "p95_ms": 0.12169699766673148,
+          "p99_ms": 0.16539199714316055
+        },
+        "record_count": 96,
+        "throughput_per_second": 10325.932687900704,
+        "trust_model": "single administrator"
+      }
+    },
+    {
+      "concurrency": 8,
+      "decision_joined_component_total": {
+        "composition_method": "exact decision_id join of Stage A, required-commit RGG, and Stage C",
+        "count": 96,
+        "mean_ms": 29107.023960146456,
+        "p50_ms": 29746.60334699914,
+        "p95_ms": 32607.75293599851,
+        "p99_ms": 33416.68046099796
+      },
+      "evidence_bundle_bytes": {
+        "count": 96,
+        "mean_ms": 5950.354166666667,
+        "p50_ms": 6040.0,
+        "p95_ms": 7120.0,
+        "p99_ms": 7283.0
+      },
+      "execution_batch_count": 2,
+      "fabric_stage_a": {
+        "freeze": {
+          "count": 96,
+          "mean_ms": 2452.964666156504,
+          "p50_ms": 2467.8961490062647,
+          "p95_ms": 2563.7091949975,
+          "p99_ms": 2585.498781001661
+        },
+        "ipfs_add": {
+          "count": 96,
+          "mean_ms": 108.98090502140197,
+          "p50_ms": 111.17561599530745,
+          "p95_ms": 181.69409099937184,
+          "p99_ms": 207.3890969986678
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 95.3998823410002,
+          "peak_client_rss_kib": 40344,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 1.0062905492572278
+        },
+        "vote": {
+          "count": 192,
+          "mean_ms": 2364.717284103714,
+          "p50_ms": 2315.262074000202,
+          "p95_ms": 2543.262651997793,
+          "p99_ms": 2559.214338994934
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 7937.990248354557,
+          "p50_ms": 7843.533789004141,
+          "p95_ms": 8663.3704410051,
+          "p99_ms": 8665.352351003094
+        }
+      },
+      "fabric_stage_c": {
+        "certify": {
+          "count": 96,
+          "mean_ms": 2232.1543245936177,
+          "p50_ms": 2197.641807004402,
+          "p95_ms": 2482.890557999781,
+          "p99_ms": 2489.858549000928
+        },
+        "settle": {
+          "count": 96,
+          "mean_ms": 2249.163549854226,
+          "p50_ms": 2202.5271949969465,
+          "p95_ms": 2479.9026530017727,
+          "p99_ms": 2497.3312669972074
+        },
+        "settlement_mvcc_retries": {
+          "max_per_record": 0,
+          "total": 0
+        },
+        "settlement_queue_wait": {
+          "count": 96,
+          "mean_ms": 15519.18834991655,
+          "p50_ms": 16391.229459994065,
+          "p95_ms": 18682.71902199922,
+          "p99_ms": 19465.173003998643
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 276.04857664899464,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 0.34776487951998153
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 21088.2703957919,
+          "p50_ms": 21868.24310800148,
+          "p95_ms": 24500.536220999493,
+          "p99_ms": 25277.355090998753
+        }
+      },
+      "judge_count": 3,
+      "repeat": 1,
+      "rgg": {
+        "client_latency_ms": {
+          "mean": 80.763316,
+          "p50": 78.0447,
+          "p95": 101.257928,
+          "p99": 104.355948
+        },
+        "conflicting_commit_count": 0,
+        "conflicting_commits": [],
+        "driver_failure_count": 0,
+        "driver_success_count": 96,
+        "driver_success_rate": 1.0,
+        "duplicate_commit_events": 0,
+        "equivocation_observed_events": 0,
+        "equivocation_sent_events": 0,
+        "fault_injected_events": 0,
+        "final_protocol_bytes_sent": 11608519,
+        "final_protocol_messages_sent": 18144,
+        "invalid_new_view_events": 0,
+        "invalid_signature_events": 0,
+        "invalid_view_change_events": 0,
+        "max_accepted_view": 0,
+        "new_view_accepted_events": 0,
+        "new_view_sent_events": 0,
+        "node_commit_completeness": 1.0,
+        "node_commit_count": 1536,
+        "node_count": 16,
+        "node_error_events": 0,
+        "node_latency_ms": {
+          "mean": 62.698606429687494,
+          "p50": 63.464058,
+          "p95": 68.505087,
+          "p99": 78.308747
+        },
+        "recovered_sequence_count": 0,
+        "recovery_latency_ms": {
+          "mean": null,
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "reported_protocol_bytes_sent": 4657821,
+        "reported_protocol_messages_sent": 11814,
+        "round_count": 96,
+        "safety_violation_events": 0,
+        "stale_new_view_events": 0,
+        "view_change_sent_events": 0
+      },
+      "run_id": "mj5-j3-c8-r1",
+      "sample_count": 96,
+      "signed_log_baseline": {
+        "elapsed_seconds": 0.00896793999709189,
+        "final_hash": "2acc19b3f0ffc35b0c56ac992a6af4457081c65656ec7dea0ebaabb70c2ccdf0",
+        "latency": {
+          "count": 96,
+          "mean_ms": 0.09288923964353064,
+          "p50_ms": 0.08904300193535164,
+          "p95_ms": 0.1090320001821965,
+          "p99_ms": 0.1254640010301955
+        },
+        "record_count": 96,
+        "throughput_per_second": 10704.79954494909,
+        "trust_model": "single administrator"
+      }
+    },
+    {
+      "concurrency": 8,
+      "decision_joined_component_total": {
+        "composition_method": "exact decision_id join of Stage A, required-commit RGG, and Stage C",
+        "count": 96,
+        "mean_ms": 29359.095436385123,
+        "p50_ms": 30276.965072001338,
+        "p95_ms": 32579.145872997236,
+        "p99_ms": 33173.48886899814
+      },
+      "evidence_bundle_bytes": {
+        "count": 96,
+        "mean_ms": 5950.354166666667,
+        "p50_ms": 6040.0,
+        "p95_ms": 7120.0,
+        "p99_ms": 7283.0
+      },
+      "execution_batch_count": 2,
+      "fabric_stage_a": {
+        "freeze": {
+          "count": 96,
+          "mean_ms": 2462.4147860417147,
+          "p50_ms": 2470.7809730025474,
+          "p95_ms": 2537.648297002306,
+          "p99_ms": 2550.782962003723
+        },
+        "ipfs_add": {
+          "count": 96,
+          "mean_ms": 85.28725806248379,
+          "p50_ms": 86.40300599654438,
+          "p95_ms": 140.97730899811722,
+          "p99_ms": 153.21848099847557
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 99.36821897099435,
+          "peak_client_rss_kib": 40344,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 0.9661036596421484
+        },
+        "vote": {
+          "count": 192,
+          "mean_ms": 2415.898399609129,
+          "p50_ms": 2486.705802999495,
+          "p95_ms": 2532.1702509972965,
+          "p99_ms": 2549.5743429928552
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 8202.442138250035,
+          "p50_ms": 8166.723080001248,
+          "p95_ms": 8525.911122000252,
+          "p99_ms": 8528.14686599595
+        }
+      },
+      "fabric_stage_c": {
+        "certify": {
+          "count": 96,
+          "mean_ms": 2238.2151909481913,
+          "p50_ms": 2200.144652000745,
+          "p95_ms": 2481.7394409983535,
+          "p99_ms": 2484.866628998134
+        },
+        "settle": {
+          "count": 96,
+          "mean_ms": 2255.3836013747364,
+          "p50_ms": 2202.864236998721,
+          "p95_ms": 2466.1891020004987,
+          "p99_ms": 2534.919447993161
+        },
+        "settlement_mvcc_retries": {
+          "max_per_record": 0,
+          "total": 0
+        },
+        "settlement_queue_wait": {
+          "count": 96,
+          "mean_ms": 15484.752880541464,
+          "p50_ms": 16386.220807995414,
+          "p95_ms": 18387.684066001384,
+          "p99_ms": 19242.787668998062
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 274.94365798500075,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 0.3491624455117898
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 21077.630480458007,
+          "p50_ms": 21869.009253001423,
+          "p95_ms": 24347.98388100171,
+          "p99_ms": 25011.406007004553
+        }
+      },
+      "judge_count": 3,
+      "repeat": 2,
+      "rgg": {
+        "client_latency_ms": {
+          "mean": 79.02281767708332,
+          "p50": 77.425599,
+          "p95": 89.134955,
+          "p99": 101.540705
+        },
+        "conflicting_commit_count": 0,
+        "conflicting_commits": [],
+        "driver_failure_count": 0,
+        "driver_success_count": 96,
+        "driver_success_rate": 1.0,
+        "duplicate_commit_events": 0,
+        "equivocation_observed_events": 0,
+        "equivocation_sent_events": 0,
+        "fault_injected_events": 0,
+        "final_protocol_bytes_sent": 11608485,
+        "final_protocol_messages_sent": 18144,
+        "invalid_new_view_events": 0,
+        "invalid_signature_events": 0,
+        "invalid_view_change_events": 0,
+        "max_accepted_view": 0,
+        "new_view_accepted_events": 0,
+        "new_view_sent_events": 0,
+        "node_commit_completeness": 1.0,
+        "node_commit_count": 1536,
+        "node_count": 16,
+        "node_error_events": 0,
+        "node_latency_ms": {
+          "mean": 62.49606224023437,
+          "p50": 63.314272,
+          "p95": 67.921065,
+          "p99": 76.49169
+        },
+        "recovered_sequence_count": 0,
+        "recovery_latency_ms": {
+          "mean": null,
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "reported_protocol_bytes_sent": 4659244,
+        "reported_protocol_messages_sent": 11819,
+        "round_count": 96,
+        "safety_violation_events": 0,
+        "stale_new_view_events": 0,
+        "view_change_sent_events": 0
+      },
+      "run_id": "mj5-j3-c8-r2",
+      "sample_count": 96,
+      "signed_log_baseline": {
+        "elapsed_seconds": 0.008941309002693743,
+        "final_hash": "2acc19b3f0ffc35b0c56ac992a6af4457081c65656ec7dea0ebaabb70c2ccdf0",
+        "latency": {
+          "count": 96,
+          "mean_ms": 0.09264241642389,
+          "p50_ms": 0.08888300362741575,
+          "p95_ms": 0.10875100269913673,
+          "p99_ms": 0.14006299898028374
+        },
+        "record_count": 96,
+        "throughput_per_second": 10736.68295895804,
+        "trust_model": "single administrator"
+      }
+    },
+    {
+      "concurrency": 8,
+      "decision_joined_component_total": {
+        "composition_method": "exact decision_id join of Stage A, required-commit RGG, and Stage C",
+        "count": 96,
+        "mean_ms": 29359.753108802153,
+        "p50_ms": 30204.503421996567,
+        "p95_ms": 32522.72506500328,
+        "p99_ms": 33535.809747993626
+      },
+      "evidence_bundle_bytes": {
+        "count": 96,
+        "mean_ms": 5950.354166666667,
+        "p50_ms": 6040.0,
+        "p95_ms": 7120.0,
+        "p99_ms": 7283.0
+      },
+      "execution_batch_count": 2,
+      "fabric_stage_a": {
+        "freeze": {
+          "count": 96,
+          "mean_ms": 2483.109360489531,
+          "p50_ms": 2484.720478998497,
+          "p95_ms": 2582.061749002605,
+          "p99_ms": 2612.620228996093
+        },
+        "ipfs_add": {
+          "count": 96,
+          "mean_ms": 119.43343306241634,
+          "p50_ms": 121.4894570002798,
+          "p95_ms": 191.2643699979526,
+          "p99_ms": 230.3363730025012
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 97.27381985700049,
+          "peak_client_rss_kib": 40344,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 0.9869048027632399
+        },
+        "vote": {
+          "count": 192,
+          "mean_ms": 2356.4732133542825,
+          "p50_ms": 2288.249076998909,
+          "p95_ms": 2539.7659200025373,
+          "p99_ms": 2544.589029996132
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 8098.5144645311875,
+          "p50_ms": 8117.243366999901,
+          "p95_ms": 8509.590518995537,
+          "p99_ms": 8512.676655998803
+        }
+      },
+      "fabric_stage_c": {
+        "certify": {
+          "count": 96,
+          "mean_ms": 2223.968404145959,
+          "p50_ms": 2200.70822800335,
+          "p95_ms": 2300.3109190030955,
+          "p99_ms": 2368.7894480026443
+        },
+        "settle": {
+          "count": 96,
+          "mean_ms": 2256.446879677545,
+          "p50_ms": 2205.8368419966428,
+          "p95_ms": 2474.6071019981173,
+          "p99_ms": 2499.3780449949554
+        },
+        "settlement_mvcc_retries": {
+          "max_per_record": 0,
+          "total": 0
+        },
+        "settlement_queue_wait": {
+          "count": 96,
+          "mean_ms": 15572.727750593685,
+          "p50_ms": 16517.784525000025,
+          "p95_ms": 18436.07121900277,
+          "p99_ms": 19514.800970995566
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 276.3740162920003,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 0.34735537474902173
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 21180.758416802215,
+          "p50_ms": 21997.823075995257,
+          "p95_ms": 24326.768263003032,
+          "p99_ms": 25272.733388999768
+        }
+      },
+      "judge_count": 3,
+      "repeat": 3,
+      "rgg": {
+        "client_latency_ms": {
+          "mean": 80.48022746875,
+          "p50": 77.595913,
+          "p95": 101.20589,
+          "p99": 112.913203
+        },
+        "conflicting_commit_count": 0,
+        "conflicting_commits": [],
+        "driver_failure_count": 0,
+        "driver_success_count": 96,
+        "driver_success_rate": 1.0,
+        "duplicate_commit_events": 0,
+        "equivocation_observed_events": 0,
+        "equivocation_sent_events": 0,
+        "fault_injected_events": 0,
+        "final_protocol_bytes_sent": 11608473,
+        "final_protocol_messages_sent": 18144,
+        "invalid_new_view_events": 0,
+        "invalid_signature_events": 0,
+        "invalid_view_change_events": 0,
+        "max_accepted_view": 0,
+        "new_view_accepted_events": 0,
+        "new_view_sent_events": 0,
+        "node_commit_completeness": 1.0,
+        "node_commit_count": 1536,
+        "node_count": 16,
+        "node_error_events": 0,
+        "node_latency_ms": {
+          "mean": 62.45167827539063,
+          "p50": 63.166175,
+          "p95": 68.256254,
+          "p99": 74.283737
+        },
+        "recovered_sequence_count": 0,
+        "recovery_latency_ms": {
+          "mean": null,
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "reported_protocol_bytes_sent": 4660691,
+        "reported_protocol_messages_sent": 11824,
+        "round_count": 96,
+        "safety_violation_events": 0,
+        "stale_new_view_events": 0,
+        "view_change_sent_events": 0
+      },
+      "run_id": "mj5-j3-c8-r3",
+      "sample_count": 96,
+      "signed_log_baseline": {
+        "elapsed_seconds": 0.008419063000474125,
+        "final_hash": "2acc19b3f0ffc35b0c56ac992a6af4457081c65656ec7dea0ebaabb70c2ccdf0",
+        "latency": {
+          "count": 96,
+          "mean_ms": 0.08700161447450228,
+          "p50_ms": 0.08271099795820192,
+          "p95_ms": 0.1075489999493584,
+          "p99_ms": 0.11982299474766478
+        },
+        "record_count": 96,
+        "throughput_per_second": 11402.694099639555,
+        "trust_model": "single administrator"
+      }
+    },
+    {
+      "concurrency": 16,
+      "decision_joined_component_total": {
+        "composition_method": "exact decision_id join of Stage A, required-commit RGG, and Stage C",
+        "count": 96,
+        "mean_ms": 41146.54528906235,
+        "p50_ms": 46689.419498998104,
+        "p95_ms": 53170.94607100193,
+        "p99_ms": 54438.4175820057
+      },
+      "evidence_bundle_bytes": {
+        "count": 96,
+        "mean_ms": 5950.354166666667,
+        "p50_ms": 6040.0,
+        "p95_ms": 7120.0,
+        "p99_ms": 7283.0
+      },
+      "execution_batch_count": 2,
+      "fabric_stage_a": {
+        "freeze": {
+          "count": 96,
+          "mean_ms": 798.2114940827311,
+          "p50_ms": 810.4038890014635,
+          "p95_ms": 1155.0673780002398,
+          "p99_ms": 1294.9091129994486
+        },
+        "ipfs_add": {
+          "count": 96,
+          "mean_ms": 121.55817902051542,
+          "p50_ms": 94.22930800064933,
+          "p95_ms": 321.5126099967165,
+          "p99_ms": 342.1438700024737
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 23.770844539998507,
+          "peak_client_rss_kib": 40344,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 4.038560760366069
+        },
+        "vote": {
+          "count": 192,
+          "mean_ms": 656.5560031251607,
+          "p50_ms": 393.8413350042538,
+          "p95_ms": 1026.71066000039,
+          "p99_ms": 2341.2785489999806
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 2841.4919681355664,
+          "p50_ms": 2663.8746679964243,
+          "p95_ms": 4876.891576001071,
+          "p99_ms": 4927.399471998797
+        }
+      },
+      "fabric_stage_c": {
+        "certify": {
+          "count": 96,
+          "mean_ms": 1863.622708458782,
+          "p50_ms": 2195.39721399633,
+          "p95_ms": 2392.551374003233,
+          "p99_ms": 2404.5267430046806
+        },
+        "settle": {
+          "count": 96,
+          "mean_ms": 2289.8965062292973,
+          "p50_ms": 2227.312233997509,
+          "p95_ms": 2483.118010000908,
+          "p99_ms": 2532.088827996631
+        },
+        "settlement_mvcc_retries": {
+          "max_per_record": 0,
+          "total": 0
+        },
+        "settlement_queue_wait": {
+          "count": 96,
+          "mean_ms": 32927.87370905179,
+          "p50_ms": 38530.950843996834,
+          "p95_ms": 43054.274795998936,
+          "p99_ms": 43875.853397003084
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 276.58054117199936,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 0.3470960017404106
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 38226.33650383303,
+          "p50_ms": 44029.44526400097,
+          "p95_ms": 48867.04622599791,
+          "p99_ms": 49848.8019879951
+        }
+      },
+      "judge_count": 3,
+      "repeat": 1,
+      "rgg": {
+        "client_latency_ms": {
+          "mean": 78.71681709375,
+          "p50": 77.29241,
+          "p95": 95.295719,
+          "p99": 101.591847
+        },
+        "conflicting_commit_count": 0,
+        "conflicting_commits": [],
+        "driver_failure_count": 0,
+        "driver_success_count": 96,
+        "driver_success_rate": 1.0,
+        "duplicate_commit_events": 0,
+        "equivocation_observed_events": 0,
+        "equivocation_sent_events": 0,
+        "fault_injected_events": 0,
+        "final_protocol_bytes_sent": 11608543,
+        "final_protocol_messages_sent": 18144,
+        "invalid_new_view_events": 0,
+        "invalid_signature_events": 0,
+        "invalid_view_change_events": 0,
+        "max_accepted_view": 0,
+        "new_view_accepted_events": 0,
+        "new_view_sent_events": 0,
+        "node_commit_completeness": 1.0,
+        "node_commit_count": 1536,
+        "node_count": 16,
+        "node_error_events": 0,
+        "node_latency_ms": {
+          "mean": 62.3228560546875,
+          "p50": 63.126495,
+          "p95": 68.12594,
+          "p99": 75.627298
+        },
+        "recovered_sequence_count": 0,
+        "recovery_latency_ms": {
+          "mean": null,
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "reported_protocol_bytes_sent": 4656380,
+        "reported_protocol_messages_sent": 11809,
+        "round_count": 96,
+        "safety_violation_events": 0,
+        "stale_new_view_events": 0,
+        "view_change_sent_events": 0
+      },
+      "run_id": "mj5-j3-c16-r1",
+      "sample_count": 96,
+      "signed_log_baseline": {
+        "elapsed_seconds": 0.007979347996297292,
+        "final_hash": "2acc19b3f0ffc35b0c56ac992a6af4457081c65656ec7dea0ebaabb70c2ccdf0",
+        "latency": {
+          "count": 96,
+          "mean_ms": 0.08246254151345056,
+          "p50_ms": 0.07881299825385213,
+          "p95_ms": 0.09695799963083118,
+          "p99_ms": 0.10696800018195063
+        },
+        "record_count": 96,
+        "throughput_per_second": 12031.058182265955,
+        "trust_model": "single administrator"
+      }
+    },
+    {
+      "concurrency": 16,
+      "decision_joined_component_total": {
+        "composition_method": "exact decision_id join of Stage A, required-commit RGG, and Stage C",
+        "count": 96,
+        "mean_ms": 41364.02653121897,
+        "p50_ms": 46862.40803400225,
+        "p95_ms": 53755.83810600575,
+        "p99_ms": 55330.64869100128
+      },
+      "evidence_bundle_bytes": {
+        "count": 96,
+        "mean_ms": 5950.354166666667,
+        "p50_ms": 6040.0,
+        "p95_ms": 7120.0,
+        "p99_ms": 7283.0
+      },
+      "execution_batch_count": 2,
+      "fabric_stage_a": {
+        "freeze": {
+          "count": 96,
+          "mean_ms": 872.8471968854592,
+          "p50_ms": 839.6368690009695,
+          "p95_ms": 1278.6423529978492,
+          "p99_ms": 1413.1387140005245
+        },
+        "ipfs_add": {
+          "count": 96,
+          "mean_ms": 105.8015435624687,
+          "p50_ms": 81.86974500131328,
+          "p95_ms": 292.02890900342027,
+          "p99_ms": 310.67838799936
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 23.619040172001405,
+          "peak_client_rss_kib": 40344,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 4.0645174105678
+        },
+        "vote": {
+          "count": 192,
+          "mean_ms": 709.2619542760303,
+          "p50_ms": 442.4630959983915,
+          "p95_ms": 1806.9108519994188,
+          "p99_ms": 2258.956676996604
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 3001.5609682087265,
+          "p50_ms": 2737.3780739944777,
+          "p95_ms": 4198.619108996354,
+          "p99_ms": 6127.299154999491
+        }
+      },
+      "fabric_stage_c": {
+        "certify": {
+          "count": 96,
+          "mean_ms": 1855.0571348438705,
+          "p50_ms": 2194.615640997654,
+          "p95_ms": 2359.4214869954158,
+          "p99_ms": 2363.505373999942
+        },
+        "settle": {
+          "count": 96,
+          "mean_ms": 2278.2096206252995,
+          "p50_ms": 2219.3595799981267,
+          "p95_ms": 2488.972922001267,
+          "p99_ms": 2526.2865149998106
+        },
+        "settlement_mvcc_retries": {
+          "max_per_record": 0,
+          "total": 0
+        },
+        "settlement_queue_wait": {
+          "count": 96,
+          "mean_ms": 32969.36639535397,
+          "p50_ms": 38551.72794200189,
+          "p95_ms": 43389.95822699508,
+          "p99_ms": 44330.65447500121
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 277.2408552499983,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 0.34626931125801524
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 38282.13406359358,
+          "p50_ms": 44053.73340799997,
+          "p95_ms": 49379.17838100111,
+          "p99_ms": 50163.618138001766
+        }
+      },
+      "judge_count": 3,
+      "repeat": 2,
+      "rgg": {
+        "client_latency_ms": {
+          "mean": 80.33149941666666,
+          "p50": 77.491072,
+          "p95": 99.672,
+          "p99": 103.107403
+        },
+        "conflicting_commit_count": 0,
+        "conflicting_commits": [],
+        "driver_failure_count": 0,
+        "driver_success_count": 96,
+        "driver_success_rate": 1.0,
+        "duplicate_commit_events": 0,
+        "equivocation_observed_events": 0,
+        "equivocation_sent_events": 0,
+        "fault_injected_events": 0,
+        "final_protocol_bytes_sent": 11608484,
+        "final_protocol_messages_sent": 18144,
+        "invalid_new_view_events": 0,
+        "invalid_signature_events": 0,
+        "invalid_view_change_events": 0,
+        "max_accepted_view": 0,
+        "new_view_accepted_events": 0,
+        "new_view_sent_events": 0,
+        "node_commit_completeness": 1.0,
+        "node_commit_count": 1536,
+        "node_count": 16,
+        "node_error_events": 0,
+        "node_latency_ms": {
+          "mean": 62.490371438151044,
+          "p50": 63.362242,
+          "p95": 68.128211,
+          "p99": 77.987556
+        },
+        "recovered_sequence_count": 0,
+        "recovery_latency_ms": {
+          "mean": null,
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "reported_protocol_bytes_sent": 4659242,
+        "reported_protocol_messages_sent": 11819,
+        "round_count": 96,
+        "safety_violation_events": 0,
+        "stale_new_view_events": 0,
+        "view_change_sent_events": 0
+      },
+      "run_id": "mj5-j3-c16-r2",
+      "sample_count": 96,
+      "signed_log_baseline": {
+        "elapsed_seconds": 0.007972032995894551,
+        "final_hash": "2acc19b3f0ffc35b0c56ac992a6af4457081c65656ec7dea0ebaabb70c2ccdf0",
+        "latency": {
+          "count": 96,
+          "mean_ms": 0.08252383327089774,
+          "p50_ms": 0.07847300003049895,
+          "p95_ms": 0.10568599827820435,
+          "p99_ms": 0.12147699453635141
+        },
+        "record_count": 96,
+        "throughput_per_second": 12042.097674387225,
+        "trust_model": "single administrator"
+      }
+    },
+    {
+      "concurrency": 16,
+      "decision_joined_component_total": {
+        "composition_method": "exact decision_id join of Stage A, required-commit RGG, and Stage C",
+        "count": 96,
+        "mean_ms": 41131.68943069816,
+        "p50_ms": 46359.427841000055,
+        "p95_ms": 53056.33626699085,
+        "p99_ms": 55694.210336005475
+      },
+      "evidence_bundle_bytes": {
+        "count": 96,
+        "mean_ms": 5950.354166666667,
+        "p50_ms": 6040.0,
+        "p95_ms": 7120.0,
+        "p99_ms": 7283.0
+      },
+      "execution_batch_count": 2,
+      "fabric_stage_a": {
+        "freeze": {
+          "count": 96,
+          "mean_ms": 778.6132356667773,
+          "p50_ms": 793.8037479980267,
+          "p95_ms": 1039.937943998666,
+          "p99_ms": 1216.3013219978893
+        },
+        "ipfs_add": {
+          "count": 96,
+          "mean_ms": 99.97401972971905,
+          "p50_ms": 72.06214300094871,
+          "p95_ms": 288.8774779930827,
+          "p99_ms": 308.1498190003913
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 23.78631527499965,
+          "peak_client_rss_kib": 40344,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 4.035934060829495
+        },
+        "vote": {
+          "count": 192,
+          "mean_ms": 696.0595859116362,
+          "p50_ms": 395.1786590041593,
+          "p95_ms": 1819.760487000167,
+          "p99_ms": 2282.861371000763
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 2897.2587829581094,
+          "p50_ms": 2642.2096969981794,
+          "p95_ms": 4276.245645996823,
+          "p99_ms": 5780.40195399808
+        }
+      },
+      "fabric_stage_c": {
+        "certify": {
+          "count": 96,
+          "mean_ms": 1848.5578847811819,
+          "p50_ms": 2199.5540720017743,
+          "p95_ms": 2374.607780002407,
+          "p99_ms": 2381.750375003321
+        },
+        "settle": {
+          "count": 96,
+          "mean_ms": 2281.5381160937704,
+          "p50_ms": 2226.211779998266,
+          "p95_ms": 2469.8225169995567,
+          "p99_ms": 2521.5723229994182
+        },
+        "settlement_mvcc_retries": {
+          "max_per_record": 0,
+          "total": 0
+        },
+        "settlement_queue_wait": {
+          "count": 96,
+          "mean_ms": 32873.78858555235,
+          "p50_ms": 38414.68737299874,
+          "p95_ms": 42986.39342000388,
+          "p99_ms": 43768.55079099914
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 276.0693822119938,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 0.3477386707312641
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 38154.84246988588,
+          "p50_ms": 43885.52213100047,
+          "p95_ms": 48901.615549999406,
+          "p99_ms": 49841.86783500627
+        }
+      },
+      "judge_count": 3,
+      "repeat": 3,
+      "rgg": {
+        "client_latency_ms": {
+          "mean": 79.58817785416666,
+          "p50": 77.975546,
+          "p95": 95.655806,
+          "p99": 106.782735
+        },
+        "conflicting_commit_count": 0,
+        "conflicting_commits": [],
+        "driver_failure_count": 0,
+        "driver_success_count": 96,
+        "driver_success_rate": 1.0,
+        "duplicate_commit_events": 0,
+        "equivocation_observed_events": 0,
+        "equivocation_sent_events": 0,
+        "fault_injected_events": 0,
+        "final_protocol_bytes_sent": 11608453,
+        "final_protocol_messages_sent": 18144,
+        "invalid_new_view_events": 0,
+        "invalid_signature_events": 0,
+        "invalid_view_change_events": 0,
+        "max_accepted_view": 0,
+        "new_view_accepted_events": 0,
+        "new_view_sent_events": 0,
+        "node_commit_completeness": 1.0,
+        "node_commit_count": 1536,
+        "node_count": 16,
+        "node_error_events": 0,
+        "node_latency_ms": {
+          "mean": 62.703307316406246,
+          "p50": 63.368465,
+          "p95": 68.1412,
+          "p99": 83.099555
+        },
+        "recovered_sequence_count": 0,
+        "recovery_latency_ms": {
+          "mean": null,
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "reported_protocol_bytes_sent": 4658047,
+        "reported_protocol_messages_sent": 11815,
+        "round_count": 96,
+        "safety_violation_events": 0,
+        "stale_new_view_events": 0,
+        "view_change_sent_events": 0
+      },
+      "run_id": "mj5-j3-c16-r3",
+      "sample_count": 96,
+      "signed_log_baseline": {
+        "elapsed_seconds": 0.007901976998255122,
+        "final_hash": "2acc19b3f0ffc35b0c56ac992a6af4457081c65656ec7dea0ebaabb70c2ccdf0",
+        "latency": {
+          "count": 96,
+          "mean_ms": 0.08182189624979704,
+          "p50_ms": 0.07854300201870501,
+          "p95_ms": 0.09597700409358367,
+          "p99_ms": 0.13531399599742144
+        },
+        "record_count": 96,
+        "throughput_per_second": 12148.858446588527,
+        "trust_model": "single administrator"
+      }
+    },
+    {
+      "concurrency": 1,
+      "decision_joined_component_total": {
+        "composition_method": "exact decision_id join of Stage A, required-commit RGG, and Stage C",
+        "count": 96,
+        "mean_ms": 14912.155119687348,
+        "p50_ms": 14893.522136001227,
+        "p95_ms": 15142.15847799252,
+        "p99_ms": 15231.083294007138
+      },
+      "evidence_bundle_bytes": {
+        "count": 96,
+        "mean_ms": 7604.729166666667,
+        "p50_ms": 7745.0,
+        "p95_ms": 8894.0,
+        "p99_ms": 9261.0
+      },
+      "execution_batch_count": 2,
+      "fabric_stage_a": {
+        "freeze": {
+          "count": 96,
+          "mean_ms": 2479.9841974897845,
+          "p50_ms": 2477.483773000131,
+          "p95_ms": 2532.905476000451,
+          "p99_ms": 2560.914492998563
+        },
+        "ipfs_add": {
+          "count": 96,
+          "mean_ms": 29.841912916178142,
+          "p50_ms": 23.40285600075731,
+          "p95_ms": 70.3129270041245,
+          "p99_ms": 123.30339400068624
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 821.3061524450022,
+          "peak_client_rss_kib": 42640,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 0.1168869850958879
+        },
+        "vote": {
+          "count": 192,
+          "mean_ms": 2469.290631484,
+          "p50_ms": 2466.4315080008237,
+          "p95_ms": 2510.9249649976846,
+          "p99_ms": 2535.363648996281
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 8546.697344406539,
+          "p50_ms": 8542.320012005803,
+          "p95_ms": 8673.535467001784,
+          "p99_ms": 8744.97426400194
+        }
+      },
+      "fabric_stage_c": {
+        "certify": {
+          "count": 96,
+          "mean_ms": 2447.171972906214,
+          "p50_ms": 2439.8964469946804,
+          "p95_ms": 2510.1111909971223,
+          "p99_ms": 2531.8024270018213
+        },
+        "settle": {
+          "count": 96,
+          "mean_ms": 2448.0306191043533,
+          "p50_ms": 2442.2185919975163,
+          "p95_ms": 2500.6552480044775,
+          "p99_ms": 2528.891770998598
+        },
+        "settlement_mvcc_retries": {
+          "max_per_record": 0,
+          "total": 0
+        },
+        "settlement_queue_wait": {
+          "count": 96,
+          "mean_ms": 0.004284208519796569,
+          "p50_ms": 0.003287001163698733,
+          "p95_ms": 0.0038180005503818393,
+          "p99_ms": 0.03712299803737551
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 604.4430648380003,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 0.15882389191731305
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 6284.523964207892,
+          "p50_ms": 6264.631481004471,
+          "p95_ms": 6443.668435997097,
+          "p99_ms": 6559.62202000228
+        }
+      },
+      "judge_count": 4,
+      "repeat": 1,
+      "rgg": {
+        "client_latency_ms": {
+          "mean": 80.93381107291667,
+          "p50": 78.291147,
+          "p95": 99.278854,
+          "p99": 103.488195
+        },
+        "conflicting_commit_count": 0,
+        "conflicting_commits": [],
+        "driver_failure_count": 0,
+        "driver_success_count": 96,
+        "driver_success_rate": 1.0,
+        "duplicate_commit_events": 0,
+        "equivocation_observed_events": 0,
+        "equivocation_sent_events": 0,
+        "fault_injected_events": 0,
+        "final_protocol_bytes_sent": 11608461,
+        "final_protocol_messages_sent": 18144,
+        "invalid_new_view_events": 0,
+        "invalid_signature_events": 0,
+        "invalid_view_change_events": 0,
+        "max_accepted_view": 0,
+        "new_view_accepted_events": 0,
+        "new_view_sent_events": 0,
+        "node_commit_completeness": 1.0,
+        "node_commit_count": 1536,
+        "node_count": 16,
+        "node_error_events": 0,
+        "node_latency_ms": {
+          "mean": 62.816497727213545,
+          "p50": 63.539603,
+          "p95": 68.8975,
+          "p99": 77.197782
+        },
+        "recovered_sequence_count": 0,
+        "recovery_latency_ms": {
+          "mean": null,
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "reported_protocol_bytes_sent": 4662137,
+        "reported_protocol_messages_sent": 11829,
+        "round_count": 96,
+        "safety_violation_events": 0,
+        "stale_new_view_events": 0,
+        "view_change_sent_events": 0
+      },
+      "run_id": "mj5-j4-c1-r1",
+      "sample_count": 96,
+      "signed_log_baseline": {
+        "elapsed_seconds": 0.007993084996996913,
+        "final_hash": "2a44ac07c70776392923fd1b140d3a82b53f965a8065f39d205a3393268fe880",
+        "latency": {
+          "count": 96,
+          "mean_ms": 0.08271335438318299,
+          "p50_ms": 0.07875300070736557,
+          "p95_ms": 0.09656800102675334,
+          "p99_ms": 0.13717600086238235
+        },
+        "record_count": 96,
+        "throughput_per_second": 12010.381477998573,
+        "trust_model": "single administrator"
+      }
+    },
+    {
+      "concurrency": 1,
+      "decision_joined_component_total": {
+        "composition_method": "exact decision_id join of Stage A, required-commit RGG, and Stage C",
+        "count": 96,
+        "mean_ms": 14906.104583687344,
+        "p50_ms": 14891.733766005646,
+        "p95_ms": 15134.073796998315,
+        "p99_ms": 15395.83338199746
+      },
+      "evidence_bundle_bytes": {
+        "count": 96,
+        "mean_ms": 7604.729166666667,
+        "p50_ms": 7745.0,
+        "p95_ms": 8894.0,
+        "p99_ms": 9261.0
+      },
+      "execution_batch_count": 2,
+      "fabric_stage_a": {
+        "freeze": {
+          "count": 96,
+          "mean_ms": 2479.910675447703,
+          "p50_ms": 2473.770039003284,
+          "p95_ms": 2536.1731960001634,
+          "p99_ms": 2562.083436001558
+        },
+        "ipfs_add": {
+          "count": 96,
+          "mean_ms": 32.12753641726825,
+          "p50_ms": 23.722311001620255,
+          "p95_ms": 79.21113799966406,
+          "p99_ms": 97.10205800365657
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 820.6756113250012,
+          "peak_client_rss_kib": 42756,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 0.11697679165219203
+        },
+        "vote": {
+          "count": 192,
+          "mean_ms": 2468.494093296878,
+          "p50_ms": 2462.254733000009,
+          "p95_ms": 2541.8670069993823,
+          "p99_ms": 2564.2505809955765
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 8540.740256781268,
+          "p50_ms": 8523.634894998395,
+          "p95_ms": 8683.990267003537,
+          "p99_ms": 8772.316144000797
+        }
+      },
+      "fabric_stage_c": {
+        "certify": {
+          "count": 96,
+          "mean_ms": 2445.051849572792,
+          "p50_ms": 2439.6824430004926,
+          "p95_ms": 2499.1954389988678,
+          "p99_ms": 2552.973602003476
+        },
+        "settle": {
+          "count": 96,
+          "mean_ms": 2450.101975656177,
+          "p50_ms": 2441.2579869967885,
+          "p95_ms": 2512.942371999088,
+          "p99_ms": 2532.6125229985337
+        },
+        "settlement_mvcc_retries": {
+          "max_per_record": 0,
+          "total": 0
+        },
+        "settlement_queue_wait": {
+          "count": 96,
+          "mean_ms": 0.004072093436964981,
+          "p50_ms": 0.00340700353262946,
+          "p95_ms": 0.004970002919435501,
+          "p99_ms": 0.02320500061614439
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 603.4226072930032,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 0.15909248152080815
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 6285.4724517289915,
+          "p50_ms": 6266.80075799959,
+          "p95_ms": 6429.439009996713,
+          "p99_ms": 6598.106457997346
+        }
+      },
+      "judge_count": 4,
+      "repeat": 2,
+      "rgg": {
+        "client_latency_ms": {
+          "mean": 79.89187517708334,
+          "p50": 77.49475,
+          "p95": 97.774352,
+          "p99": 102.470581
+        },
+        "conflicting_commit_count": 0,
+        "conflicting_commits": [],
+        "driver_failure_count": 0,
+        "driver_success_count": 96,
+        "driver_success_rate": 1.0,
+        "duplicate_commit_events": 0,
+        "equivocation_observed_events": 0,
+        "equivocation_sent_events": 0,
+        "fault_injected_events": 0,
+        "final_protocol_bytes_sent": 11608491,
+        "final_protocol_messages_sent": 18144,
+        "invalid_new_view_events": 0,
+        "invalid_signature_events": 0,
+        "invalid_view_change_events": 0,
+        "max_accepted_view": 0,
+        "new_view_accepted_events": 0,
+        "new_view_sent_events": 0,
+        "node_commit_completeness": 1.0,
+        "node_commit_count": 1536,
+        "node_count": 16,
+        "node_error_events": 0,
+        "node_latency_ms": {
+          "mean": 62.646655451822916,
+          "p50": 63.392445,
+          "p95": 68.430521,
+          "p99": 76.197572
+        },
+        "recovered_sequence_count": 0,
+        "recovery_latency_ms": {
+          "mean": null,
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "reported_protocol_bytes_sent": 4662753,
+        "reported_protocol_messages_sent": 11831,
+        "round_count": 96,
+        "safety_violation_events": 0,
+        "stale_new_view_events": 0,
+        "view_change_sent_events": 0
+      },
+      "run_id": "mj5-j4-c1-r2",
+      "sample_count": 96,
+      "signed_log_baseline": {
+        "elapsed_seconds": 0.008080635998339858,
+        "final_hash": "2a44ac07c70776392923fd1b140d3a82b53f965a8065f39d205a3393268fe880",
+        "latency": {
+          "count": 96,
+          "mean_ms": 0.08361126045504837,
+          "p50_ms": 0.07853300485294312,
+          "p95_ms": 0.10409300011815503,
+          "p99_ms": 0.15732600149931386
+        },
+        "record_count": 96,
+        "throughput_per_second": 11880.252992428184,
+        "trust_model": "single administrator"
+      }
+    },
+    {
+      "concurrency": 1,
+      "decision_joined_component_total": {
+        "composition_method": "exact decision_id join of Stage A, required-commit RGG, and Stage C",
+        "count": 96,
+        "mean_ms": 14922.430208208243,
+        "p50_ms": 14919.446391003705,
+        "p95_ms": 15123.367018994484,
+        "p99_ms": 15164.524043993388
+      },
+      "evidence_bundle_bytes": {
+        "count": 96,
+        "mean_ms": 7604.729166666667,
+        "p50_ms": 7745.0,
+        "p95_ms": 8894.0,
+        "p99_ms": 9261.0
+      },
+      "execution_batch_count": 2,
+      "fabric_stage_a": {
+        "freeze": {
+          "count": 96,
+          "mean_ms": 2482.034065500102,
+          "p50_ms": 2474.6263819979504,
+          "p95_ms": 2534.5954509975854,
+          "p99_ms": 2570.171585000935
+        },
+        "ipfs_add": {
+          "count": 96,
+          "mean_ms": 33.01637526017961,
+          "p50_ms": 24.333750996447634,
+          "p95_ms": 91.77688199997647,
+          "p99_ms": 111.05881899857195
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 820.6545625069994,
+          "peak_client_rss_kib": 42756,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 0.11697979196841572
+        },
+        "vote": {
+          "count": 192,
+          "mean_ms": 2469.307739026135,
+          "p50_ms": 2465.1107669997145,
+          "p95_ms": 2524.5755839932826,
+          "p99_ms": 2555.357693003316
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 8537.287721531206,
+          "p50_ms": 8516.794739000034,
+          "p95_ms": 8662.70136499952,
+          "p99_ms": 8696.484097999928
+        }
+      },
+      "fabric_stage_c": {
+        "certify": {
+          "count": 96,
+          "mean_ms": 2446.578988927134,
+          "p50_ms": 2439.7522139988723,
+          "p95_ms": 2497.9074310031137,
+          "p99_ms": 2512.7087560031214
+        },
+        "settle": {
+          "count": 96,
+          "mean_ms": 2453.9565693330587,
+          "p50_ms": 2442.4745090000215,
+          "p95_ms": 2507.5186069952906,
+          "p99_ms": 2529.13772300235
+        },
+        "settlement_mvcc_retries": {
+          "max_per_record": 0,
+          "total": 0
+        },
+        "settlement_queue_wait": {
+          "count": 96,
+          "mean_ms": 0.0067226042119727936,
+          "p50_ms": 0.0033270043786615133,
+          "p95_ms": 0.023776003217790276,
+          "p99_ms": 0.05968700133962557
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 605.3116508429957,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 0.1585959891343645
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 6305.141357010371,
+          "p50_ms": 6291.726192997885,
+          "p95_ms": 6442.804522004735,
+          "p99_ms": 6526.337428003899
+        }
+      },
+      "judge_count": 4,
+      "repeat": 3,
+      "rgg": {
+        "client_latency_ms": {
+          "mean": 80.00112966666667,
+          "p50": 77.409393,
+          "p95": 99.189548,
+          "p99": 105.926094
+        },
+        "conflicting_commit_count": 0,
+        "conflicting_commits": [],
+        "driver_failure_count": 0,
+        "driver_success_count": 96,
+        "driver_success_rate": 1.0,
+        "duplicate_commit_events": 0,
+        "equivocation_observed_events": 0,
+        "equivocation_sent_events": 0,
+        "fault_injected_events": 0,
+        "final_protocol_bytes_sent": 11608469,
+        "final_protocol_messages_sent": 18144,
+        "invalid_new_view_events": 0,
+        "invalid_signature_events": 0,
+        "invalid_view_change_events": 0,
+        "max_accepted_view": 0,
+        "new_view_accepted_events": 0,
+        "new_view_sent_events": 0,
+        "node_commit_completeness": 1.0,
+        "node_commit_count": 1536,
+        "node_count": 16,
+        "node_error_events": 0,
+        "node_latency_ms": {
+          "mean": 62.504301166666664,
+          "p50": 63.188814,
+          "p95": 68.78158,
+          "p99": 75.952479
+        },
+        "recovered_sequence_count": 0,
+        "recovery_latency_ms": {
+          "mean": null,
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "reported_protocol_bytes_sent": 4660101,
+        "reported_protocol_messages_sent": 11822,
+        "round_count": 96,
+        "safety_violation_events": 0,
+        "stale_new_view_events": 0,
+        "view_change_sent_events": 0
+      },
+      "run_id": "mj5-j4-c1-r3",
+      "sample_count": 96,
+      "signed_log_baseline": {
+        "elapsed_seconds": 0.007869385000958573,
+        "final_hash": "2a44ac07c70776392923fd1b140d3a82b53f965a8065f39d205a3393268fe880",
+        "latency": {
+          "count": 96,
+          "mean_ms": 0.0815276768359278,
+          "p50_ms": 0.07836299482733011,
+          "p95_ms": 0.09647700062487274,
+          "p99_ms": 0.10727899643825367
+        },
+        "record_count": 96,
+        "throughput_per_second": 12199.174393971854,
+        "trust_model": "single administrator"
+      }
+    },
+    {
+      "concurrency": 8,
+      "decision_joined_component_total": {
+        "composition_method": "exact decision_id join of Stage A, required-commit RGG, and Stage C",
+        "count": 96,
+        "mean_ms": 29309.869981625376,
+        "p50_ms": 29964.38953499937,
+        "p95_ms": 33072.175036007226,
+        "p99_ms": 33847.275306999116
+      },
+      "evidence_bundle_bytes": {
+        "count": 96,
+        "mean_ms": 7604.729166666667,
+        "p50_ms": 7745.0,
+        "p95_ms": 8894.0,
+        "p99_ms": 9261.0
+      },
+      "execution_batch_count": 2,
+      "fabric_stage_a": {
+        "freeze": {
+          "count": 96,
+          "mean_ms": 2471.337557218552,
+          "p50_ms": 2488.9825790014584,
+          "p95_ms": 2588.4008899956825,
+          "p99_ms": 2621.9914849934867
+        },
+        "ipfs_add": {
+          "count": 96,
+          "mean_ms": 96.88273324953418,
+          "p50_ms": 99.66008099581813,
+          "p95_ms": 159.13726500002667,
+          "p99_ms": 181.2890330038499
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 97.19404975399812,
+          "peak_client_rss_kib": 42756,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 0.9877147854521928
+        },
+        "vote": {
+          "count": 192,
+          "mean_ms": 2388.5258746094373,
+          "p50_ms": 2326.3728040037677,
+          "p95_ms": 2558.9991030064994,
+          "p99_ms": 2568.8453119946644
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 8038.028581531534,
+          "p50_ms": 8113.159804001043,
+          "p95_ms": 8656.707189998997,
+          "p99_ms": 8660.355726999114
+        }
+      },
+      "fabric_stage_c": {
+        "certify": {
+          "count": 96,
+          "mean_ms": 2220.283787010203,
+          "p50_ms": 2204.8887810015003,
+          "p95_ms": 2283.161920000566,
+          "p99_ms": 2386.9367959996453
+        },
+        "settle": {
+          "count": 96,
+          "mean_ms": 2257.6224307398056,
+          "p50_ms": 2207.5887240062,
+          "p95_ms": 2476.102765001997,
+          "p99_ms": 2509.706192999147
+        },
+        "settlement_mvcc_retries": {
+          "max_per_record": 0,
+          "total": 0
+        },
+        "settlement_queue_wait": {
+          "count": 96,
+          "mean_ms": 15588.138046291459,
+          "p50_ms": 16471.544834996166,
+          "p95_ms": 18589.867888003937,
+          "p99_ms": 19470.111119997455
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 276.5178781309951,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 0.34717465882810594
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 21191.989414427175,
+          "p50_ms": 22046.853323001415,
+          "p95_ms": 24464.62779799913,
+          "p99_ms": 25297.19828600355
+        }
+      },
+      "judge_count": 4,
+      "repeat": 1,
+      "rgg": {
+        "client_latency_ms": {
+          "mean": 79.85198566666666,
+          "p50": 77.457097,
+          "p95": 99.929278,
+          "p99": 100.880841
+        },
+        "conflicting_commit_count": 0,
+        "conflicting_commits": [],
+        "driver_failure_count": 0,
+        "driver_success_count": 96,
+        "driver_success_rate": 1.0,
+        "duplicate_commit_events": 0,
+        "equivocation_observed_events": 0,
+        "equivocation_sent_events": 0,
+        "fault_injected_events": 0,
+        "final_protocol_bytes_sent": 11608470,
+        "final_protocol_messages_sent": 18144,
+        "invalid_new_view_events": 0,
+        "invalid_signature_events": 0,
+        "invalid_view_change_events": 0,
+        "max_accepted_view": 0,
+        "new_view_accepted_events": 0,
+        "new_view_sent_events": 0,
+        "node_commit_completeness": 1.0,
+        "node_commit_count": 1536,
+        "node_count": 16,
+        "node_error_events": 0,
+        "node_latency_ms": {
+          "mean": 62.335487393229165,
+          "p50": 63.10625,
+          "p95": 68.170546,
+          "p99": 80.254795
+        },
+        "recovered_sequence_count": 0,
+        "recovery_latency_ms": {
+          "mean": null,
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "reported_protocol_bytes_sent": 4662147,
+        "reported_protocol_messages_sent": 11829,
+        "round_count": 96,
+        "safety_violation_events": 0,
+        "stale_new_view_events": 0,
+        "view_change_sent_events": 0
+      },
+      "run_id": "mj5-j4-c8-r1",
+      "sample_count": 96,
+      "signed_log_baseline": {
+        "elapsed_seconds": 0.008009034994756803,
+        "final_hash": "2a44ac07c70776392923fd1b140d3a82b53f965a8065f39d205a3393268fe880",
+        "latency": {
+          "count": 96,
+          "mean_ms": 0.08286693787340482,
+          "p50_ms": 0.0785630036261864,
+          "p95_ms": 0.10219899559160694,
+          "p99_ms": 0.1253340014955029
+        },
+        "record_count": 96,
+        "throughput_per_second": 11986.462796435198,
+        "trust_model": "single administrator"
+      }
+    },
+    {
+      "concurrency": 8,
+      "decision_joined_component_total": {
+        "composition_method": "exact decision_id join of Stage A, required-commit RGG, and Stage C",
+        "count": 96,
+        "mean_ms": 29239.579047676572,
+        "p50_ms": 29977.23437800422,
+        "p95_ms": 32129.865504003115,
+        "p99_ms": 33639.46042100847
+      },
+      "evidence_bundle_bytes": {
+        "count": 96,
+        "mean_ms": 7604.729166666667,
+        "p50_ms": 7745.0,
+        "p95_ms": 8894.0,
+        "p99_ms": 9261.0
+      },
+      "execution_batch_count": 2,
+      "fabric_stage_a": {
+        "freeze": {
+          "count": 96,
+          "mean_ms": 2451.2831532916457,
+          "p50_ms": 2481.019116996322,
+          "p95_ms": 2562.257197998406,
+          "p99_ms": 2590.230246001738
+        },
+        "ipfs_add": {
+          "count": 96,
+          "mean_ms": 102.92704110414282,
+          "p50_ms": 103.82179600128438,
+          "p95_ms": 188.184471000568,
+          "p99_ms": 221.5618539994466
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 95.81030859200109,
+          "peak_client_rss_kib": 42756,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 1.0019798642837765
+        },
+        "vote": {
+          "count": 192,
+          "mean_ms": 2398.271755021218,
+          "p50_ms": 2351.849234000838,
+          "p95_ms": 2531.39005000412,
+          "p99_ms": 2562.855602001946
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 7973.115398051884,
+          "p50_ms": 8025.059350999072,
+          "p95_ms": 8529.156696000427,
+          "p99_ms": 8532.583565000095
+        }
+      },
+      "fabric_stage_c": {
+        "certify": {
+          "count": 96,
+          "mean_ms": 2243.2643383441095,
+          "p50_ms": 2204.938722999941,
+          "p95_ms": 2498.533822996251,
+          "p99_ms": 2506.1410700000124
+        },
+        "settle": {
+          "count": 96,
+          "mean_ms": 2262.2321745418503,
+          "p50_ms": 2209.710895003809,
+          "p95_ms": 2466.8835109987413,
+          "p99_ms": 2495.6805019974126
+        },
+        "settlement_mvcc_retries": {
+          "max_per_record": 0,
+          "total": 0
+        },
+        "settlement_queue_wait": {
+          "count": 96,
+          "mean_ms": 15570.91072876051,
+          "p50_ms": 16505.640900002618,
+          "p95_ms": 18470.273247003206,
+          "p99_ms": 19670.763841000735
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 277.69713183300337,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 0.34570036559733286
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 21185.951075989276,
+          "p50_ms": 21976.147731998935,
+          "p95_ms": 24291.0101439993,
+          "p99_ms": 25386.459559005743
+        }
+      },
+      "judge_count": 4,
+      "repeat": 2,
+      "rgg": {
+        "client_latency_ms": {
+          "mean": 80.51257363541667,
+          "p50": 77.615736,
+          "p95": 100.4188,
+          "p99": 107.11254
+        },
+        "conflicting_commit_count": 0,
+        "conflicting_commits": [],
+        "driver_failure_count": 0,
+        "driver_success_count": 96,
+        "driver_success_rate": 1.0,
+        "duplicate_commit_events": 0,
+        "equivocation_observed_events": 0,
+        "equivocation_sent_events": 0,
+        "fault_injected_events": 0,
+        "final_protocol_bytes_sent": 11608533,
+        "final_protocol_messages_sent": 18144,
+        "invalid_new_view_events": 0,
+        "invalid_signature_events": 0,
+        "invalid_view_change_events": 0,
+        "max_accepted_view": 0,
+        "new_view_accepted_events": 0,
+        "new_view_sent_events": 0,
+        "node_commit_completeness": 1.0,
+        "node_commit_count": 1536,
+        "node_count": 16,
+        "node_error_events": 0,
+        "node_latency_ms": {
+          "mean": 62.435158164713535,
+          "p50": 63.257672,
+          "p95": 68.378868,
+          "p99": 78.430328
+        },
+        "recovered_sequence_count": 0,
+        "recovery_latency_ms": {
+          "mean": null,
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "reported_protocol_bytes_sent": 4663089,
+        "reported_protocol_messages_sent": 11832,
+        "round_count": 96,
+        "safety_violation_events": 0,
+        "stale_new_view_events": 0,
+        "view_change_sent_events": 0
+      },
+      "run_id": "mj5-j4-c8-r2",
+      "sample_count": 96,
+      "signed_log_baseline": {
+        "elapsed_seconds": 0.007898782001575455,
+        "final_hash": "2a44ac07c70776392923fd1b140d3a82b53f965a8065f39d205a3393268fe880",
+        "latency": {
+          "count": 96,
+          "mean_ms": 0.08181964608411363,
+          "p50_ms": 0.07854199793655425,
+          "p95_ms": 0.09629700070945546,
+          "p99_ms": 0.11321999772917479
+        },
+        "record_count": 96,
+        "throughput_per_second": 12153.772566561816,
+        "trust_model": "single administrator"
+      }
+    },
+    {
+      "concurrency": 8,
+      "decision_joined_component_total": {
+        "composition_method": "exact decision_id join of Stage A, required-commit RGG, and Stage C",
+        "count": 96,
+        "mean_ms": 29327.610307125055,
+        "p50_ms": 30048.76410899845,
+        "p95_ms": 32460.558960010014,
+        "p99_ms": 33734.17104700205
+      },
+      "evidence_bundle_bytes": {
+        "count": 96,
+        "mean_ms": 7604.729166666667,
+        "p50_ms": 7745.0,
+        "p95_ms": 8894.0,
+        "p99_ms": 9261.0
+      },
+      "execution_batch_count": 2,
+      "fabric_stage_a": {
+        "freeze": {
+          "count": 96,
+          "mean_ms": 2453.7254714790984,
+          "p50_ms": 2466.8104910015245,
+          "p95_ms": 2548.804938000103,
+          "p99_ms": 2562.403039999481
+        },
+        "ipfs_add": {
+          "count": 96,
+          "mean_ms": 86.79603359367623,
+          "p50_ms": 87.02921200165292,
+          "p95_ms": 145.1021109969588,
+          "p99_ms": 151.698560002842
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 95.77379694599949,
+          "peak_client_rss_kib": 42756,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 1.0023618469896107
+        },
+        "vote": {
+          "count": 192,
+          "mean_ms": 2381.3365977500403,
+          "p50_ms": 2301.8521210033214,
+          "p95_ms": 2536.035119999724,
+          "p99_ms": 2550.025183001708
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 7973.440717885373,
+          "p50_ms": 7857.408846000908,
+          "p95_ms": 8496.845884001232,
+          "p99_ms": 8498.330609996628
+        }
+      },
+      "fabric_stage_c": {
+        "certify": {
+          "count": 96,
+          "mean_ms": 2250.570557770819,
+          "p50_ms": 2206.082538999908,
+          "p95_ms": 2508.7146160003613,
+          "p99_ms": 2512.067448995367
+        },
+        "settle": {
+          "count": 96,
+          "mean_ms": 2265.0651212185644,
+          "p50_ms": 2214.625453998451,
+          "p95_ms": 2483.354803000111,
+          "p99_ms": 2523.2677919993876
+        },
+        "settlement_mvcc_retries": {
+          "max_per_record": 0,
+          "total": 0
+        },
+        "settlement_queue_wait": {
+          "count": 96,
+          "mean_ms": 15628.018606729333,
+          "p50_ms": 16501.234610004758,
+          "p95_ms": 18761.114165004983,
+          "p99_ms": 19591.722826997284
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 277.8874833220034,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 0.34546356263466377
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 21274.168416677185,
+          "p50_ms": 22032.240025997453,
+          "p95_ms": 24543.960944996797,
+          "p99_ms": 25647.376708999218
+        }
+      },
+      "judge_count": 4,
+      "repeat": 3,
+      "rgg": {
+        "client_latency_ms": {
+          "mean": 80.0011725625,
+          "p50": 77.712645,
+          "p95": 98.519447,
+          "p99": 101.65496
+        },
+        "conflicting_commit_count": 0,
+        "conflicting_commits": [],
+        "driver_failure_count": 0,
+        "driver_success_count": 96,
+        "driver_success_rate": 1.0,
+        "duplicate_commit_events": 0,
+        "equivocation_observed_events": 0,
+        "equivocation_sent_events": 0,
+        "fault_injected_events": 0,
+        "final_protocol_bytes_sent": 11608521,
+        "final_protocol_messages_sent": 18144,
+        "invalid_new_view_events": 0,
+        "invalid_signature_events": 0,
+        "invalid_view_change_events": 0,
+        "max_accepted_view": 0,
+        "new_view_accepted_events": 0,
+        "new_view_sent_events": 0,
+        "node_commit_completeness": 1.0,
+        "node_commit_count": 1536,
+        "node_count": 16,
+        "node_error_events": 0,
+        "node_latency_ms": {
+          "mean": 62.73077599739583,
+          "p50": 63.481596,
+          "p95": 68.469179,
+          "p99": 79.337317
+        },
+        "recovered_sequence_count": 0,
+        "recovery_latency_ms": {
+          "mean": null,
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "reported_protocol_bytes_sent": 4661906,
+        "reported_protocol_messages_sent": 11828,
+        "round_count": 96,
+        "safety_violation_events": 0,
+        "stale_new_view_events": 0,
+        "view_change_sent_events": 0
+      },
+      "run_id": "mj5-j4-c8-r3",
+      "sample_count": 96,
+      "signed_log_baseline": {
+        "elapsed_seconds": 0.008011541001906153,
+        "final_hash": "2a44ac07c70776392923fd1b140d3a82b53f965a8065f39d205a3393268fe880",
+        "latency": {
+          "count": 96,
+          "mean_ms": 0.08293161492171446,
+          "p50_ms": 0.07857299351599067,
+          "p95_ms": 0.10031499550677836,
+          "p99_ms": 0.1362650000373833
+        },
+        "record_count": 96,
+        "throughput_per_second": 11982.71343517547,
+        "trust_model": "single administrator"
+      }
+    },
+    {
+      "concurrency": 16,
+      "decision_joined_component_total": {
+        "composition_method": "exact decision_id join of Stage A, required-commit RGG, and Stage C",
+        "count": 96,
+        "mean_ms": 41231.432656270255,
+        "p50_ms": 46525.84563499945,
+        "p95_ms": 53297.08680400716,
+        "p99_ms": 55419.88774399914
+      },
+      "evidence_bundle_bytes": {
+        "count": 96,
+        "mean_ms": 7604.729166666667,
+        "p50_ms": 7745.0,
+        "p95_ms": 8894.0,
+        "p99_ms": 9261.0
+      },
+      "execution_batch_count": 2,
+      "fabric_stage_a": {
+        "freeze": {
+          "count": 96,
+          "mean_ms": 830.3137884683262,
+          "p50_ms": 828.6745149962371,
+          "p95_ms": 1195.3899639993324,
+          "p99_ms": 1424.6217050022096
+        },
+        "ipfs_add": {
+          "count": 96,
+          "mean_ms": 106.97767504128326,
+          "p50_ms": 84.6201509993989,
+          "p95_ms": 276.80392500042217,
+          "p99_ms": 308.0775199996424
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 27.87649905899889,
+          "peak_client_rss_kib": 42756,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 3.443760990102162
+        },
+        "vote": {
+          "count": 192,
+          "mean_ms": 714.1373077032919,
+          "p50_ms": 422.25689600309124,
+          "p95_ms": 1773.1322640029248,
+          "p99_ms": 2300.122956999985
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 2967.616293374931,
+          "p50_ms": 2792.4906559928786,
+          "p95_ms": 4124.961863002682,
+          "p99_ms": 6127.962735001347
+        }
+      },
+      "fabric_stage_c": {
+        "certify": {
+          "count": 96,
+          "mean_ms": 1843.2844813022105,
+          "p50_ms": 2198.325703997398,
+          "p95_ms": 2363.8117519949446,
+          "p99_ms": 2371.190514997579
+        },
+        "settle": {
+          "count": 96,
+          "mean_ms": 2278.119559198179,
+          "p50_ms": 2216.2256329975207,
+          "p95_ms": 2461.5989650046686,
+          "p99_ms": 2525.0963599974057
+        },
+        "settlement_mvcc_retries": {
+          "max_per_record": 0,
+          "total": 0
+        },
+        "settlement_queue_wait": {
+          "count": 96,
+          "mean_ms": 32883.1986360107,
+          "p50_ms": 38327.60093599791,
+          "p95_ms": 43257.36276800308,
+          "p99_ms": 44053.44519500068
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 276.28867190299934,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 0.3474626713385633
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 38182.36623269741,
+          "p50_ms": 43847.61341400008,
+          "p95_ms": 49109.612516003835,
+          "p99_ms": 49929.68912300421
+        }
+      },
+      "judge_count": 4,
+      "repeat": 1,
+      "rgg": {
+        "client_latency_ms": {
+          "mean": 81.45013019791666,
+          "p50": 80.123103,
+          "p95": 87.860583,
+          "p99": 105.302866
+        },
+        "conflicting_commit_count": 0,
+        "conflicting_commits": [],
+        "driver_failure_count": 0,
+        "driver_success_count": 96,
+        "driver_success_rate": 1.0,
+        "duplicate_commit_events": 0,
+        "equivocation_observed_events": 0,
+        "equivocation_sent_events": 0,
+        "fault_injected_events": 0,
+        "final_protocol_bytes_sent": 11608494,
+        "final_protocol_messages_sent": 18144,
+        "invalid_new_view_events": 0,
+        "invalid_signature_events": 0,
+        "invalid_view_change_events": 0,
+        "max_accepted_view": 0,
+        "new_view_accepted_events": 0,
+        "new_view_sent_events": 0,
+        "node_commit_completeness": 1.0,
+        "node_commit_count": 1536,
+        "node_count": 16,
+        "node_error_events": 0,
+        "node_latency_ms": {
+          "mean": 64.20167005664062,
+          "p50": 64.810885,
+          "p95": 70.439564,
+          "p99": 80.203932
+        },
+        "recovered_sequence_count": 0,
+        "recovery_latency_ms": {
+          "mean": null,
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "reported_protocol_bytes_sent": 4660420,
+        "reported_protocol_messages_sent": 11823,
+        "round_count": 96,
+        "safety_violation_events": 0,
+        "stale_new_view_events": 0,
+        "view_change_sent_events": 0
+      },
+      "run_id": "mj5-j4-c16-r1",
+      "sample_count": 96,
+      "signed_log_baseline": {
+        "elapsed_seconds": 0.008003916002053302,
+        "final_hash": "2a44ac07c70776392923fd1b140d3a82b53f965a8065f39d205a3393268fe880",
+        "latency": {
+          "count": 96,
+          "mean_ms": 0.08290093736225874,
+          "p50_ms": 0.07843299681553617,
+          "p95_ms": 0.10258000111207366,
+          "p99_ms": 0.14782699872739613
+        },
+        "record_count": 96,
+        "throughput_per_second": 11994.128870839279,
+        "trust_model": "single administrator"
+      }
+    },
+    {
+      "concurrency": 16,
+      "decision_joined_component_total": {
+        "composition_method": "exact decision_id join of Stage A, required-commit RGG, and Stage C",
+        "count": 96,
+        "mean_ms": 41475.024063989906,
+        "p50_ms": 46550.955129994545,
+        "p95_ms": 54472.76905499861,
+        "p99_ms": 56101.49700600652
+      },
+      "evidence_bundle_bytes": {
+        "count": 96,
+        "mean_ms": 7604.729166666667,
+        "p50_ms": 7745.0,
+        "p95_ms": 8894.0,
+        "p99_ms": 9261.0
+      },
+      "execution_batch_count": 2,
+      "fabric_stage_a": {
+        "freeze": {
+          "count": 96,
+          "mean_ms": 745.7030110002355,
+          "p50_ms": 789.7490460018162,
+          "p95_ms": 948.3003210043535,
+          "p99_ms": 1170.5588619952323
+        },
+        "ipfs_add": {
+          "count": 96,
+          "mean_ms": 119.9148253228941,
+          "p50_ms": 101.67711900430731,
+          "p95_ms": 290.66114099987317,
+          "p99_ms": 312.20085699897027
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 24.530401487005292,
+          "peak_client_rss_kib": 42756,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 3.9135111608692967
+        },
+        "vote": {
+          "count": 192,
+          "mean_ms": 715.885961792272,
+          "p50_ms": 421.71445499843685,
+          "p95_ms": 1825.7012039975962,
+          "p99_ms": 2313.760868004465
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 2863.2406108231407,
+          "p50_ms": 2784.833661004086,
+          "p95_ms": 4018.131433003873,
+          "p99_ms": 6053.183473995887
+        }
+      },
+      "fabric_stage_c": {
+        "certify": {
+          "count": 96,
+          "mean_ms": 1842.8008073023345,
+          "p50_ms": 2202.144932001829,
+          "p95_ms": 2342.157432001841,
+          "p99_ms": 2361.6128810026566
+        },
+        "settle": {
+          "count": 96,
+          "mean_ms": 2294.8218431250402,
+          "p50_ms": 2217.325773999619,
+          "p95_ms": 2528.588863002369,
+          "p99_ms": 2605.306325996935
+        },
+        "settlement_mvcc_retries": {
+          "max_per_record": 0,
+          "total": 0
+        },
+        "settlement_queue_wait": {
+          "count": 96,
+          "mean_ms": 33207.03082070842,
+          "p50_ms": 38388.350094006455,
+          "p95_ms": 44217.26439300255,
+          "p99_ms": 45002.735109999776
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 280.68886758599547,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 0.34201570167576456
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 38530.93204260426,
+          "p50_ms": 43966.26802399987,
+          "p95_ms": 50188.03444499645,
+          "p99_ms": 50963.862365999375
+        }
+      },
+      "judge_count": 4,
+      "repeat": 2,
+      "rgg": {
+        "client_latency_ms": {
+          "mean": 80.85141056249999,
+          "p50": 78.415246,
+          "p95": 98.602465,
+          "p99": 101.044403
+        },
+        "conflicting_commit_count": 0,
+        "conflicting_commits": [],
+        "driver_failure_count": 0,
+        "driver_success_count": 96,
+        "driver_success_rate": 1.0,
+        "duplicate_commit_events": 0,
+        "equivocation_observed_events": 0,
+        "equivocation_sent_events": 0,
+        "fault_injected_events": 0,
+        "final_protocol_bytes_sent": 11608494,
+        "final_protocol_messages_sent": 18144,
+        "invalid_new_view_events": 0,
+        "invalid_signature_events": 0,
+        "invalid_view_change_events": 0,
+        "max_accepted_view": 0,
+        "new_view_accepted_events": 0,
+        "new_view_sent_events": 0,
+        "node_commit_completeness": 1.0,
+        "node_commit_count": 1536,
+        "node_count": 16,
+        "node_error_events": 0,
+        "node_latency_ms": {
+          "mean": 62.692953972005206,
+          "p50": 63.570936,
+          "p95": 68.464738,
+          "p99": 75.84685
+        },
+        "recovered_sequence_count": 0,
+        "recovery_latency_ms": {
+          "mean": null,
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "reported_protocol_bytes_sent": 4661582,
+        "reported_protocol_messages_sent": 11827,
+        "round_count": 96,
+        "safety_violation_events": 0,
+        "stale_new_view_events": 0,
+        "view_change_sent_events": 0
+      },
+      "run_id": "mj5-j4-c16-r2",
+      "sample_count": 96,
+      "signed_log_baseline": {
+        "elapsed_seconds": 0.007936704998428468,
+        "final_hash": "2a44ac07c70776392923fd1b140d3a82b53f965a8065f39d205a3393268fe880",
+        "latency": {
+          "count": 96,
+          "mean_ms": 0.08220601042315441,
+          "p50_ms": 0.07852300041122362,
+          "p95_ms": 0.09647799743106589,
+          "p99_ms": 0.15331800386775285
+        },
+        "record_count": 96,
+        "throughput_per_second": 12095.699666172395,
+        "trust_model": "single administrator"
+      }
+    },
+    {
+      "concurrency": 16,
+      "decision_joined_component_total": {
+        "composition_method": "exact decision_id join of Stage A, required-commit RGG, and Stage C",
+        "count": 96,
+        "mean_ms": 40922.049888635614,
+        "p50_ms": 46534.607775001394,
+        "p95_ms": 52979.09407599995,
+        "p99_ms": 54209.501546007334
+      },
+      "evidence_bundle_bytes": {
+        "count": 96,
+        "mean_ms": 7604.729166666667,
+        "p50_ms": 7745.0,
+        "p95_ms": 8894.0,
+        "p99_ms": 9261.0
+      },
+      "execution_batch_count": 2,
+      "fabric_stage_a": {
+        "freeze": {
+          "count": 96,
+          "mean_ms": 755.4263732187488,
+          "p50_ms": 780.8765919980942,
+          "p95_ms": 1049.2597530028434,
+          "p99_ms": 1101.5126159982174
+        },
+        "ipfs_add": {
+          "count": 96,
+          "mean_ms": 112.82516512513514,
+          "p50_ms": 82.29212900187122,
+          "p95_ms": 302.0604480043403,
+          "p99_ms": 305.34880299819633
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 21.9872162679967,
+          "peak_client_rss_kib": 42756,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 4.366173454150808
+        },
+        "vote": {
+          "count": 192,
+          "mean_ms": 621.7698274480199,
+          "p50_ms": 394.716355993296,
+          "p95_ms": 968.9845550019527,
+          "p99_ms": 2216.114003000257
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 2679.0373647186243,
+          "p50_ms": 2569.6461469997303,
+          "p95_ms": 4189.2083209968405,
+          "p99_ms": 4486.082052004349
+        }
+      },
+      "fabric_stage_c": {
+        "certify": {
+          "count": 96,
+          "mean_ms": 1846.7414149063945,
+          "p50_ms": 2199.1196800008765,
+          "p95_ms": 2361.861627003236,
+          "p99_ms": 2368.937195999024
+        },
+        "settle": {
+          "count": 96,
+          "mean_ms": 2278.1909693537727,
+          "p50_ms": 2210.6606629968155,
+          "p95_ms": 2474.7939160006354,
+          "p99_ms": 2497.99146100122
+        },
+        "settlement_mvcc_retries": {
+          "max_per_record": 0,
+          "total": 0
+        },
+        "settlement_queue_wait": {
+          "count": 96,
+          "mean_ms": 32865.99601646912,
+          "p50_ms": 38394.003389003046,
+          "p95_ms": 43327.35966800101,
+          "p99_ms": 43867.235869998694
+        },
+        "status": {
+          "elapsed_seconds_this_invocation": 276.17272845799744,
+          "record_count": 96,
+          "state": "completed",
+          "workflow_throughput_per_second": 0.34760854388488416
+        },
+        "workflow_total": {
+          "count": 96,
+          "mean_ms": 38162.52988840658,
+          "p50_ms": 43949.930969996785,
+          "p95_ms": 49216.90156099794,
+          "p99_ms": 49882.76102699456
+        }
+      },
+      "judge_count": 4,
+      "repeat": 3,
+      "rgg": {
+        "client_latency_ms": {
+          "mean": 80.48263551041667,
+          "p50": 77.710997,
+          "p95": 98.617371,
+          "p99": 104.492931
+        },
+        "conflicting_commit_count": 0,
+        "conflicting_commits": [],
+        "driver_failure_count": 0,
+        "driver_success_count": 96,
+        "driver_success_rate": 1.0,
+        "duplicate_commit_events": 0,
+        "equivocation_observed_events": 0,
+        "equivocation_sent_events": 0,
+        "fault_injected_events": 0,
+        "final_protocol_bytes_sent": 11608469,
+        "final_protocol_messages_sent": 18144,
+        "invalid_new_view_events": 0,
+        "invalid_signature_events": 0,
+        "invalid_view_change_events": 0,
+        "max_accepted_view": 0,
+        "new_view_accepted_events": 0,
+        "new_view_sent_events": 0,
+        "node_commit_completeness": 1.0,
+        "node_commit_count": 1536,
+        "node_count": 16,
+        "node_error_events": 0,
+        "node_latency_ms": {
+          "mean": 62.54416578776042,
+          "p50": 63.328275,
+          "p95": 68.147995,
+          "p99": 77.748508
+        },
+        "recovered_sequence_count": 0,
+        "recovery_latency_ms": {
+          "mean": null,
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "reported_protocol_bytes_sent": 4659521,
+        "reported_protocol_messages_sent": 11820,
+        "round_count": 96,
+        "safety_violation_events": 0,
+        "stale_new_view_events": 0,
+        "view_change_sent_events": 0
+      },
+      "run_id": "mj5-j4-c16-r3",
+      "sample_count": 96,
+      "signed_log_baseline": {
+        "elapsed_seconds": 0.00803991500288248,
+        "final_hash": "2a44ac07c70776392923fd1b140d3a82b53f965a8065f39d205a3393268fe880",
+        "latency": {
+          "count": 96,
+          "mean_ms": 0.08317989636452694,
+          "p50_ms": 0.0785429947427474,
+          "p95_ms": 0.1055450047715567,
+          "p99_ms": 0.11420200462453067
+        },
+        "record_count": 96,
+        "throughput_per_second": 11940.42473901552,
+        "trust_model": "single administrator"
+      }
+    }
+  ],
+  "entry_count": 18,
+  "generated_at_unix": 1785112579,
+  "qualification": false,
+  "schema": "mj5-formal-aggregate-v2",
+  "session_id": "mj5-formal-20260727-v41-final3"
+}

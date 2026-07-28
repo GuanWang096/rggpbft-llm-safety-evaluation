@@ -1,0 +1,41 @@
+{
+  "has_netem": false,
+  "qdisc_before": [],
+  "qdisc_applied": [],
+  "rtt_probe": {},
+  "timing": {
+    "compose_up_at_unix": 1785105334.2150319,
+    "ready_barrier_at_unix": 1785105334.4513986,
+    "driver_start_at_unix": 1785105334.451403,
+    "collector_done_at_unix": 1785105351.4729195,
+    "first_protocol_event": {
+      "data": {
+        "digest": "5a1b12e75a32b8fd5ebd5a40d3e2a4b1206a69595f5d5e9b15a22bf5fba13b2a",
+        "sequence": 0,
+        "view": 0
+      },
+      "node": 10,
+      "time_ns": 1785105335212335840,
+      "type": "PRE_PREPARE_SENT"
+    },
+    "first_protocol_event_at_unix": 1785105335.2123358
+  },
+  "ready_node_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ]
+}

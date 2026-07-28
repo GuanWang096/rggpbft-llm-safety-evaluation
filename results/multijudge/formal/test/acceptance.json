@@ -1,0 +1,102 @@
+{
+  "schema": "mj1-output-acceptance-v1",
+  "manifest": "/root/src/experiments/exp-multijudge/configs/mmds_test_formal.json",
+  "split": "test",
+  "sample_count": 330,
+  "model_count": 4,
+  "passed": true,
+  "models": {
+    "qwen": {
+      "run_dir": "/root/result/multijudge-v15/formal/test/qwen",
+      "service_identity": {
+        "organization": "Qwen",
+        "model_id": "Qwen/Qwen3-VL-8B-Instruct",
+        "model_revision": "5d854aab08710c16b980ec6d603d863b3821b915",
+        "policy_sha256": "18ea5fc49baf2c5e0ad2bfe441a5d7dad4926186f76276a59288e5fef37cb9e6",
+        "adapter_version": "qwen3-vl-binary-judge-v4"
+      },
+      "sample_count": 330,
+      "parser_errors": 0,
+      "peak_vram_gib_max": 25.5572,
+      "latency_ms_mean": 833.9391333333333,
+      "classification": {
+        "tp": 60,
+        "tn": 197,
+        "fp": 4,
+        "fn": 69,
+        "accuracy": 0.7787878787878788,
+        "unsafe_recall": 0.46511627906976744,
+        "safe_specificity": 0.9800995024875622
+      }
+    },
+    "safework": {
+      "run_dir": "/root/result/multijudge-v15/formal/test/safework",
+      "service_identity": {
+        "organization": "AI45Research",
+        "model_id": "AI45Research/SafeWork-RM-Safety-7B",
+        "model_revision": "be345f29425fe94586c0598785a143703bbbc4fc",
+        "policy_sha256": "18ea5fc49baf2c5e0ad2bfe441a5d7dad4926186f76276a59288e5fef37cb9e6",
+        "adapter_version": "safework-rm-safety-turnwise-v5"
+      },
+      "sample_count": 330,
+      "parser_errors": 0,
+      "peak_vram_gib_max": 16.7065,
+      "latency_ms_mean": 1241.2697333333333,
+      "classification": {
+        "tp": 104,
+        "tn": 190,
+        "fp": 11,
+        "fn": 25,
+        "accuracy": 0.8909090909090909,
+        "unsafe_recall": 0.8062015503875969,
+        "safe_specificity": 0.945273631840796
+      }
+    },
+    "internvl": {
+      "run_dir": "/root/result/multijudge-v15/formal/test/internvl",
+      "service_identity": {
+        "organization": "OpenGVLab",
+        "model_id": "OpenGVLab/InternVL3_5-8B-Instruct",
+        "model_revision": "6c2034f6f3d22bbbff919b11b91c5721bba84f8d",
+        "policy_sha256": "18ea5fc49baf2c5e0ad2bfe441a5d7dad4926186f76276a59288e5fef37cb9e6",
+        "adapter_version": "internvl3.5-binary-judge-v3"
+      },
+      "sample_count": 330,
+      "parser_errors": 0,
+      "peak_vram_gib_max": 17.808,
+      "latency_ms_mean": 579.9666909090909,
+      "classification": {
+        "tp": 49,
+        "tn": 194,
+        "fp": 7,
+        "fn": 80,
+        "accuracy": 0.7363636363636363,
+        "unsafe_recall": 0.3798449612403101,
+        "safe_specificity": 0.9651741293532339
+      }
+    },
+    "minicpm": {
+      "run_dir": "/root/result/multijudge-v15/formal/test/minicpm",
+      "service_identity": {
+        "organization": "OpenBMB",
+        "model_id": "OpenBMB/MiniCPM-V-4_5",
+        "model_revision": "2626e837a54905aab70fae9325153ef3454387ab",
+        "policy_sha256": "18ea5fc49baf2c5e0ad2bfe441a5d7dad4926186f76276a59288e5fef37cb9e6",
+        "adapter_version": "minicpm-v4.5-binary-judge-v2"
+      },
+      "sample_count": 330,
+      "parser_errors": 0,
+      "peak_vram_gib_max": 20.3211,
+      "latency_ms_mean": 648.7146696969696,
+      "classification": {
+        "tp": 29,
+        "tn": 198,
+        "fp": 3,
+        "fn": 100,
+        "accuracy": 0.6878787878787879,
+        "unsafe_recall": 0.2248062015503876,
+        "safe_specificity": 0.9850746268656716
+      }
+    }
+  }
+}

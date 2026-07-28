@@ -1,0 +1,32 @@
+{
+  "checks": {
+    "chaincode_package_archived_and_reproducible": true,
+    "chaincode_version_and_package_recorded": true,
+    "dataset_label_provenance_recorded": true,
+    "exact_decision_joined_composition_recorded": true,
+    "fabric_transactions_all_unique_and_valid": true,
+    "matrix_complete": true,
+    "mvcc_retries_zero": true,
+    "raw_protocol_certificate_hashes_match_chain_state": true,
+    "rgg_required_commit_completion_used": true,
+    "rgg_safety_gates_pass": true,
+    "runtime_source_snapshot_matches": true,
+    "source_and_workload_hashes_match": true
+  },
+  "schema": "mj5-final-integrity-audit-v1",
+  "scope_notes": [
+    "The three repeats are sequential local repeats, not independent deployments.",
+    "The experiment uses dataset-provided MMDS labels, including augmented records.",
+    "Validator keys and reputation ordering are deterministic controlled-experiment identities.",
+    "The measurements are from one Docker Desktop/WSL2 host."
+  ],
+  "session_id": "mj5-formal-20260727-v41-final3",
+  "totals": {
+    "driver_results": 1728,
+    "fabric_transactions": 8640,
+    "protocol_certificates": 1728,
+    "stage_a_rows": 1728,
+    "stage_c_rows": 1728
+  },
+  "verdict": "PASS"
+}

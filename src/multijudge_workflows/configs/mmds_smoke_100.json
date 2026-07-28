@@ -1,0 +1,1555 @@
+{
+  "schema": "mj0-smoke-manifest-v1",
+  "seed_material": "zte-sci-v15|20260724|MJ0|MMDS|adapter-smoke|0",
+  "source_split": "train",
+  "purpose": "adapter and parser qualification only",
+  "selection_rules": [
+    "match the official MMDS test safe/unsafe ratio by proportional allocation",
+    "stratify unsafe records by assistant_dimension",
+    "exclude records with images referenced by validation or test records",
+    "exclude text-only training records because every official test record has images",
+    "do not reuse an image reference within the smoke manifest",
+    "do not use this manifest to select thresholds or report final accuracy"
+  ],
+  "sample_count": 100,
+  "label_counts": {
+    "safe": 61,
+    "unsafe": 39
+  },
+  "dimension_counts": {
+    "Deception & Misinformation": 6,
+    "Hate & Harassment": 3,
+    "Illegal Activities": 7,
+    "Malicious Disruption": 6,
+    "Privacy Violation": 5,
+    "Self-Harm & Suicide": 4,
+    "Sexual Content": 3,
+    "Violence & Harm": 5
+  },
+  "entries": [
+    {
+      "sample_id": "mmds:train:2721:2721",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 2721,
+      "raw_id": "2721",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhOY1RxKChKplwRag_2.jpg",
+        "images/Bk1GhT41RgYBzxa5Zc6i_2.jpg",
+        "images/Bk1GhT81RgYBzxa5Zc62_1.jpg",
+        "images/Bk1Ghdw1SR3DuSUQQTSB_1.jpg",
+        "images/Bk1GhgE1RQkDWc3KjZl8_1.jpg"
+      ],
+      "conversation_sha256": "cfeb6f8b7baeb9a40aaab922da816a249801a11985651cdd71884191ec989bed"
+    },
+    {
+      "sample_id": "mmds:train:733:732",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 733,
+      "raw_id": "732",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Illegal Activities",
+      "image_references": [
+        "images/635.jpg",
+        "images/636.png",
+        "images/792.jpg"
+      ],
+      "conversation_sha256": "315319a01d749ef3f336b88e24b5a41da5276daf619fe1e576656685d5b75b40"
+    },
+    {
+      "sample_id": "mmds:train:2915:2915",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 2915,
+      "raw_id": "2915",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1Gh1s1RgfATZ3LPmNX_1.jpg",
+        "images/Bk1GhJc1SCTC-c5z4s5O_1.jpg",
+        "images/Bk1GhOI1Sj5Aq8b-eXc3_1.jpg",
+        "images/Bk1GhPE1SCTC-bUZeSg7_1.jpg",
+        "images/Bk1GhT01RR_Cj7-pc8SB_1.jpg"
+      ],
+      "conversation_sha256": "694f65a2d3d06fdc3f65403a51f4e3d525cf48f5f2927d1e48837334b288819f"
+    },
+    {
+      "sample_id": "mmds:train:319:318",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 319,
+      "raw_id": "318",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Deception & Misinformation",
+      "image_references": [
+        "images/462.jpg",
+        "images/734.jpg",
+        "images/735.png"
+      ],
+      "conversation_sha256": "dc9320a873d1c14edee9ce8899b6e6c7f880354e3192659b996f824b3a3f62f3"
+    },
+    {
+      "sample_id": "mmds:train:1299:1298",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 1299,
+      "raw_id": "1298",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/1081.jpg",
+        "images/75.jpg",
+        "images/76.jpg",
+        "images/79.jpg"
+      ],
+      "conversation_sha256": "bc87fb4efacd2009f3dfabd18bdb652302c1630541e89d765847524f65dcb4e2"
+    },
+    {
+      "sample_id": "mmds:train:3108:3108",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 3108,
+      "raw_id": "3108",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhPs1SkCApeDFFWRP_2.jpg",
+        "images/Bk1GhSI1S0JD0YsAn9o1_1.jpg",
+        "images/Bk1GhjU1SkVAwZorGWAB_1.jpg"
+      ],
+      "conversation_sha256": "9301d30d7879d8b25ca63f538d0ec627824666e7182eeb421f8eeb4458d447da"
+    },
+    {
+      "sample_id": "mmds:train:1997:1997",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 1997,
+      "raw_id": "1997",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhUw1SlcBPmH1OoUV_1.jpg",
+        "images/Bk1GhXM1RxpDLbFJFnl2_1.jpg",
+        "images/Bk1GhnM1SDRDN2-6ZH3D_1.jpg",
+        "images/Bk1GlEc1SkhAHZTaameF_1.jpg",
+        "images/Bk1Gn381RxpDRvYr7FGp_1.jpg"
+      ],
+      "conversation_sha256": "085f62fc10fcecab4736f476416eea3e562729629e89a8d0d2a9a8af026e6a6e"
+    },
+    {
+      "sample_id": "mmds:train:1948:1948",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 1948,
+      "raw_id": "1948",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhJw1RR_Cj6_jcaTh_1.jpg",
+        "images/Bk1GhNw08EeC1A-TpNyz_1.jpg",
+        "images/Bk1GhNw08EeC1A-TpNyz_2.jpg",
+        "images/Bk1GhNw08EeC1A-TpNyz_4.jpg",
+        "images/Bk1GhNw08EeC1A-TpNyz_7.jpg"
+      ],
+      "conversation_sha256": "cff8614001ebf4c629d5d2ca776f9122b9da8819eb0b22287d5dcd137d90533e"
+    },
+    {
+      "sample_id": "mmds:train:881:880",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 881,
+      "raw_id": "880",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/189.jpg"
+      ],
+      "conversation_sha256": "1b1420eb88c4786e40fbff8d9afb090ecc051a0ee92d8be94e13255ba834446c"
+    },
+    {
+      "sample_id": "mmds:train:1947:1947",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 1947,
+      "raw_id": "1947",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhLo1RQ9BgRSfgp-U_1.jpg",
+        "images/Bk1GhNw1RxKChKmaPoje_1.jpg",
+        "images/Bk1GhQg1SjSBrZ-UGkn4_1.jpg",
+        "images/Bk1GhYU1Sz9DnXUHz8i7_1.jpg",
+        "images/Bk1Ghh01Sz9DnZspbXal_1.jpg"
+      ],
+      "conversation_sha256": "4056f30bad0d85264e27e3990d8af4cef686441eafeb7d1efd04686f321d60da"
+    },
+    {
+      "sample_id": "mmds:train:1043:1042",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 1043,
+      "raw_id": "1042",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/562.jpg",
+        "images/563.jpg",
+        "images/564.png"
+      ],
+      "conversation_sha256": "546351b4fb7f5dca2761a3871d292790d4724e52d795e88bc8aca2b7baccb324"
+    },
+    {
+      "sample_id": "mmds:train:777:776",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 777,
+      "raw_id": "776",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Malicious Disruption",
+      "image_references": [
+        "images/325.jpg",
+        "images/326.jpg"
+      ],
+      "conversation_sha256": "2ce14dce0a8ad276844ac393b2df7ef6f3e155cc49caa01afd894ceaa12c0a2f"
+    },
+    {
+      "sample_id": "mmds:train:2557:2557",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 2557,
+      "raw_id": "2557",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhNA1RQ3DK8uSDsZL_1.jpg",
+        "images/Bk1GhSk1SmRAuhebJwRI_3.jpg",
+        "images/Bk1Ghdk1RxqDJKNfaCwt_1.jpg"
+      ],
+      "conversation_sha256": "b23623c03d99a6242e6ecd937f3e2777100ca63955d71d4a2f6bf42c18ad72cf"
+    },
+    {
+      "sample_id": "mmds:train:606:605",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 606,
+      "raw_id": "605",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Illegal Activities",
+      "image_references": [
+        "images/1080.jpg",
+        "images/752.png",
+        "images/753.jpg",
+        "images/754.jpg"
+      ],
+      "conversation_sha256": "2cd8505c767e02e3798dcf5b868e9a1801ddb5efddeb90ccb972c0d157f3d4bb"
+    },
+    {
+      "sample_id": "mmds:train:3306:3306",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 3306,
+      "raw_id": "3306",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhU808l3DtVQVTFvQ_7.jpg",
+        "images/Bk1GlO01S0JD0VtP_NtW_6.jpg",
+        "images/Bk1GlPg1S0JD0VtP_NuY_8.jpg"
+      ],
+      "conversation_sha256": "b6a2cf3607c6f852cb45ff14d3bcce4d5243f4feba1fb98bb7a15473f2bbbec8"
+    },
+    {
+      "sample_id": "mmds:train:2303:2303",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 2303,
+      "raw_id": "2303",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhRk1RhnAjJG_ksuk_4.jpg",
+        "images/Bk1Gk8I1STlBB97ANq1B_4.jpg",
+        "images/Bk1Gk8I1STlBB97ANq1B_7.jpg"
+      ],
+      "conversation_sha256": "da569eeb5a4df2be9312456582712e3ba7d4e842a63510d47f3f46aeaaa17493"
+    },
+    {
+      "sample_id": "mmds:train:546:545",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 546,
+      "raw_id": "545",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Privacy Violation",
+      "image_references": [
+        "images/1012.jpg",
+        "images/1013.png",
+        "images/1014.jpg"
+      ],
+      "conversation_sha256": "fd4795f007401adaf233a4d5aa794c800f6efcb3ace5356c4e40348baecf5a40"
+    },
+    {
+      "sample_id": "mmds:train:798:797",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 798,
+      "raw_id": "797",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Deception & Misinformation",
+      "image_references": [
+        "images/0.jpg",
+        "images/1000.jpg",
+        "images/1001.jpg"
+      ],
+      "conversation_sha256": "4ba0e88c9775cf494fe3a144a88baa61a72d1bb265034173b2d5709f97f7332b"
+    },
+    {
+      "sample_id": "mmds:train:2517:2517",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 2517,
+      "raw_id": "2517",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhT01SR3DuSUQQS25_1.jpg",
+        "images/Bk1GhW01S0ZBIxFdRgDK_1.jpg",
+        "images/Bk1GhrE1RhnAjJjMcHxh_1.jpg"
+      ],
+      "conversation_sha256": "806bb41b7aee6848547986bb804b5dcf73651e05fb3a3241ebda6b34db96b7e1"
+    },
+    {
+      "sample_id": "mmds:train:838:837",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 838,
+      "raw_id": "837",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/67.jpg",
+        "images/68.jpg",
+        "images/69.png",
+        "images/70.jpg"
+      ],
+      "conversation_sha256": "d8d939095392fc1a4f158d484a9781115f0a5cc2e66958f6fd800098c569c5e9"
+    },
+    {
+      "sample_id": "mmds:train:1032:1031",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 1032,
+      "raw_id": "1031",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/570.jpg",
+        "images/571.jpg",
+        "images/572.jpg",
+        "images/573.jpg"
+      ],
+      "conversation_sha256": "9ac1858e5f37fdfe8fa1c0cc173fee0a7a9c102b061d73987fc4507562eb5f98"
+    },
+    {
+      "sample_id": "mmds:train:3116:3116",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 3116,
+      "raw_id": "3116",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1Ghd01Sz2AtEuopi_N_1.jpg",
+        "images/Bk1Ghqc1SkVAwcoMmkRD_1.jpg",
+        "images/Bk1Gk3o1SCTC-f200oXG_2.jpg"
+      ],
+      "conversation_sha256": "b51f702bd0e71ec103f3f8847baeec55f5bdb3c2bbb2505522490b73cc8f3858"
+    },
+    {
+      "sample_id": "mmds:train:459:458",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 459,
+      "raw_id": "458",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Deception & Misinformation",
+      "image_references": [
+        "images/767.jpg",
+        "images/925.jpg"
+      ],
+      "conversation_sha256": "460e533e176f59a1ad4ad6d0cb64d4ecdf9ec4d89ab17d209f68e05c64da64d7"
+    },
+    {
+      "sample_id": "mmds:train:3638:3638",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 3638,
+      "raw_id": "3638",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhXQ1Sk9Bqfr1oZ4Y_1.jpg",
+        "images/Bk1GhYs1Sk9Bqfr1oZ8M_1.jpg",
+        "images/Bk1GhZg1Sk9Bqfr1oZ-S_1.jpg",
+        "images/Bk1GhZo1Sk9Bqfr1oZ-d_1.jpg",
+        "images/Bk1Ghb81Sk9Bqfr1oaFT_1.jpg"
+      ],
+      "conversation_sha256": "2aef7bac255d5a293805d1bd647b2ce18d59a9ae654fa9609e42cad5439505e1"
+    },
+    {
+      "sample_id": "mmds:train:3316:3316",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 3316,
+      "raw_id": "3316",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhUU08VCB5xZyL8SX_1.jpg",
+        "images/Bk1GhgA1Sz8B1sITEaF-_49.jpg",
+        "images/Bk1GhkI1RiIATVf5YZYf_3.jpg"
+      ],
+      "conversation_sha256": "cb52ab6c53649ce8c37d44c102584011125e310d3d5177ffcb2e046b687a576c"
+    },
+    {
+      "sample_id": "mmds:train:2908:2908",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 2908,
+      "raw_id": "2908",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhP01RgYBzveD1Sln_1.jpg",
+        "images/Bk1GhV41RxpDLaCGSvSM_1.jpg",
+        "images/Bk1GhkQ1RhmBe0plTPrs_1.jpg"
+      ],
+      "conversation_sha256": "e632a4fb82376a4dfc3bc37eea1bf93cb2f108c4007794ef1786a89128f38b00"
+    },
+    {
+      "sample_id": "mmds:train:448:447",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 448,
+      "raw_id": "447",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Privacy Violation",
+      "image_references": [
+        "images/677.png",
+        "images/911.png",
+        "images/912.jpg"
+      ],
+      "conversation_sha256": "6ec4cf299cc3b10afb8d89cf089a2d02b6219b9cf353539ff8548c4a47ae964e"
+    },
+    {
+      "sample_id": "mmds:train:430:429",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 430,
+      "raw_id": "429",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Malicious Disruption",
+      "image_references": [
+        "images/833.jpg"
+      ],
+      "conversation_sha256": "1c34946ba18f3ecd137070492a3886aaaa804f20b49f40d35790f8829bdd85b2"
+    },
+    {
+      "sample_id": "mmds:train:3606:3606",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 3606,
+      "raw_id": "3606",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhVA1RxqDJLGnLaE1_1.jpg",
+        "images/Bk1Gkvo1RRUAdoA9jvak_1.jpg"
+      ],
+      "conversation_sha256": "26d5382d9798896fb91b3eb4ab53afe3f95a52b8199a819c29de6ab58bf406e9"
+    },
+    {
+      "sample_id": "mmds:train:156:155",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 156,
+      "raw_id": "155",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Deception & Misinformation",
+      "image_references": [
+        "images/390.jpg",
+        "images/391.jpg",
+        "images/392.jpg",
+        "images/393.jpg"
+      ],
+      "conversation_sha256": "05bbb11c791cc73e55b47a9eb194df50ecc7fc0b5ee504cc49703c624c41e17b"
+    },
+    {
+      "sample_id": "mmds:train:3149:3149",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 3149,
+      "raw_id": "3149",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1Gh1M1RQ3DGfnoc7aE_1.jpg",
+        "images/Bk1GhJI1Sj3DUJRGvzyR_1.jpg",
+        "images/Bk1GhNM1S2EChH7bDp71_1.jpg",
+        "images/Bk1GhW01RhfCD3ixpBX2_1.jpg"
+      ],
+      "conversation_sha256": "a25b12306518bbb5ac2ffb1f257550359a0ddd6d1a00c65048b973ff35b624ce"
+    },
+    {
+      "sample_id": "mmds:train:3499:3499",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 3499,
+      "raw_id": "3499",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhKw1RiHDqjJHtrka_1.jpg",
+        "images/Bk1GhV81SkJASo2d4FMC_1.jpg",
+        "images/Bk1Ghgs1Sk9Bqg1RhH7I_2.jpg"
+      ],
+      "conversation_sha256": "3d76c488eaf2893e08b89e85695c981c8a2a93028487356b2c690f10f7f2d336"
+    },
+    {
+      "sample_id": "mmds:train:1359:1358",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 1359,
+      "raw_id": "1358",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/498.jpg",
+        "images/499.png",
+        "images/500.jpg",
+        "images/501.jpg"
+      ],
+      "conversation_sha256": "3038d389eb0b91ce87b8f07fdef9d3d29ef30bebb958bb7b0cbd9eb90da15344"
+    },
+    {
+      "sample_id": "mmds:train:2393:2393",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 2393,
+      "raw_id": "2393",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhaU1SCSBfwLRmJjf_1.jpg",
+        "images/Bk1Ghbg1S2EChITlYfGR_1.jpg"
+      ],
+      "conversation_sha256": "d74978de7239260287e317be6c6d06ff176bcf16615d8295052f169f1f2e72d8"
+    },
+    {
+      "sample_id": "mmds:train:2128:2128",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 2128,
+      "raw_id": "2128",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhSs1RQ3DLJYfKUZE_10.jpg",
+        "images/Bk1GhSs1RQ3DLJYfKUZE_6.jpg"
+      ],
+      "conversation_sha256": "782c57c8e3e62beea563de93c763fa9cdf5a2865eda1417f751abac0b91c6b53"
+    },
+    {
+      "sample_id": "mmds:train:3373:3373",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 3373,
+      "raw_id": "3373",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhUo1RiIATT1Nksz4_1.jpg",
+        "images/Bk1GhY01SmRAuhymI1Ar_1.jpg",
+        "images/Bk1GhcY1S0ZBIz_vZuRa_1.jpg",
+        "images/Bk1Ghtc08FrAn5gH9XFa_1.jpg"
+      ],
+      "conversation_sha256": "bfee5bcf4568829342b2e1a6419fbd4dc0ce0eb7184870ed4bf50a5314dfb9f4"
+    },
+    {
+      "sample_id": "mmds:train:3320:3320",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 3320,
+      "raw_id": "3320",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhOk08EeC1A2_nYRi_2.jpg",
+        "images/Bk1GhVg1RPwAjU3dTKBw_2.jpg",
+        "images/Bk1Ghgg1SknB0VVGyTNn_1.jpg",
+        "images/Bk1Ghi01SR2AU5M7dibq_1.jpg"
+      ],
+      "conversation_sha256": "49676991a17530a5b4e05ed5c443a759431dce6769585c73c359c3dd4c966524"
+    },
+    {
+      "sample_id": "mmds:train:623:622",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 623,
+      "raw_id": "622",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Deception & Misinformation",
+      "image_references": [
+        "images/127.jpg"
+      ],
+      "conversation_sha256": "19e6d173023f5a532b032d6a791fc7b99a54aa8fa9ebe594d86a52e501e6805e"
+    },
+    {
+      "sample_id": "mmds:train:3548:3548",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 3548,
+      "raw_id": "3548",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1Ghgc1SR2AU7OX8oGk_2.jpg",
+        "images/Bk1GlIo1RhCCmDJeOm_7_1.jpg",
+        "images/Bk1GpxI1SCTDEhhNEPxm_2.jpg"
+      ],
+      "conversation_sha256": "d5f7aeba1ccee35faf9e17ffca1ccacb3d37787e6f6894a0a75500bc35b405b5"
+    },
+    {
+      "sample_id": "mmds:train:1089:1088",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 1089,
+      "raw_id": "1088",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/768.jpg",
+        "images/769.jpg",
+        "images/770.jpg",
+        "images/771.jpg"
+      ],
+      "conversation_sha256": "238243def90ce6088b8b9a0b2597176b6e8fe4eaf3e8b16781afc0af29d2acb9"
+    },
+    {
+      "sample_id": "mmds:train:421:420",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 421,
+      "raw_id": "420",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Illegal Activities",
+      "image_references": [
+        "images/602.jpg",
+        "images/603.jpg",
+        "images/884.jpg"
+      ],
+      "conversation_sha256": "c710a2e5076f8d06d9f31e18406bedd3fcff4c02ca5c2940757881090c00c4e4"
+    },
+    {
+      "sample_id": "mmds:train:1919:1919",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 1919,
+      "raw_id": "1919",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GlHY1S0TAsTPj9hn__1.jpg",
+        "images/Bk1GlHY1S0TAsTPj9hn__2.jpg",
+        "images/Bk1GlHY1S0TAsTPj9hn__6.jpg"
+      ],
+      "conversation_sha256": "608b1cfe3d60be98754630f28663d5a809d43467f68bf61bb4ba00d0307a05ff"
+    },
+    {
+      "sample_id": "mmds:train:3046:3046",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 3046,
+      "raw_id": "3046",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1Ghgg06hYCpB-4ynfd_1.jpg",
+        "images/Bk1GhjY1RhCCl-kQ4xWh_1.jpg",
+        "images/Bk1GhqI1SkhAHVRJ-sSH_2.jpg"
+      ],
+      "conversation_sha256": "3743d3284de1e26350eba90f7d0392dc18caaaad3cc6fb3f406c6b13515a3972"
+    },
+    {
+      "sample_id": "mmds:train:787:786",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 787,
+      "raw_id": "786",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Self-Harm & Suicide",
+      "image_references": [
+        "images/678.jpg"
+      ],
+      "conversation_sha256": "6f30d340d294b10676fe400b95d5aef12ed21a03493bcc0074f4f1b2a05602b8"
+    },
+    {
+      "sample_id": "mmds:train:779:778",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 779,
+      "raw_id": "778",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Violence & Harm",
+      "image_references": [
+        "images/841.jpg",
+        "images/842.jpg",
+        "images/843.jpg"
+      ],
+      "conversation_sha256": "1a3627b79885465138990e4a51ab45dd3ae4d29cb28dfdda0dffc730fbe50f7f"
+    },
+    {
+      "sample_id": "mmds:train:1165:1164",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 1165,
+      "raw_id": "1164",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/160.png",
+        "images/161.png"
+      ],
+      "conversation_sha256": "44c8ab1b05b4e8a7f08b8e438c67d76b413fa22b2b1b82ee8171ed5d73ec5e41"
+    },
+    {
+      "sample_id": "mmds:train:226:225",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 226,
+      "raw_id": "225",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Malicious Disruption",
+      "image_references": [
+        "images/458.png",
+        "images/459.jpg",
+        "images/547.jpg",
+        "images/548.jpg"
+      ],
+      "conversation_sha256": "dd4ffcab9a019adbffaefdd51d6a075f45b078da1c1cb838eec7a0a8b4d166be"
+    },
+    {
+      "sample_id": "mmds:train:1291:1290",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 1291,
+      "raw_id": "1290",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/1073.jpg",
+        "images/227.jpg",
+        "images/228.jpg"
+      ],
+      "conversation_sha256": "b1d2cb1b61ba7279e7acea6d5a0a35fd0dd3e29e5189930754061a3eea2490e7"
+    },
+    {
+      "sample_id": "mmds:train:2355:2355",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 2355,
+      "raw_id": "2355",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1Gh0Q1RhiDq6GARCkA_1.jpg",
+        "images/Bk1GhP81Sj8CfqkKa8dw_1.jpg",
+        "images/Bk1GhSA1RhjDrqGJO9Bs_1.jpg"
+      ],
+      "conversation_sha256": "6ac0625caa09e52e2eeb7fc3806203359c6f3d3752cf8b515650aa22445c597d"
+    },
+    {
+      "sample_id": "mmds:train:242:241",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 242,
+      "raw_id": "241",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Illegal Activities",
+      "image_references": [
+        "images/591.png",
+        "images/592.jpg",
+        "images/593.jpg"
+      ],
+      "conversation_sha256": "d6b59468a123d5ac3c1f7cdc3458412705b1af181bf8cdfc4ee222bb08bad816"
+    },
+    {
+      "sample_id": "mmds:train:435:434",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 435,
+      "raw_id": "434",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Deception & Misinformation",
+      "image_references": [
+        "images/895.jpg",
+        "images/896.jpg",
+        "images/897.jpg"
+      ],
+      "conversation_sha256": "35331c4a325150d2fb8bf4ba30754147c883416f6d9d2300caa03a0bd049b61a"
+    },
+    {
+      "sample_id": "mmds:train:3097:3097",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 3097,
+      "raw_id": "3097",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhQs07jSDumfTvl_b_2.jpg",
+        "images/Bk1GlIo1S0UA36AhvR9s_1.jpg",
+        "images/Bk1GpDs1SkgDdO4hDY0P_1.jpg"
+      ],
+      "conversation_sha256": "0879c2399c569e5e480b9614afe3425a5355037a52b0f634ca05ba63afab49e3"
+    },
+    {
+      "sample_id": "mmds:train:3640:3640",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 3640,
+      "raw_id": "3640",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhI01RQ3DLHgA51XA_1.jpg",
+        "images/Bk1GhVg1S2EChG3-1EMe_1.jpg",
+        "images/Bk1GhmY07jVCO8UIWX68_1.jpg"
+      ],
+      "conversation_sha256": "d8f7f4c235e865229a29efcc09150cf6fc3b264875d0971de916a06278d02676"
+    },
+    {
+      "sample_id": "mmds:train:3397:3397",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 3397,
+      "raw_id": "3397",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhPM1RhnAjGibTYhE_1.jpg",
+        "images/Bk1Ghe41RR-DDBuXDyT3_1.jpg",
+        "images/Bk1GhgI1STmDWUotLk23_1.jpg",
+        "images/Bk1GhhI1RR-DDBuXDybg_1.jpg",
+        "images/Bk1Gk_w1RiIATbnHlAKQ_1.jpg"
+      ],
+      "conversation_sha256": "e0316b0da5458e015bc72e2d77a38ccab64773a224302d00add2e13c45381340"
+    },
+    {
+      "sample_id": "mmds:train:1965:1965",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 1965,
+      "raw_id": "1965",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhhE08EVB_Uj6QXgR_2.jpg",
+        "images/Bk1Gk4Y1SkhAHbA9MqT5_2.jpg"
+      ],
+      "conversation_sha256": "334973410cbffb347fa0cb81499770743393e9a09327102128589f355a57990e"
+    },
+    {
+      "sample_id": "mmds:train:2450:2450",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 2450,
+      "raw_id": "2450",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhXQ1RiIATV8mvmC8_1.jpg",
+        "images/Bk1Gha41Sj3DUMUVKwS-_1.jpg",
+        "images/Bk1GhgI1SlcBPmH1Oo_a_1.jpg",
+        "images/Bk1Ghss1RQmBgrD5ADCn_2.jpg",
+        "images/Bk1GkmY1STmDWZ0NRKrA_1.jpg"
+      ],
+      "conversation_sha256": "f1f1ddb3a60bed5fc738e8edb1199bcd210552d910c4ffb1bcb267cb35b61b1b"
+    },
+    {
+      "sample_id": "mmds:train:3579:3579",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 3579,
+      "raw_id": "3579",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhcA1Rh-BaIs_aUbw_2.jpg",
+        "images/Bk1Ghec1SzVBfvqCDHgP_1.jpg",
+        "images/Bk1Glco1S0UA34CKTn2f_1.jpg"
+      ],
+      "conversation_sha256": "a3e855fecb4bf0d265406808cf8fa7845a1326b6393ff59fb3aa03029c441a5d"
+    },
+    {
+      "sample_id": "mmds:train:3152:3152",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 3152,
+      "raw_id": "3152",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GlQo1RQmBgvSoTkmi_5.jpg",
+        "images/Bk1GlSE1RQmBgvSoTkqh_2.jpg",
+        "images/Bk1Glb81RQmBgvSoTlyN_6.jpg",
+        "images/Bk1GlbM1RQmBgvSoTltk_13.jpg"
+      ],
+      "conversation_sha256": "baca43227e1b82949346ca097b6ccf9119812cda1744028aa4935da908cdffd9"
+    },
+    {
+      "sample_id": "mmds:train:2386:2386",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 2386,
+      "raw_id": "2386",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhOA1RQ3DJt88wni9_1.jpg",
+        "images/Bk1GhQo1Rh0BjrseMaf-_1.jpg",
+        "images/Bk1GhV01SCtBfDOsxavV_2.jpg",
+        "images/Bk1GhVU1S0NAVFfVUCOu_2.jpg"
+      ],
+      "conversation_sha256": "1593e5dde3430f1253c8673e53b19ca705db1d1337654d44e2f39f2b01ec370a"
+    },
+    {
+      "sample_id": "mmds:train:2938:2938",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 2938,
+      "raw_id": "2938",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhcY1SzbAQuzcv9dw_1.jpg",
+        "images/Bk1Ghhw1RheBSjhY3ssc_1.jpg",
+        "images/Bk1Gijw1RRUAlpEsfLHs_1.jpg",
+        "images/Bk1Gk441SlhAvXHZnHKC_1.jpg"
+      ],
+      "conversation_sha256": "e22dc5d2198f4e0c26d6fa66b412cc453f4397e789891c8e91346d04136095cd"
+    },
+    {
+      "sample_id": "mmds:train:2958:2958",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 2958,
+      "raw_id": "2958",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhR01RQkDWg5T4bLh_1.jpg",
+        "images/Bk1GhlM1SknB0TvL_saS_2.jpg"
+      ],
+      "conversation_sha256": "3b7b6b96304c92d0a189ad159e31d756011cd02736c9de4e942a7460f7d3e2a2"
+    },
+    {
+      "sample_id": "mmds:train:303:302",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 303,
+      "raw_id": "302",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Violence & Harm",
+      "image_references": [
+        "images/705.jpg",
+        "images/706.jpg",
+        "images/707.jpg"
+      ],
+      "conversation_sha256": "8c9d040ee2bed09bc367b1e7dff57db8d1ed06cc7e3b2560f4bfd490e11c02d0"
+    },
+    {
+      "sample_id": "mmds:train:95:94",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 95,
+      "raw_id": "94",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Illegal Activities",
+      "image_references": [
+        "images/255.jpg",
+        "images/256.jpg",
+        "images/257.jpg",
+        "images/258.jpg",
+        "images/259.jpg"
+      ],
+      "conversation_sha256": "14baeb83c61410af80d7a55f4ea731ec9c07421f8e323610f1513d386ff48656"
+    },
+    {
+      "sample_id": "mmds:train:2052:2052",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 2052,
+      "raw_id": "2052",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhaE1SDRDN27jnhrE_1.jpg",
+        "images/Bk1Ghgo1RQjASW3oFLi-_1.jpg"
+      ],
+      "conversation_sha256": "244029edaf7cb11c985d2b1cc0f5fb93a07673e19d9bf8a5d6122a58211bb02b"
+    },
+    {
+      "sample_id": "mmds:train:3561:3561",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 3561,
+      "raw_id": "3561",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GlR41RQmBgvSoTkqD_2.jpg",
+        "images/Bk1GlWI1RQmBgvSoTlLD_2.jpg",
+        "images/Bk1GlcE1RQmBgvSoTlzt_3.jpg"
+      ],
+      "conversation_sha256": "c16d93ec254f88a669582d30fa9bb81c43880bcd41950fdf352777d33cabebe7"
+    },
+    {
+      "sample_id": "mmds:train:2075:2075",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 2075,
+      "raw_id": "2075",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1Gh0g1RQ3DJ3PyPkU7_1.jpg",
+        "images/Bk1GhR81S0JD0QDkpvOs_1.jpg",
+        "images/Bk1GhVs1SkCApedxv3Wg_1.jpg"
+      ],
+      "conversation_sha256": "d1cf86310d3b9cd1f7c3cb4bd63444f2538eef4bff7b65b931630e0010ca907f"
+    },
+    {
+      "sample_id": "mmds:train:855:854",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 855,
+      "raw_id": "854",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/105.png",
+        "images/106.jpg",
+        "images/107.jpg",
+        "images/108.jpg",
+        "images/109.png"
+      ],
+      "conversation_sha256": "9bade7757c444b51b1530c9e9258357c40f9049381f725f7cb1082c0e1ac8764"
+    },
+    {
+      "sample_id": "mmds:train:2471:2471",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 2471,
+      "raw_id": "2471",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhR008l3DtUuLoFPA_1.jpg",
+        "images/Bk1GhRI1SCSBfv746JfG_1.jpg",
+        "images/Bk1GhUM1RQ9BgQB0aeG-_1.jpg",
+        "images/Bk1GhjY1S0NAVFiFs_fp_1.jpg"
+      ],
+      "conversation_sha256": "aa956d902d525d5091d069419ef8195c99ccb2128b7d4a6a9a966d7f918fa18c"
+    },
+    {
+      "sample_id": "mmds:train:520:519",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 520,
+      "raw_id": "519",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Sexual Content",
+      "image_references": [
+        "images/981.jpg",
+        "images/982.jpg",
+        "images/983.jpg"
+      ],
+      "conversation_sha256": "500b2b3dddd172c57d1914c9e6319d06025e63dc1d8d9fb0a2c735f1485e84ed"
+    },
+    {
+      "sample_id": "mmds:train:1193:1192",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 1193,
+      "raw_id": "1192",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/615.jpg"
+      ],
+      "conversation_sha256": "2c5cd8c7de128b289661a9ef03351c097328448fff8d2e201e6ce884991c1967"
+    },
+    {
+      "sample_id": "mmds:train:3563:3563",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 3563,
+      "raw_id": "3563",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhPI1RiJD13i8s3e5_2.jpg",
+        "images/Bk1GhQ01SmRAuhge5Y9k_2.jpg",
+        "images/Bk1GhR81RSCCPhB3NyKt_1.jpg",
+        "images/Bk1Ghco1Rh-BaLqUvbnX_2.jpg"
+      ],
+      "conversation_sha256": "95221bb87bcd3cf5a797dfc9313c87722460113d3401c2a0da5e8f52c98675b4"
+    },
+    {
+      "sample_id": "mmds:train:3350:3350",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 3350,
+      "raw_id": "3350",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhK01S2EChIBYgs3l_1.jpg",
+        "images/Bk1GhQ81S0ZBIxFdRfx1_1.jpg",
+        "images/Bk1GhQ81S0ZBIxFdRfx1_2.jpg",
+        "images/Bk1GhQM1SDWB-pdQK30n_1.jpg",
+        "images/Bk1GhYs1S0TAsPA0dSLw_1.jpg"
+      ],
+      "conversation_sha256": "5a65ae3dde2f55d91cfd0dde39e1aa8f8c04802ab51af14bf2643cb0dd7a74c8"
+    },
+    {
+      "sample_id": "mmds:train:1351:1350",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 1351,
+      "raw_id": "1350",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/138.jpg",
+        "images/140.jpg"
+      ],
+      "conversation_sha256": "173a9e2951240a1316de04d8be53587316f831e6795fe6b28d6a0beafecbdf1b"
+    },
+    {
+      "sample_id": "mmds:train:670:669",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 670,
+      "raw_id": "669",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Malicious Disruption",
+      "image_references": [
+        "images/429.jpg"
+      ],
+      "conversation_sha256": "b14331266630eb42b06ae5be3b04433f71b885e7c324224fda96586ce9003f6a"
+    },
+    {
+      "sample_id": "mmds:train:2541:2541",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 2541,
+      "raw_id": "2541",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhII1STmDWXaqM2tL_1.jpg",
+        "images/Bk1GhLA1SCqAhPzXPPe3_1.jpg",
+        "images/Bk1GhTU1Sj-AahTQhSYt_1.jpg",
+        "images/Bk1Ghj41Sz3BAm6ZYlKR_1.jpg",
+        "images/Bk1Ghqk1SzVBfvqCDIJW_1.jpg"
+      ],
+      "conversation_sha256": "b1ffdbdfa5182aace110f63fbe8692c076b2a8c8f87c62cd090397f27fde956d"
+    },
+    {
+      "sample_id": "mmds:train:1231:1230",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 1231,
+      "raw_id": "1230",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/994.jpg",
+        "images/995.jpg",
+        "images/996.jpg"
+      ],
+      "conversation_sha256": "e007655fb9c21dbf5a80664ad461e11ba20ddf9f680b1654555d6ce3bd99618e"
+    },
+    {
+      "sample_id": "mmds:train:2139:2139",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 2139,
+      "raw_id": "2139",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhMs1RhyCKapnQMMK_1.jpg",
+        "images/Bk1GhO01SkJASn8ksWTB_2.jpg",
+        "images/Bk1GlP41S0JD0TZoSKCJ_1.jpg"
+      ],
+      "conversation_sha256": "c12f79ed0eb81c93d1748ed69fee69dcbe5f5063a4684e3066371250f53a8459"
+    },
+    {
+      "sample_id": "mmds:train:3647:3647",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 3647,
+      "raw_id": "3647",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhGk1S0TAsO46y5ch_1.jpg",
+        "images/Bk1GhK41SDWB-nLV_Vh5_1.jpg",
+        "images/Bk1GhMc1SR3DuQLu_Y8P_1.jpg",
+        "images/Bk1GhO41SDWB-nLV_Vke_1.jpg",
+        "images/Bk1GhO41SDWB-nLV_Vke_2.jpg"
+      ],
+      "conversation_sha256": "460d85bf43290f9aa6b189f554c9a0f3717a9062b39b7f32a28f1dc73626bf60"
+    },
+    {
+      "sample_id": "mmds:train:3160:3160",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 3160,
+      "raw_id": "3160",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1Gh0Y1RhiDq6GARCkb_3.jpg",
+        "images/Bk1GhRQ1RhkB7ZKSEXbu_1.jpg",
+        "images/Bk1GhRQ1RhkB7ZKSEXbu_4.jpg",
+        "images/Bk1GhSI1SDWB-nLV_Vvl_1.jpg",
+        "images/Bk1GhSk1Sz3BAmzB2niF_1.jpg"
+      ],
+      "conversation_sha256": "4c6f9a5d41c903b502477e588ccd67c3ca60ff3930b162d74fea5a867666b597"
+    },
+    {
+      "sample_id": "mmds:train:40:39",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 40,
+      "raw_id": "39",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Malicious Disruption",
+      "image_references": [
+        "images/100.jpg",
+        "images/96.jpg",
+        "images/97.jpg",
+        "images/98.jpg",
+        "images/99.jpg"
+      ],
+      "conversation_sha256": "a85424fc84550122c2e9c96267c8c8e47786fcdc629c685f255d5d4f1e521e10"
+    },
+    {
+      "sample_id": "mmds:train:3365:3365",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 3365,
+      "raw_id": "3365",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhSg08l3DtVyymJN6_6.jpg",
+        "images/Bk1Gha808EVB_VIv-UXv_3.jpg"
+      ],
+      "conversation_sha256": "d5f9d073da27f0fdefe3ebd7cd59f595407c3de470d10df50676c46a77cf6991"
+    },
+    {
+      "sample_id": "mmds:train:3190:3190",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 3190,
+      "raw_id": "3190",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhJM1S2EChGZzddA1_1.jpg",
+        "images/Bk1GhfU1RSiBFjvgbdxw_1.jpg"
+      ],
+      "conversation_sha256": "574f1881a031d2789c9f1757f7a4a9538054b64ae8a1a98716dcb5d30723c1ef"
+    },
+    {
+      "sample_id": "mmds:train:347:346",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 347,
+      "raw_id": "346",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Illegal Activities",
+      "image_references": [
+        "images/772.jpg",
+        "images/773.jpg"
+      ],
+      "conversation_sha256": "a76c5a863e8791289be2e3573dd1757f4b4d85fbf3a49a2bfe8e81c3bd798538"
+    },
+    {
+      "sample_id": "mmds:train:230:229",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 230,
+      "raw_id": "229",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Illegal Activities",
+      "image_references": [
+        "images/163.jpg"
+      ],
+      "conversation_sha256": "9d58745fd8702f273f2d5bf1cdc4a86019c1bbdc805b1eb8238e38d391f56b45"
+    },
+    {
+      "sample_id": "mmds:train:2180:2180",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 2180,
+      "raw_id": "2180",
+      "assistant_label": "safe",
+      "assistant_dimension": "NA: None applying",
+      "image_references": [
+        "images/Bk1GhMQ08EVB_UvX-iUq_1.jpg",
+        "images/Bk1GhOE1SzoCgi1bZqfa_1.jpg",
+        "images/Bk1GhRU1SzYApNF4RYmJ_1.jpg",
+        "images/Bk1GhTs1RiJD13i8s3nV_1.jpg"
+      ],
+      "conversation_sha256": "161d59a3c62d02120efa3f873e1fae0d9d3dc86e590ad9c5bcd2763ed8eac09f"
+    },
+    {
+      "sample_id": "mmds:train:662:661",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 662,
+      "raw_id": "661",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Malicious Disruption",
+      "image_references": [
+        "images/375.jpg"
+      ],
+      "conversation_sha256": "5ecfd60d6a81e4e772ed6e3796274f0b86eb5cdcf3f80340abccd28ef133c68a"
+    },
+    {
+      "sample_id": "mmds:train:811:810",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 811,
+      "raw_id": "810",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Violence & Harm",
+      "image_references": [
+        "images/1047.jpg",
+        "images/487.jpg"
+      ],
+      "conversation_sha256": "03be510a87d18c21fdb511588a8df30fc57c7d448f54677b592ae38d4a06fb2f"
+    },
+    {
+      "sample_id": "mmds:train:374:373",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 374,
+      "raw_id": "373",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Violence & Harm",
+      "image_references": [
+        "images/816.jpg"
+      ],
+      "conversation_sha256": "dce7193cab0e4e9ce3bd7ee0b0179d82c77fd045161c879bb90fc5e0738a5912"
+    },
+    {
+      "sample_id": "mmds:train:46:45",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 46,
+      "raw_id": "45",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Privacy Violation",
+      "image_references": [
+        "images/121.jpg",
+        "images/122.jpg"
+      ],
+      "conversation_sha256": "eaa77105c2948ae545d7989b5e469f4f611fff58637d71f747cdec7aacf50ab2"
+    },
+    {
+      "sample_id": "mmds:train:768:767",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 768,
+      "raw_id": "767",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Privacy Violation",
+      "image_references": [
+        "images/834.jpg",
+        "images/835.png",
+        "images/836.jpg",
+        "images/837.png"
+      ],
+      "conversation_sha256": "f323b166353f135de83f5af74d4bad2ab124fb296690b161b77acb9a7fc6bf0a"
+    },
+    {
+      "sample_id": "mmds:train:297:296",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 297,
+      "raw_id": "296",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Hate & Harassment",
+      "image_references": [
+        "images/574.jpg",
+        "images/575.jpg",
+        "images/576.jpg",
+        "images/577.jpg"
+      ],
+      "conversation_sha256": "4ef2190929ed0c76c3fde7fbbbf7a82e38d16cba06bea68f95970b09286b07af"
+    },
+    {
+      "sample_id": "mmds:train:370:369",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 370,
+      "raw_id": "369",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Hate & Harassment",
+      "image_references": [
+        "images/673.png",
+        "images/674.jpg",
+        "images/675.jpg",
+        "images/676.jpg"
+      ],
+      "conversation_sha256": "e59291412e19e84d117e51d39a5c820841ee81bfd26fa7b0a02fa22e6745a81a"
+    },
+    {
+      "sample_id": "mmds:train:741:740",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 741,
+      "raw_id": "740",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Self-Harm & Suicide",
+      "image_references": [
+        "images/502.jpg",
+        "images/503.jpg",
+        "images/504.jpg",
+        "images/505.jpg"
+      ],
+      "conversation_sha256": "43cb73e99294ea79a6b1b9c947e981363620994e02f12a41a75572d2b7db85e3"
+    },
+    {
+      "sample_id": "mmds:train:341:340",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 341,
+      "raw_id": "340",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Violence & Harm",
+      "image_references": [
+        "images/450.jpg",
+        "images/451.jpg",
+        "images/452.jpg",
+        "images/765.jpg"
+      ],
+      "conversation_sha256": "b50fdd5dd2725892f2d6fa9dad99588b2ada9c57af83254bea9ecb1c0189dc9c"
+    },
+    {
+      "sample_id": "mmds:train:237:236",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 237,
+      "raw_id": "236",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Sexual Content",
+      "image_references": [
+        "images/578.jpg",
+        "images/579.jpg",
+        "images/580.jpg"
+      ],
+      "conversation_sha256": "60fa2c03085146d07950f65ba5afa0d46cbf2aebb629517a1518036e99b740a9"
+    },
+    {
+      "sample_id": "mmds:train:43:42",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 43,
+      "raw_id": "42",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Privacy Violation",
+      "image_references": [
+        "images/110.jpg",
+        "images/111.jpg",
+        "images/112.jpg",
+        "images/113.png"
+      ],
+      "conversation_sha256": "58170059007183ecaccb33ddef284b2e6be6bbe2d209e8da8e0c0e4dafc18da0"
+    },
+    {
+      "sample_id": "mmds:train:446:445",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 446,
+      "raw_id": "445",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Hate & Harassment",
+      "image_references": [
+        "images/726.jpg",
+        "images/727.jpg",
+        "images/728.jpg",
+        "images/729.jpg"
+      ],
+      "conversation_sha256": "0b7a45400790a15c71a43f23d111aace3ac717df77bc632382ef09332638cc43"
+    },
+    {
+      "sample_id": "mmds:train:276:275",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 276,
+      "raw_id": "275",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Sexual Content",
+      "image_references": [
+        "images/595.jpg",
+        "images/596.png",
+        "images/597.jpg",
+        "images/598.jpg"
+      ],
+      "conversation_sha256": "eff1793c3ae642d7634efb924ada8ca4ada3230caf45c2f3732148b86d254b49"
+    },
+    {
+      "sample_id": "mmds:train:109:108",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 109,
+      "raw_id": "108",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Self-Harm & Suicide",
+      "image_references": [
+        "images/294.jpg",
+        "images/295.png",
+        "images/296.jpg",
+        "images/297.png",
+        "images/298.jpg"
+      ],
+      "conversation_sha256": "a50e67de80fac9f43f85e26fdc38b6536d1cfd22d924d95b41f95fb58259423c"
+    },
+    {
+      "sample_id": "mmds:train:647:646",
+      "dataset": "MMDS",
+      "split": "train",
+      "jsonl_line": 647,
+      "raw_id": "646",
+      "assistant_label": "unsafe",
+      "assistant_dimension": "Self-Harm & Suicide",
+      "image_references": [
+        "images/301.jpg",
+        "images/302.jpg",
+        "images/303.jpg"
+      ],
+      "conversation_sha256": "adf13612f90ac6ccd9c779d648413ea84883ef9b51c5de144bc0dc90be272e17"
+    }
+  ]
+}

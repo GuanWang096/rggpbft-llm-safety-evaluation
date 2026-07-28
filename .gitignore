@@ -2,6 +2,7 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .ruff_cache/
+*.egg-info/
 .venv/
 venv/
 .env
@@ -26,6 +27,10 @@ src/fabric/baseline/cmd/workload/main
 
 # Local reruns use this prefix; frozen paper results remain tracked.
 results/reproduced_*/
+results/cross_layer/runs/
+results/cross_layer/smoke/
+results/multijudge/reproduced_*/
+results/multijudge/formal/mj1-test-full.tar.gz
 
 # Superseded pre-corrective matrices retained only in the working copy.
 src/configs/b3_matrix.json

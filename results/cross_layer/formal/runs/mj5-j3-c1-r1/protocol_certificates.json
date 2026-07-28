@@ -1,0 +1,4802 @@
+[
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0000",
+    "digest": "5674aa29343ae597fdf642279a9f0f128bd29e0294fb6d8414415856b672571f",
+    "protocol_certificate": [
+      {
+        "digest": "5674aa29343ae597fdf642279a9f0f128bd29e0294fb6d8414415856b672571f",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105155152697225
+        },
+        "sender": 1,
+        "sequence": 0,
+        "signature": "rD58ttA23UysL2tC0jFfWWrLHIeENvv8uXrz5j9VEo8A0DK/i+WfHRupjsYVaJz/6Ffsq6Oawn67QEQJss7YBQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "5674aa29343ae597fdf642279a9f0f128bd29e0294fb6d8414415856b672571f",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105155152697225
+        },
+        "sender": 8,
+        "sequence": 0,
+        "signature": "qaZ+qWi3SOdPFAz3wDMeY3xftiN8DvLMZSXpy8SnuhDqsNdTx+Gne4co2sYHnnYlpUOzEW/y152dvSisgWfGAg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "5674aa29343ae597fdf642279a9f0f128bd29e0294fb6d8414415856b672571f",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105155152697225
+        },
+        "sender": 10,
+        "sequence": 0,
+        "signature": "DRudw6DN4sUenOhfPhSd68+h7oZZhRrm0sttqwgC1G+m/Rt/+5C+tjDm6eM05LTW93KURUxzkLi3lkgUmZxoBw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "c5c2d99410fd02c720a5b6ff67b048c45b27cb6426d85d2778c51857a2ed122b",
+    "sequence": 0,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0004",
+    "digest": "f93449094f469810bfae5add9efbfb38b48dfa4322de053bffd57c2773c13cc3",
+    "protocol_certificate": [
+      {
+        "digest": "f93449094f469810bfae5add9efbfb38b48dfa4322de053bffd57c2773c13cc3",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105155316238898
+        },
+        "sender": 1,
+        "sequence": 1,
+        "signature": "N233Q2r7CbnVpsWG+njnnPzSh3L3g49yHYI5obHrSEmFJ1nxKB3N88iyqkWuNTi5SZ5aBmIxHO8urN8uFFskAA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "f93449094f469810bfae5add9efbfb38b48dfa4322de053bffd57c2773c13cc3",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105155316238898
+        },
+        "sender": 8,
+        "sequence": 1,
+        "signature": "098imXHAiM0zN1tSeInAJdV8ZIvOl2+P/Z62kK8a8oonHEMXCziCzdF1bJXdao83SKlDp9ExQ+yE4Cp4hIBkBQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "f93449094f469810bfae5add9efbfb38b48dfa4322de053bffd57c2773c13cc3",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105155316238898
+        },
+        "sender": 10,
+        "sequence": 1,
+        "signature": "fXsIzxxmMyNo1Bmqy6tEP+ZjHgzJaNo/LxhAAuWF79j1dZRQB4tVCinGe3SCRll9vt+wTqFXvR5Iz9TaAvdaCA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "bd41405e90eaa1c8ac92b398543f42c3d20ea31cca5416c4f803da8fceb63024",
+    "sequence": 1,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0010",
+    "digest": "22e19e24893dd5d00a7e60dc0ecd23a51977711f77516125b668b89c48507d3a",
+    "protocol_certificate": [
+      {
+        "digest": "22e19e24893dd5d00a7e60dc0ecd23a51977711f77516125b668b89c48507d3a",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105155446647232
+        },
+        "sender": 8,
+        "sequence": 2,
+        "signature": "Bsm9EHhOIbQreN4TQjXvkKynPXBxQHYzi/1i2a/kY2Hep2P1IZ86CrH6QZ5KhA9yOuuPvFXLKqHWodgAQGXBCQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "22e19e24893dd5d00a7e60dc0ecd23a51977711f77516125b668b89c48507d3a",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105155446647232
+        },
+        "sender": 9,
+        "sequence": 2,
+        "signature": "DBoSrYA1v8Gt9oDf317ecYuOJ6i2WnX8UYANrZrHMWitnczuOBhPlSbbymK8yLU0PF8mCZtmBjHqgefTyW49Ag==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "22e19e24893dd5d00a7e60dc0ecd23a51977711f77516125b668b89c48507d3a",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105155446647232
+        },
+        "sender": 10,
+        "sequence": 2,
+        "signature": "0vMMc5YxjhI6xx9m5Lcp4X5VXRrThJdNxlKp8sv4kbc6f4d07GNHbQZZY+7bn1H1Arod9ObtJnxpoA1Uvh13Aw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "6108aa11f0c6f9fee21652d697ec0757d21dbcbf256ea38e9cd7cd33b37ebc99",
+    "sequence": 2,
+    "signer_node_ids": [
+      8,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0014",
+    "digest": "29c8be6df394ea402373f00ac02d44136de9bb13bd87073158cf5553f2cc857b",
+    "protocol_certificate": [
+      {
+        "digest": "29c8be6df394ea402373f00ac02d44136de9bb13bd87073158cf5553f2cc857b",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105155577528772
+        },
+        "sender": 1,
+        "sequence": 3,
+        "signature": "KhUHSu4N9C+Ue9Zt1/cZNcymSq+nmTkGMpyq6bRlMXmX8wyIk5br9/4G2w0O7NUr8GB9gyMxLs+R03H0b++cAQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "29c8be6df394ea402373f00ac02d44136de9bb13bd87073158cf5553f2cc857b",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105155577528772
+        },
+        "sender": 8,
+        "sequence": 3,
+        "signature": "hyWHStmPvFbq/iFLDta9ZEcBhb8wM/frtY6gHpBM6ceXzSY1UdyE18ev/KCX1+RJhh38p3XNayqsJATByhsJBg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "29c8be6df394ea402373f00ac02d44136de9bb13bd87073158cf5553f2cc857b",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105155577528772
+        },
+        "sender": 10,
+        "sequence": 3,
+        "signature": "RZJYDpGzVbDItrhAleD7Pr5Z2TcydtU8z/NGQt0C+f7vZjqMNroqieAj4nHm55/zhJWKN4OmdkDveRtwZrF1Bg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "81176719ad78d1c397e3396f14bf6c3d5ac90261c673dc09dab9629450925ec2",
+    "sequence": 3,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0018",
+    "digest": "2d58c0a062dc86185495259145f33c651f8378ff534e4de10bca613bb98f74cb",
+    "protocol_certificate": [
+      {
+        "digest": "2d58c0a062dc86185495259145f33c651f8378ff534e4de10bca613bb98f74cb",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105155705928812
+        },
+        "sender": 1,
+        "sequence": 4,
+        "signature": "jvKWsM0LIbAZ7wTcquSD0yBy1drReTFEou6gex2/zkDNVJOZjTfthi/m4lBoT3KD72j88ZRkL3wUP17+IAF2DA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "2d58c0a062dc86185495259145f33c651f8378ff534e4de10bca613bb98f74cb",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105155705928812
+        },
+        "sender": 9,
+        "sequence": 4,
+        "signature": "37ybxlcj7JB35nkifKomcHadnVrycbCz7etpCz+DdsTGxZstpadH/pmT1LSFuUV2F13f7bZ7NYq4dEMFu+NiCQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "2d58c0a062dc86185495259145f33c651f8378ff534e4de10bca613bb98f74cb",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105155705928812
+        },
+        "sender": 10,
+        "sequence": 4,
+        "signature": "2YlJOtjtpqHGAnv7pnC88EFPLlmhef98bSrbD5oZdeFcxh+g+X31Fm4YewoIOgFbxfktxPG9sTFwMlAmuVMAAQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "c8a2a23b4647686ffb638600201d0321260ed7dc4979d749bed3781f2756db45",
+    "sequence": 4,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0020",
+    "digest": "de4d0a856c669ea28f74b1d85dc4e8d0671d042b71ee3dd12581c4b9683e865b",
+    "protocol_certificate": [
+      {
+        "digest": "de4d0a856c669ea28f74b1d85dc4e8d0671d042b71ee3dd12581c4b9683e865b",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105155864704994
+        },
+        "sender": 1,
+        "sequence": 5,
+        "signature": "RreXwjzneSDlMwOe3i5wG+TSodJmiLcLF/Rs82GJgcgByzRWmhJsFU92pd7u9VyciLIf28NQGmocjeWG/y6IAw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "de4d0a856c669ea28f74b1d85dc4e8d0671d042b71ee3dd12581c4b9683e865b",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105155864704994
+        },
+        "sender": 8,
+        "sequence": 5,
+        "signature": "keQVk7TERazNaf2Zb7lKpsMLCyQK5YKN5SXu07KyxicjKbrK7BqEwmIiFVwuxlnJp2TFInEd0MdGqHt5ufvVDQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "de4d0a856c669ea28f74b1d85dc4e8d0671d042b71ee3dd12581c4b9683e865b",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105155864704994
+        },
+        "sender": 10,
+        "sequence": 5,
+        "signature": "RmtqqcOjV/jEk0lUPJRYw1GTb0XTngOfHJXBvKR4SXsr89td848ihWXwecinfGmihZC8p+nFHp+p+ZrH47l9DQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "a35c163a8e9464906eed1babc664c0a0f73b041c1d1676fe57ba4f288b012d38",
+    "sequence": 5,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0022",
+    "digest": "0bc8a8ca49f2db528c6fbb47dbb77b728d6f03b298577652d82862d3c3b73034",
+    "protocol_certificate": [
+      {
+        "digest": "0bc8a8ca49f2db528c6fbb47dbb77b728d6f03b298577652d82862d3c3b73034",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105155992765723
+        },
+        "sender": 1,
+        "sequence": 6,
+        "signature": "7LC+1IMMzo1wmZIdnsxh7BhZNnSLolO60d2JprRTq4i+LKu4n5SI6DIcy2+/2d8p1pilweQGFNqNOUAf1W3pCA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "0bc8a8ca49f2db528c6fbb47dbb77b728d6f03b298577652d82862d3c3b73034",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105155992765723
+        },
+        "sender": 8,
+        "sequence": 6,
+        "signature": "hfaAXUGxhN/iE9IJxmD/4XGdYpZPyK2suJ6PYBVezYGE5DM9clAOan5qn6MovNdIa+eiT88Id0GmKdfAVxgNCg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "0bc8a8ca49f2db528c6fbb47dbb77b728d6f03b298577652d82862d3c3b73034",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105155992765723
+        },
+        "sender": 10,
+        "sequence": 6,
+        "signature": "yXBabdnl2Nwlh6/J9HvnuLv+c2suWc8zZ0kSiklOUqHngcGaBEss1hbHsDmt4Erislrq5VirVO92kfxhZ4BsCQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "3445eb3f0a0a9baea6981555251bcc7b4f5d25aa982d60404a852e573074b339",
+    "sequence": 6,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0024",
+    "digest": "345776afc6c7fa06c04bfec1f1311ce14c5f31fcbc0768ca7d4dbcb1300b0292",
+    "protocol_certificate": [
+      {
+        "digest": "345776afc6c7fa06c04bfec1f1311ce14c5f31fcbc0768ca7d4dbcb1300b0292",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105156122363136
+        },
+        "sender": 8,
+        "sequence": 7,
+        "signature": "Ho6HYAqygEK1uHgW/eqq8qkRh1+2Ki5Sy3pwFoHTawBBvO+MdILCLIS+Ps2XOQHvK/q8J7/9HQz7OK92q8+1DQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "345776afc6c7fa06c04bfec1f1311ce14c5f31fcbc0768ca7d4dbcb1300b0292",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105156122363136
+        },
+        "sender": 9,
+        "sequence": 7,
+        "signature": "3qV/eaduWh1yYX/rWnjmViMkDZZo7GY97yTJdEmT7VJXlplrASNjJIYvwrYmzZZ8cGQi3lpmAGNaLQ3mM1HvAw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "345776afc6c7fa06c04bfec1f1311ce14c5f31fcbc0768ca7d4dbcb1300b0292",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105156122363136
+        },
+        "sender": 10,
+        "sequence": 7,
+        "signature": "Q4g3p2FNkOA5KnaFwC4mUazVC8Y6oRmKo6rBKZ6idOGdKJPT46E4pWfe4zey6TKOKe6h+Z6bcQBgBI6CPJVGAg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "03556154289c80857cbb175cb1cd1f345ea7375f20aae603bf28674bc64b3fd3",
+    "sequence": 7,
+    "signer_node_ids": [
+      8,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0025",
+    "digest": "d27811525f99271a7c224077ac90da567c93792728c30af5de2ad15238747bd4",
+    "protocol_certificate": [
+      {
+        "digest": "d27811525f99271a7c224077ac90da567c93792728c30af5de2ad15238747bd4",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105156249892934
+        },
+        "sender": 1,
+        "sequence": 8,
+        "signature": "n35ZHQYsIi3zfFm8IY3Z9Y8GyUxelO69RtoMos5vDGs2J6QdU73iKBaV9uMQZzoqHzS9vlHFA89BiWhOraM6CQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "d27811525f99271a7c224077ac90da567c93792728c30af5de2ad15238747bd4",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105156249892934
+        },
+        "sender": 8,
+        "sequence": 8,
+        "signature": "HuW226inF5CALD3AgsDT3dKfXGhITHQF59IQflSfMoTmEndLseptpvULyRJZAsNljIH/t86L/Xpz0wc4dT1hBw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "d27811525f99271a7c224077ac90da567c93792728c30af5de2ad15238747bd4",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105156249892934
+        },
+        "sender": 10,
+        "sequence": 8,
+        "signature": "8oA85dLuATpaEe1pbBVWw9mM1qcHQZtmVX64JxV/8wnUM9+KSGBNG0v855mAte65Ca7T1IuxsquhHw5CKxdtCg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "2ac6a1d4742a468887be4e0c357a24544f06e837189c66fd9a79e87247af3f6f",
+    "sequence": 8,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0026",
+    "digest": "8d7df43d205b20f590b911de2ecab09bd249987f6770c9bb48a8f160f99d5eb3",
+    "protocol_certificate": [
+      {
+        "digest": "8d7df43d205b20f590b911de2ecab09bd249987f6770c9bb48a8f160f99d5eb3",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105156378330681
+        },
+        "sender": 1,
+        "sequence": 9,
+        "signature": "QQ5BdB++69/rJ3FqoGhO/mRu75OOKYkpYmPP9/VpKNlduSvk2K+iPQdqVbZwF1OrL/Jj0Ku77cVePKQ+Jim2DA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "8d7df43d205b20f590b911de2ecab09bd249987f6770c9bb48a8f160f99d5eb3",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105156378330681
+        },
+        "sender": 8,
+        "sequence": 9,
+        "signature": "kXvt6u0NuuNezy+mxWFrom+EiFiMuDlWNkqJMvh5Dq4MMKUxDMTMfi5wW/zkJXd8bzjCz9yj6Sqs7ig4DuOrBQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "8d7df43d205b20f590b911de2ecab09bd249987f6770c9bb48a8f160f99d5eb3",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105156378330681
+        },
+        "sender": 10,
+        "sequence": 9,
+        "signature": "4JzRHSBJqJxBsGK+36Vdq5DNy7sSUaWE/Cjywgojcs1VsJccBc6i+WymKfVesDxaEhFGOlQoRoUFuafx7YFtDg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "c51d85dd0ce6049d00f24944118f4cee3b12718145c132610fde3c0852dbc824",
+    "sequence": 9,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0031",
+    "digest": "cd9394ddd6bb14e4142e27fd7f241b62b30759915525715dea36f204ea68c740",
+    "protocol_certificate": [
+      {
+        "digest": "cd9394ddd6bb14e4142e27fd7f241b62b30759915525715dea36f204ea68c740",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105156507867324
+        },
+        "sender": 1,
+        "sequence": 10,
+        "signature": "CAN0SYAKnZ2v0aWGqThRymePQZHLBM8sqBA0UeJJbybNvToAUafY2xiqR22QjFM5AgkWymNudtfRgd2u7DP9Cw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "cd9394ddd6bb14e4142e27fd7f241b62b30759915525715dea36f204ea68c740",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105156507867324
+        },
+        "sender": 8,
+        "sequence": 10,
+        "signature": "fce+MiPIqVj65uTnfOwBI0T9zMVT47Rws4vwPvisYT2dvx2IVUwiKvzcvBySiJwWmbkzsig0BeKkMbmAjX5YDg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "cd9394ddd6bb14e4142e27fd7f241b62b30759915525715dea36f204ea68c740",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105156507867324
+        },
+        "sender": 10,
+        "sequence": 10,
+        "signature": "oV4BZLpBwc2XRrlSFJlW+KaBuGFeLrlDxyKk0L0PqnBQm/gUoh3bQ7IM19TjqyObO5L6kt9DASaPtl7HpLm2DA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "312e4aaaa62d2cebc1cd7bd8b5e9996d5c09c55c256a67c725ac4cf357448af0",
+    "sequence": 10,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0032",
+    "digest": "052af8bf3f9a3c9177aa1915dc820d726bc898da82990324c503f52fed7747a1",
+    "protocol_certificate": [
+      {
+        "digest": "052af8bf3f9a3c9177aa1915dc820d726bc898da82990324c503f52fed7747a1",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105156638084740
+        },
+        "sender": 1,
+        "sequence": 11,
+        "signature": "1gUNQbmSzR6ssEtuyBy/VxYV1NSOEVzSqdwgYvq7+XnbZmYf6+ZNrbyE8KduwbMOI0VRW0wZVAI+g5Z4ggiBAw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "052af8bf3f9a3c9177aa1915dc820d726bc898da82990324c503f52fed7747a1",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105156638084740
+        },
+        "sender": 8,
+        "sequence": 11,
+        "signature": "dj0f2MCaP88nzh2KRFVt8roOMblrlFlU4rytyWys+THkuH3OB7djK/U9b/Sjx7FjcLidAyU59Qn2C3bxWI5KCA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "052af8bf3f9a3c9177aa1915dc820d726bc898da82990324c503f52fed7747a1",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105156638084740
+        },
+        "sender": 10,
+        "sequence": 11,
+        "signature": "QYh9WahAVAy6PQnQlb4S7z/lg0YZKh1+QO/Az2hS516msHNMs9zXrDP0CyxGQiTSmL5amY+HjaN51JcXHzqJBw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "4cde055d10f609b7e4ca8a6fe219b5753826d9e6eb98de1fe304902d1be04c9a",
+    "sequence": 11,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0034",
+    "digest": "6b352600e1b9f23f302fc00786998a521b54bdd0200aca2ac027b4e6af47d8df",
+    "protocol_certificate": [
+      {
+        "digest": "6b352600e1b9f23f302fc00786998a521b54bdd0200aca2ac027b4e6af47d8df",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105156770130210
+        },
+        "sender": 1,
+        "sequence": 12,
+        "signature": "fg4GA71Nslwka0m+R4/3kn3USGScQc3S+/CfsORc4XE4NbI+XWLvSvd8PyKczrjh52qAJdA1AqAmEf00nm6dDA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "6b352600e1b9f23f302fc00786998a521b54bdd0200aca2ac027b4e6af47d8df",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105156770130210
+        },
+        "sender": 9,
+        "sequence": 12,
+        "signature": "cgKbfxtfKC5GUkTBHC/p/wTSfWQ3Mnwb3/XoQKjl5/ntiw0rPVganaUyercc+r8h3WsS96DLDDRTnjiTmU83BA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "6b352600e1b9f23f302fc00786998a521b54bdd0200aca2ac027b4e6af47d8df",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105156770130210
+        },
+        "sender": 10,
+        "sequence": 12,
+        "signature": "cL5zwpK5bjQ55rQrSmvyZ3hE+MMoXVKgi2KbgHvJtas0O1UfLOrv3P07a3sllO0mFblfqt1nSO/wwTHSQmjEAw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "47240ac69d5c8e4f74fccddf8323a90d0f9c4f9f8542528891576e157ece4937",
+    "sequence": 12,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0036",
+    "digest": "1eb786b8673bfdbdd1daf11b1d6e6bea2891492f35b480a47005970f87dd7a7b",
+    "protocol_certificate": [
+      {
+        "digest": "1eb786b8673bfdbdd1daf11b1d6e6bea2891492f35b480a47005970f87dd7a7b",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105156901990027
+        },
+        "sender": 1,
+        "sequence": 13,
+        "signature": "KG2xiCzpJxu9AwJVmtsyoCDfDVeGLoXDmuiSRbOMuNU+jw7CCtTSnAHshE/IVxX/1TtTabVF2uGZ3In5n9zvCg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "1eb786b8673bfdbdd1daf11b1d6e6bea2891492f35b480a47005970f87dd7a7b",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105156901990027
+        },
+        "sender": 8,
+        "sequence": 13,
+        "signature": "EyiL/IYK3xyPq1lwJqfUo7V9SY4J0mtJvVVcp3CRRDjmkvoYJnJwNHb6sNN/47MklENXGGCyNomD6YkjZS/uCg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "1eb786b8673bfdbdd1daf11b1d6e6bea2891492f35b480a47005970f87dd7a7b",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105156901990027
+        },
+        "sender": 10,
+        "sequence": 13,
+        "signature": "Y4W8wkE3kfZj2VZc7NlaoXvZQUk+qb01ML9H3B5uu9mBF8njyXTtYmtzPJCKDDsPU63HOGoYvTkrLxPHe06aAQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "585a3ec700fbb3e4b4ae0df3b33a4d950541d77eb0250577772254407d1d7120",
+    "sequence": 13,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0038",
+    "digest": "e91fa0c2a648c9e5527b26a3bee8ec430fe152f4eb3671ffa48bae7d316e4911",
+    "protocol_certificate": [
+      {
+        "digest": "e91fa0c2a648c9e5527b26a3bee8ec430fe152f4eb3671ffa48bae7d316e4911",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105157029025900
+        },
+        "sender": 1,
+        "sequence": 14,
+        "signature": "x1ecbQdiCwxF+4wb4wAepu5Xp1xmOPKKNgtGtQKIxQDYAmQBPebC1+H+wNAMJ63CHmAcR2pVXen4ca0F5/oRAQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "e91fa0c2a648c9e5527b26a3bee8ec430fe152f4eb3671ffa48bae7d316e4911",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105157029025900
+        },
+        "sender": 9,
+        "sequence": 14,
+        "signature": "q0IMgANh7+21F09nqN6wOnJOsA7L+8nvhmPP5jVlCUj1gS7+w22OPsuvBJZzK0wYjSAbvfmzT9uCO1KZ5Ng1Dw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "e91fa0c2a648c9e5527b26a3bee8ec430fe152f4eb3671ffa48bae7d316e4911",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105157029025900
+        },
+        "sender": 10,
+        "sequence": 14,
+        "signature": "HbWXbjKu50iXDDnZ77QWq+NL7QbZSKw/syewus5xoHrqRu3rY7yqXtX9yV1o9q1K0KvGAVqXAHVLsR9e04n0CA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "593443afdcf91ca1a4ae7a3fd7b9d20ec039d8658e2cab2db24d0d810fe22171",
+    "sequence": 14,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0039",
+    "digest": "cd4e31471716c9c743f017ba18709fee711c6b10ffacb343a22138a1b0953a8a",
+    "protocol_certificate": [
+      {
+        "digest": "cd4e31471716c9c743f017ba18709fee711c6b10ffacb343a22138a1b0953a8a",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105157162157941
+        },
+        "sender": 1,
+        "sequence": 15,
+        "signature": "xV8YIpXvOBEai1/SR/CCMd8DJS54tuEhHvXLIgspxDYX0DgGMX51Ls/2FQM/Q0qoSOOXEyvoCKs6IUxQAPeQAw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "cd4e31471716c9c743f017ba18709fee711c6b10ffacb343a22138a1b0953a8a",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105157162157941
+        },
+        "sender": 8,
+        "sequence": 15,
+        "signature": "CU89F51sGJtnAhGkGGRLDbv0GM83xjWYRl/KGznDymau8fimzAxDSmRs0d6AjOnfhKvfFrWErXPtQcBNVfTTAQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "cd4e31471716c9c743f017ba18709fee711c6b10ffacb343a22138a1b0953a8a",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105157162157941
+        },
+        "sender": 10,
+        "sequence": 15,
+        "signature": "6A+ZCGp9H1P93FHCEZ/e+Mv/nTOL7YYMP6vi0UQ9I9h92NFT18EOrli00kFThqdA789hRG6dcCUmyTxOYb8UCw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "60d1fad907c0db697c83a67c78c1d16e745f4c5d64c502acfab86782a72230da",
+    "sequence": 15,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0040",
+    "digest": "040ba78aaf34cdad8731b10383a355c6bcb1f03842b772b5b338172bc5a12a5e",
+    "protocol_certificate": [
+      {
+        "digest": "040ba78aaf34cdad8731b10383a355c6bcb1f03842b772b5b338172bc5a12a5e",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105157287610027
+        },
+        "sender": 1,
+        "sequence": 16,
+        "signature": "ei6fBr886JGTm1rleWog8uIYJIdDvFJB0RamVvwxERTSrWg4gV1WJU1NJI8x6xgAgzNQKaq7g6NxOk2zColXDQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "040ba78aaf34cdad8731b10383a355c6bcb1f03842b772b5b338172bc5a12a5e",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105157287610027
+        },
+        "sender": 9,
+        "sequence": 16,
+        "signature": "Vt3yQQhTpawWkH9pzTr4RvRRN2uu2kUgqtMWP2ubQiwHxPxMypqhIHCv08PJCf5mcH5x7kUw4JuuIwEDwNEkCw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "040ba78aaf34cdad8731b10383a355c6bcb1f03842b772b5b338172bc5a12a5e",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105157287610027
+        },
+        "sender": 10,
+        "sequence": 16,
+        "signature": "iosW+NiUKwMG7505wevE5SbSfuL3+lNZ83syI1PipnwOSWx+0vNYIpOPE86hFq9wcyik+oOlo7wc52Hwceu7AQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "991bf47abe93db1592f446081a3df1bdb188227fd865f200baa7ae6b2e1afbf8",
+    "sequence": 16,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0058",
+    "digest": "a8a3f1c16d888a16e57d67f05d8607eb12cc2888f216aab602386ed019878980",
+    "protocol_certificate": [
+      {
+        "digest": "a8a3f1c16d888a16e57d67f05d8607eb12cc2888f216aab602386ed019878980",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105157415620977
+        },
+        "sender": 1,
+        "sequence": 17,
+        "signature": "xUs/ANpIHOJoRftr21YWtoohOVemftkdVsgdBrvhCqXm75MbqSQz22mYPhqheRAqjuX5xvF1Wu1LwgSTMWP1CA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "a8a3f1c16d888a16e57d67f05d8607eb12cc2888f216aab602386ed019878980",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105157415620977
+        },
+        "sender": 8,
+        "sequence": 17,
+        "signature": "zBUTZ6aS8x8hhfNqmILCRzZ33A910rpzhEpG94wRlLfsh1VTd2xqrC02Qyo8n7eSKBd5h3sK9ciOzlIumnlzDg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "a8a3f1c16d888a16e57d67f05d8607eb12cc2888f216aab602386ed019878980",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105157415620977
+        },
+        "sender": 10,
+        "sequence": 17,
+        "signature": "xjBI/z8ZXqwg4ndEyotP8q+L4DARj4f4D06IwoyBBeSBexQYEGb63ig58WykPjLQYvYMaKCl2n6E9WT7tte1CQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "b03fe097e1beee37b0d55c26c434108c61440e35d14fbee99e132d13505bb1d8",
+    "sequence": 17,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0061",
+    "digest": "c103692d4bd04f059b92603d9a9e7e9d75c7ce2a01a876f633af2350b54ab75b",
+    "protocol_certificate": [
+      {
+        "digest": "c103692d4bd04f059b92603d9a9e7e9d75c7ce2a01a876f633af2350b54ab75b",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105157538981725
+        },
+        "sender": 8,
+        "sequence": 18,
+        "signature": "odIz6mKa5XVMFEySK0zIItyuo2VzctSoxBMt61dEXkKJELxuEOy0KUWInyguk5Z3o1sT7xT3MPbRtMieGZStBg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "c103692d4bd04f059b92603d9a9e7e9d75c7ce2a01a876f633af2350b54ab75b",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105157538981725
+        },
+        "sender": 9,
+        "sequence": 18,
+        "signature": "2gABlABIffogMhJSCkVIU3ECs/Dug1l3CeqPN+ycYqLd8uWWbbp22bWWBGdUwu0ApHMOKyXQf25OYdbDbwrlBQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "c103692d4bd04f059b92603d9a9e7e9d75c7ce2a01a876f633af2350b54ab75b",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105157538981725
+        },
+        "sender": 10,
+        "sequence": 18,
+        "signature": "cRPBRuIRDUChyzPOtfbhdNlEyEgbRJenOpeMixByPRLpP7MSul+CwwICy6d1KAS8VoRwMxN+8bs/9cIZmz/ECg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "20798885db32102f5338585960472813f9fc7402ad729104e2314028439b4014",
+    "sequence": 18,
+    "signer_node_ids": [
+      8,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0062",
+    "digest": "b86ab6db83ebef1bb5338efb18aed1d383d0ac2203814e9b97dcdedb75c31ef4",
+    "protocol_certificate": [
+      {
+        "digest": "b86ab6db83ebef1bb5338efb18aed1d383d0ac2203814e9b97dcdedb75c31ef4",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105157666093686
+        },
+        "sender": 1,
+        "sequence": 19,
+        "signature": "Dwg9KooTnEHlsScoOGlHpvHbkK0KW/8qJ7pb3X6xjUGzKzIzNo5zcxX+L5PdsEwrDud0994oIYZ8jv6N4SZaDQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "b86ab6db83ebef1bb5338efb18aed1d383d0ac2203814e9b97dcdedb75c31ef4",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105157666093686
+        },
+        "sender": 9,
+        "sequence": 19,
+        "signature": "iX2MhBWe/dEjVDTwfcFmZbmIDKueHIwOP+5TrYzB8ranX8hCmGaO6OOLhB1QibdFn1Xq0lqsEfkpZmX6PCFJCQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "b86ab6db83ebef1bb5338efb18aed1d383d0ac2203814e9b97dcdedb75c31ef4",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105157666093686
+        },
+        "sender": 10,
+        "sequence": 19,
+        "signature": "ufJ9Oq9UUC6lXVPuWeW8otcqCd9+mfSqJAvDq+jlqB9hKDo/OCkqxMaDZScEw+w/Q2P2Hek/Qajlh2IHg6Q/DQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "d65b9ee9e40a50dada4bfdef173acb02b839d4190098b64fe235c3bf595116a6",
+    "sequence": 19,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0070",
+    "digest": "e82f58ec941d35db89283479bfa8967370e8e2cfdc458ba13584625be439f0cb",
+    "protocol_certificate": [
+      {
+        "digest": "e82f58ec941d35db89283479bfa8967370e8e2cfdc458ba13584625be439f0cb",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105157790906164
+        },
+        "sender": 1,
+        "sequence": 20,
+        "signature": "42yJrfi9ihp2KWsa/8035T9ADQ6AuZMeFQ9dEYZM/Y1d1GvwxMUnoyYUINKh+EjdmAP0XyPrMKJ6spKQL34EBQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "e82f58ec941d35db89283479bfa8967370e8e2cfdc458ba13584625be439f0cb",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105157790906164
+        },
+        "sender": 9,
+        "sequence": 20,
+        "signature": "0NC8BdaNOLfI0Up3rj/T29m+8+Nb/FNIh5O21/Sk2xTeZVJK16xgD4vkchRnFjVlLBtHsQ3JlBOS/oYZoKnODQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "e82f58ec941d35db89283479bfa8967370e8e2cfdc458ba13584625be439f0cb",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105157790906164
+        },
+        "sender": 10,
+        "sequence": 20,
+        "signature": "ps5+1DI1GEYW1o7hTTcR5Rfyg97qwI4IWKEjl9WzHYlBY0wQiiYBl12BWZVBsO/31+oR1q+ovkpTJo08cgh3BQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "0db6bca47d29a00d9a5fe7383cf6c066e3c35fa8aa8e0697449645cceb77fc08",
+    "sequence": 20,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0071",
+    "digest": "f252433ce02feedf0acbd805e5b0f20b2ccb40c3b8bd1a5f6531c4a0e557956e",
+    "protocol_certificate": [
+      {
+        "digest": "f252433ce02feedf0acbd805e5b0f20b2ccb40c3b8bd1a5f6531c4a0e557956e",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105157919318693
+        },
+        "sender": 8,
+        "sequence": 21,
+        "signature": "5Z/omB6sfC+fe5y3y60XW6Z2tHAgQcSEAPGt8J6y3LQ7RcaNi/vyWbzOOvKff8t29MlWGYaEbZGrs50wL024Cw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "f252433ce02feedf0acbd805e5b0f20b2ccb40c3b8bd1a5f6531c4a0e557956e",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105157919318693
+        },
+        "sender": 9,
+        "sequence": 21,
+        "signature": "BVAsD2a5pgAMl0F07B//DIgGCcsbvizPUSx414t+uryN85eXdSUl5vwzKIzT5a5hD9mdb8zrwg2OumH84SQhCQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "f252433ce02feedf0acbd805e5b0f20b2ccb40c3b8bd1a5f6531c4a0e557956e",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105157919318693
+        },
+        "sender": 10,
+        "sequence": 21,
+        "signature": "5HExzsxM6nWzKPOZtBH9TmdwnfpPZrrDg34t6XYQTAPbAehd+YsST6TMlvgsfLbgvZ5NRUTio/Q56ms93Hw/CQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "1576b6a3cab201f9df2e1dbb9266c0917df69e0593244abfe3ab2e284130c2c6",
+    "sequence": 21,
+    "signer_node_ids": [
+      8,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0080",
+    "digest": "63105b4ed9928e69c649cf4a5c37ffd35d12f178a3087abcb36e0c1ddf39a334",
+    "protocol_certificate": [
+      {
+        "digest": "63105b4ed9928e69c649cf4a5c37ffd35d12f178a3087abcb36e0c1ddf39a334",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105158048216349
+        },
+        "sender": 8,
+        "sequence": 22,
+        "signature": "cpvQBIHlk4NV/ICLCGDhDgtn288IdxYYgN5uWGZ1R6Y1HiniPlzw2j0RmF2G+CTUC7KLo9JSYPZ/ozn7WjhxAQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "63105b4ed9928e69c649cf4a5c37ffd35d12f178a3087abcb36e0c1ddf39a334",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105158048216349
+        },
+        "sender": 9,
+        "sequence": 22,
+        "signature": "Hd86J0UOmLbYP0arfxK0/3kIGlbeSp6SJ8rrNLUlEseP9I29K6hecc0Lul9+f5EAYLykmPz3K42lhqem7m9lCw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "63105b4ed9928e69c649cf4a5c37ffd35d12f178a3087abcb36e0c1ddf39a334",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105158048216349
+        },
+        "sender": 10,
+        "sequence": 22,
+        "signature": "8SeKltUO3nP5RrozuR3Jv5QbiwIv6ne3Skpv64vAyV5IfwrW70CmPTEDxu85gZPOU3S7L1zAwgH1kehNGPw/Dw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "20ab4ffd1321d54c634dc65f8b875cd2196ca6f4cf83b1d80fbba52f4f10595e",
+    "sequence": 22,
+    "signer_node_ids": [
+      8,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0086",
+    "digest": "2d58154cb5046a0be5d44a8041783e66a5f03af5df02c29cf13f98a4718a0453",
+    "protocol_certificate": [
+      {
+        "digest": "2d58154cb5046a0be5d44a8041783e66a5f03af5df02c29cf13f98a4718a0453",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105158176842594
+        },
+        "sender": 1,
+        "sequence": 23,
+        "signature": "IkMGcLwaxKXKO87xBA/0bDHRLAH2XfEsIGKBpzwppQddZwCxRi6uy/wNhyYiNkC9CR2hg8uE+ELMWanipWYmDg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "2d58154cb5046a0be5d44a8041783e66a5f03af5df02c29cf13f98a4718a0453",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105158176842594
+        },
+        "sender": 8,
+        "sequence": 23,
+        "signature": "E0GpHVgtIhLUXK1U2xG9F9UaB3Osd/sE89Nt2opcOabQznOmUCf5mY0ppIu2BKPzaAOs979FyhSGLFl+LiCFDw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "2d58154cb5046a0be5d44a8041783e66a5f03af5df02c29cf13f98a4718a0453",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105158176842594
+        },
+        "sender": 10,
+        "sequence": 23,
+        "signature": "9ISQvCT/2YPhc6i8cgOia4aQnc9nT3NAnoctT+GHPw4OHClV0JUEHQoUidOZaC7vGVwDOByyvTXqY9eA2MUADA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "af56441f864a1ce4b67f1d1690df3546fb8c2734abde09531ab9c1bed57f3436",
+    "sequence": 23,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0091",
+    "digest": "12892b487cdcb52fddf05beb8bb40fe364366fc51c7603ac844ef09551768592",
+    "protocol_certificate": [
+      {
+        "digest": "12892b487cdcb52fddf05beb8bb40fe364366fc51c7603ac844ef09551768592",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105158307351780
+        },
+        "sender": 1,
+        "sequence": 24,
+        "signature": "tXrSJoBdFvVxeyRXo76MO4/Y44zqEe46S8DF/y7Zg3roe8TqX2+ke720BpdzNbK9auE20CWX5bFWvOcK/MH7CQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "12892b487cdcb52fddf05beb8bb40fe364366fc51c7603ac844ef09551768592",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105158307351780
+        },
+        "sender": 8,
+        "sequence": 24,
+        "signature": "dP2nWaufVUPVOvMlw/l+XA7xEMxddWI81t6UqsEosclFn2UdVlZLfDJZPDGe8nyOW+If9p5TZ4ly2ST6FwshCA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "12892b487cdcb52fddf05beb8bb40fe364366fc51c7603ac844ef09551768592",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105158307351780
+        },
+        "sender": 10,
+        "sequence": 24,
+        "signature": "UUCdR8ZQyTgbPqc4XQ0i2tQszxCawP6CWOsCYNI10cCqD2s86BE/AhO7nw/jtFWAqn5K5cG82IwHkVnDnV9ECg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "0e4792305bee83772fc1c5a8e9c8e162238321b804d649e65f089122f8df3b92",
+    "sequence": 24,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0093",
+    "digest": "5d1fdf2d2573e7c4ac69b8170a1b266aa55125cc5307b76b840af441b9e5ad76",
+    "protocol_certificate": [
+      {
+        "digest": "5d1fdf2d2573e7c4ac69b8170a1b266aa55125cc5307b76b840af441b9e5ad76",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105158436028629
+        },
+        "sender": 1,
+        "sequence": 25,
+        "signature": "Nxx887PP1ZQxVuaB4bHQRxdIRwrQ6va4TZDWYRQtN0f6WSeAKkRilhrAuMsyzbI6RmoHceQVQ6XN7PtFCXqgCQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "5d1fdf2d2573e7c4ac69b8170a1b266aa55125cc5307b76b840af441b9e5ad76",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105158436028629
+        },
+        "sender": 8,
+        "sequence": 25,
+        "signature": "tfyR3Tg805MBBW40/xZ/JhKNLh0qzjd+IyzAgLP8moBAkohCBMwNcPaqc6hJifccsfeK4fxLechtHJrV+EtwAw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "5d1fdf2d2573e7c4ac69b8170a1b266aa55125cc5307b76b840af441b9e5ad76",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105158436028629
+        },
+        "sender": 10,
+        "sequence": 25,
+        "signature": "o3FPRAa4Md8Yxr/kXay8H57SZezsQRxLppc+R9E0oOKlXZ1of+i0ZkyYp5CpBkN1nMsyFpTR3NvYKW7nVh4UCg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "ce511ed55dd9e0f43e61fbdc30bcf4ab495580247460f7656f7e44f76cd563d1",
+    "sequence": 25,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0099",
+    "digest": "f58b9cbfcae099a4342fc540b52b88c0a327c880069f1dc32c0b78a779eb3d70",
+    "protocol_certificate": [
+      {
+        "digest": "f58b9cbfcae099a4342fc540b52b88c0a327c880069f1dc32c0b78a779eb3d70",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105158564894256
+        },
+        "sender": 8,
+        "sequence": 26,
+        "signature": "YS92Y2nzhwNCIHmQ0TRfouOWFRdQUntVYrbnCVWBZgc/0tsj2ptcxBP5CBYIGD4kz29y5rhbuezzFaFsMralAg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "f58b9cbfcae099a4342fc540b52b88c0a327c880069f1dc32c0b78a779eb3d70",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105158564894256
+        },
+        "sender": 9,
+        "sequence": 26,
+        "signature": "AsaTsPVQfmgqQEgp6fviaK7jonW9Rt6GLBgedTQIyrSxmeiDXXrtkcl7P8x5EyAQ0OYYw66fp+fIepNmo3hFBg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "f58b9cbfcae099a4342fc540b52b88c0a327c880069f1dc32c0b78a779eb3d70",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105158564894256
+        },
+        "sender": 10,
+        "sequence": 26,
+        "signature": "Lz9Q2IPFFO2rg9Y/6iBRoqBXqViE08vB05VVMbeMJx2/QMQCYlBse3nCArk3T+2/thH4T9O5r3wIP3FM7cDDDQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "35ee4691f64246c2d5fbd56fa0d8844505bbf6e3f2cfd086c1f718517c30142d",
+    "sequence": 26,
+    "signer_node_ids": [
+      8,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0101",
+    "digest": "e9d9b42213be84f70bb3047bfef5fbc0f48f4c262e884add07c139005781fc8c",
+    "protocol_certificate": [
+      {
+        "digest": "e9d9b42213be84f70bb3047bfef5fbc0f48f4c262e884add07c139005781fc8c",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105158691839757
+        },
+        "sender": 1,
+        "sequence": 27,
+        "signature": "xovOo+YTY1ECrU5pCWadZ1edeJAnvkz/mbikomhzOGDg6M7gAK2uXNnkVtgcCtPWgYbWYf+nten44p07O+J0AQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "e9d9b42213be84f70bb3047bfef5fbc0f48f4c262e884add07c139005781fc8c",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105158691839757
+        },
+        "sender": 9,
+        "sequence": 27,
+        "signature": "RPifbBt0N12q+v+0YAhqPzg9kLWPwzWLCjGH6Cxq8cECxTrQNrEkzKzhtvQifXlYzxqD4/LD01mtG4O8FyRvAQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "e9d9b42213be84f70bb3047bfef5fbc0f48f4c262e884add07c139005781fc8c",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105158691839757
+        },
+        "sender": 10,
+        "sequence": 27,
+        "signature": "CnozQJft/j4tQF9dNOiLeLo/ysRv/XRDufF4W9Cev9kBqSU/73KqRtZqi8GRDjTckLCsXYsHtS8Y0lvLsMEuDA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "c799911585c6bcefc9d8ddcd84ac16d5baa9d0b3f316d32730ccc0852c532dfb",
+    "sequence": 27,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0104",
+    "digest": "ddaa61d06aac06473882980bf1490fdd6ba51c66e18be70899af186f69b715be",
+    "protocol_certificate": [
+      {
+        "digest": "ddaa61d06aac06473882980bf1490fdd6ba51c66e18be70899af186f69b715be",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105158823073431
+        },
+        "sender": 8,
+        "sequence": 28,
+        "signature": "w8ZQIIsTcBaNsn60KD6Kdx6ERik5keeCMTi2n0PsRRXunAAYTEQAqmnVN56VkiN1aeE6AI//xiN31xNRr63PDw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "ddaa61d06aac06473882980bf1490fdd6ba51c66e18be70899af186f69b715be",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105158823073431
+        },
+        "sender": 9,
+        "sequence": 28,
+        "signature": "KbkAPOjjIYVmY+nYwJreHBhloIafCmzK4EiL7iYF76qNtvlqq+NBT+QveiE+NaMMBkDMkUGxy9ylOSefd5ObAw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "ddaa61d06aac06473882980bf1490fdd6ba51c66e18be70899af186f69b715be",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105158823073431
+        },
+        "sender": 10,
+        "sequence": 28,
+        "signature": "tj5BJ4cyQbPDOktCCCuPtgwdQ17LurPyD7TFgIRp4Bzr1ekAe8ko6ZFrjW2g76rTS4Y72Sl2uHZqNxojxjDKDw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "ac9592f42def7abe94acf4911b4aa7dd96face636c2e24aaaf7377e2e6aa10b7",
+    "sequence": 28,
+    "signer_node_ids": [
+      8,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0105",
+    "digest": "f07970ab3f73aebe8e20f4048b600d99ef0f562e5079b7bf70a4a813b7e8556f",
+    "protocol_certificate": [
+      {
+        "digest": "f07970ab3f73aebe8e20f4048b600d99ef0f562e5079b7bf70a4a813b7e8556f",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105158948745939
+        },
+        "sender": 1,
+        "sequence": 29,
+        "signature": "BCJ7I0MHacJEWJkSPesOWtZ+Onk/am4v+R0WnXf4DKSjK07pTYi3S8kmllhsfcbescj4J6dON8Vfo4kab82yAg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "f07970ab3f73aebe8e20f4048b600d99ef0f562e5079b7bf70a4a813b7e8556f",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105158948745939
+        },
+        "sender": 8,
+        "sequence": 29,
+        "signature": "uQyV1C356VxUVQRw4cf979LgKp+xStRhyL7oS1uYCyeYpiJG46Zu/JI139VZJMPNeVgtAbt7TdSoiAzqwDg/Cw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "f07970ab3f73aebe8e20f4048b600d99ef0f562e5079b7bf70a4a813b7e8556f",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105158948745939
+        },
+        "sender": 10,
+        "sequence": 29,
+        "signature": "Ym7HwUEnCEl6cZcv4HBZ2Y8iIOpto6irjY2Vvw+qZ5bH6mJrx29OsXkwgJJCymnnPvp+PM/S5VJV6qodCt9/Ag==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "151aad98fb259e46ff77dc693d0589e57a66982236afa4a0a74abd1f0f0fbd3c",
+    "sequence": 29,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0113",
+    "digest": "45eb2a7620a219c782e043a7ce1265378ce10d39299d49b08b72fd2371d485c1",
+    "protocol_certificate": [
+      {
+        "digest": "45eb2a7620a219c782e043a7ce1265378ce10d39299d49b08b72fd2371d485c1",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105159076271645
+        },
+        "sender": 1,
+        "sequence": 30,
+        "signature": "V2jqlmi8zywXjKSKyMnNxD/Bixj/IiWY240UOsjSLBUXuj38+at/zicDfSE/YoQpshJXFd6lApXfoVThBzroDQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "45eb2a7620a219c782e043a7ce1265378ce10d39299d49b08b72fd2371d485c1",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105159076271645
+        },
+        "sender": 9,
+        "sequence": 30,
+        "signature": "nQE8O+boTOP232zYdnsl7fjz2qA4E5PWCZ4lYPrwj8RM8Du4iEbNo6mGT7sIPYInezP64N8qzSx+gJGoXP0sCQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "45eb2a7620a219c782e043a7ce1265378ce10d39299d49b08b72fd2371d485c1",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105159076271645
+        },
+        "sender": 10,
+        "sequence": 30,
+        "signature": "vTPsjlhmzZ/oAevTub954TaCo+nhwAftdXPLrdb7/X9AsgIGdn+TzWDtibWD0TFSStIYLS17MrTthz0joAeMDQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "027219f6fb0cae08b4271c6e777bf65a562faa30bedc596ef1fe09b7ab5fc983",
+    "sequence": 30,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0116",
+    "digest": "2bfd5c39e62b015cfffe0561952ede77528b3cab76478cc073b0e06fe7fc1b3d",
+    "protocol_certificate": [
+      {
+        "digest": "2bfd5c39e62b015cfffe0561952ede77528b3cab76478cc073b0e06fe7fc1b3d",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105159204785249
+        },
+        "sender": 1,
+        "sequence": 31,
+        "signature": "+PwTymauCcaTTIEOWU/7hK7raKQqQj/R8xpCGBXh2jiN6QHeOxHZAlUFLceiVSWOcwoV0XM96iqc79A/rTrAAA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "2bfd5c39e62b015cfffe0561952ede77528b3cab76478cc073b0e06fe7fc1b3d",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105159204785249
+        },
+        "sender": 9,
+        "sequence": 31,
+        "signature": "5t8Gdb4SmQBg7w1NYcNVycvbHBH7Fth+qAt24YCHCdiQXCJleuzcY12M+z4TcrZM1z9e+DzhzMGeQ7eggqL8Bw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "2bfd5c39e62b015cfffe0561952ede77528b3cab76478cc073b0e06fe7fc1b3d",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105159204785249
+        },
+        "sender": 10,
+        "sequence": 31,
+        "signature": "xmMf//oNA+Ip6ezCgJEh7Kd4IZHMiqZJWh/g69SUH5OuR7tXkq1wrgaNt4Rqa1GsoPwCVboZKxOksCL/i42FBg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "697d38a58fbcd3980189e29048160e136b5e490d18329d44edfde6b7d53e0c2a",
+    "sequence": 31,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0118",
+    "digest": "b5c1aae0be26819db1a5c7e2e4f3196dba0f8648e41c883d143627e144e62b32",
+    "protocol_certificate": [
+      {
+        "digest": "b5c1aae0be26819db1a5c7e2e4f3196dba0f8648e41c883d143627e144e62b32",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105159332776041
+        },
+        "sender": 1,
+        "sequence": 32,
+        "signature": "0iFN0Dm24c6b2WU/OalPAy6AkX95RtCAKYkWpWL9M7Y911y6O3nifa+iBDLCtHtpyekSVZ+5r7rxECm5BzARBg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "b5c1aae0be26819db1a5c7e2e4f3196dba0f8648e41c883d143627e144e62b32",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105159332776041
+        },
+        "sender": 8,
+        "sequence": 32,
+        "signature": "nDNpa7Hla495DoL/nnYMAeJ3KN0+GyYOPi1s5RZ7dmhx5C59GCxSyM+s94s1in5XEeF/yLiXaGRxx+KgcL0KBw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "b5c1aae0be26819db1a5c7e2e4f3196dba0f8648e41c883d143627e144e62b32",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105159332776041
+        },
+        "sender": 10,
+        "sequence": 32,
+        "signature": "aBBdqTWQfzQ9IKV/jaQApoytlHFK5AGfEhpinfCvecfhOmAyKwNkaTfrIVAvTGqfuYyd5PTE891OaBR4v5azAw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "b62a3f395d10c3066f075edac273ed1fda65f5bbbe4fbddf2f986c9b347b085f",
+    "sequence": 32,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0127",
+    "digest": "7aaf5dd66635e7c0739c73da8bbd2ef81f2c04f4171eaf4ad202937a91229d23",
+    "protocol_certificate": [
+      {
+        "digest": "7aaf5dd66635e7c0739c73da8bbd2ef81f2c04f4171eaf4ad202937a91229d23",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105159457506809
+        },
+        "sender": 1,
+        "sequence": 33,
+        "signature": "20sA0PfzfnFu0sVToct5d9JUKvyXz4c3g72Fshzuom/SpNUpAG6gcZR0LxORPP3glWMGzuxuNJfba80AeRthBw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "7aaf5dd66635e7c0739c73da8bbd2ef81f2c04f4171eaf4ad202937a91229d23",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105159457506809
+        },
+        "sender": 9,
+        "sequence": 33,
+        "signature": "85SOQknmKCFlywBLuc/9WEgpVijNrz0sznhaMcH0Fpnoc/DxGSqyrZ56xSOiI9goKoq05mGiX1zAJgNQEShnAg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "7aaf5dd66635e7c0739c73da8bbd2ef81f2c04f4171eaf4ad202937a91229d23",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105159457506809
+        },
+        "sender": 10,
+        "sequence": 33,
+        "signature": "JLR3q77K9OvxdEQLLj2+wx5WvNrJHTRPG0T/d9epZK5Nqhp+OvGTbhVJAGuhpUKXsCO5y6Dv4w4+YbBDqDYXAg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "fe8d03664f9979f0bf3250e1792b6fbb81f7979dc67ccd07affe469f1eb082a2",
+    "sequence": 33,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0129",
+    "digest": "ad00746486fbb2dc3424a8d71900c97fb449eacfb5a22fdea1eae3bf88cbc0fe",
+    "protocol_certificate": [
+      {
+        "digest": "ad00746486fbb2dc3424a8d71900c97fb449eacfb5a22fdea1eae3bf88cbc0fe",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105159588966937
+        },
+        "sender": 1,
+        "sequence": 34,
+        "signature": "Hahl/ie3WHnmFpr2qDlhK1xFs9f9lWvK31aUX+Q1KbKCD8wy1qz/FF1c2BxGzmURnC8ig5COA6VYGiTrcQhhDA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "ad00746486fbb2dc3424a8d71900c97fb449eacfb5a22fdea1eae3bf88cbc0fe",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105159588966937
+        },
+        "sender": 9,
+        "sequence": 34,
+        "signature": "tnvxjpmeyambXpjGgxKnufpy/1nB3EULiZZXT9GvN7dY62CvuzoXN8BqZyvlfFUhizUsr9UxPOzqEhHGoekHDA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "ad00746486fbb2dc3424a8d71900c97fb449eacfb5a22fdea1eae3bf88cbc0fe",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105159588966937
+        },
+        "sender": 10,
+        "sequence": 34,
+        "signature": "llhQlJFgo0teHNB5hYbENqgM5mD+Ukzm3tpAQMdeSetlxL558N27D8MoRkP6+zvWrrZJqwTP+MsJMAygqohkDQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "5bfc1c0367d16e4b8ad9d6b6a50a2aac8a771fb98d7d243bc51f33814b275d71",
+    "sequence": 34,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0131",
+    "digest": "cf8d51a25fcf3a81cb04c854fe457c2330fcccaa9ddabfdb5df81ba5baacdda7",
+    "protocol_certificate": [
+      {
+        "digest": "cf8d51a25fcf3a81cb04c854fe457c2330fcccaa9ddabfdb5df81ba5baacdda7",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105159717648322
+        },
+        "sender": 8,
+        "sequence": 35,
+        "signature": "VRlNp0i2VOWxqhsVNHeedeHRdq7SYhJisvfgEwmJx8Mm8ocyvDbFPRm0aIZV0lNEMwNCtj4YDzf8QX5PpySeBg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "cf8d51a25fcf3a81cb04c854fe457c2330fcccaa9ddabfdb5df81ba5baacdda7",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105159717648322
+        },
+        "sender": 9,
+        "sequence": 35,
+        "signature": "aYPGJYC7loBiQqyjvmGEa1DI2QTVzXjmtCBqebmssIhdf9UycKAliLzXCaynwsPy9NePt+j8h2ot7uud+RP8Dw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "cf8d51a25fcf3a81cb04c854fe457c2330fcccaa9ddabfdb5df81ba5baacdda7",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105159717648322
+        },
+        "sender": 10,
+        "sequence": 35,
+        "signature": "smOEXgLvDcO9361j/2ArTqcbeDy8rHjFFdza4DPTJL7ufevq/xwYpciljepFIi8+oyMMRtVTnJOnLfpxOZcZDg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "bb4ead9ca4e32bc439242e5a370ec4a5f6d12f80d7e4aaeac3549291a774d5ad",
+    "sequence": 35,
+    "signer_node_ids": [
+      8,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0132",
+    "digest": "29c2ba44280e6130674a11f0c1d5bcf700cb03ae25cec7415e679aa374aeaa7e",
+    "protocol_certificate": [
+      {
+        "digest": "29c2ba44280e6130674a11f0c1d5bcf700cb03ae25cec7415e679aa374aeaa7e",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105159867853093
+        },
+        "sender": 1,
+        "sequence": 36,
+        "signature": "TzRrJhAaikWgaP9sUtvZ6x98TtEIvrdx5Rvdju2sscw25qEcRL+bN5YlkTStVI+vn6QPvHSAKI54zwIgaT/IAA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "29c2ba44280e6130674a11f0c1d5bcf700cb03ae25cec7415e679aa374aeaa7e",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105159867853093
+        },
+        "sender": 8,
+        "sequence": 36,
+        "signature": "/szf2jA4oQLl/VkudylTT0YVZrg2SYufllaVFDzwHmoZ+nsmhrYeb+d1qNThTZU28i/6HjWFLbGi0c3BdYilDw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "29c2ba44280e6130674a11f0c1d5bcf700cb03ae25cec7415e679aa374aeaa7e",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105159867853093
+        },
+        "sender": 10,
+        "sequence": 36,
+        "signature": "E9J41eGP+0J9VE9csw3nANdiod1f1sjLe4KLlVNaYblkG/zTQINwGY9l6tZGeZlW633kmPpLAUDgrnB6G+EEBw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "22f85539c3cfdc9032d5bf3c89d32df2dc962e3b1dc69a4b562acdac21f61715",
+    "sequence": 36,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0134",
+    "digest": "f66a6a45f92dcbddf21f2ea812013bd2f65108917f6a804d98f482f400b40562",
+    "protocol_certificate": [
+      {
+        "digest": "f66a6a45f92dcbddf21f2ea812013bd2f65108917f6a804d98f482f400b40562",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105159992875228
+        },
+        "sender": 1,
+        "sequence": 37,
+        "signature": "53TU+E2LzzEXxjkOhxzHTfXAkp+HrG3bw2MyAu+Be23ecRu9I3Ejo+ig5xKo/JEGnov8sR76kFu3gfQaSWhCCA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "f66a6a45f92dcbddf21f2ea812013bd2f65108917f6a804d98f482f400b40562",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105159992875228
+        },
+        "sender": 8,
+        "sequence": 37,
+        "signature": "KLzev1FAnWRjaf5mdLbky2ldV+vqI75NuRV9yBnQtwFGAhzHhTozSx+FGyYR0YcXiSBKtcFILTy2LflCET4WBA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "f66a6a45f92dcbddf21f2ea812013bd2f65108917f6a804d98f482f400b40562",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105159992875228
+        },
+        "sender": 10,
+        "sequence": 37,
+        "signature": "iqsqgMKgV7p5hAjbNtB2xawmTDlU9QkI7nitzfXIOWwjPBaSe0CFAQzBadnrQfEB2BbmxX7ZOWOlbo+mTMpCCA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "fd28894d4ff548fcde3bccbc4c6687c1e4ca9a2837148c76068dd9c12bb29c2f",
+    "sequence": 37,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0139",
+    "digest": "a55f60ee506b56c8fafc5bbacc70f3fad41b39b6f9989fe51142e9268690a1cb",
+    "protocol_certificate": [
+      {
+        "digest": "a55f60ee506b56c8fafc5bbacc70f3fad41b39b6f9989fe51142e9268690a1cb",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105160121619873
+        },
+        "sender": 8,
+        "sequence": 38,
+        "signature": "OgJc0kForhIQeifOElFaNhjKvcNrmeoy6fsCwzb+d/4o7LvLHkRIv7wNmL4ZdFSBkQFtnCM3zrR2LfU6w4+HBQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "a55f60ee506b56c8fafc5bbacc70f3fad41b39b6f9989fe51142e9268690a1cb",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105160121619873
+        },
+        "sender": 9,
+        "sequence": 38,
+        "signature": "tDs2RM0vBJBKxhl8Z0BzggWKQpinWeFH8oOOmGE0boIze6LzL8XmYK/PBuLB8ndoQ0uKIBeam6EssE2ktKwmAg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "a55f60ee506b56c8fafc5bbacc70f3fad41b39b6f9989fe51142e9268690a1cb",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105160121619873
+        },
+        "sender": 10,
+        "sequence": 38,
+        "signature": "qqWlew7WcIHA4lSv8VEecXFLi41pHm2hpt3vxZuipTgKtQPUfNJHP/SECLSTpdqkh2uBqyxnusEWNtqFurVhBA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "e7c99413bb9dec4e950540cb09ce275dba3d8522de55298595324d8ad774f18f",
+    "sequence": 38,
+    "signer_node_ids": [
+      8,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0142",
+    "digest": "8678eb0dcd55e8e991605c427e83d7d566470344e4733cd38b7381101554a42b",
+    "protocol_certificate": [
+      {
+        "digest": "8678eb0dcd55e8e991605c427e83d7d566470344e4733cd38b7381101554a42b",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105160251016197
+        },
+        "sender": 1,
+        "sequence": 39,
+        "signature": "nZqdnSwbgDnM2lLE9DNJgN5MZV0JOHwp+Zvd3tDG41Qaml6mCWN988X6GNMuaWhascFVsDCpSyOMtrs05SQAAg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "8678eb0dcd55e8e991605c427e83d7d566470344e4733cd38b7381101554a42b",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105160251016197
+        },
+        "sender": 8,
+        "sequence": 39,
+        "signature": "Sinv+p61Vse46oPmvTW2UrzeTsK9GSImhDS8FRk1ePtRlQIvlpNGV0JBYA9iXiop861a2gk/x3rLp1OXX00mBA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "8678eb0dcd55e8e991605c427e83d7d566470344e4733cd38b7381101554a42b",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105160251016197
+        },
+        "sender": 10,
+        "sequence": 39,
+        "signature": "yZ46aGCijH9ic65QCNunBiVq7bZL0O3Sx2cBxCAY7vLMsi34dMCiv8fcEgfBNKKimO+yei780eRMILIojZmKAA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "9bf43d45ab64fb3ceba6f0e43715a2c98f71990487c30145e77c2f8cf7aa4373",
+    "sequence": 39,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0149",
+    "digest": "aeba5f36079fd11daf0c68b4a39e507f136e0c4b202203e0cec6881e85ada9ca",
+    "protocol_certificate": [
+      {
+        "digest": "aeba5f36079fd11daf0c68b4a39e507f136e0c4b202203e0cec6881e85ada9ca",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105160377399151
+        },
+        "sender": 1,
+        "sequence": 40,
+        "signature": "s6/e+l0x+HJz5dh/FoIqbNq7WIssorIsfDdcRo/g5MuTcG1bnb4IKVNU+5slMKAhgM2iGum1PAlrLSc41gfbCw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "aeba5f36079fd11daf0c68b4a39e507f136e0c4b202203e0cec6881e85ada9ca",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105160377399151
+        },
+        "sender": 9,
+        "sequence": 40,
+        "signature": "6QoRTBiO8HbNVbGdA1eQVvu0DAE8y7OC8LMI5ESCLgriBxKj/KvHd+w6Y4p8rb6bYta5UbstzsO08XDI5VD+AA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "aeba5f36079fd11daf0c68b4a39e507f136e0c4b202203e0cec6881e85ada9ca",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105160377399151
+        },
+        "sender": 10,
+        "sequence": 40,
+        "signature": "CX4sYgFmlS6FExhw9wCrhgmNANqCDebYNL3BoaaBnXLkQnAUcRnnMr7+dJ+p+6X+X8AjXyQT7DBGAXqLjuitBA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "a6640a76ba8480577f018d84f3393e303d022ba9363245b6179160ac1808b08d",
+    "sequence": 40,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0150",
+    "digest": "b95b235f4db68f434933a7828c99d44227c09aa77371367051e1606b113079ed",
+    "protocol_certificate": [
+      {
+        "digest": "b95b235f4db68f434933a7828c99d44227c09aa77371367051e1606b113079ed",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105160507674797
+        },
+        "sender": 1,
+        "sequence": 41,
+        "signature": "I42gZ5PRC71OKN1FC0uQfTfEtaD9N0cRi6Vx9PAEdKXmkWpIUknsffmF7SsrE5q4b0/QEnlbRD8d2y3yY+vTCA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "b95b235f4db68f434933a7828c99d44227c09aa77371367051e1606b113079ed",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105160507674797
+        },
+        "sender": 9,
+        "sequence": 41,
+        "signature": "7lu62AZErJf+cTL7etM1QDTMUeHVePBP7ZhH47bynorjuiS0EZkE97JaRmCzSYGO8c+cL6C+ZKlaf0nqJJejCQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "b95b235f4db68f434933a7828c99d44227c09aa77371367051e1606b113079ed",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105160507674797
+        },
+        "sender": 10,
+        "sequence": 41,
+        "signature": "3U/v55L4wR39jMpcBDbki9+oKydFHfCARiDarth2TYGl1k9jOM8tx0J1gs3vNU1Om7288yqryjSStAmpruFyAg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "63aeb256318e0df92a874cc3b7631636982ad36f2c36ef72e3494f75d083a817",
+    "sequence": 41,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0153",
+    "digest": "b73f2cc2d8454138b58cb584d8cf296b8bc8d7891808146f8282c33bf8812d55",
+    "protocol_certificate": [
+      {
+        "digest": "b73f2cc2d8454138b58cb584d8cf296b8bc8d7891808146f8282c33bf8812d55",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105160635594929
+        },
+        "sender": 1,
+        "sequence": 42,
+        "signature": "wvW4/VB6uvYYiBi5vOvopy8KEuxKorLomv6iZTHccZrg4mcNN6yOdw/JfSxgXgc9GbeSOeVYAYHvXY796pk4CA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "b73f2cc2d8454138b58cb584d8cf296b8bc8d7891808146f8282c33bf8812d55",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105160635594929
+        },
+        "sender": 8,
+        "sequence": 42,
+        "signature": "ly2YGMxEbGUAxi78PEs/5MixnCCBKh6elISeV+qTnFZAZYDFRmwQlZPA+kg13CcOX/WJpdz1LCOASozWN3WJBg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "b73f2cc2d8454138b58cb584d8cf296b8bc8d7891808146f8282c33bf8812d55",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105160635594929
+        },
+        "sender": 10,
+        "sequence": 42,
+        "signature": "QFb3L+XLy53wkwePQviiZlAUNy+5j8gn1Vl8LTg9KMC/ciu60jEqgQEEugknNmx9pyv6b61roVSc6D03iCf3DQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "22f4c02eb0f6f07227b6b68745484cb18919f376c0315f79f56fcf5c03e9dbe5",
+    "sequence": 42,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0159",
+    "digest": "11113dbff2772b47b7c6fc71cba2ffa2cbf8bcb2c0c7f9690b9fd234c2f77d20",
+    "protocol_certificate": [
+      {
+        "digest": "11113dbff2772b47b7c6fc71cba2ffa2cbf8bcb2c0c7f9690b9fd234c2f77d20",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105160765964642
+        },
+        "sender": 8,
+        "sequence": 43,
+        "signature": "LT67weNSWo8bxQw53P7zlsQTa6WiDK1zFrzLZ9c6f9WJVk39DWVcPwNG250ZkuK8M04+dtj7WXYMvVHLPFniBg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "11113dbff2772b47b7c6fc71cba2ffa2cbf8bcb2c0c7f9690b9fd234c2f77d20",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105160765964642
+        },
+        "sender": 9,
+        "sequence": 43,
+        "signature": "qNXF5BQVnSKrAleZU7sayL7mCZEHvJgojwEFtqoTSHlHLPyCus3UUu0EZZJF9qIvcCN2Xe7UxQ/o7y9HfNukBw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "11113dbff2772b47b7c6fc71cba2ffa2cbf8bcb2c0c7f9690b9fd234c2f77d20",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105160765964642
+        },
+        "sender": 10,
+        "sequence": 43,
+        "signature": "Qt2gLpsutE7HvVAb9coh+ok6fCOtCQ7+bSI3L6vqb+oqLPibEuyQtJhSJ/tRQxGRzayq1kz4l+pMXf8Xf97PDQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "7f661cf7394adf32d0eb12f1a40e85702f0b257e5afed2c4a93feaeebec06775",
+    "sequence": 43,
+    "signer_node_ids": [
+      8,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0167",
+    "digest": "f79a6abcda9ddce9d6d05df10f269ce9df1789b5dd5eedd3d99a7e5b468eb846",
+    "protocol_certificate": [
+      {
+        "digest": "f79a6abcda9ddce9d6d05df10f269ce9df1789b5dd5eedd3d99a7e5b468eb846",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105160893470706
+        },
+        "sender": 1,
+        "sequence": 44,
+        "signature": "KzOjr8VD4KUzG+mton2bSCn7MZJSH0TZLIkVWJwDxg2XgKkR7slIvhYMUx6l7s3R8p5AaXftloD+LO/aloSfCQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "f79a6abcda9ddce9d6d05df10f269ce9df1789b5dd5eedd3d99a7e5b468eb846",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105160893470706
+        },
+        "sender": 8,
+        "sequence": 44,
+        "signature": "Eo/J8OkXEiH8EEF+Q8z7FAz5YMu1UsWDpoW96ROz9aaOe+8sZ5s0Py88JlvzmNV+iPy1lN6uOuVN2FSTKbVKBw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "f79a6abcda9ddce9d6d05df10f269ce9df1789b5dd5eedd3d99a7e5b468eb846",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105160893470706
+        },
+        "sender": 10,
+        "sequence": 44,
+        "signature": "YE80QPCZm6MR6PirZGUVMIriIQIoDfdUTekRyRSVzg2AvKLetXViRQX8fp88pON10Qx3TW0SLPwtTtmdZSszCA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "4e1b76f520d4e5b17c9bf61cf53f54e663bc4f7a44518a22984147f6c70c6aef",
+    "sequence": 44,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0169",
+    "digest": "302e941fd1cf094b17b51dc6d01bf9a0607c4b77ce7489b7ae6a1f4655da9c8f",
+    "protocol_certificate": [
+      {
+        "digest": "302e941fd1cf094b17b51dc6d01bf9a0607c4b77ce7489b7ae6a1f4655da9c8f",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105161021106382
+        },
+        "sender": 1,
+        "sequence": 45,
+        "signature": "49NuIZZ8YsqAlhusqteYZDbvmQMuWS1ohWUdRTmMupbB93tHGiRtzzhuM2vmef+pGXB7MycON1ofwpKy5FkbCw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "302e941fd1cf094b17b51dc6d01bf9a0607c4b77ce7489b7ae6a1f4655da9c8f",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105161021106382
+        },
+        "sender": 9,
+        "sequence": 45,
+        "signature": "tGvUWl7Yds0qsngCNE8rMCT+yElRcY92SIpAXJo/pWJjQymLfpHGTbdijdulmAyYJouXhBb34KvzzsURlfQ4BQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "302e941fd1cf094b17b51dc6d01bf9a0607c4b77ce7489b7ae6a1f4655da9c8f",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105161021106382
+        },
+        "sender": 10,
+        "sequence": 45,
+        "signature": "0A35/ZqiVqqBPkvZs6KqYOIUcu4Jdt5YTwoYRlOWhruMARdZN3+lrMLrVSwKIopaLw9XxtxWjPzN9PM7IEzoAg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "5a327c7ab2438f52cb1884625f26b7fe0e6da0c7324d8995d460a4be89dbed60",
+    "sequence": 45,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0171",
+    "digest": "8ae8b16fc4e7afdc186a3a65566c036e10287ab05d2099e2853a763d7c169159",
+    "protocol_certificate": [
+      {
+        "digest": "8ae8b16fc4e7afdc186a3a65566c036e10287ab05d2099e2853a763d7c169159",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105161149418402
+        },
+        "sender": 1,
+        "sequence": 46,
+        "signature": "o+en8eYhnn6/cfP9qm+Dr201og70Oz+0vWpOe4hmqbvtUR/qaJRHpFbymnkFOu5zOZObkuduaZhzcog5wT0FCw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "8ae8b16fc4e7afdc186a3a65566c036e10287ab05d2099e2853a763d7c169159",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105161149418402
+        },
+        "sender": 9,
+        "sequence": 46,
+        "signature": "ebPAkewRDgEI310dI6ObsWI4EC+wXJAGzHmGX7vsn9jEBZmqfUVPH7J4jyflE4jhlhZVZhaRkt44ElNjl92eDQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "8ae8b16fc4e7afdc186a3a65566c036e10287ab05d2099e2853a763d7c169159",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105161149418402
+        },
+        "sender": 10,
+        "sequence": 46,
+        "signature": "JSOMroQX6KiPhXCbnpF9ck4BHzA0EvfDTACoWzJNKCof4+hQrQ7E85IWIPrm0Xj3fbKQEKwQPsEtcni8a/IBBQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "dbb258eb17d5de0ac850f2097bd711c0bf3e2f7872f873eb479f73b38d1f9e6e",
+    "sequence": 46,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0172",
+    "digest": "baa853f74d8079ef71a35026dee4c5d588813929597d75465686a0e505bcc266",
+    "protocol_certificate": [
+      {
+        "digest": "baa853f74d8079ef71a35026dee4c5d588813929597d75465686a0e505bcc266",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105161279088255
+        },
+        "sender": 1,
+        "sequence": 47,
+        "signature": "zP26SDIONp8TkJE1uHm7aTw+H/TCSNIXzbeR6SSZDvCtcMfgfonnO785ANuVp+OyVTc/0F9v3IEt/fR6CcvuCw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "baa853f74d8079ef71a35026dee4c5d588813929597d75465686a0e505bcc266",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105161279088255
+        },
+        "sender": 8,
+        "sequence": 47,
+        "signature": "jtCmi1CgVf3t5MX6YOCg0MOG4qkV4muWa9IcRgC3cwdD88MmsH3FIKZhYbqRylGWvEPSyCQ4XZGCNr+M/0phBA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "baa853f74d8079ef71a35026dee4c5d588813929597d75465686a0e505bcc266",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105161279088255
+        },
+        "sender": 10,
+        "sequence": 47,
+        "signature": "YulVnOopu+cMJ4MQv/y3x+QtqYfJzK/9B+RYGYeowuMDh0FxgnpqmE8AqPYkdC2Gwv9h+v2tmggG1UDm6di6Ag==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "748b2690fdc86ecc790ffc583e942cdeb4cf10677588643a8625de8fd5cfd4b3",
+    "sequence": 47,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0176",
+    "digest": "a8771f68cf11454ee24d438f4112413b0c757be724cf7ace23ac65e7abefe309",
+    "protocol_certificate": [
+      {
+        "digest": "a8771f68cf11454ee24d438f4112413b0c757be724cf7ace23ac65e7abefe309",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105161405665374
+        },
+        "sender": 8,
+        "sequence": 48,
+        "signature": "wRzgaGBgyPGFdtnOweyW+xDRlRQouReUNV0yWf6FYRwdZsOdu6NkPIUDrb0RMMzSIDyjUOECA8R3QeOhf8n4DA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "a8771f68cf11454ee24d438f4112413b0c757be724cf7ace23ac65e7abefe309",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105161405665374
+        },
+        "sender": 9,
+        "sequence": 48,
+        "signature": "+uC68eA0c5hMm4YkoIA7nTfz5quxec+YGkstbds+qPeWsIypFTARsUWmxP1lbclK2vlRrumdvMs5UePRAUKcAA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "a8771f68cf11454ee24d438f4112413b0c757be724cf7ace23ac65e7abefe309",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105161405665374
+        },
+        "sender": 10,
+        "sequence": 48,
+        "signature": "02Fl/SFqqQpFfHDI3WbOWvv1RrLOp6LYVa9jR5T/vcKerM9dg3sQ0vEr0oDWBaEx7Mh4xhu4n1ZjTt3/SxjdAQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "908655d3f166cbe4a87480f8b137528f595e75464653294386258b090de0aaca",
+    "sequence": 48,
+    "signer_node_ids": [
+      8,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0184",
+    "digest": "f8324cbc9f2664daf7b22e9440f60299318f7624f146130851b1fbcbb523b8c9",
+    "protocol_certificate": [
+      {
+        "digest": "f8324cbc9f2664daf7b22e9440f60299318f7624f146130851b1fbcbb523b8c9",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105161531814285
+        },
+        "sender": 1,
+        "sequence": 49,
+        "signature": "AD5myxDcqy16PLoL2V1kt4mKZN5Gx9lqifUEplDYlEAYrgs4bJJ549MMFCb2k+yyTgK543Q2SR+G2NVSo333AQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "f8324cbc9f2664daf7b22e9440f60299318f7624f146130851b1fbcbb523b8c9",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105161531814285
+        },
+        "sender": 9,
+        "sequence": 49,
+        "signature": "ei36g1hFmf8adT5fkffKkQf4ucUldQ5FZe/qK0DYYxKxcrWDuBiViMsODnVX4G+5jxP55XKC6ezjdmGkVSUtCg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "f8324cbc9f2664daf7b22e9440f60299318f7624f146130851b1fbcbb523b8c9",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105161531814285
+        },
+        "sender": 10,
+        "sequence": 49,
+        "signature": "xMbRvyLCoFZ8LQ17wRsnbqWRM4zxd6xoZ2H1WB3MKVMNRRJzT3o+jB06hRDVzuUmUxsOlEgAB8QzVvzs/AEkCQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "3ab4773aa9a170a0917252b2cfc4e6ee1e5c78f75175abfeee621a9397d227a0",
+    "sequence": 49,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0185",
+    "digest": "0bdf8627891ff24da15eddf118c3cb30284483b0a0817905ef7dee022905f538",
+    "protocol_certificate": [
+      {
+        "digest": "0bdf8627891ff24da15eddf118c3cb30284483b0a0817905ef7dee022905f538",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105161659159254
+        },
+        "sender": 8,
+        "sequence": 50,
+        "signature": "uvKAo+qPkVyDXT0T+nh3UcJUYrt8cXmrhvqIsrnuArnJzgnWl53D+PeraVS3C+D91XL+eTV6nj6HVMPgV/MnBA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "0bdf8627891ff24da15eddf118c3cb30284483b0a0817905ef7dee022905f538",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105161659159254
+        },
+        "sender": 9,
+        "sequence": 50,
+        "signature": "vLiXNlxqVpGZUR1oO4cgfNOvnYNpNsNGtBI/xkYWHGkYz8yesgUIEYG557iggIF0q0VvQM8p4aUBzQPuCTeYCA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "0bdf8627891ff24da15eddf118c3cb30284483b0a0817905ef7dee022905f538",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105161659159254
+        },
+        "sender": 10,
+        "sequence": 50,
+        "signature": "9W2rMZ3s+NqSzfHEzZnhyS/ceCDFD88QymxXARD8WQpVn5faihaTd+fzEvmaTRchwEBg1LySqQ60T52kJuFLAw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "66470af8ace158c941e6c0e5f3b4f46db373b7b058a74349700cdcc8c8ca5d05",
+    "sequence": 50,
+    "signer_node_ids": [
+      8,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0194",
+    "digest": "2f6f8fc6e9325e378a3ba3a03a35a55b2cb40695b648d5b51eeb799044399940",
+    "protocol_certificate": [
+      {
+        "digest": "2f6f8fc6e9325e378a3ba3a03a35a55b2cb40695b648d5b51eeb799044399940",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105161789044298
+        },
+        "sender": 1,
+        "sequence": 51,
+        "signature": "V3HrUSPl/0yOvd8U+cNTAHMM15gCoVrJZ/K+l9j3+4B2X6Jl9D36WfFeY2yyJ7R3wOXFqxlHBADLBVW0vWIfDA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "2f6f8fc6e9325e378a3ba3a03a35a55b2cb40695b648d5b51eeb799044399940",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105161789044298
+        },
+        "sender": 8,
+        "sequence": 51,
+        "signature": "XFb0zYU+hca5L7UtL0jLvPKav2nNma92iPO2H51qQ8wZ/DMLyLpbT9iyqZlji4PfL/TstV352dmSBtQ6nu7yAQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "2f6f8fc6e9325e378a3ba3a03a35a55b2cb40695b648d5b51eeb799044399940",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105161789044298
+        },
+        "sender": 10,
+        "sequence": 51,
+        "signature": "he4x5ntW/qibdnbSdJzHVMRD3O3jOGFUMo0DaT6Nk59IB+WPsaKfPUsxW8kQvee4/5VJlH9oskqYe1Zyk/7ECw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "868d7930356c2816c20a6bed689f435c855cf9b5c1786f4f0d62fc87afdd1a2f",
+    "sequence": 51,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0195",
+    "digest": "76b62831b142ac43af57bdb8f6efd5d0c7dd68ea4bf2887c79e983109ce066f7",
+    "protocol_certificate": [
+      {
+        "digest": "76b62831b142ac43af57bdb8f6efd5d0c7dd68ea4bf2887c79e983109ce066f7",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105161914080442
+        },
+        "sender": 1,
+        "sequence": 52,
+        "signature": "2TbmkYCiJcuhJmREIhflHLaZHdm6n/f+ilArfwaBt2Vi1xsM3ZjojxoJkqu/FS+1qnJb+LgmwU8ohXYv3UE8AQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "76b62831b142ac43af57bdb8f6efd5d0c7dd68ea4bf2887c79e983109ce066f7",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105161914080442
+        },
+        "sender": 8,
+        "sequence": 52,
+        "signature": "eU2/vlLxXhnooE6x7zSBmn5/E7nhU06JSGrahMHUlHMxVR/bT/9oyFs/Ym+esCHGcugSlbF2mLCh5PvjY3j0Bw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "76b62831b142ac43af57bdb8f6efd5d0c7dd68ea4bf2887c79e983109ce066f7",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105161914080442
+        },
+        "sender": 10,
+        "sequence": 52,
+        "signature": "1Ljah+RIAYIVA16jtHTi0ueuJRovN9AidO5Y+7tpENJ8qtiP+YMbnsIbOPkvmzYtVtCx2lSre7Vef5f6q0GeDw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "ab9de2acb7575463c735ba246b7e36aa41bb23bb703d78292e8ca6d5d467a5ca",
+    "sequence": 52,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0196",
+    "digest": "812273b6b83f253016f39cae2ba9b08484bc4c5e233496ccdc466ae4cd3d21d4",
+    "protocol_certificate": [
+      {
+        "digest": "812273b6b83f253016f39cae2ba9b08484bc4c5e233496ccdc466ae4cd3d21d4",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105162043707813
+        },
+        "sender": 1,
+        "sequence": 53,
+        "signature": "2AXyckvI7Igzx/ut1CAFDIXhEuJSE6Y6HTXV/2Y5mbEgCvHe6s/AfF74i8cjGMR7L8FIis6iqT2PkFTOVIFsCg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "812273b6b83f253016f39cae2ba9b08484bc4c5e233496ccdc466ae4cd3d21d4",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105162043707813
+        },
+        "sender": 8,
+        "sequence": 53,
+        "signature": "EcvpT6g+YMs++CXmsvfDwwltXh2le0o7r+W7kVTpiN9EZSurUEh4hh0rdcB0KbrR9YzUt7qjmxc01kt4wRlPBg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "812273b6b83f253016f39cae2ba9b08484bc4c5e233496ccdc466ae4cd3d21d4",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105162043707813
+        },
+        "sender": 10,
+        "sequence": 53,
+        "signature": "lCshP7ANa8MSkASE38vmIl28jly3J+lYr1UKYWJnb8ebmcwvDSutFAUuxPqd+6h4Q9k718qb+7615X7T587uAQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "9eb826e0df6a0c7fe03e0e9276bc74b371a984a5efc282b7d9035a42ae3d7c8f",
+    "sequence": 53,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0197",
+    "digest": "24d3418294cb70ce6769a4fc35f38a1a41c27ab2cc8c9d02856015eb46180fa8",
+    "protocol_certificate": [
+      {
+        "digest": "24d3418294cb70ce6769a4fc35f38a1a41c27ab2cc8c9d02856015eb46180fa8",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105162171640921
+        },
+        "sender": 1,
+        "sequence": 54,
+        "signature": "UpQujEfDqUVyc07qCR46PjL7JhSJuopG0KT8CBgKFGTKqG5A39sj5M35klhx2nXbRVIAV4O9VFUyQ8s+7ACKAw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "24d3418294cb70ce6769a4fc35f38a1a41c27ab2cc8c9d02856015eb46180fa8",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105162171640921
+        },
+        "sender": 8,
+        "sequence": 54,
+        "signature": "sr4j8Aw9l8w5jMB6MZhSRz7WF7/x8dndgEV98gTD46xewMwDpW9wak6aTjicCFeHXivaI5p3A86RRzpDbt4eAg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "24d3418294cb70ce6769a4fc35f38a1a41c27ab2cc8c9d02856015eb46180fa8",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105162171640921
+        },
+        "sender": 10,
+        "sequence": 54,
+        "signature": "FHmmG74DDn/7O8Q+bMcKCmudyqVSuzkWMcCCU13Za+OqIyZWSErIXJsoTbsPTAHns9cQhJjb9biojyWbpq4kBw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "3ead2006c02412cdb8bacc949d9c6da5bf724bba73f311b2783ddbb56a3f4788",
+    "sequence": 54,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0198",
+    "digest": "9201e6cf66a2ac9c27fe26e8571a41e19e27aebb834601efa120d0e8782ef475",
+    "protocol_certificate": [
+      {
+        "digest": "9201e6cf66a2ac9c27fe26e8571a41e19e27aebb834601efa120d0e8782ef475",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105162309335816
+        },
+        "sender": 1,
+        "sequence": 55,
+        "signature": "mVqkvithED3y+fJt0R+faLc/JmbHrUzIApcy7Mz6aIbNR7656Io3pacDqWelpq1Is2cUQc9YRkxITNh4EhgsCA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "9201e6cf66a2ac9c27fe26e8571a41e19e27aebb834601efa120d0e8782ef475",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105162309335816
+        },
+        "sender": 9,
+        "sequence": 55,
+        "signature": "dvId6WvjzofVVJ+nyXkiGY2k7czIjZnljeVFw3GAYcKOmsmWcBT5KbV9hkYohxZGQkc5p17qX3epUh3Y0OViDA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "9201e6cf66a2ac9c27fe26e8571a41e19e27aebb834601efa120d0e8782ef475",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105162309335816
+        },
+        "sender": 10,
+        "sequence": 55,
+        "signature": "Cn+uU6xeoh7tDadalJd2R12TCXrGToFqaXIiTWj5XUUGgOtJRImXedsFoPEP7j7Tt6hPgRwXWiPFyeEKKnjZBw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "879e354afa7fbd118cf3845eb5897b5298398782dc0ad6070f23d3499519a02e",
+    "sequence": 55,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0199",
+    "digest": "181e61106e9e5f3446b6275064fa6ef855c1df3c442936626aafbfa98d96cba8",
+    "protocol_certificate": [
+      {
+        "digest": "181e61106e9e5f3446b6275064fa6ef855c1df3c442936626aafbfa98d96cba8",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105162454983372
+        },
+        "sender": 1,
+        "sequence": 56,
+        "signature": "JCA4FmXRryy+IPxJhnM45sMawEKS9D+VdY3hc62LhULY24GmKPQ1sJEvieVJ618iktUiJBB+7376Wao8TL+sAA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "181e61106e9e5f3446b6275064fa6ef855c1df3c442936626aafbfa98d96cba8",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105162454983372
+        },
+        "sender": 8,
+        "sequence": 56,
+        "signature": "KH1CDLqw00MpDWc4UOp12dZTJpn0WuC3v86ao1FBbgjU02dxQM6YFV1XS26M17QY/eTNQn+gHRL26+9dl+T9Bg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "181e61106e9e5f3446b6275064fa6ef855c1df3c442936626aafbfa98d96cba8",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105162454983372
+        },
+        "sender": 10,
+        "sequence": 56,
+        "signature": "0n2rokBQYrMt0AxyB5MFAhe86gapGwQYqGYg8u4olpD/rr78ajlrX6+MNxRUqTTi2QL27jWwUPqumqE5VwCbAQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "b03395602a49bad259ee4d52c3fe3238f49c76fee1fc9ebbbac997a8347d1ca0",
+    "sequence": 56,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0200",
+    "digest": "26df7fec861d0be15d7330d8ceea489aa58be4dd8c0e15399cd42e6481c8bef0",
+    "protocol_certificate": [
+      {
+        "digest": "26df7fec861d0be15d7330d8ceea489aa58be4dd8c0e15399cd42e6481c8bef0",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105162594901344
+        },
+        "sender": 1,
+        "sequence": 57,
+        "signature": "Rj775CHiUp7g6uZgTeM5d+elAPrbV3uhjeZ9vsRtdGdS/a2xOWXX7gyM9I0RLtNipTSVB088Gqh7dgAwbuxbDg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "26df7fec861d0be15d7330d8ceea489aa58be4dd8c0e15399cd42e6481c8bef0",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105162594901344
+        },
+        "sender": 9,
+        "sequence": 57,
+        "signature": "1t303uxlQd8n2ZEQxsBFKyWko5PkvjiPc5vxfYL3+TC/hiChwUC0DRdBQcYoYV91sMfWnp3us3qSp1Tsmm9ACQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "26df7fec861d0be15d7330d8ceea489aa58be4dd8c0e15399cd42e6481c8bef0",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105162594901344
+        },
+        "sender": 10,
+        "sequence": 57,
+        "signature": "oajs5YCiwYesG4Kv/j9kAbzhVI6irnLEj1KUDTHMXwz1u07IhPmciR8+zYZ0UImRtibAhGxTYMrm0cd5vvITBg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "3e7af601e7e3f59cecb09a6ba94f74ace59fadfce29b90095becb6a34e36ec97",
+    "sequence": 57,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0202",
+    "digest": "426a51a1f47b3748186035970526760497d6200594be74caf4e329993e809a81",
+    "protocol_certificate": [
+      {
+        "digest": "426a51a1f47b3748186035970526760497d6200594be74caf4e329993e809a81",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105162721752200
+        },
+        "sender": 1,
+        "sequence": 58,
+        "signature": "RLT5iyuGDgeCX5Gaf70BcQsku2x+AgtUe7bkUGhbhWAQUpN6GcSq/SGDyq8oTIMemv5Wy/ZVFlHuD4oCn3W7DQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "426a51a1f47b3748186035970526760497d6200594be74caf4e329993e809a81",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105162721752200
+        },
+        "sender": 8,
+        "sequence": 58,
+        "signature": "SmopJu4Nrht6Klo56jr7V2EDifMzMlteeJS8nngO9gGlyX/wpTiprl9Sji3AKbmStQkc2Rpza2H+ZyXbiwFvCw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "426a51a1f47b3748186035970526760497d6200594be74caf4e329993e809a81",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105162721752200
+        },
+        "sender": 10,
+        "sequence": 58,
+        "signature": "nZCqtom6ZDsGdl+WGTTWUE7kI0i11c6CAAt4JuMEyI9RMtgqeDw7jCrxUxo+nNQgXvv17hAQ3irCndsyO7wsDA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "c672f82ff9556ce1f638aebb9603f670af75b9dcbb6ea98e37b002b589dc053f",
+    "sequence": 58,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0206",
+    "digest": "e127f933e45583c0bc4c57b7f9db5ef60282b63ee605de624bfe3a9e6e5977e7",
+    "protocol_certificate": [
+      {
+        "digest": "e127f933e45583c0bc4c57b7f9db5ef60282b63ee605de624bfe3a9e6e5977e7",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105162847295759
+        },
+        "sender": 1,
+        "sequence": 59,
+        "signature": "ksjQeKOUSjuB+KrKcn4OBw+Zd27BNQ/Qzh9fdtCx0CtztHdvB2WtKdHUg04s60GRVtJ4jzNxmT4MThDRp9aCDA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "e127f933e45583c0bc4c57b7f9db5ef60282b63ee605de624bfe3a9e6e5977e7",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105162847295759
+        },
+        "sender": 8,
+        "sequence": 59,
+        "signature": "RGsGDwR1bDeMKJBL33wGSGK3WLo066oao9DBwISBRn7vRa/RzGIX7BnPt9l8oBfYmJ8SUsl2wk7j4CWP4LaICQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "e127f933e45583c0bc4c57b7f9db5ef60282b63ee605de624bfe3a9e6e5977e7",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105162847295759
+        },
+        "sender": 10,
+        "sequence": 59,
+        "signature": "ZEeWxSPsWqbc7ODZ+1IkaSU9RmfSMiaVjE2gm0LrQs9crFobsBlZQOVsZUcAsKTZpk8uLYcJ5AgvdbxmP1c8CQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "6e499507bfa0f419bae219447aff6bee315bfc6211521929e1f12280feac260b",
+    "sequence": 59,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0208",
+    "digest": "04458d5ba0482d531dab9d9991701168de1c93ac528f4f495f6039563ed84835",
+    "protocol_certificate": [
+      {
+        "digest": "04458d5ba0482d531dab9d9991701168de1c93ac528f4f495f6039563ed84835",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105162975749768
+        },
+        "sender": 1,
+        "sequence": 60,
+        "signature": "4RU4bClCaHIDI9WCbKyHDDtsZvmLkdDinp2tgUfloSktL8bptQfZBsuE95GPEKDV2pimnaHmnm3tsRa74z2jDg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "04458d5ba0482d531dab9d9991701168de1c93ac528f4f495f6039563ed84835",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105162975749768
+        },
+        "sender": 9,
+        "sequence": 60,
+        "signature": "d/eicsltzjL1QZiDgRH8Fs0xiqExjAPlVsUhqnEQ3NYqiDZBZVI+spD47r01VgkuL3vyrYbXi0PAyjPFpRb2AQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "04458d5ba0482d531dab9d9991701168de1c93ac528f4f495f6039563ed84835",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105162975749768
+        },
+        "sender": 10,
+        "sequence": 60,
+        "signature": "GfHxxJOaofTzLEHAlgmsrv2kBf+lqUqiZkdOiX7zLnHHXElG970na2ALmlKIx3zRiNdlFSGPnWsY+e5xqFvHBQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "6adb006b50426b3aceb4d5dfd2423d631cc49e748f8f3f378b054b5637e95ae8",
+    "sequence": 60,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0209",
+    "digest": "592300592000ba9605338241df7b92bc1030abdea78a12028b5f5f24c9d7d800",
+    "protocol_certificate": [
+      {
+        "digest": "592300592000ba9605338241df7b92bc1030abdea78a12028b5f5f24c9d7d800",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105163127763986
+        },
+        "sender": 1,
+        "sequence": 61,
+        "signature": "Pj8yo4OI1WkWiyONWvz4JqmTzqV7Ao3MflfqnelQNRb98pMf7axxtbaOnH7XMCZ64hJk/sawXvGMq27EHLZJBw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "592300592000ba9605338241df7b92bc1030abdea78a12028b5f5f24c9d7d800",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105163127763986
+        },
+        "sender": 8,
+        "sequence": 61,
+        "signature": "+mnf6wkFEh0pQD1woI7YDBL51F4YYwHOvDYSmadQRZQXB/BBqprtxoRjmzLE2LADKbf9INJZSY3cQ+cgDJ0yBg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "592300592000ba9605338241df7b92bc1030abdea78a12028b5f5f24c9d7d800",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105163127763986
+        },
+        "sender": 10,
+        "sequence": 61,
+        "signature": "rGrtXKLGRgiptASwJaVWXcmeRTf7UHwF3HQbZoaAUTuiGXFwaE4AxpcmHWjf6noG3C1sl66kKEcIGKz7USAUBg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "81b3112e6ad21f5c5d2f910edf9d78539c3c76d4d271495aa6f15e98d4faa4f0",
+    "sequence": 61,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0215",
+    "digest": "611c98d2dc21509b2ef2a4b3e1ccefa0fd35a632d60cb6b50f7250e8eb6d9d9b",
+    "protocol_certificate": [
+      {
+        "digest": "611c98d2dc21509b2ef2a4b3e1ccefa0fd35a632d60cb6b50f7250e8eb6d9d9b",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105163255411546
+        },
+        "sender": 8,
+        "sequence": 62,
+        "signature": "b2comyvmBcjnkWpRC4ysDOGoN+w8aNXePxXTHsz2AyMm5wH2oXSM/CsBZT2y4kZ7HU8H06oMhFe9RqKCwPxsCA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "611c98d2dc21509b2ef2a4b3e1ccefa0fd35a632d60cb6b50f7250e8eb6d9d9b",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105163255411546
+        },
+        "sender": 9,
+        "sequence": 62,
+        "signature": "4+dhK7nuv6O34fVAS9hV/LsZHQh/PSsUHOgXDCiCIUxLNY/wKsqyoT8EtQ/OTGsp56lEd46ifCfn5P+JgdKJAA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "611c98d2dc21509b2ef2a4b3e1ccefa0fd35a632d60cb6b50f7250e8eb6d9d9b",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105163255411546
+        },
+        "sender": 10,
+        "sequence": 62,
+        "signature": "uaRDYHmig7M2PRTC/SDlNBCd52lKPaTCIdyP4JSW7eXTmCCjODZ5YSTNTZyqjVvp0C8lF8gSNciJgi4Y74fRAw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "d976a23eedfea23099fe556e4bfd0f99def213650d611595461e6c4c8ca5d4e2",
+    "sequence": 62,
+    "signer_node_ids": [
+      8,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0218",
+    "digest": "19e3a6fe9e5f0b7fc427f6d3a63e21c76dff2b5203728cf9bc357b031583d153",
+    "protocol_certificate": [
+      {
+        "digest": "19e3a6fe9e5f0b7fc427f6d3a63e21c76dff2b5203728cf9bc357b031583d153",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105163383279196
+        },
+        "sender": 1,
+        "sequence": 63,
+        "signature": "dBo3KrFackEt2gbepyUcHi7fBJhi8Kv9sjwpXWjyx94nl4TmRlRopPUYH3pWkYgJJo3ast4UJIcR9wiZX2kRBQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "19e3a6fe9e5f0b7fc427f6d3a63e21c76dff2b5203728cf9bc357b031583d153",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105163383279196
+        },
+        "sender": 9,
+        "sequence": 63,
+        "signature": "UHppuMGmnJa4k4WLAwgYRsbQGzY3TbhdADuZM3tt1I+kossjrNS+qarDHVdedGM6fYQiTzpVonMZprno7ErDBA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "19e3a6fe9e5f0b7fc427f6d3a63e21c76dff2b5203728cf9bc357b031583d153",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105163383279196
+        },
+        "sender": 10,
+        "sequence": 63,
+        "signature": "/IDAScesBRm4gzJwUchI4DGMZ7bjRno/F9nxiv4AqSv7YpZx9asklpZF+/w575C4ryh2sy8DADJyJ7fQFZ7uCw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "0c7f99dd74063d805c8d8549c68fa60eb8910b2556cc205aab81524d2f4d65e2",
+    "sequence": 63,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0222",
+    "digest": "ebcfc25e12e2747f88a59dce0177a95afff0fd6b4426356c40bc4059b99773cd",
+    "protocol_certificate": [
+      {
+        "digest": "ebcfc25e12e2747f88a59dce0177a95afff0fd6b4426356c40bc4059b99773cd",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105163516806375
+        },
+        "sender": 1,
+        "sequence": 64,
+        "signature": "30ou8ps7J+tIHQzsmgMjjfv8l2w8ZxUatyUGbxU0fyLEIbFy64mhCev36s0Ipux0c5m27/S/Vxgi86g7fS0qCQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "ebcfc25e12e2747f88a59dce0177a95afff0fd6b4426356c40bc4059b99773cd",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105163516806375
+        },
+        "sender": 8,
+        "sequence": 64,
+        "signature": "qxvmFv1FVjMo6e2WHJBKbV00LSLPxLbisG0ubnrHsUldniA38Pv4p47331c7Jw46c8vbu2pk1ye5zbu6yx3RDQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "ebcfc25e12e2747f88a59dce0177a95afff0fd6b4426356c40bc4059b99773cd",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105163516806375
+        },
+        "sender": 10,
+        "sequence": 64,
+        "signature": "JtUOiLYAXjzaefxcqLCGgQedvvCbUkvxz0otS/Ag5qCkfYltcezYGkk2oo9v5uB38xJhafk+bZCUpBpFuhNdBA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "e36af1ce381c02462569a789deffe3d7bfe63eee8026e3d36314bf8fb5a7d0fd",
+    "sequence": 64,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0223",
+    "digest": "c16bdedb42c1a5b14d3fe0c7c3b96a9c15469aabb0e7045161658f9a3fde7728",
+    "protocol_certificate": [
+      {
+        "digest": "c16bdedb42c1a5b14d3fe0c7c3b96a9c15469aabb0e7045161658f9a3fde7728",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105163643482571
+        },
+        "sender": 1,
+        "sequence": 65,
+        "signature": "tmmAiWYVZ+SupVAIWi+Z9KRbG/xpVR8PtJd0hgzSwPuNYeNZhfqxcSjunF/XjGtKILyz4pR6Y4tXp/S77lrPDg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "c16bdedb42c1a5b14d3fe0c7c3b96a9c15469aabb0e7045161658f9a3fde7728",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105163643482571
+        },
+        "sender": 8,
+        "sequence": 65,
+        "signature": "E5cKbOxFpS+GaaTZYDcwz7eAikz1+6hG9lnSfC9XlKEeDtbf/wnRSGUn4s9z8QDESqBf3MT1LQdQ49R4ag/WCw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "c16bdedb42c1a5b14d3fe0c7c3b96a9c15469aabb0e7045161658f9a3fde7728",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105163643482571
+        },
+        "sender": 10,
+        "sequence": 65,
+        "signature": "TcjdG065PAGIyOFkv30BG7NZ6x2mHSFLap66RezMG9U9ZRNMUenqJLcXIq5hFwVqg5KdHk+TffS4BeD7gREGBQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "90faf3da7e2760efd8e2f7b74a8ea705a059a15901035fd92a042bbe37db47f6",
+    "sequence": 65,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0224",
+    "digest": "ea170f1ea5897e1fe6ba270a05f87bb454fc0a5b8b7c881b556919559a5b602f",
+    "protocol_certificate": [
+      {
+        "digest": "ea170f1ea5897e1fe6ba270a05f87bb454fc0a5b8b7c881b556919559a5b602f",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105163772061112
+        },
+        "sender": 1,
+        "sequence": 66,
+        "signature": "Qv/cLzYxVBwfSCbXZnAQ4s/C/0GgwLNba8SmzraxKJFk+WOotaj+PlCJwbQjCtnJQXHhYl47LgLrzNBeXy7hAA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "ea170f1ea5897e1fe6ba270a05f87bb454fc0a5b8b7c881b556919559a5b602f",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105163772061112
+        },
+        "sender": 9,
+        "sequence": 66,
+        "signature": "6Twr/18B/8TN3kiOvJqIOL7mapgPldqsWbSHk+IyoCTfByD+qVXQuTQaPEXmJggJOrmZOuOQZi630rr/CBEvCQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "ea170f1ea5897e1fe6ba270a05f87bb454fc0a5b8b7c881b556919559a5b602f",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105163772061112
+        },
+        "sender": 10,
+        "sequence": 66,
+        "signature": "adFP4jGmaprnSGQLqoA9kTsKMj7LNRw7ZHmE+30+V1nCE5Ljlr3weKQ88Hg/ByVpJTVgCezI+eP/ObWLgNXrAA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "b528a7db419cb343ad9a949169841ee430f4f839f2b42eb85f3d761189134ba0",
+    "sequence": 66,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0230",
+    "digest": "e1701ccc04264695725943d2b43d8e25e9adc9ef975c0db725f72f69e26cee99",
+    "protocol_certificate": [
+      {
+        "digest": "e1701ccc04264695725943d2b43d8e25e9adc9ef975c0db725f72f69e26cee99",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105163903890026
+        },
+        "sender": 1,
+        "sequence": 67,
+        "signature": "6Fiv/cTUCnerIwgChHyqEMWcY5qpZ2PyMNohaUa/92qy43s6tVXXTGN6+87X7oxxvCw5cKuMjzoA2VPcCSXMAg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "e1701ccc04264695725943d2b43d8e25e9adc9ef975c0db725f72f69e26cee99",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105163903890026
+        },
+        "sender": 9,
+        "sequence": 67,
+        "signature": "chueBJBJy8VFtY9oTjGYwdAw9RELzC3O03LZo+rMIQ2hcmnqjLAHo9P/zsgOTZedGCnoBh5UnQXXjvUObgVbAQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "e1701ccc04264695725943d2b43d8e25e9adc9ef975c0db725f72f69e26cee99",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105163903890026
+        },
+        "sender": 10,
+        "sequence": 67,
+        "signature": "f2zIZIohjolDeeGOo8KDKP+I5TEnW915NrwVWj4N6qcyiYt35uqphUqFw2sqheMJbKAg20zcSj/RFOxOJJBGCw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "06aea61d591c72d76233818a8854eb0acaaa81db1a5080cc953a2a8bcbfbc470",
+    "sequence": 67,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0235",
+    "digest": "c14761228d5d2cd26736de4bedef6cf126142263a093e18dc1a14617de0dd2b7",
+    "protocol_certificate": [
+      {
+        "digest": "c14761228d5d2cd26736de4bedef6cf126142263a093e18dc1a14617de0dd2b7",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105164030873579
+        },
+        "sender": 1,
+        "sequence": 68,
+        "signature": "A1rjAPSLg5RmU5sOgn59CbZNWQThGwBk3LL00Ju3/QbC7chS049uOO3GAflUsZwVf0j4Xjb57GxGrBdCJ4/RDg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "c14761228d5d2cd26736de4bedef6cf126142263a093e18dc1a14617de0dd2b7",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105164030873579
+        },
+        "sender": 9,
+        "sequence": 68,
+        "signature": "yxycnfNvwq5LhydQ1zY3ko8Q1jjOTWE5gH2nEAb0GHoexg206R43KfcZwmEHVEkj7Pnw5/uMggSkUIxBKVg6Bw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "c14761228d5d2cd26736de4bedef6cf126142263a093e18dc1a14617de0dd2b7",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105164030873579
+        },
+        "sender": 10,
+        "sequence": 68,
+        "signature": "3YOvL84vWZTwkIMd3EiUnlQJUWBNZH3sMuBq8jIE+UzlgA12QeOJ/YVMYm6ARzEKnfGtZIsaVZY+q3XNx8uXDg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "ba4879a0a9a4ee3a86189123fa1379479945613a5d0b0308f376148837931378",
+    "sequence": 68,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0240",
+    "digest": "74aaf87135b240bea2d73a3bd5c32cdd1d1b3abc369c6a9937f3c66687886ca5",
+    "protocol_certificate": [
+      {
+        "digest": "74aaf87135b240bea2d73a3bd5c32cdd1d1b3abc369c6a9937f3c66687886ca5",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105164159489662
+        },
+        "sender": 1,
+        "sequence": 69,
+        "signature": "yIhr2RzTgYBCd4HIJ1+JpO6k6eJkyuaq5kybKe/Af90fPXHWAV2dHU52W1tRtt6mjmiZFqw6zfH6DZRr5lPYAA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "74aaf87135b240bea2d73a3bd5c32cdd1d1b3abc369c6a9937f3c66687886ca5",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105164159489662
+        },
+        "sender": 9,
+        "sequence": 69,
+        "signature": "47OmLKieNvw/yEG9osjkhDGcXHEb0eAlU/qzF677K6haOxXhWrBhQ9vSe/8yILVLvAORrtwiBwSqv354A9n1Dg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "74aaf87135b240bea2d73a3bd5c32cdd1d1b3abc369c6a9937f3c66687886ca5",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105164159489662
+        },
+        "sender": 10,
+        "sequence": 69,
+        "signature": "SyMt1GPpxJPHOl4wC9JAiELPUSCdlxB7uIhJlHru+bu72+z7Ohl7jRNr3HJkYqjU7zs8etEbRZI1Y5VFnTviBQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "bc6caec6ec96e4256332abc1215717bff8ac00bb48faf5de2b5e19463b14184f",
+    "sequence": 69,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0241",
+    "digest": "c76c95f003837040c93d97d315f1f30f1a43d49c35bb02016fc5619ee3a4fbe5",
+    "protocol_certificate": [
+      {
+        "digest": "c76c95f003837040c93d97d315f1f30f1a43d49c35bb02016fc5619ee3a4fbe5",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105164289462366
+        },
+        "sender": 1,
+        "sequence": 70,
+        "signature": "QLdiXc9Cq4iGR2IiaPBMcaK5dCVrkHPu7SGtHw84jIqL2Yp5zWUEKmAzs/GUuA2ixe3Bl7YG2Ug1tWc2B2uDDw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "c76c95f003837040c93d97d315f1f30f1a43d49c35bb02016fc5619ee3a4fbe5",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105164289462366
+        },
+        "sender": 8,
+        "sequence": 70,
+        "signature": "fiVA9DuBqijDdlX07m8n2+Ho07b5tX62UaQrVzODJ2zL71ZFuKeKPzhQPeWpL++XAOKGvUYkvfc6Y/nGAeodCw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "c76c95f003837040c93d97d315f1f30f1a43d49c35bb02016fc5619ee3a4fbe5",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105164289462366
+        },
+        "sender": 10,
+        "sequence": 70,
+        "signature": "JUSMcD2e+P3ozIeqK83IoWPvR6QqLOEU0plPyr3e0rSY1zIGTJTQygo+UJ+Wzc3WABoPe5wcemyQVP5MN6u8Bw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "a879caf1b005bde4373722276f2ee65b41cb0fb5e04cd62a41e39411687a0e47",
+    "sequence": 70,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0242",
+    "digest": "40c5ee9f79b15646e3136125445a30a2f6ee78722c0c9694dc63bf8ec480a5f3",
+    "protocol_certificate": [
+      {
+        "digest": "40c5ee9f79b15646e3136125445a30a2f6ee78722c0c9694dc63bf8ec480a5f3",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105164417901604
+        },
+        "sender": 1,
+        "sequence": 71,
+        "signature": "sNS5RKF6usqi2all6imXPfjDNHH2E/QZZDp1eifIkQy5Gdg9GKaS6/11s67jvIHf82havScFNyPKwUE5Cdv4Dw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "40c5ee9f79b15646e3136125445a30a2f6ee78722c0c9694dc63bf8ec480a5f3",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105164417901604
+        },
+        "sender": 8,
+        "sequence": 71,
+        "signature": "sU07GGYd0zDt/eWYuE4jtEZIt1SDhBIR3Hg12cSOzu04ugcxLblxoewHzKesKlB1o5oE4DXTmlthQ/GjU3SmBA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "40c5ee9f79b15646e3136125445a30a2f6ee78722c0c9694dc63bf8ec480a5f3",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105164417901604
+        },
+        "sender": 10,
+        "sequence": 71,
+        "signature": "GGmlWE0Xsmb9Au9/dh3O/0zfFWCpb/uvPMUQbW5dMkUWP8KLi0lBJxrRtUZPeiv81CbXUwYrVede6Tc2KgqSBw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "3f31431d0f882def39e8099e8cc3e9c58c4d853571b0c64708562e09754b59ed",
+    "sequence": 71,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0243",
+    "digest": "0bc790e13c8c8b675f98485dfecb90eb94efc6cd9d622a8efe5a724297461b44",
+    "protocol_certificate": [
+      {
+        "digest": "0bc790e13c8c8b675f98485dfecb90eb94efc6cd9d622a8efe5a724297461b44",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105164585953068
+        },
+        "sender": 1,
+        "sequence": 72,
+        "signature": "kmUtbXWdKjpOLPfeOoW8OirEiP2VzKfRrLX+THh/GxyNrqi8UjqLj2EsJ+KtU6l5saLScBN2Jv1f7KavVkyeCw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "0bc790e13c8c8b675f98485dfecb90eb94efc6cd9d622a8efe5a724297461b44",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105164585953068
+        },
+        "sender": 8,
+        "sequence": 72,
+        "signature": "q4QfEOA8C92O1cFz3PMOSPuwx5UYw3nGa5F4C1ApTibMxbqjDOuPo1kQAZOuiraEhBmg/1/3Au9bfGK5SQdLCA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "0bc790e13c8c8b675f98485dfecb90eb94efc6cd9d622a8efe5a724297461b44",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105164585953068
+        },
+        "sender": 10,
+        "sequence": 72,
+        "signature": "sbT9zCGTqDjMrAw/ykBLOILo3okXJOQwLrkzWk9A8vaa7IyclE/U/IhVzUzXdJkoXQ/2rwhNgJnQpbRSYmGcCQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "ffaf670e4fc07af8aea81489f6e246e3fe7a760781e961984a2391307f7b3868",
+    "sequence": 72,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0251",
+    "digest": "6f9beb74f79b8e9a26894e98a9db4efdf5856b0809a2aa964c86d52d8d62aac9",
+    "protocol_certificate": [
+      {
+        "digest": "6f9beb74f79b8e9a26894e98a9db4efdf5856b0809a2aa964c86d52d8d62aac9",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105164715364968
+        },
+        "sender": 1,
+        "sequence": 73,
+        "signature": "vVXfMHntpFCOEofUlaP4Kn1wt+j+4IfSJCveaxoy37dLvl6XGL0vG6o4DTZpnOdOCxPA5T/nYkMZMa3wNsaZBw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "6f9beb74f79b8e9a26894e98a9db4efdf5856b0809a2aa964c86d52d8d62aac9",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105164715364968
+        },
+        "sender": 9,
+        "sequence": 73,
+        "signature": "IuhPZvJyQ/s7LXxhKJaKIGcBaKUCorYDb5oFiKUG/E08POh8d4OJp2lh18Z1U+ZoFza55wHNGT4eM+boz/tQCw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "6f9beb74f79b8e9a26894e98a9db4efdf5856b0809a2aa964c86d52d8d62aac9",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105164715364968
+        },
+        "sender": 10,
+        "sequence": 73,
+        "signature": "wIafDc6dIAvY/gT4ZA9qED2gHUFosIr+8hDQoot1Ai6XFOCv0fKq8+GFGRdzkjo4EMASJWL4pTdtXubecYQtDw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "ecd4aba04bf635132931fc40ec9546c3b19271eb12183ea0a53bc7ae8e6e5468",
+    "sequence": 73,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0261",
+    "digest": "2a017ad0d0e96de937fa1d55555f7e1ddcd514b439488be6dd9be2495bd1787d",
+    "protocol_certificate": [
+      {
+        "digest": "2a017ad0d0e96de937fa1d55555f7e1ddcd514b439488be6dd9be2495bd1787d",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105164847302094
+        },
+        "sender": 1,
+        "sequence": 74,
+        "signature": "nafEfpoTRaZkJ0M31ZX8DuJxxwUkWB2w4fAenDf/Ck6S1NOrbcSSZbxhx9cFZMF/H2lmygjd46Ob2gKUSLzPCw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "2a017ad0d0e96de937fa1d55555f7e1ddcd514b439488be6dd9be2495bd1787d",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105164847302094
+        },
+        "sender": 9,
+        "sequence": 74,
+        "signature": "46JK2vm4kJkaAhahThAlO2GPh7jdHxtUu0j5Vocn7p2BSqNCxgKpzXfAVFyLzNIx9FyVNAuChgJpnNmhr7gxCA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "2a017ad0d0e96de937fa1d55555f7e1ddcd514b439488be6dd9be2495bd1787d",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105164847302094
+        },
+        "sender": 10,
+        "sequence": 74,
+        "signature": "WcxpW51sGR9thYNQSC5TRdIInhaQjxyx3BE8e8eJwTzX+gY6w04uQ4B7yZ+SdhU4S0G/2AiwzrGOi8hWwJ7/Dg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "e3fc349f917a1c7572ab65d7624a02b63139f53a49d2cec8feade1bf2ad34266",
+    "sequence": 74,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0262",
+    "digest": "55639115f553dc89ec15562b4d1084bee18f81e7f4f1b6e997b09b0e974c7a16",
+    "protocol_certificate": [
+      {
+        "digest": "55639115f553dc89ec15562b4d1084bee18f81e7f4f1b6e997b09b0e974c7a16",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105164980455147
+        },
+        "sender": 1,
+        "sequence": 75,
+        "signature": "B/FV2HExdYLTP33naGY3LqpVCZRHMmJPgsCoz09x1zOqdXMjqPVEuyIvva6QcafKanMd9RF7J2cGbGF2WHoCDQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "55639115f553dc89ec15562b4d1084bee18f81e7f4f1b6e997b09b0e974c7a16",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105164980455147
+        },
+        "sender": 9,
+        "sequence": 75,
+        "signature": "t/ALW/+CGzN67wfyf91A3TCXpVdKxmC7T8ezJse/tTMyq2pbqS/lfnXybUK7fzL5t3q1d1HAX7MvIzrvCs28Cw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "55639115f553dc89ec15562b4d1084bee18f81e7f4f1b6e997b09b0e974c7a16",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105164980455147
+        },
+        "sender": 10,
+        "sequence": 75,
+        "signature": "6LrlU6ciFds6WxUPROT0LUP2JUHlUef7SWI2s5AvoaY4eC3sT0sWGLvZg6dvM2XB3/tfBUf9KN1FjaTyaKxTAg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "533ad636e76052e15afb2f27fb80d5c08d50896b5dad7024cbbc2742edbf8238",
+    "sequence": 75,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0269",
+    "digest": "9321e9bbd7607655cbfc41d5777b6f20d991dffa185fff9819f63adb76b0bbbd",
+    "protocol_certificate": [
+      {
+        "digest": "9321e9bbd7607655cbfc41d5777b6f20d991dffa185fff9819f63adb76b0bbbd",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105165108328800
+        },
+        "sender": 1,
+        "sequence": 76,
+        "signature": "CDkcVGDMvzT0Ojy0WRFJuyJ3ZyOEorc1R0ihXa8yyxVNapQNTxsMQjy70e4v6LEMA/1gadAbBhkf3VSKMVlXDA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "9321e9bbd7607655cbfc41d5777b6f20d991dffa185fff9819f63adb76b0bbbd",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105165108328800
+        },
+        "sender": 8,
+        "sequence": 76,
+        "signature": "n1tpca00rXU8XsRGm7kpyoSQDwQmZRLPPVZYukNnTy8lwr1taqynJx0qPmiqHSqe6ujAc4bSkq8axBpMFyJiDw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "9321e9bbd7607655cbfc41d5777b6f20d991dffa185fff9819f63adb76b0bbbd",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105165108328800
+        },
+        "sender": 10,
+        "sequence": 76,
+        "signature": "9Fd1MeWei1yQePWA4M8Rv0PD9YtLB35p8t+O62TXAvpKKVHnlqVnJr62zYE0aVoD4rvm/tcrbWQAR5DxL0xQAg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "32b0055acb295790e1bfa2b55aa8997250d07651892c4e8391252f394e992b45",
+    "sequence": 76,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0272",
+    "digest": "7858d5cead8943a22316a2ca3f595c5aa71a00f1ae4a9f75cec7ff52ae218a01",
+    "protocol_certificate": [
+      {
+        "digest": "7858d5cead8943a22316a2ca3f595c5aa71a00f1ae4a9f75cec7ff52ae218a01",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105165234898151
+        },
+        "sender": 1,
+        "sequence": 77,
+        "signature": "Q57KWSv/ip4vSu1XCWBNaav8XscUekplZgGRUPUHuG3fC5aCFDYaFqUHn27bqGAYkraR/ZywCj17CIo4g88aBA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "7858d5cead8943a22316a2ca3f595c5aa71a00f1ae4a9f75cec7ff52ae218a01",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105165234898151
+        },
+        "sender": 9,
+        "sequence": 77,
+        "signature": "OlFbKKca7Of9C+VES1U1PnYt7EzozZGkVM42XlbI2REsk9rUZzg4eaq8HhgEcG1qdh3/fOOaktCniGCvjtKjCA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "7858d5cead8943a22316a2ca3f595c5aa71a00f1ae4a9f75cec7ff52ae218a01",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105165234898151
+        },
+        "sender": 10,
+        "sequence": 77,
+        "signature": "t7dHHHP7/gpJYO+pXbJUf5xIBV7BdldLYW4WQ0Et+4BivqYi1QwWTcE6Cmvsvrf7oDWuTtebY/q6g8FAy/atCw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "2cb13371166a0b95599cd21b72d73aa946f65170e0db48d475a2b5ea75098289",
+    "sequence": 77,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0273",
+    "digest": "0c6c1b683d86ebbf676cba284fd4f707c55ca95915a5b4bf8b4f126fd64c73ad",
+    "protocol_certificate": [
+      {
+        "digest": "0c6c1b683d86ebbf676cba284fd4f707c55ca95915a5b4bf8b4f126fd64c73ad",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105165364103105
+        },
+        "sender": 8,
+        "sequence": 78,
+        "signature": "oPnFAABlIbPdIYaHItwILpkL64D1SgH7BM5VqTXROkHMKSDGyJMyFr5PTwgJJ0AgTCrQeOiIdwnIewkgqjFHCg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "0c6c1b683d86ebbf676cba284fd4f707c55ca95915a5b4bf8b4f126fd64c73ad",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105165364103105
+        },
+        "sender": 9,
+        "sequence": 78,
+        "signature": "tIm9cUJzivHEHqAucrDk842LWael4Bt3kannOBrEGIU8cP2nuPbMNWf5aS+GxnOBpCz+kpXT9Sopuj4A2hGXCQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "0c6c1b683d86ebbf676cba284fd4f707c55ca95915a5b4bf8b4f126fd64c73ad",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105165364103105
+        },
+        "sender": 10,
+        "sequence": 78,
+        "signature": "2Jbw+wv26VlTP+Kp2ZLoben/ZYCKY3k0qYjdzkiclj3WO9ebe11gRSHAd2BX1bBGlcvBz6LUsxnW0P9CcLmPAQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "49d2b55f7838ac5cefed80cb5e7218f6092f4648b47f4fa501491ef90e536b0e",
+    "sequence": 78,
+    "signer_node_ids": [
+      8,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0274",
+    "digest": "49cc2d73c31bf5477358ba7356e884029b532ef69ee05c5df146073561529be1",
+    "protocol_certificate": [
+      {
+        "digest": "49cc2d73c31bf5477358ba7356e884029b532ef69ee05c5df146073561529be1",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105165491791786
+        },
+        "sender": 1,
+        "sequence": 79,
+        "signature": "LZREhhAPaLzuW2KHkaK0u6c2KgchN/YyZpd4CKbx8LiVnOr/h887TnuNdC9Kcbv+XLQ0HGo6nco5dq2bJRK9BQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "49cc2d73c31bf5477358ba7356e884029b532ef69ee05c5df146073561529be1",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105165491791786
+        },
+        "sender": 9,
+        "sequence": 79,
+        "signature": "JQbA00VlCwE8WKOmPzjiNghrrgeiFgstfE0CSat6g6eF4UMF7zBmJvbMC2TbCe3PCl8c6zFrR+PliWiQROdwBA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "49cc2d73c31bf5477358ba7356e884029b532ef69ee05c5df146073561529be1",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105165491791786
+        },
+        "sender": 10,
+        "sequence": 79,
+        "signature": "J9pO875zAcXNh6GnN/OMI2uGUPviqzkEvCiI9E9nUzmw67aHJm2WtO2xCw0vhSB2Xotqff589yUj/6a380/cCw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "45b4182536cb7f41ac93ddbd5f4270d9965ee41c50b245d90429fd1aed510ac9",
+    "sequence": 79,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0275",
+    "digest": "a8c2a94fc9e28108d3962a79372a6c6b0745079c08d5a14377c452fe6bf39fa3",
+    "protocol_certificate": [
+      {
+        "digest": "a8c2a94fc9e28108d3962a79372a6c6b0745079c08d5a14377c452fe6bf39fa3",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105165621122236
+        },
+        "sender": 1,
+        "sequence": 80,
+        "signature": "uEzBKfsKBRqjD5YKXVf3dxVAoYnvz/A5rJRSftkyylcr048qeHG6nXvoYx8jHN+N39AmO8aeZ1zBBcS9LmfUAw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "a8c2a94fc9e28108d3962a79372a6c6b0745079c08d5a14377c452fe6bf39fa3",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105165621122236
+        },
+        "sender": 8,
+        "sequence": 80,
+        "signature": "v8Lr4eN8zdKccblcUxgDUSY3uzGsyGffKWgWYyYF49AiijjdJlsY6MNoYH8SJ63dIpBiQ4i6714mAwLsyZ7GCw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "a8c2a94fc9e28108d3962a79372a6c6b0745079c08d5a14377c452fe6bf39fa3",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105165621122236
+        },
+        "sender": 10,
+        "sequence": 80,
+        "signature": "rhSQSja0Q2YL++nDagNxHzp9weAos+pOHFEx6aJI2q9+r08DIr0KXaH/TJvhafXnB1iVd6vAqZg9zKfQzfu5Dw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "0d4ab39505400b34f8962c190834f55cbb5af99682aba03502e7f88c3e7112a6",
+    "sequence": 80,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0281",
+    "digest": "c34f96f8136b141fd4b51379f42cfa68ccea1d9ab574db79640f0e38aef4cef6",
+    "protocol_certificate": [
+      {
+        "digest": "c34f96f8136b141fd4b51379f42cfa68ccea1d9ab574db79640f0e38aef4cef6",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105165753035423
+        },
+        "sender": 8,
+        "sequence": 81,
+        "signature": "l0W8D0HXCD+lx48edvBmmQphmm+q84bDfaPICak10eb1FWCQfFK9T5+SJ9kt7TtW+1z/F6gF3Vqc6nfEU/LtCw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "c34f96f8136b141fd4b51379f42cfa68ccea1d9ab574db79640f0e38aef4cef6",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105165753035423
+        },
+        "sender": 9,
+        "sequence": 81,
+        "signature": "ziswOEKaiAnTgZ02XCEviBavMLtpC0saJjihEJ/njBHE/OXsOq8qDw87HxcSdFKvjFiF6pl7xeV6ifcj4dlADg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "c34f96f8136b141fd4b51379f42cfa68ccea1d9ab574db79640f0e38aef4cef6",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105165753035423
+        },
+        "sender": 10,
+        "sequence": 81,
+        "signature": "igcvMDYGitmV/jitkJdoBqzDRSsQ4Qt0wzoIab3nvm3P5lxhCP2tuhcBJA5t2vsG5471+bJNRyXKEkEbbJFUDQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "0da388381803155d319a46b1d3c2c320baabfdf1bad4440a2e3042b0531259fa",
+    "sequence": 81,
+    "signer_node_ids": [
+      8,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0282",
+    "digest": "c7bce393cf8d318ebea4c052bbbc9c08ee9986b1c50ac1b44a0bf5e3001cae34",
+    "protocol_certificate": [
+      {
+        "digest": "c7bce393cf8d318ebea4c052bbbc9c08ee9986b1c50ac1b44a0bf5e3001cae34",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105165904543242
+        },
+        "sender": 1,
+        "sequence": 82,
+        "signature": "JQwf7CF22ym/eG4b4Ox2Zuqc2BwZg77fAOqFhOFxJRzpeGJaIkTb+YcHZRQ8iwQMhZLQtT9o78SChDpjqccSBw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "c7bce393cf8d318ebea4c052bbbc9c08ee9986b1c50ac1b44a0bf5e3001cae34",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105165904543242
+        },
+        "sender": 8,
+        "sequence": 82,
+        "signature": "T8KD8ucVkFqFwW5RrDdezDLuP9acp9l5pJ/t89IEjg4A5Sx3RGpUuGj6A86r2Ws85/YG8rryj9bXnWB4SwaUCQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "c7bce393cf8d318ebea4c052bbbc9c08ee9986b1c50ac1b44a0bf5e3001cae34",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105165904543242
+        },
+        "sender": 10,
+        "sequence": 82,
+        "signature": "/IiWQVN75XTDW/fjb+gilUXQF/OlqRezbyuoXzNilcu/To87a7N+Fr0PnQh+x/5enRN9bwhf69sEaQWjmGixAg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "a1c3e8327789306380ad53f973a7b30ee46a84a6fd73227f4f09c2462f5b9936",
+    "sequence": 82,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0285",
+    "digest": "d8d118b3f4442658d399b80fc8f478225a4a6b3939581030f650da0717a886bc",
+    "protocol_certificate": [
+      {
+        "digest": "d8d118b3f4442658d399b80fc8f478225a4a6b3939581030f650da0717a886bc",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105166033282636
+        },
+        "sender": 1,
+        "sequence": 83,
+        "signature": "LfgYZWx6tXv4k33je0eqZppxbcgJ7+Pl70uCxY9HuNh74iIDNhqmNkkPshSH/+0GhXaNnkpbKe/kVR/md4ZEDg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "d8d118b3f4442658d399b80fc8f478225a4a6b3939581030f650da0717a886bc",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105166033282636
+        },
+        "sender": 9,
+        "sequence": 83,
+        "signature": "q5VNvCwZLC561uxyUj28p66wugMIwLkaZrq+4UM/gxQtqHmZ9n77gXxKnx3QwcrDeFYWXsMcevk7Ce0na0dSAg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "d8d118b3f4442658d399b80fc8f478225a4a6b3939581030f650da0717a886bc",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105166033282636
+        },
+        "sender": 10,
+        "sequence": 83,
+        "signature": "ABKK2g0p91L4slW7/YO8U0+xgA8VayyOe0g8A8FjnT1ooitWfXnomkxvk5daIVHYQwKDPPvBUO4RLMb7MaC6DQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "afc9bbb75870b6e20f445c5dcfa0d4f19c386a39754670c9b200c9babc888f9e",
+    "sequence": 83,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0290",
+    "digest": "eea1450f271d1bbb8adeeb2166fbe4c1c3c8fbf035437404ff5f455350f67968",
+    "protocol_certificate": [
+      {
+        "digest": "eea1450f271d1bbb8adeeb2166fbe4c1c3c8fbf035437404ff5f455350f67968",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105166158307846
+        },
+        "sender": 8,
+        "sequence": 84,
+        "signature": "9fOo37nKS3oVW96WjGq9U72BuFSUosKzJGyYL0OpvFtgttnZOEJhyG0QYsGzZRcuYR7+RuGOtpzlLbDHNR8pBg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "eea1450f271d1bbb8adeeb2166fbe4c1c3c8fbf035437404ff5f455350f67968",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105166158307846
+        },
+        "sender": 9,
+        "sequence": 84,
+        "signature": "5kON3wS8OjrebNP8BrlASeuZmuIUY6q8tRWnT3kC431Z7dm2Y1Uegl7afX94aklErZtLSCZGbl2FWx51mJVPBw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "eea1450f271d1bbb8adeeb2166fbe4c1c3c8fbf035437404ff5f455350f67968",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105166158307846
+        },
+        "sender": 10,
+        "sequence": 84,
+        "signature": "PpdCJ4pCd5gt+uHO/CHhm68PGO+G2uZa9IlHO6v3606a9AwQ8W2/y+9gbZk/MJmpmayZ7A2fPNH5WoHS9T2lCg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "9f59dabc4937f1a21421032abaffa2b7712da49b916bebbd87708b2276a1cb30",
+    "sequence": 84,
+    "signer_node_ids": [
+      8,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0293",
+    "digest": "40b9cc9e248c1dd5cd9ad074c2a7a12ccc283b9e33a4b5ea83aa56fb8c30df0c",
+    "protocol_certificate": [
+      {
+        "digest": "40b9cc9e248c1dd5cd9ad074c2a7a12ccc283b9e33a4b5ea83aa56fb8c30df0c",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105166287578384
+        },
+        "sender": 1,
+        "sequence": 85,
+        "signature": "E+qhtu8AkOf+pLOtfQVWcXC7ujXiIQ57rR4jhVanYYxQpwZKckHh+fz+SBSOt0WumCmcZ3O7K6uF0AKI6f3zBw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "40b9cc9e248c1dd5cd9ad074c2a7a12ccc283b9e33a4b5ea83aa56fb8c30df0c",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105166287578384
+        },
+        "sender": 9,
+        "sequence": 85,
+        "signature": "2fP0/zcg4oqM/Vtt73lbgvMTuUYZ/2XymoBV24hLPJ5qvS7qkXe0xghVm2kb3d0+GW/c8DFk8pWJsoNQhtiTAA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "40b9cc9e248c1dd5cd9ad074c2a7a12ccc283b9e33a4b5ea83aa56fb8c30df0c",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105166287578384
+        },
+        "sender": 10,
+        "sequence": 85,
+        "signature": "3vUK6quhFtImNEMRPm+xgy+3hUh6C9rEWt1uT+QpP96+ZULfmWESvs63o38lT7ps+4MUPj0t2OMKDGK00tE6Bg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "4b196a7b06aad9d22864985f2f9f75a8884b66fc00a0e980e3f1e809f04af546",
+    "sequence": 85,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0296",
+    "digest": "45fa8fc3a496eaaf2a7ea4d0d42b7c1afd0f7e47435d708330c3f9b309eff45e",
+    "protocol_certificate": [
+      {
+        "digest": "45fa8fc3a496eaaf2a7ea4d0d42b7c1afd0f7e47435d708330c3f9b309eff45e",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105166439120770
+        },
+        "sender": 1,
+        "sequence": 86,
+        "signature": "WcAyjj/CUlSw1u7aDwlfHGCnDwwu7wmQZ7Le6DG8plUo7OTfMRI6OeFcNB8+xR/C4EvavPOrJQLkP8U3l4tWCg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "45fa8fc3a496eaaf2a7ea4d0d42b7c1afd0f7e47435d708330c3f9b309eff45e",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105166439120770
+        },
+        "sender": 9,
+        "sequence": 86,
+        "signature": "t8+/4SHlQDSqmdLcVr3gNkhWhzRPwYTq31joiNuOX9t4d3mCiTApT587WNBrwg5ZjOUiRtk0d00VrdTbciNzAg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "45fa8fc3a496eaaf2a7ea4d0d42b7c1afd0f7e47435d708330c3f9b309eff45e",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105166439120770
+        },
+        "sender": 10,
+        "sequence": 86,
+        "signature": "AegD8EHsTGxy+dPIyO315FZG9KbTQYli/HZzBbyCrOpbcA0E365ZeEKWSKy2BI7+SrYsuJC6GLJzzGZJMkIlAA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "dab4a3c59b4a4187f8fe25684effc8e45f8beb4a6de7bf2e15ce9278d4ea7111",
+    "sequence": 86,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0297",
+    "digest": "a68250e2052d565e4aa69ce20ac44c19cdcc780f89cad7d6801b3bca195fefda",
+    "protocol_certificate": [
+      {
+        "digest": "a68250e2052d565e4aa69ce20ac44c19cdcc780f89cad7d6801b3bca195fefda",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105166587532404
+        },
+        "sender": 1,
+        "sequence": 87,
+        "signature": "a9KqKkt3SML28ussd+H6MFawsDMpUSg7S7c4oF/QTnMf3I4r/zN7m4fXVYPT/Gd5+maZEU7tsxU09+xXxssZDw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "a68250e2052d565e4aa69ce20ac44c19cdcc780f89cad7d6801b3bca195fefda",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105166587532404
+        },
+        "sender": 9,
+        "sequence": 87,
+        "signature": "NO/soZ+KERdfdRCxcFasQrkAV4bS6NCr8Q/ltc53aNfA6PohN8bGuFVa6R1WppgQ+DOShpt5f5rM2hi47hhxDA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "a68250e2052d565e4aa69ce20ac44c19cdcc780f89cad7d6801b3bca195fefda",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105166587532404
+        },
+        "sender": 10,
+        "sequence": 87,
+        "signature": "27KRKHH52b9shp2HaH2Wu97TUhVJ6WTST8vbAn8lASdW6EtL9+gDDZs4pM4YBsQCm6lbbTL+vtwnet8wOZB4Cw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "6c81b2db4f273b20907a05de9298f16ff8e5cc92f110e589caa9bfa02d814558",
+    "sequence": 87,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0300",
+    "digest": "09a8dffda5cd1307d199db5758320744c52949552d4a3535a19c5b8cc415bba2",
+    "protocol_certificate": [
+      {
+        "digest": "09a8dffda5cd1307d199db5758320744c52949552d4a3535a19c5b8cc415bba2",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105166714617528
+        },
+        "sender": 1,
+        "sequence": 88,
+        "signature": "NvXT4XqQxB8Iz2IANkLY2yxBtuQCVLEwFZ8GT2ueAXn+k1Buj203mvQ+vFsqS0ygwqIIUu0Mj7YsWK2lFMVrBA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "09a8dffda5cd1307d199db5758320744c52949552d4a3535a19c5b8cc415bba2",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105166714617528
+        },
+        "sender": 9,
+        "sequence": 88,
+        "signature": "6K5TvoJI+KJAC3Dg5gUiV6aDEYrm5jsx+++myZ605pPAGbdccciPPnZVU155shZStR2aadH3PgLGjC5zP27iCg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "09a8dffda5cd1307d199db5758320744c52949552d4a3535a19c5b8cc415bba2",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105166714617528
+        },
+        "sender": 10,
+        "sequence": 88,
+        "signature": "DN1x2tImgOhOSgPb206E1Tz6mFBK4bo7J6sSP2tC2Lz2us3NHAh7PQXJEJvx1+AoXbYYZ8htacAOJZc613utCw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "740ecd989c3b94180f1251e0acf4627f66739edc70ed35b8cc9718d2fc9dbfc2",
+    "sequence": 88,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0304",
+    "digest": "52c316fce6c430f001acc085019a36cafeb4ca92cf949799203fed49b2e9bb5a",
+    "protocol_certificate": [
+      {
+        "digest": "52c316fce6c430f001acc085019a36cafeb4ca92cf949799203fed49b2e9bb5a",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105166842187936
+        },
+        "sender": 1,
+        "sequence": 89,
+        "signature": "qNNaRmUz5r/Y31wxES/qvReoasUmjaRXhAyDuXH4PQkMLONHsuNtDGHDJ+rlodBtRvs326a5z5jLGWPOh7tABQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "52c316fce6c430f001acc085019a36cafeb4ca92cf949799203fed49b2e9bb5a",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105166842187936
+        },
+        "sender": 8,
+        "sequence": 89,
+        "signature": "CzQBrEO1XF2GAhX6gv8FpzIyGbnDp3JwxTn+hqnhmL6Za25xg3+tnurAbcUUSxY+NRT36Xlh5pj+9bh1+TPQAw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "52c316fce6c430f001acc085019a36cafeb4ca92cf949799203fed49b2e9bb5a",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105166842187936
+        },
+        "sender": 10,
+        "sequence": 89,
+        "signature": "8ELQ4a5Ts8nAUH2E+mdlcTXIqroCGt6iskRY0kNt8wCScMVVz71r3J3VjOMLOukWi62Rzl2R7beTbBxZS52rBg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "027598ff329bb01900909156f60856b0d434099feeda5417dcb8e387e1dc04f1",
+    "sequence": 89,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0306",
+    "digest": "42c2a6ce80fbd1434529cdd86643482ee365e3b7810c1e763df2f49d1f549431",
+    "protocol_certificate": [
+      {
+        "digest": "42c2a6ce80fbd1434529cdd86643482ee365e3b7810c1e763df2f49d1f549431",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105166968760683
+        },
+        "sender": 1,
+        "sequence": 90,
+        "signature": "G8+Fp8vj+ZkFkWSTZbCbJKsPGVuHmd2HUxbApVa2q7IF1qiJw1sjP5uMZK2Y9hy0+6FVzPskh5ZyxF96n7ifBQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "42c2a6ce80fbd1434529cdd86643482ee365e3b7810c1e763df2f49d1f549431",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105166968760683
+        },
+        "sender": 8,
+        "sequence": 90,
+        "signature": "6qctgOVvmEaI+hI2lgpZ6uLdH3IapK1N0sucySJj05wdpbbIjFvOpZb70CRE7S6omWvmdRHtC62wqhmbsy6BBg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "42c2a6ce80fbd1434529cdd86643482ee365e3b7810c1e763df2f49d1f549431",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105166968760683
+        },
+        "sender": 10,
+        "sequence": 90,
+        "signature": "Gr4gkerYaswFJKz9wy5xxPvUz3yIMFeW9W6kAQD3YMP++BSO93VVRuaL2n0f9QWAIerwHvpRcZtiobAJUPScCQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "25e0ce8534d8eab193dbdcd374a793e86e7c675376339e2430d4f061788bf1bf",
+    "sequence": 90,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0307",
+    "digest": "522e4d3eca044f278e4871c1de555fbe81bb7eb4e40cdc23effab502c51f6852",
+    "protocol_certificate": [
+      {
+        "digest": "522e4d3eca044f278e4871c1de555fbe81bb7eb4e40cdc23effab502c51f6852",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105167097626676
+        },
+        "sender": 8,
+        "sequence": 91,
+        "signature": "ytpWtj83mFgm5m+2xzxHmK5e5yx7MT9fDRISza93l9IlclQDY2NCDYh8+bkcIngcYGJCe6rfmtuLzlzt7mcKCw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "522e4d3eca044f278e4871c1de555fbe81bb7eb4e40cdc23effab502c51f6852",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105167097626676
+        },
+        "sender": 9,
+        "sequence": 91,
+        "signature": "C5SCyg2VxfyhEhCRCWNs3nV9tEa6Ztw2sgfCCKkqBkAgX+g9x6Upqlws6ensClNwtijevKCzxm+kQr4UOyy6AQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "522e4d3eca044f278e4871c1de555fbe81bb7eb4e40cdc23effab502c51f6852",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105167097626676
+        },
+        "sender": 10,
+        "sequence": 91,
+        "signature": "F3q67kNN7D3c+gD3yxHSIyFxEZ72JNJ9GJs5UED7Ir9kesqjjluu5G6UHj/FcWjsjl7mCwqqBFO2v2GMliF+Dg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "9e8f9821673c085e8f0bfd54f4f4d84dcbbbbd39e273b8b20ee56c32fc10fc5e",
+    "sequence": 91,
+    "signer_node_ids": [
+      8,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0312",
+    "digest": "acb186348b81744e17759a8241caf0fa6812ea412f8e5944d7c59fc68b011d36",
+    "protocol_certificate": [
+      {
+        "digest": "acb186348b81744e17759a8241caf0fa6812ea412f8e5944d7c59fc68b011d36",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105167224075007
+        },
+        "sender": 1,
+        "sequence": 92,
+        "signature": "S5upOy/UIsvgOwwS1ET16LIXGAxn0du4NnTzzxsBwbLLBuFg1t2OC9Se0CTluqShSBgRl1Ql4hOq5tjk0sDpBg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "acb186348b81744e17759a8241caf0fa6812ea412f8e5944d7c59fc68b011d36",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105167224075007
+        },
+        "sender": 9,
+        "sequence": 92,
+        "signature": "LKsdUMWanht9TLoW282s2jM0Rz+qaqJxedvo2TNMmgGAPZFUdMz0SfDwvkMLvcLt6u1ZZvwMW2B3bZ5DeziJDg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "acb186348b81744e17759a8241caf0fa6812ea412f8e5944d7c59fc68b011d36",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105167224075007
+        },
+        "sender": 10,
+        "sequence": 92,
+        "signature": "ULRsVsWTbuGK4k+EWufja64x04ErlwKSTBNeejTAGNdsGYz/YSqZg2Ct6ux/9DPVuigVwVdve7+1dx6vPX0UAQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "7e0d3469f8ca60315fb3c5baabcdb8068ceb7c4148791dd8f32db4b57a6250bb",
+    "sequence": 92,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0320",
+    "digest": "5cff291b74ec8910d43fa6183953f8f68cf635b7e70a60839eacd3366c7c3832",
+    "protocol_certificate": [
+      {
+        "digest": "5cff291b74ec8910d43fa6183953f8f68cf635b7e70a60839eacd3366c7c3832",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105167352079700
+        },
+        "sender": 1,
+        "sequence": 93,
+        "signature": "ZyJfbIwYULnWc2vqekxEnb3AwHBdZnmueEXAmEBI8QRC2kGAtFp5wLG/UDNrn9hId8EZQYeE/BjmwZw3XhxKDg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "5cff291b74ec8910d43fa6183953f8f68cf635b7e70a60839eacd3366c7c3832",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105167352079700
+        },
+        "sender": 8,
+        "sequence": 93,
+        "signature": "NyQkOYmh0d1tulhxZfKLEdtPXGTx/6/udYzbBcJkLAtzbnxqeF1wzGcvF1Vaj//4zUiFmJSAEmjcAh5CE0mxCQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "5cff291b74ec8910d43fa6183953f8f68cf635b7e70a60839eacd3366c7c3832",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105167352079700
+        },
+        "sender": 10,
+        "sequence": 93,
+        "signature": "sn9hgfXMI+8+KtUGxEIGWGqXFNLJGMrjCOi/lc6J3uaSJMTbyw7oXfZ2E9jSBbF2kdjVwFkdtJVN4p2oYvBLBA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "1747c9208d9244a76a5cebf4226601685eeb9042bff58470873b2a1b2658cff3",
+    "sequence": 93,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0324",
+    "digest": "fee2ee6b25cff833f7cc6ae5928921db09cb9108d1d7be29ff46321b8f559f30",
+    "protocol_certificate": [
+      {
+        "digest": "fee2ee6b25cff833f7cc6ae5928921db09cb9108d1d7be29ff46321b8f559f30",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105167479981668
+        },
+        "sender": 1,
+        "sequence": 94,
+        "signature": "X9+3HjMPIvYunfoCpZyNgzJYWjxW8qfdwjkVAGgjBoFSS/wSLj/AfaI5lq+WUNumZoeqK3pxKaJWYxghz1wMAQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "fee2ee6b25cff833f7cc6ae5928921db09cb9108d1d7be29ff46321b8f559f30",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105167479981668
+        },
+        "sender": 8,
+        "sequence": 94,
+        "signature": "pKLAlB+N96fbV5cbJNc6q5ySZMarbIL/n0sopxTmlq7gWvtZq+9VhfEwH1gD1+7G0nWlf5IMYdOSRZXBqe5AAw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "fee2ee6b25cff833f7cc6ae5928921db09cb9108d1d7be29ff46321b8f559f30",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105167479981668
+        },
+        "sender": 10,
+        "sequence": 94,
+        "signature": "9dcQQLTN2lEX8YQmrekcLv2DmLUvJt9uhTJjWJv/9PEGG3gU4ztWrcMU8dNJqKhTpuSmnCWysqOpCRJdFzmLBA==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "ae62c6592be7e7241c4be9e4162f60afb7080cc1f898cdaedbcc82ed748a2737",
+    "sequence": 94,
+    "signer_node_ids": [
+      1,
+      8,
+      10
+    ],
+    "view": 0
+  },
+  {
+    "decision_id": "mj5-formal-20260727-v41-final3::mj5-j3-c1-r1::0328",
+    "digest": "9dd5e1b8f8ec9d89fdd3d838d27417d0c5a6065198bf9711b9c30759989a786c",
+    "protocol_certificate": [
+      {
+        "digest": "9dd5e1b8f8ec9d89fdd3d838d27417d0c5a6065198bf9711b9c30759989a786c",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105167609084837
+        },
+        "sender": 1,
+        "sequence": 95,
+        "signature": "R5nCYBxCIVhM+48NcR+BgJlysT99I98xI6lPX2BDzk7nywELOWMIL5/Y4SOzJVmMHBtkk01FF3p75b9GKGxYBQ==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "9dd5e1b8f8ec9d89fdd3d838d27417d0c5a6065198bf9711b9c30759989a786c",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105167609084837
+        },
+        "sender": 9,
+        "sequence": 95,
+        "signature": "cNIhqBUut6BEMeQYzIo25DCw1RsWDyBkMFAmeWuiReBDVWxl6uG3eMELkYlMBwZvOiiieO5RvaRLgwvqnUb8Aw==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      },
+      {
+        "digest": "9dd5e1b8f8ec9d89fdd3d838d27417d0c5a6065198bf9711b9c30759989a786c",
+        "group": -1,
+        "payload": {
+          "start_ns": 1785105167609084837
+        },
+        "sender": 10,
+        "sequence": 95,
+        "signature": "el9rhfiD/2/AS+ruMp1O/ymaw9P5W+qjgbLsYM4gmViuKc+t4TtA259MzdCa+fHjgG4TbYv2dhI0rlXzUm5FDg==",
+        "type": "GLOBAL_COMMIT",
+        "view": 0
+      }
+    ],
+    "protocol_certificate_sha256": "faa5afeff1b0fe9533894249b6e964b40bf36a347cee55f7ae121d6e449214a4",
+    "sequence": 95,
+    "signer_node_ids": [
+      1,
+      9,
+      10
+    ],
+    "view": 0
+  }
+]
